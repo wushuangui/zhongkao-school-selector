@@ -24,8 +24,10 @@
   /* 自主招生视图：页面固定一屏，只有学校列表区域滚动 */
   .app.fixed { height: 100vh; height: 100dvh; display: flex; flex-direction: column; padding-bottom: 10px; }
   .app.fixed > footer { display: none; }
-  .app.fixed #view-zzzs { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-  .app.fixed #view-zzzs > .panel:last-child { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
+  .app.fixed #view-zzzs,
+  .app.fixed #view-scores { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .app.fixed #view-zzzs > .panel:last-child,
+  .app.fixed #view-scores > .panel:last-child { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
   .app.fixed .main { flex: 1; min-height: 0; align-items: stretch; }
   .app.fixed .side { position: static; overflow-y: auto; scrollbar-width: none; }
   .app.fixed .side::-webkit-scrollbar { display: none; }
@@ -34,7 +36,8 @@
     .app.fixed .side .title { padding: 6px 2px; }
   }
   .app.fixed .list { display: flex; flex-direction: column; min-height: 0; }
-  .app.fixed #list { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 4px; margin-right: -4px; }
+  .app.fixed #list,
+  .app.fixed #scoreList { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 4px; margin-right: -4px; }
   .scroll-area::-webkit-scrollbar { width: 5px; }
   .scroll-area::-webkit-scrollbar-thumb { background: #c9d3e6; border-radius: 3px; }
   .scroll-area::-webkit-scrollbar-track { background: transparent; }
@@ -258,11 +261,16 @@
     </div>
     <div class="panel" id="scorePanel">
       <div class="summary" id="scoreSummary"></div>
-      <div class="search">
-        <span>🔍</span>
-        <input id="scoreKeyword" placeholder="输入学校名称搜索">
+      <div class="main">
+        <div class="side" id="scoreSide"></div>
+        <div class="list">
+          <div class="search">
+            <span>🔍</span>
+            <input id="scoreKeyword" placeholder="输入学校名称搜索">
+          </div>
+          <div id="scoreList" class="scroll-area"></div>
+        </div>
       </div>
-      <div id="scoreList"></div>
     </div>
   </div>
 
@@ -525,7 +533,7 @@
     $('view-zzzs').hidden = view !== 'zzzs';
     $('view-fee').hidden = view !== 'fee';
     $('view-scores').hidden = view !== 'scores';
-    document.querySelector('.app').classList.toggle('fixed', view === 'zzzs');
+    document.querySelector('.app').classList.toggle('fixed', view === 'zzzs' || view === 'scores');
     $('viewTitle').textContent = view === 'fee' ? '收费标准' : view === 'scores' ? '录取分数线' : '自主招生';
     if (view === 'fee') renderFee();
     if (view === 'scores') renderScores();
@@ -626,16 +634,36 @@
 
   // ---------- 录取分数线 ----------
   const SCORES = window.SCORES_DATA;
-  const scoreState = { batch: 'mee', type: '', category: '', district: '', keyword: '', myScore: null };
+  const scoreState = { batch: 'mee', type: '', category: '', district: '', keyword: '', myScore: null, segment: null };
   const BATCH_NAME = { mee: '名额分配', batch1: '第一批', batch2: '第二批', second: '二次划线', batch3: '第三批' };
+  // (lo, hi]：分数落在区间内即命中；普高批次与中职批次分段不同
+  const SCORE_SEG_HIGH = [
+    ['580分以上', 580, Infinity], ['560-580', 560, 580], ['540-560', 540, 560], ['520-540', 520, 540],
+    ['500-520', 500, 520], ['480-500', 480, 500], ['460-480', 460, 480], ['460以下', -Infinity, 460],
+  ];
+  const SCORE_SEG_VOC = [
+    ['400分以上', 400, Infinity], ['350-400', 350, 400], ['300-350', 300, 350], ['250-300', 250, 300],
+    ['200-250', 200, 250], ['150-200', 150, 200], ['150以下', -Infinity, 150],
+  ];
+  const SCORE_SEGMENTS = { mee: SCORE_SEG_HIGH, batch1: SCORE_SEG_HIGH, batch2: SCORE_SEG_VOC, second: SCORE_SEG_HIGH };
 
   function scoreItems() {
     if (!SCORES) return [];
     return (SCORES.schools || []).filter(s => s.batch === scoreState.batch);
   }
 
+  function scoreValues(s) {
+    if (scoreState.category) {
+      const focused = s.scores.filter(x => x.label.includes(scoreState.category)).map(x => x.score);
+      if (focused.length) return focused;
+    }
+    return s.scores.map(x => x.score);
+  }
+
   function filteredScores() {
     const kw = scoreState.keyword.trim();
+    const segs = SCORE_SEGMENTS[scoreState.batch] || SCORE_SEG_HIGH;
+    const seg = scoreState.segment && segs.find(x => x[0] === scoreState.segment);
     return scoreItems().filter(s => {
       if (scoreState.type && s.type !== scoreState.type) return false;
       if (scoreState.district && s.district !== scoreState.district) return false;
@@ -645,20 +673,24 @@
           s.scores.some(x => x.label.includes(scoreState.category));
         if (!hitCat) return false;
       }
-      if (scoreState.myScore != null) {
-        const vals = s.scores.map(x => x.score);
-        if (!vals.some(v => v <= scoreState.myScore)) return false;
-        if (scoreState.category) {
-          const focused = s.scores.filter(x => x.label.includes(scoreState.category)).map(x => x.score);
-          if (focused.length && !focused.some(v => v <= scoreState.myScore)) return false;
-        }
-      }
+      const vals = scoreValues(s);
+      if (seg && !vals.some(v => v > seg[1] && v <= seg[2])) return false;
+      if (scoreState.myScore != null && !vals.some(v => v <= scoreState.myScore)) return false;
       return true;
     }).sort((a, b) => {
-      const sa = Math.max(...a.scores.map(x => x.score), 0);
-      const sb = Math.max(...b.scores.map(x => x.score), 0);
+      const sa = Math.max(...scoreValues(a), 0);
+      const sb = Math.max(...scoreValues(b), 0);
       return sb - sa || a.name.localeCompare(b.name, 'zh');
     });
+  }
+
+  function renderScoreSide() {
+    const segs = SCORE_SEGMENTS[scoreState.batch] || SCORE_SEG_HIGH;
+    const kind = scoreState.batch === 'mee' || scoreState.batch === 'second' ? '分数分段' : '录取线分段';
+    $('scoreSide').innerHTML = `<div class="title">${SCORES?.year || ''}<small>${kind}</small></div>
+      <button data-v="" class="${scoreState.segment ? '' : 'active'}">重置</button>` +
+      segs.map(([label]) =>
+        `<button data-v="${label}" class="${label === scoreState.segment ? 'active' : ''}">${label}</button>`).join('');
   }
 
   function scoreCardHtml(s) {
@@ -732,12 +764,14 @@
       return;
     }
     refreshScoreFilters();
+    renderScoreSide();
     const items = filteredScores();
-    const vals = items.flatMap(s => s.scores.map(x => x.score));
+    const vals = items.flatMap(s => scoreValues(s));
     const range = vals.length ? `，分数 <b>${Math.min(...vals)}</b>～<b>${Math.max(...vals)}</b>` : '';
     const kind = items[0]?.scoreKind || '分数';
     $('scoreSummary').innerHTML = `共<b>${items.length}</b>所学校${range}（${escapeHtml(kind)}）`;
     $('scoreList').innerHTML = items.length ? items.map(scoreCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>';
+    $('scoreList').scrollTop = 0;
   }
 
   $('scoreBatch').addEventListener('click', e => {
@@ -745,7 +779,14 @@
     if (!v) return;
     scoreState.batch = v;
     scoreState.keyword = '';
+    scoreState.segment = null;
     $('scoreKeyword').value = '';
+    renderScores();
+  });
+  $('scoreSide').addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    scoreState.segment = b.dataset.v || null;
     renderScores();
   });
   $('scoreType').addEventListener('change', e => { scoreState.type = e.target.value; renderScores(); });
@@ -826,6 +867,8 @@
         ['第二批录取分数线', '本市中职、技工院校（除第一批试点专业外）的实际录取线。'],
         ['第二次划线资格线', '补录填报门槛，不是最终录取线；实际录取分数线 ≥ 资格线，以市教育局公告图片为准。'],
         ['第三批', '部省属及跨市中职，由省考试院组织，请到深圳招考网 / 省考试院查询当期公告。'],
+        ['分数分段', '左侧分段按学校分数筛选，区间为“下限（不含）～上限（含）”。有多条分数（如 AC/D）时，任一分数落在区间内即显示；若已选 AC/D/ACD 类别，则只按该类别分数判断。'],
+        ['我的中考分', '输入分数后，只显示录取线/控制线不高于你分数的学校，便于对照可达范围。'],
       ],
     },
   ];
