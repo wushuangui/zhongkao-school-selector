@@ -43,7 +43,7 @@
   .scroll-area::-webkit-scrollbar-thumb { background: #c9d3e6; border-radius: 3px; }
   .scroll-area::-webkit-scrollbar-track { background: transparent; }
   .scroll-area { scrollbar-width: thin; scrollbar-color: #c9d3e6 transparent; }
-  #list footer { padding: 4px 2px 8px; }
+  #list footer, #scoreList footer { padding: 4px 2px 8px; }
   header { color: #fff; text-align: center; font-size: 18px; font-weight: 600; padding: 12px 0 8px; position: relative; }
   .rule-btn {
     position: absolute; right: 0; top: 50%; transform: translateY(-50%);
@@ -693,22 +693,67 @@
         `<button data-v="${label}" class="${label === scoreState.segment ? 'active' : ''}">${label}</button>`).join('');
   }
 
+  function findProfile(name, rawName) {
+    if (!PROFILES.length) return null;
+    const names = [...new Set([name, rawName].filter(Boolean))];
+    for (const n of names) {
+      const exact = PROFILES.find(p => p.name === n);
+      if (exact) return exact;
+    }
+    const norm = (s) => String(s)
+      .replace(/[（(]\s*[一二三四五六七八九十\d]+[)）]\s*$/g, '')
+      .replace(/[（(].*?[)）]/g, '')
+      .replace(/\s+/g, '');
+    for (const n of names) {
+      const nn = norm(n);
+      if (!nn) continue;
+      const hit = PROFILES.find(p => {
+        const pn = norm(p.name);
+        return pn === nn || pn.includes(nn) || nn.includes(pn);
+      });
+      if (hit) return hit;
+    }
+    return null;
+  }
+
   function scoreCardHtml(s) {
-    const stats = s.scores.map(x =>
-      `<div><b>${x.score}</b><span>${escapeHtml(x.label)}</span></div>`).join('');
-    const meta = [s.ownership, s.type, s.district, s.category && (s.category + '类'), s.scoreKind]
-      .filter(Boolean).join(' | ');
-    return `<div class="card fee-card">
-      <div class="card-head"><div>
-        <div class="name">${escapeHtml(s.name)}</div>
-        <div class="meta">${escapeHtml(meta)}${s.plan != null ? ` | 计划 ${s.plan}` : ''}</div>
-      </div></div>
+    const color = COLORS[[...s.name].reduce((n, c) => n + c.charCodeAt(0), 0) % COLORS.length];
+    const kindLabel = s.scoreKind || (BATCH_NAME[s.batch] || '分数');
+    let stats = `<div><b>${s.plan ?? '—'}</b><span>计划数</span></div>`;
+    if (s.scores.length <= 2) {
+      stats += s.scores.map(x =>
+        `<div><b>${x.score}</b><span>${escapeHtml(x.label || kindLabel)}</span></div>`).join('');
+    } else {
+      const compact = s.scores.map(x => {
+        const tag = (x.label || '').replace(/类.*/, '类').slice(0, 4);
+        return (tag || '') + x.score;
+      }).join(' / ');
+      stats += `<div><b>${escapeHtml(compact)}</b><span>${escapeHtml(kindLabel)}</span></div>`;
+    }
+    const meta = [s.ownership, s.district].filter(Boolean).join(' | ');
+    const tags = [s.type, s.category && (s.category + '类')].filter(Boolean)
+      .map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+    const profile = findProfile(s.name, s.rawName);
+    const feeHtml = profile
+      ? `<div>收费：${escapeHtml(feeBrief(profile.fee))}
+          <span class="fee-link" data-fee="${escapeHtml(profile.name)}">查看收费标准</span></div>`
+      : '';
+    return `<div class="card">
+      <div class="card-head">
+        <div class="logo" style="background:${color}">${escapeHtml(shortName(s.name))}</div>
+        <div>
+          <div class="name">${escapeHtml(s.name)}</div>
+          <div class="meta">${escapeHtml(meta)}${tags}</div>
+        </div>
+      </div>
       <div class="stats">${stats}</div>
       <div class="detail">
         ${s.rawName && s.rawName !== s.name ? `<div>原始名称：${escapeHtml(s.rawName)}</div>` : ''}
         ${s.boardingMode ? `<div>住宿：${escapeHtml(s.boardingMode)}</div>` : ''}
         ${s.code ? `<div>学校代码：${escapeHtml(s.code)}</div>` : ''}
-        <div>分数类型：${escapeHtml(s.scoreKind || '—')}（${escapeHtml(BATCH_NAME[s.batch] || s.batch)}）</div>
+        <div>${escapeHtml(kindLabel)}：${escapeHtml(s.scores.map(x => (x.label ? x.label + ' ' : '') + x.score).join('、') || '—')}</div>
+        <div>批次：${escapeHtml(BATCH_NAME[s.batch] || s.batch)}</div>
+        ${feeHtml}
       </div>
     </div>`;
   }
@@ -769,8 +814,9 @@
     const vals = items.flatMap(s => scoreValues(s));
     const range = vals.length ? `，分数 <b>${Math.min(...vals)}</b>～<b>${Math.max(...vals)}</b>` : '';
     const kind = items[0]?.scoreKind || '分数';
-    $('scoreSummary').innerHTML = `共<b>${items.length}</b>所学校${range}（${escapeHtml(kind)}）`;
-    $('scoreList').innerHTML = items.length ? items.map(scoreCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>';
+    $('scoreSummary').innerHTML = `👤 共<b>${items.length}</b>所学校${range}（${escapeHtml(kind)}）`;
+    $('scoreList').innerHTML = (items.length ? items.map(scoreCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>') +
+      `<footer>${$('footer').innerHTML}</footer>`;
     $('scoreList').scrollTop = 0;
   }
 
@@ -800,6 +846,13 @@
   });
   $('scoreList').addEventListener('click', e => {
     if (e.target.closest('a')) return;
+    const feeLink = e.target.closest('.fee-link');
+    if (feeLink) {
+      Object.assign(fee, { ownership: '', type: '', district: '', keyword: feeLink.dataset.fee });
+      $('feeKeyword').value = fee.keyword;
+      switchView('fee');
+      return;
+    }
     e.target.closest('.card-head, .stats')?.parentElement.classList.toggle('open');
   });
 
