@@ -1,0 +1,9 @@
+data/tessdata/
+data/raw/
+dist/
+__pycache__/
+scripts/_probe*.py
+scripts/_dl_*.py
+scripts/_extract_*.py
+scripts/_mee_*.py
+scripts/_parse_*.py

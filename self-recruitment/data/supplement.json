@@ -1,0 +1,33 @@
+{
+  "_说明": "官方汇总附件只有学校总计划数和控制线，区域已从深圳招考网学校介绍自动获取。district（仅在需要覆盖时填写）、细分项目来自各校自主招生简章，需按学校名称（与官方附件完全一致）手工补充。track 取值：理工科技 / 人文社科；subject 取值：数学、物理、化学、生物、信息、科创、综合、语文、英语、小语种、人文综合。修改后重新运行 scripts/fetch_data.py。",
+  "schools": {
+    "深圳实验学校（高中部）": {
+      "projects": {
+        "一类": [
+          { "track": "理工科技", "subject": "数学", "name": "数学思维应用", "plan": 30 },
+          { "track": "理工科技", "subject": "数学", "name": "数学逻辑推理", "plan": 30 },
+          { "track": "理工科技", "subject": "物理", "name": "物理", "plan": 12 },
+          { "track": "理工科技", "subject": "化学", "name": "化学", "plan": 10 },
+          { "track": "理工科技", "subject": "生物", "name": "生物学", "plan": 4 },
+          { "track": "理工科技", "subject": "信息", "name": "信息科技", "plan": 4 },
+          { "track": "人文社科", "subject": "语文", "name": "语文", "plan": 5 }
+        ]
+      }
+    },
+    "深圳中学": {
+      "projects": {
+        "一类": [
+          { "track": "理工科技", "subject": "数学", "name": "数学竞赛", "plan": 30 },
+          { "track": "理工科技", "subject": "物理", "name": "物理竞赛", "plan": 30 },
+          { "track": "理工科技", "subject": "化学", "name": "化学竞赛", "plan": 30 },
+          { "track": "理工科技", "subject": "生物", "name": "生物竞赛", "plan": 30 },
+          { "track": "理工科技", "subject": "信息", "name": "信息竞赛", "plan": 15 },
+          { "track": "理工科技", "subject": "数学", "name": "数学英才", "plan": 20 },
+          { "track": "理工科技", "subject": "综合", "name": "拔尖创新人才", "plan": 180 },
+          { "track": "人文社科", "subject": "人文综合", "name": "人文博雅与逻辑", "plan": 25 },
+          { "track": "人文社科", "subject": "人文综合", "name": "港澳课程", "plan": 40 }
+        ]
+      }
+    }
+  }
+}

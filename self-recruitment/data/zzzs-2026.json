@@ -1,0 +1,7466 @@
+{
+  "year": 2026,
+  "source": {
+    "title": "深圳市教育局关于批准深圳中学等学校开展2026年普通高中自主招生工作的通知",
+    "url": "https://szeb.sz.gov.cn/home/xxgk/flzy/wjtz/content/post_12833273.html",
+    "publishedAt": "2026-06-10",
+    "attachments": [
+      {
+        "name": "1.深圳市2026年公办普通高中学校自主招生计划.docx",
+        "url": "https://szeb.sz.gov.cn/attachment/1/1721/1721432/12833273.docx",
+        "ownership": "公办"
+      },
+      {
+        "name": "2.深圳市2026年民办普通高中学校自主招生计划.docx",
+        "url": "https://szeb.sz.gov.cn/attachment/1/1721/1721196/12833273.docx",
+        "ownership": "民办"
+      }
+    ]
+  },
+  "profileSource": {
+    "title": "2026年高中阶段学校办学特色介绍",
+    "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/"
+  },
+  "publicFeeStandard": {
+    "source": "https://fgw.sz.gov.cn/hdjl/ywzsk/jgzcgl/content/post_11674674.html",
+    "tuition": {
+      "一般学校": 905,
+      "区一级学校": 996,
+      "市一级学校": 1041,
+      "省一级学校": 1131
+    },
+    "boarding": 450
+  },
+  "fetchedAt": "2026-11-16T11:06:29+08:00",
+  "schools": [
+    {
+      "id": "2026-公办-一类-深圳中学",
+      "name": "深圳中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 400,
+      "scoreText": "534",
+      "scores": [
+        {
+          "label": "",
+          "score": 534
+        }
+      ],
+      "brochure": "www.shenzhong.net",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [
+        {
+          "track": "理工科技",
+          "subject": "数学",
+          "name": "数学竞赛",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "物理",
+          "name": "物理竞赛",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "化学",
+          "name": "化学竞赛",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "生物",
+          "name": "生物竞赛",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "信息",
+          "name": "信息竞赛",
+          "plan": 15
+        },
+        {
+          "track": "理工科技",
+          "subject": "数学",
+          "name": "数学英才",
+          "plan": 20
+        },
+        {
+          "track": "理工科技",
+          "subject": "综合",
+          "name": "拔尖创新人才",
+          "plan": 180
+        },
+        {
+          "track": "人文社科",
+          "subject": "人文综合",
+          "name": "人文博雅与逻辑",
+          "plan": 25
+        },
+        {
+          "track": "人文社科",
+          "subject": "人文综合",
+          "name": "港澳课程",
+          "plan": 40
+        }
+      ],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-深圳中学科技高中",
+      "name": "深圳中学科技高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 180,
+      "scoreText": "437",
+      "scores": [
+        {
+          "label": "",
+          "score": 437
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 25
+    },
+    {
+      "id": "2026-公办-一类-深圳中学数理高中",
+      "name": "深圳中学数理高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 200,
+      "scoreText": "436",
+      "scores": [
+        {
+          "label": "",
+          "score": 436
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 24
+    },
+    {
+      "id": "2026-公办-一类-深圳中学实验高中",
+      "name": "深圳中学实验高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 150,
+      "scoreText": "436",
+      "scores": [
+        {
+          "label": "",
+          "score": 436
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 23
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校（高中部）",
+      "name": "深圳实验学校（高中部）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 95,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：深圳实验学校高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [
+        {
+          "track": "理工科技",
+          "subject": "数学",
+          "name": "数学思维应用",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "数学",
+          "name": "数学逻辑推理",
+          "plan": 30
+        },
+        {
+          "track": "理工科技",
+          "subject": "物理",
+          "name": "物理",
+          "plan": 12
+        },
+        {
+          "track": "理工科技",
+          "subject": "化学",
+          "name": "化学",
+          "plan": 10
+        },
+        {
+          "track": "理工科技",
+          "subject": "生物",
+          "name": "生物学",
+          "plan": 4
+        },
+        {
+          "track": "理工科技",
+          "subject": "信息",
+          "name": "信息科技",
+          "plan": 4
+        },
+        {
+          "track": "人文社科",
+          "subject": "语文",
+          "name": "语文",
+          "plan": 5
+        }
+      ],
+      "profileIndex": 39
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校（光明高中部）",
+      "name": "深圳实验学校（光明高中部）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 67,
+      "scoreText": "511",
+      "scores": [
+        {
+          "label": "",
+          "score": 511
+        }
+      ],
+      "brochure": "微信公众号：深圳实验学校光明部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 38
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校明理高中",
+      "name": "深圳实验学校明理高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 49,
+      "scoreText": "475",
+      "scores": [
+        {
+          "label": "",
+          "score": 475
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校崇文高中",
+      "name": "深圳实验学校崇文高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 50,
+      "scoreText": "475",
+      "scores": [
+        {
+          "label": "",
+          "score": 475
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校卓越高中",
+      "name": "深圳实验学校卓越高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "468",
+      "scores": [
+        {
+          "label": "",
+          "score": 468
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-一类-深圳实验学校至臻高中",
+      "name": "深圳实验学校至臻高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 15,
+      "scoreText": "466",
+      "scores": [
+        {
+          "label": "",
+          "score": 466
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校",
+      "name": "深圳外国语学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 160,
+      "scoreText": "528",
+      "scores": [
+        {
+          "label": "",
+          "score": 528
+        }
+      ],
+      "brochure": "微信公众号：深圳外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 28
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校龙华高中部",
+      "name": "深圳外国语学校龙华高中部",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 64,
+      "scoreText": "511",
+      "scores": [
+        {
+          "label": "",
+          "score": 511
+        }
+      ],
+      "brochure": "微信公众号：深圳外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 33
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校致远高中",
+      "name": "深圳外国语学校致远高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 37,
+      "scoreText": "461",
+      "scores": [
+        {
+          "label": "",
+          "score": 461
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 32
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校弘知高中",
+      "name": "深圳外国语学校弘知高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 70,
+      "scoreText": "478",
+      "scores": [
+        {
+          "label": "",
+          "score": 478
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 30
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校博雅高中",
+      "name": "深圳外国语学校博雅高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 67,
+      "scoreText": "466",
+      "scores": [
+        {
+          "label": "",
+          "score": 466
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 29
+    },
+    {
+      "id": "2026-公办-一类-深圳外国语学校理工高中",
+      "name": "深圳外国语学校理工高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 25,
+      "scoreText": "455",
+      "scores": [
+        {
+          "label": "",
+          "score": 455
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 31
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学中心校区",
+      "name": "深圳市高级中学中心校区",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 180,
+      "scoreText": "529",
+      "scores": [
+        {
+          "label": "",
+          "score": 529
+        }
+      ],
+      "brochure": "https://www.cn-school.com/main/zzzs/index.html",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 69
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学东校区",
+      "name": "深圳市高级中学东校区",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 41,
+      "scoreText": "508",
+      "scores": [
+        {
+          "label": "",
+          "score": 508
+        }
+      ],
+      "brochure": "https://www.cn-school.com/main/zzzs/index.html",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 68
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学创新高中",
+      "name": "深圳市高级中学创新高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 36,
+      "scoreText": "495",
+      "scores": [
+        {
+          "label": "",
+          "score": 495
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 70
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学文博高中",
+      "name": "深圳市高级中学文博高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 38,
+      "scoreText": "476",
+      "scores": [
+        {
+          "label": "",
+          "score": 476
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 71
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学理慧高中",
+      "name": "深圳市高级中学理慧高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 54,
+      "scoreText": "488",
+      "scores": [
+        {
+          "label": "",
+          "score": 488
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 73
+    },
+    {
+      "id": "2026-公办-一类-深圳市高级中学有为高中",
+      "name": "深圳市高级中学有为高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 27,
+      "scoreText": "481",
+      "scores": [
+        {
+          "label": "",
+          "score": 481
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 72
+    },
+    {
+      "id": "2026-公办-一类-深圳市第三高级中学",
+      "name": "深圳市第三高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 70,
+      "scoreText": "488（出国留学类400）",
+      "scores": [
+        {
+          "label": "",
+          "score": 488
+        },
+        {
+          "label": "出国留学",
+          "score": 400
+        }
+      ],
+      "brochure": "www.sz3gao.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 54
+    },
+    {
+      "id": "2026-公办-一类-深圳启元中学",
+      "name": "深圳启元中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "427",
+      "scores": [
+        {
+          "label": "",
+          "score": 427
+        }
+      ],
+      "brochure": "www.sz-qyzx.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 27
+    },
+    {
+      "id": "2026-公办-一类-深圳益新中学",
+      "name": "深圳益新中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 110,
+      "scoreText": "427",
+      "scores": [
+        {
+          "label": "",
+          "score": 427
+        }
+      ],
+      "brochure": "www.szdj.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 82
+    },
+    {
+      "id": "2026-公办-一类-深圳大学附属中学中心校区（深大附中中心校区）",
+      "name": "深圳大学附属中学中心校区（深大附中中心校区）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "525",
+      "scores": [
+        {
+          "label": "",
+          "score": 525
+        }
+      ],
+      "brochure": "www.sdsyfz.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 34
+    },
+    {
+      "id": "2026-公办-一类-深圳大学附属中学盐田校区（深大附中盐田校区）",
+      "name": "深圳大学附属中学盐田校区（深大附中盐田校区）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 14,
+      "scoreText": "459",
+      "scores": [
+        {
+          "label": "",
+          "score": 459
+        }
+      ],
+      "brochure": "www.sdsyfz.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 35
+    },
+    {
+      "id": "2026-公办-一类-深圳大学附属实验中学",
+      "name": "深圳大学附属实验中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 48,
+      "scoreText": "508",
+      "scores": [
+        {
+          "label": "",
+          "score": 508
+        }
+      ],
+      "brochure": "微信公众号：深圳大学附属实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 36
+    },
+    {
+      "id": "2026-公办-一类-深圳市第二实验学校",
+      "name": "深圳市第二实验学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 30,
+      "scoreText": "512",
+      "scores": [
+        {
+          "label": "",
+          "score": 512
+        }
+      ],
+      "brochure": "微信公众号：深圳第二实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 55
+    },
+    {
+      "id": "2026-公办-一类-深圳市第二实验学校明远高中",
+      "name": "深圳市第二实验学校明远高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "441",
+      "scores": [
+        {
+          "label": "",
+          "score": 441
+        }
+      ],
+      "brochure": "www.szmygz.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 56
+    },
+    {
+      "id": "2026-公办-一类-深圳市第二高级中学",
+      "name": "深圳市第二高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 85,
+      "scoreText": "515",
+      "scores": [
+        {
+          "label": "",
+          "score": 515
+        }
+      ],
+      "brochure": "微信公众号：深圳市第二高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 58
+    },
+    {
+      "id": "2026-公办-一类-深圳市第二高级中学宝安高中部",
+      "name": "深圳市第二高级中学宝安高中部",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "486",
+      "scores": [
+        {
+          "label": "",
+          "score": 486
+        }
+      ],
+      "brochure": "微信公众号：深圳市第二高级中学宝安高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 59
+    },
+    {
+      "id": "2026-公办-一类-深圳市第二高级中学深汕实验学校",
+      "name": "深圳市第二高级中学深汕实验学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 110,
+      "scoreText": "435",
+      "scores": [
+        {
+          "label": "",
+          "score": 435
+        }
+      ],
+      "brochure": "www.egsssy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 60
+    },
+    {
+      "id": "2026-公办-一类-深圳第二外国语学校",
+      "name": "深圳第二外国语学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "493",
+      "scores": [
+        {
+          "label": "",
+          "score": 493
+        }
+      ],
+      "brochure": "微信公众号：深圳第二外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 85
+    },
+    {
+      "id": "2026-公办-一类-深圳科学高中",
+      "name": "深圳科学高中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 110,
+      "scoreText": "521",
+      "scores": [
+        {
+          "label": "",
+          "score": 521
+        }
+      ],
+      "brochure": "微信公众号：深圳科学高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 83
+    },
+    {
+      "id": "2026-公办-一类-深圳科学高中龙岗分校",
+      "name": "深圳科学高中龙岗分校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 51,
+      "scoreText": "507",
+      "scores": [
+        {
+          "label": "",
+          "score": 507
+        }
+      ],
+      "brochure": "微信公众号：深圳科学高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 84
+    },
+    {
+      "id": "2026-公办-一类-深圳市第七高级中学",
+      "name": "深圳市第七高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 43,
+      "scoreText": "469",
+      "scores": [
+        {
+          "label": "",
+          "score": 469
+        }
+      ],
+      "brochure": "www.sz7g.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 52
+    },
+    {
+      "id": "2026-公办-一类-南方科技大学附属中学",
+      "name": "南方科技大学附属中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 82,
+      "scoreText": "535",
+      "scores": [
+        {
+          "label": "",
+          "score": 535
+        }
+      ],
+      "brochure": "www.hsas.edu.cn#",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 11
+    },
+    {
+      "id": "2026-公办-一类-广东实验中学深圳学校",
+      "name": "广东实验中学深圳学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 74,
+      "scoreText": "511",
+      "scores": [
+        {
+          "label": "",
+          "score": 511
+        }
+      ],
+      "brochure": "微信公众号：广东实验中学深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 17
+    },
+    {
+      "id": "2026-公办-一类-深圳技术大学附属中学",
+      "name": "深圳技术大学附属中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 50,
+      "scoreText": "494",
+      "scores": [
+        {
+          "label": "",
+          "score": 494
+        }
+      ],
+      "brochure": "sztuhs.sztu.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-东北师范大学附属中学深圳学校",
+      "name": "东北师范大学附属中学深圳学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "505",
+      "scores": [
+        {
+          "label": "",
+          "score": 505
+        }
+      ],
+      "brochure": "微信公众号：东北师范大学附属中学深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 0
+    },
+    {
+      "id": "2026-公办-一类-深圳北理莫斯科大学附属实验中学",
+      "name": "深圳北理莫斯科大学附属实验中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 80,
+      "scoreText": "506",
+      "scores": [
+        {
+          "label": "",
+          "score": 506
+        }
+      ],
+      "brochure": "微信公众号：深圳北理莫斯科大学附属实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 26
+    },
+    {
+      "id": "2026-公办-一类-深圳理工大学附属中学",
+      "name": "深圳理工大学附属中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 17,
+      "scoreText": "427",
+      "scores": [
+        {
+          "label": "",
+          "score": 427
+        }
+      ],
+      "brochure": "微信公众号：深圳理工大学附属中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 81
+    },
+    {
+      "id": "2026-公办-一类-深圳市曙光中学（综合高中）",
+      "name": "深圳市曙光中学（综合高中）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "427",
+      "scores": [
+        {
+          "label": "",
+          "score": 427
+        }
+      ],
+      "brochure": "微信公众号：深圳市曙光中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-深圳创新高级中学（综合高中）",
+      "name": "深圳创新高级中学（综合高中）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "430",
+      "scores": [
+        {
+          "label": "",
+          "score": 430
+        }
+      ],
+      "brochure": "微信公众号：深圳创新高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-红岭中学",
+      "name": "红岭中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 127,
+      "scoreText": "545",
+      "scores": [
+        {
+          "label": "",
+          "score": 545
+        }
+      ],
+      "brochure": "微信公众号：深圳市福田区红岭中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 89
+    },
+    {
+      "id": "2026-公办-一类-福田中学",
+      "name": "福田中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "520",
+      "scores": [
+        {
+          "label": "",
+          "score": 520
+        }
+      ],
+      "brochure": "ftzx.szftedu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-北京大学附属中学深圳学校",
+      "name": "北京大学附属中学深圳学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 32,
+      "scoreText": "461",
+      "scores": [
+        {
+          "label": "",
+          "score": 461
+        }
+      ],
+      "brochure": "微信公众号：北京大学附属中学深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 5
+    },
+    {
+      "id": "2026-公办-一类-西交利物浦大学基础教育集团外国语高级中学",
+      "name": "西交利物浦大学基础教育集团外国语高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "488",
+      "scores": [
+        {
+          "label": "",
+          "score": 488
+        }
+      ],
+      "brochure": "微信公众号：西浦教育集团外国语高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 97
+    },
+    {
+      "id": "2026-公办-一类-香港中文大学（深圳）附属明德高级中学",
+      "name": "香港中文大学（深圳）附属明德高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "520",
+      "scores": [
+        {
+          "label": "",
+          "score": 520
+        }
+      ],
+      "brochure": "微信公众号：港中深附属明德高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 99
+    },
+    {
+      "id": "2026-公办-一类-翠园中学（爱国路校区）",
+      "name": "翠园中学（爱国路校区）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 44,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：深圳市翠园中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 93
+    },
+    {
+      "id": "2026-公办-一类-翠园中学（东门北路校区）",
+      "name": "翠园中学（东门北路校区）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 13,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：深圳市翠园中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 93
+    },
+    {
+      "id": "2026-公办-一类-罗湖高级中学",
+      "name": "罗湖高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 9,
+      "scoreText": "513",
+      "scores": [
+        {
+          "label": "",
+          "score": 513
+        }
+      ],
+      "brochure": "微信公众号：深圳市罗湖高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 92
+    },
+    {
+      "id": "2026-公办-一类-罗湖外语学校",
+      "name": "罗湖外语学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 50,
+      "scoreText": "505",
+      "scores": [
+        {
+          "label": "",
+          "score": 505
+        }
+      ],
+      "brochure": "https://lhwy.luohuedu.net/m/2460-5969-0-1",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 91
+    },
+    {
+      "id": "2026-公办-一类-盐田高级中学",
+      "name": "盐田高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 23,
+      "scoreText": "528",
+      "scores": [
+        {
+          "label": "",
+          "score": 528
+        }
+      ],
+      "brochure": "微信公众号：深圳市盐田高级中学教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 87
+    },
+    {
+      "id": "2026-公办-一类-南头中学",
+      "name": "南头中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 22,
+      "scoreText": "510",
+      "scores": [
+        {
+          "label": "",
+          "score": 510
+        }
+      ],
+      "brochure": "微信公众号：深圳市南头中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 9
+    },
+    {
+      "id": "2026-公办-一类-育才中学",
+      "name": "育才中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 55,
+      "scoreText": "525",
+      "scores": [
+        {
+          "label": "",
+          "score": 525
+        }
+      ],
+      "brochure": "微信公众号：深圳市蛇口育才教育集团育才中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 95
+    },
+    {
+      "id": "2026-公办-一类-育才一中",
+      "name": "育才一中",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 30,
+      "scoreText": "510",
+      "scores": [
+        {
+          "label": "",
+          "score": 510
+        }
+      ],
+      "brochure": "微信公众号：深圳市蛇口育才教育集团育才一中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 94
+    },
+    {
+      "id": "2026-公办-一类-华侨城高级中学",
+      "name": "华侨城高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "510",
+      "scores": [
+        {
+          "label": "",
+          "score": 510
+        }
+      ],
+      "brochure": "微信公众号：南山实验教育集团华侨城高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 8
+    },
+    {
+      "id": "2026-公办-一类-北京师范大学南山附属学校",
+      "name": "北京师范大学南山附属学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：北京师范大学南山附属学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 6
+    },
+    {
+      "id": "2026-公办-一类-南山外国语学校（集团）高级中学",
+      "name": "南山外国语学校（集团）高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 84,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：南外高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 10
+    },
+    {
+      "id": "2026-公办-一类-宝安中学（集团）高中部",
+      "name": "宝安中学（集团）高中部",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 121,
+      "scoreText": "525",
+      "scores": [
+        {
+          "label": "",
+          "score": 525
+        }
+      ],
+      "brochure": "微信公众号：宝安中学集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-新安中学（集团）高中部",
+      "name": "新安中学（集团）高中部",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 35,
+      "scoreText": "509",
+      "scores": [
+        {
+          "label": "",
+          "score": 509
+        }
+      ],
+      "brochure": "微信公众号：深圳市新安中学集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 18
+    },
+    {
+      "id": "2026-公办-一类-宝安第一外国语学校",
+      "name": "宝安第一外国语学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 38,
+      "scoreText": "494",
+      "scores": [
+        {
+          "label": "",
+          "score": 494
+        }
+      ],
+      "brochure": "微信公众号：深圳市宝安第一外国语学校集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 13
+    },
+    {
+      "id": "2026-公办-一类-西乡中学",
+      "name": "西乡中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 15,
+      "scoreText": "477",
+      "scores": [
+        {
+          "label": "",
+          "score": 477
+        }
+      ],
+      "brochure": "微信公众号：前海未来教育集团西乡中学高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 96
+    },
+    {
+      "id": "2026-公办-一类-松岗中学",
+      "name": "松岗中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 8,
+      "scoreText": "495",
+      "scores": [
+        {
+          "label": "",
+          "score": 495
+        }
+      ],
+      "brochure": "微信公众号：深圳市松岗中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 19
+    },
+    {
+      "id": "2026-公办-一类-石岩外国语学校",
+      "name": "石岩外国语学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 8,
+      "scoreText": "449",
+      "scores": [
+        {
+          "label": "",
+          "score": 449
+        }
+      ],
+      "brochure": "微信公众号：宝安中学集团石岩外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 88
+    },
+    {
+      "id": "2026-公办-一类-深圳市福海中学",
+      "name": "深圳市福海中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 15,
+      "scoreText": "472",
+      "scores": [
+        {
+          "label": "",
+          "score": 472
+        }
+      ],
+      "brochure": "微信公众号：深圳市福海中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 48
+    },
+    {
+      "id": "2026-公办-一类-深圳市龙津中学",
+      "name": "深圳市龙津中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 15,
+      "scoreText": "491",
+      "scores": [
+        {
+          "label": "",
+          "score": 491
+        }
+      ],
+      "brochure": "微信公众号：深圳市宝安中学集团龙津中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-深圳市燕川中学",
+      "name": "深圳市燕川中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "485",
+      "scores": [
+        {
+          "label": "",
+          "score": 485
+        }
+      ],
+      "brochure": "微信公众号：深圳市燕川中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 46
+    },
+    {
+      "id": "2026-公办-一类-龙城高级中学",
+      "name": "龙城高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 100,
+      "scoreText": "518",
+      "scores": [
+        {
+          "label": "",
+          "score": 518
+        }
+      ],
+      "brochure": "微信公众号：龙城高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 102
+    },
+    {
+      "id": "2026-公办-一类-深圳市龙岗区第二高级中学",
+      "name": "深圳市龙岗区第二高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "441",
+      "scores": [
+        {
+          "label": "",
+          "score": 441
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区第二高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 78
+    },
+    {
+      "id": "2026-公办-一类-华中师范大学龙岗附属中学",
+      "name": "华中师范大学龙岗附属中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 82,
+      "scoreText": "507",
+      "scores": [
+        {
+          "label": "",
+          "score": 507
+        }
+      ],
+      "brochure": "微信公众号：华中师范大学龙岗附属中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 7
+    },
+    {
+      "id": "2026-公办-一类-龙岗区实验高级中学",
+      "name": "龙岗区实验高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 27,
+      "scoreText": "500",
+      "scores": [
+        {
+          "label": "",
+          "score": 500
+        }
+      ],
+      "brochure": "微信公众号：龙岗区实验高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-观澜中学",
+      "name": "观澜中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "461",
+      "scores": [
+        {
+          "label": "",
+          "score": 461
+        }
+      ],
+      "brochure": "微信公众号：深圳市观澜中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 98
+    },
+    {
+      "id": "2026-公办-一类-龙华高级中学",
+      "name": "龙华高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 64,
+      "scoreText": "514",
+      "scores": [
+        {
+          "label": "",
+          "score": 514
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华高级中学教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 101
+    },
+    {
+      "id": "2026-公办-一类-深圳市格致中学",
+      "name": "深圳市格致中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "500",
+      "scores": [
+        {
+          "label": "",
+          "score": 500
+        }
+      ],
+      "brochure": "微信公众号：深圳市格致中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-一类-深圳市红山中学",
+      "name": "深圳市红山中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 35,
+      "scoreText": "500",
+      "scores": [
+        {
+          "label": "",
+          "score": 500
+        }
+      ],
+      "brochure": "微信公众号：深圳市红山中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 61
+    },
+    {
+      "id": "2026-公办-一类-深圳市龙华外国语高级中学",
+      "name": "深圳市龙华外国语高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 15,
+      "scoreText": "472",
+      "scores": [
+        {
+          "label": "",
+          "score": 472
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华外国语高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 74
+    },
+    {
+      "id": "2026-公办-一类-深圳市致理中学",
+      "name": "深圳市致理中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 80,
+      "scoreText": "466",
+      "scores": [
+        {
+          "label": "",
+          "score": 466
+        }
+      ],
+      "brochure": "微信公众号：深圳市致理中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 64
+    },
+    {
+      "id": "2026-公办-一类-深圳市龙华科技实验高级中学",
+      "name": "深圳市龙华科技实验高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 55,
+      "scoreText": "470",
+      "scores": [
+        {
+          "label": "",
+          "score": 470
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华科技实验高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 75
+    },
+    {
+      "id": "2026-公办-一类-坪山高级中学",
+      "name": "坪山高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 4,
+      "scoreText": "458",
+      "scores": [
+        {
+          "label": "",
+          "score": 458
+        }
+      ],
+      "brochure": "微信公众号：深圳市坪山高级中学教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 12
+    },
+    {
+      "id": "2026-公办-一类-深圳市聚龙科学中学",
+      "name": "深圳市聚龙科学中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 95,
+      "scoreText": "466",
+      "scores": [
+        {
+          "label": "",
+          "score": 466
+        }
+      ],
+      "brochure": "微信公众号：深圳市聚龙科学中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 63
+    },
+    {
+      "id": "2026-公办-一类-光明区高级中学",
+      "name": "光明区高级中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 36,
+      "scoreText": "480",
+      "scores": [
+        {
+          "label": "",
+          "score": 480
+        }
+      ],
+      "brochure": "微信公众号：深圳市光明区高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 4
+    },
+    {
+      "id": "2026-公办-一类-光明中学",
+      "name": "光明中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "447",
+      "scores": [
+        {
+          "label": "",
+          "score": 447
+        }
+      ],
+      "brochure": "微信公众号：深圳市光明区光明中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 3
+    },
+    {
+      "id": "2026-公办-一类-中国科学院深圳理工大学附属实验高级中学（中科附高）",
+      "name": "中国科学院深圳理工大学附属实验高级中学（中科附高）",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 64,
+      "scoreText": "503",
+      "scores": [
+        {
+          "label": "",
+          "score": 503
+        }
+      ],
+      "brochure": "微信公众号：中科附高",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 1
+    },
+    {
+      "id": "2026-公办-一类-人大附中深圳学校",
+      "name": "人大附中深圳学校",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 77,
+      "scoreText": "530",
+      "scores": [
+        {
+          "label": "",
+          "score": 530
+        }
+      ],
+      "brochure": "微信公众号：人大附中深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 2
+    },
+    {
+      "id": "2026-公办-一类-红岭教育集团大鹏华侨中学",
+      "name": "红岭教育集团大鹏华侨中学",
+      "ownership": "公办",
+      "category": "一类",
+      "plan": 39,
+      "scoreText": "490",
+      "scores": [
+        {
+          "label": "",
+          "score": 490
+        }
+      ],
+      "brochure": "微信公众号：红岭大鹏华侨中学-鹏城教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 90
+    },
+    {
+      "id": "2026-公办-二类-深圳中学",
+      "name": "深圳中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 117,
+      "scoreText": "445",
+      "scores": [
+        {
+          "label": "",
+          "score": 445
+        }
+      ],
+      "brochure": "www.shenzhong.net",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-深圳中学科技高中",
+      "name": "深圳中学科技高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "365",
+      "scores": [
+        {
+          "label": "",
+          "score": 365
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 25
+    },
+    {
+      "id": "2026-公办-二类-深圳中学数理高中",
+      "name": "深圳中学数理高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 14,
+      "scoreText": "363",
+      "scores": [
+        {
+          "label": "",
+          "score": 363
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 24
+    },
+    {
+      "id": "2026-公办-二类-深圳中学实验高中",
+      "name": "深圳中学实验高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 70,
+      "scoreText": "363",
+      "scores": [
+        {
+          "label": "",
+          "score": 363
+        }
+      ],
+      "brochure": "微信公众号：深圳中学高中园、深中小镇",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 23
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校（高中部）",
+      "name": "深圳实验学校（高中部）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 8,
+      "scoreText": "442",
+      "scores": [
+        {
+          "label": "",
+          "score": 442
+        }
+      ],
+      "brochure": "www.szsy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 39
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校（光明高中部）",
+      "name": "深圳实验学校（光明高中部）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "体育426、艺术454",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 426
+        },
+        {
+          "label": "艺术",
+          "score": 454
+        }
+      ],
+      "brochure": "微信公众号：深圳实验学校光明部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 38
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校明理高中",
+      "name": "深圳实验学校明理高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 20,
+      "scoreText": "396",
+      "scores": [
+        {
+          "label": "",
+          "score": 396
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校崇文高中",
+      "name": "深圳实验学校崇文高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 10,
+      "scoreText": "396",
+      "scores": [
+        {
+          "label": "",
+          "score": 396
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校卓越高中",
+      "name": "深圳实验学校卓越高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 12,
+      "scoreText": "390",
+      "scores": [
+        {
+          "label": "",
+          "score": 390
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-二类-深圳实验学校至臻高中",
+      "name": "深圳实验学校至臻高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "389",
+      "scores": [
+        {
+          "label": "",
+          "score": 389
+        }
+      ],
+      "brochure": "www.szsygzy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 37
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校",
+      "name": "深圳外国语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 54,
+      "scoreText": "440",
+      "scores": [
+        {
+          "label": "",
+          "score": 440
+        }
+      ],
+      "brochure": "微信公众号：深圳外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 28
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校龙华高中部",
+      "name": "深圳外国语学校龙华高中部",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 32,
+      "scoreText": "426",
+      "scores": [
+        {
+          "label": "",
+          "score": 426
+        }
+      ],
+      "brochure": "微信公众号：深圳外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 33
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校致远高中",
+      "name": "深圳外国语学校致远高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 16,
+      "scoreText": "384",
+      "scores": [
+        {
+          "label": "",
+          "score": 384
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 32
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校弘知高中",
+      "name": "深圳外国语学校弘知高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 26,
+      "scoreText": "399",
+      "scores": [
+        {
+          "label": "",
+          "score": 399
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 30
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校博雅高中",
+      "name": "深圳外国语学校博雅高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 14,
+      "scoreText": "389",
+      "scores": [
+        {
+          "label": "",
+          "score": 389
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 29
+    },
+    {
+      "id": "2026-公办-二类-深圳外国语学校理工高中",
+      "name": "深圳外国语学校理工高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 14,
+      "scoreText": "379",
+      "scores": [
+        {
+          "label": "",
+          "score": 379
+        }
+      ],
+      "brochure": "www.swgzy.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 31
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学中心校区",
+      "name": "深圳市高级中学中心校区",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 27,
+      "scoreText": "441",
+      "scores": [
+        {
+          "label": "",
+          "score": 441
+        }
+      ],
+      "brochure": "https://www.cn-school.com/main/zzzs/index.html",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 69
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学东校区",
+      "name": "深圳市高级中学东校区",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 82,
+      "scoreText": "423",
+      "scores": [
+        {
+          "label": "",
+          "score": 423
+        }
+      ],
+      "brochure": "https://www.cn-school.com/main/zzzs/index.html",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 68
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学创新高中",
+      "name": "深圳市高级中学创新高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 30,
+      "scoreText": "413",
+      "scores": [
+        {
+          "label": "",
+          "score": 413
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 70
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学文博高中",
+      "name": "深圳市高级中学文博高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 34,
+      "scoreText": "397",
+      "scores": [
+        {
+          "label": "",
+          "score": 397
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 71
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学理慧高中",
+      "name": "深圳市高级中学理慧高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 33,
+      "scoreText": "406",
+      "scores": [
+        {
+          "label": "",
+          "score": 406
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 73
+    },
+    {
+      "id": "2026-公办-二类-深圳市高级中学有为高中",
+      "name": "深圳市高级中学有为高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 14,
+      "scoreText": "401",
+      "scores": [
+        {
+          "label": "",
+          "score": 401
+        }
+      ],
+      "brochure": "微信公众号：深圳市高级中学高中园",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 72
+    },
+    {
+      "id": "2026-公办-二类-深圳市第三高级中学",
+      "name": "深圳市第三高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 17,
+      "scoreText": "406",
+      "scores": [
+        {
+          "label": "",
+          "score": 406
+        }
+      ],
+      "brochure": "www.sz3gao.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 54
+    },
+    {
+      "id": "2026-公办-二类-深圳大学附属中学中心校区（深大附中中心校区）",
+      "name": "深圳大学附属中学中心校区（深大附中中心校区）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 42,
+      "scoreText": "体育440、艺术480",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 440
+        },
+        {
+          "label": "艺术",
+          "score": 480
+        }
+      ],
+      "brochure": "www.sdsyfz.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 34
+    },
+    {
+      "id": "2026-公办-二类-深圳大学附属实验中学",
+      "name": "深圳大学附属实验中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 18,
+      "scoreText": "体育430、艺术450",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 430
+        },
+        {
+          "label": "艺术",
+          "score": 450
+        }
+      ],
+      "brochure": "微信公众号：深圳大学附属实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 36
+    },
+    {
+      "id": "2026-公办-二类-深圳市第二实验学校",
+      "name": "深圳市第二实验学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 47,
+      "scoreText": "427",
+      "scores": [
+        {
+          "label": "",
+          "score": 427
+        }
+      ],
+      "brochure": "微信公众号：深圳第二实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 55
+    },
+    {
+      "id": "2026-公办-二类-深圳市第二实验学校明远高中",
+      "name": "深圳市第二实验学校明远高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 20,
+      "scoreText": "368",
+      "scores": [
+        {
+          "label": "",
+          "score": 368
+        }
+      ],
+      "brochure": "www.szmygz.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 56
+    },
+    {
+      "id": "2026-公办-二类-深圳市第二高级中学",
+      "name": "深圳市第二高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 57,
+      "scoreText": "430",
+      "scores": [
+        {
+          "label": "",
+          "score": 430
+        }
+      ],
+      "brochure": "微信公众号：深圳市第二高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 58
+    },
+    {
+      "id": "2026-公办-二类-深圳市第二高级中学深汕实验学校",
+      "name": "深圳市第二高级中学深汕实验学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 75,
+      "scoreText": "体育366、艺术385",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 366
+        },
+        {
+          "label": "艺术",
+          "score": 385
+        }
+      ],
+      "brochure": "www.egsssy.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "深汕特别合作区",
+      "projects": [],
+      "profileIndex": 60
+    },
+    {
+      "id": "2026-公办-二类-深圳第二外国语学校",
+      "name": "深圳第二外国语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 35,
+      "scoreText": "411",
+      "scores": [
+        {
+          "label": "",
+          "score": 411
+        }
+      ],
+      "brochure": "微信公众号：深圳第二外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 85
+    },
+    {
+      "id": "2026-公办-二类-深圳市第七高级中学",
+      "name": "深圳市第七高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 53,
+      "scoreText": "391",
+      "scores": [
+        {
+          "label": "",
+          "score": 391
+        }
+      ],
+      "brochure": "www.sz7g.com",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 52
+    },
+    {
+      "id": "2026-公办-二类-南方科技大学附属中学",
+      "name": "南方科技大学附属中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 6,
+      "scoreText": "431",
+      "scores": [
+        {
+          "label": "",
+          "score": 431
+        }
+      ],
+      "brochure": "微信公众号：www.hsas.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 11
+    },
+    {
+      "id": "2026-公办-二类-广东实验中学深圳学校",
+      "name": "广东实验中学深圳学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 3,
+      "scoreText": "435",
+      "scores": [
+        {
+          "label": "",
+          "score": 435
+        }
+      ],
+      "brochure": "微信公众号：广东实验中学深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 17
+    },
+    {
+      "id": "2026-公办-二类-深圳技术大学附属中学",
+      "name": "深圳技术大学附属中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 16,
+      "scoreText": "412",
+      "scores": [
+        {
+          "label": "",
+          "score": 412
+        }
+      ],
+      "brochure": "sztuhs.sztu.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-东北师范大学附属中学深圳学校",
+      "name": "东北师范大学附属中学深圳学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 30,
+      "scoreText": "体育419、艺术440",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 419
+        },
+        {
+          "label": "艺术",
+          "score": 440
+        }
+      ],
+      "brochure": "微信公众号：东北师范大学附属中学深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 0
+    },
+    {
+      "id": "2026-公办-二类-深圳北理莫斯科大学附属实验中学",
+      "name": "深圳北理莫斯科大学附属实验中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 10,
+      "scoreText": "体育422、艺术450",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 422
+        },
+        {
+          "label": "艺术",
+          "score": 450
+        }
+      ],
+      "brochure": "微信公众号：深圳北理莫斯科大学附属实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 26
+    },
+    {
+      "id": "2026-公办-二类-深圳创新高级中学（综合高中）",
+      "name": "深圳创新高级中学（综合高中）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 20,
+      "scoreText": "体育356、艺术380",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 356
+        },
+        {
+          "label": "艺术",
+          "score": 380
+        }
+      ],
+      "brochure": "微信公众号：深圳创新高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-深圳市体育实验学校",
+      "name": "深圳市体育实验学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 45,
+      "scoreText": "330",
+      "scores": [
+        {
+          "label": "",
+          "score": 330
+        }
+      ],
+      "brochure": "微信公众号：深圳市体育运动学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": null,
+      "projects": []
+    },
+    {
+      "id": "2026-公办-二类-深圳市第二高级中学宝安高中部",
+      "name": "深圳市第二高级中学宝安高中部",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 20,
+      "scoreText": "405",
+      "scores": [
+        {
+          "label": "",
+          "score": 405
+        }
+      ],
+      "brochure": "微信公众号：深圳市第二高级中学宝安高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 59
+    },
+    {
+      "id": "2026-公办-二类-深圳大学附属中学盐田校区（深大附中盐田校区）",
+      "name": "深圳大学附属中学盐田校区（深大附中盐田校区）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 6,
+      "scoreText": "体育360、艺术400",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 360
+        },
+        {
+          "label": "艺术",
+          "score": 400
+        }
+      ],
+      "brochure": "www.sdsyfz.edu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 35
+    },
+    {
+      "id": "2026-公办-二类-深圳理工大学附属中学",
+      "name": "深圳理工大学附属中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 10,
+      "scoreText": "356",
+      "scores": [
+        {
+          "label": "",
+          "score": 356
+        }
+      ],
+      "brochure": "微信公众号：深圳理工大学附属中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 81
+    },
+    {
+      "id": "2026-公办-二类-红岭中学",
+      "name": "红岭中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 27,
+      "scoreText": "体育495、艺术545",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 495
+        },
+        {
+          "label": "艺术",
+          "score": 545
+        }
+      ],
+      "brochure": "微信公众号：深圳市福田区红岭中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 89
+    },
+    {
+      "id": "2026-公办-二类-福田中学",
+      "name": "福田中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 50,
+      "scoreText": "体育413、艺术420",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 413
+        },
+        {
+          "label": "艺术",
+          "score": 420
+        }
+      ],
+      "brochure": "ftzx.szftedu.cn",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-西交利物浦大学基础教育集团外国语高级中学",
+      "name": "西交利物浦大学基础教育集团外国语高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 33,
+      "scoreText": "406",
+      "scores": [
+        {
+          "label": "",
+          "score": 406
+        }
+      ],
+      "brochure": "微信公众号：西浦教育集团外国语高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 97
+    },
+    {
+      "id": "2026-公办-二类-香港中文大学（深圳）附属明德高级中学",
+      "name": "香港中文大学（深圳）附属明德高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 4,
+      "scoreText": "416",
+      "scores": [
+        {
+          "label": "",
+          "score": 416
+        }
+      ],
+      "brochure": "微信公众号：港中深附属明德高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "福田区",
+      "projects": [],
+      "profileIndex": 99
+    },
+    {
+      "id": "2026-公办-二类-翠园中学（东门北路校区）",
+      "name": "翠园中学（东门北路校区）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 27,
+      "scoreText": "体育400、艺术500",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 400
+        },
+        {
+          "label": "艺术",
+          "score": 500
+        }
+      ],
+      "brochure": "微信公众号：深圳市翠园中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 93
+    },
+    {
+      "id": "2026-公办-二类-罗湖高级中学",
+      "name": "罗湖高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 30,
+      "scoreText": "406",
+      "scores": [
+        {
+          "label": "",
+          "score": 406
+        }
+      ],
+      "brochure": "微信公众号：深圳市罗湖高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 92
+    },
+    {
+      "id": "2026-公办-二类-罗湖外语学校",
+      "name": "罗湖外语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 8,
+      "scoreText": "415",
+      "scores": [
+        {
+          "label": "",
+          "score": 415
+        }
+      ],
+      "brochure": "https://lhwy.luohuedu.net/m/2460-5969-0-1",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 91
+    },
+    {
+      "id": "2026-公办-二类-深圳市美术学校",
+      "name": "深圳市美术学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 165,
+      "scoreText": "370",
+      "scores": [
+        {
+          "label": "",
+          "score": 370
+        }
+      ],
+      "brochure": "微信公众号：深圳市美术学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 62
+    },
+    {
+      "id": "2026-公办-二类-深圳市行知职业技术学校（综合高中班）",
+      "name": "深圳市行知职业技术学校（综合高中班）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 16,
+      "scoreText": "381",
+      "scores": [
+        {
+          "label": "",
+          "score": 381
+        }
+      ],
+      "brochure": "微信公众号：深圳市行知职业技术学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 67
+    },
+    {
+      "id": "2026-公办-二类-盐田高级中学",
+      "name": "盐田高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 77,
+      "scoreText": "488",
+      "scores": [
+        {
+          "label": "",
+          "score": 488
+        }
+      ],
+      "brochure": "微信公众号：深圳市盐田高级中学教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 87
+    },
+    {
+      "id": "2026-公办-二类-深圳市盐港中学（综合高中班）",
+      "name": "深圳市盐港中学（综合高中班）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 60,
+      "scoreText": "体育410、艺术430",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 410
+        },
+        {
+          "label": "艺术",
+          "score": 430
+        }
+      ],
+      "brochure": "微信公众号：深圳市盐港中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 47
+    },
+    {
+      "id": "2026-公办-二类-南头中学",
+      "name": "南头中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 72,
+      "scoreText": "体育420、艺术460",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 420
+        },
+        {
+          "label": "艺术",
+          "score": 460
+        }
+      ],
+      "brochure": "微信公众号：深圳市南头中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 9
+    },
+    {
+      "id": "2026-公办-二类-育才中学",
+      "name": "育才中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 6,
+      "scoreText": "437",
+      "scores": [
+        {
+          "label": "",
+          "score": 437
+        }
+      ],
+      "brochure": "微信公众号：深圳市蛇口育才教育集团育才中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 95
+    },
+    {
+      "id": "2026-公办-二类-育才一中",
+      "name": "育才一中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 9,
+      "scoreText": "体育430、艺术460",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 430
+        },
+        {
+          "label": "艺术",
+          "score": 460
+        }
+      ],
+      "brochure": "微信公众号：深圳市蛇口育才教育集团育才一中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 94
+    },
+    {
+      "id": "2026-公办-二类-华侨城高级中学",
+      "name": "华侨城高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 46,
+      "scoreText": "416",
+      "scores": [
+        {
+          "label": "",
+          "score": 416
+        }
+      ],
+      "brochure": "微信公众号：南山实验教育集团华侨城高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 8
+    },
+    {
+      "id": "2026-公办-二类-北京师范大学南山附属学校",
+      "name": "北京师范大学南山附属学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 6,
+      "scoreText": "436",
+      "scores": [
+        {
+          "label": "",
+          "score": 436
+        }
+      ],
+      "brochure": "微信公众号：北京师范大学南山附属学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 6
+    },
+    {
+      "id": "2026-公办-二类-南山外国语学校（集团）高级中学",
+      "name": "南山外国语学校（集团）高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 12,
+      "scoreText": "435",
+      "scores": [
+        {
+          "label": "",
+          "score": 435
+        }
+      ],
+      "brochure": "微信公众号：南外高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 10
+    },
+    {
+      "id": "2026-公办-二类-宝安中学（集团）高中部",
+      "name": "宝安中学（集团）高中部",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "440",
+      "scores": [
+        {
+          "label": "",
+          "score": 440
+        }
+      ],
+      "brochure": "微信公众号：宝安中学集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-新安中学（集团）高中部",
+      "name": "新安中学（集团）高中部",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 45,
+      "scoreText": "424",
+      "scores": [
+        {
+          "label": "",
+          "score": 424
+        }
+      ],
+      "brochure": "微信公众号：深圳市新安中学集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 18
+    },
+    {
+      "id": "2026-公办-二类-宝安第一外国语学校",
+      "name": "宝安第一外国语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 36,
+      "scoreText": "412",
+      "scores": [
+        {
+          "label": "",
+          "score": 412
+        }
+      ],
+      "brochure": "微信公众号：深圳市宝安第一外国语学校集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 13
+    },
+    {
+      "id": "2026-公办-二类-西乡中学",
+      "name": "西乡中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 73,
+      "scoreText": "398",
+      "scores": [
+        {
+          "label": "",
+          "score": 398
+        }
+      ],
+      "brochure": "微信公众号：前海未来教育集团西乡中学高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 96
+    },
+    {
+      "id": "2026-公办-二类-沙井中学",
+      "name": "沙井中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 44,
+      "scoreText": "364",
+      "scores": [
+        {
+          "label": "",
+          "score": 364
+        }
+      ],
+      "brochure": "微信公众号：深圳市沙井中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 21
+    },
+    {
+      "id": "2026-公办-二类-松岗中学",
+      "name": "松岗中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 14,
+      "scoreText": "413",
+      "scores": [
+        {
+          "label": "",
+          "score": 413
+        }
+      ],
+      "brochure": "微信公众号：深圳市松岗中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 19
+    },
+    {
+      "id": "2026-公办-二类-石岩外国语学校",
+      "name": "石岩外国语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "374",
+      "scores": [
+        {
+          "label": "",
+          "score": 374
+        }
+      ],
+      "brochure": "微信公众号：宝安中学集团石岩外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 88
+    },
+    {
+      "id": "2026-公办-二类-深圳市福海中学",
+      "name": "深圳市福海中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 31,
+      "scoreText": "393",
+      "scores": [
+        {
+          "label": "",
+          "score": 393
+        }
+      ],
+      "brochure": "微信公众号：深圳市福海中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 48
+    },
+    {
+      "id": "2026-公办-二类-深圳市龙津中学",
+      "name": "深圳市龙津中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 43,
+      "scoreText": "409",
+      "scores": [
+        {
+          "label": "",
+          "score": 409
+        }
+      ],
+      "brochure": "微信公众号：深圳市宝安中学集团龙津中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-深圳市燕川中学",
+      "name": "深圳市燕川中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 38,
+      "scoreText": "体育404、艺术430",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 404
+        },
+        {
+          "label": "艺术",
+          "score": 430
+        }
+      ],
+      "brochure": "微信公众号：深圳市燕川中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 46
+    },
+    {
+      "id": "2026-公办-二类-平冈中学",
+      "name": "平冈中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 65,
+      "scoreText": "403",
+      "scores": [
+        {
+          "label": "",
+          "score": 403
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区平冈中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 15
+    },
+    {
+      "id": "2026-公办-二类-深圳市龙岗区第二高级中学",
+      "name": "深圳市龙岗区第二高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 33,
+      "scoreText": "368",
+      "scores": [
+        {
+          "label": "",
+          "score": 368
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区第二高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 78
+    },
+    {
+      "id": "2026-公办-二类-布吉中学",
+      "name": "布吉中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 23,
+      "scoreText": "358",
+      "scores": [
+        {
+          "label": "",
+          "score": 358
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区布吉中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 14
+    },
+    {
+      "id": "2026-公办-二类-横岗高级中学",
+      "name": "横岗高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 76,
+      "scoreText": "397",
+      "scores": [
+        {
+          "label": "",
+          "score": 397
+        }
+      ],
+      "brochure": "微信公众号：横岗高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 20
+    },
+    {
+      "id": "2026-公办-二类-平湖外国语学校",
+      "name": "平湖外国语学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 16,
+      "scoreText": "365",
+      "scores": [
+        {
+          "label": "",
+          "score": 365
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区平湖外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 16
+    },
+    {
+      "id": "2026-公办-二类-华中师范大学龙岗附属中学",
+      "name": "华中师范大学龙岗附属中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 41,
+      "scoreText": "423",
+      "scores": [
+        {
+          "label": "",
+          "score": 423
+        }
+      ],
+      "brochure": "微信公众号：华中师范大学龙岗附属中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 7
+    },
+    {
+      "id": "2026-公办-二类-龙华中学",
+      "name": "龙华中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "368",
+      "scores": [
+        {
+          "label": "",
+          "score": 368
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 100
+    },
+    {
+      "id": "2026-公办-二类-观澜中学",
+      "name": "观澜中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 85,
+      "scoreText": "384",
+      "scores": [
+        {
+          "label": "",
+          "score": 384
+        }
+      ],
+      "brochure": "微信公众号：深圳市观澜中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 98
+    },
+    {
+      "id": "2026-公办-二类-深圳市艺术高中",
+      "name": "深圳市艺术高中",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 120,
+      "scoreText": "363",
+      "scores": [
+        {
+          "label": "",
+          "score": 363
+        }
+      ],
+      "brochure": "微信公众号：深圳市艺术高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 65
+    },
+    {
+      "id": "2026-公办-二类-深圳市格致中学",
+      "name": "深圳市格致中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "416",
+      "scores": [
+        {
+          "label": "",
+          "score": 416
+        }
+      ],
+      "brochure": "微信公众号：深圳市格致中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-公办-二类-深圳市红山中学",
+      "name": "深圳市红山中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "体育420、艺术470",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 420
+        },
+        {
+          "label": "艺术",
+          "score": 470
+        }
+      ],
+      "brochure": "微信公众号：深圳市红山中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 61
+    },
+    {
+      "id": "2026-公办-二类-深圳市龙华外国语高级中学",
+      "name": "深圳市龙华外国语高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 18,
+      "scoreText": "393",
+      "scores": [
+        {
+          "label": "",
+          "score": 393
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华外国语高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 74
+    },
+    {
+      "id": "2026-公办-二类-深圳市致理中学",
+      "name": "深圳市致理中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 85,
+      "scoreText": "389",
+      "scores": [
+        {
+          "label": "",
+          "score": 389
+        }
+      ],
+      "brochure": "微信公众号：深圳市致理中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 64
+    },
+    {
+      "id": "2026-公办-二类-深圳市龙华科技实验高级中学",
+      "name": "深圳市龙华科技实验高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 34,
+      "scoreText": "388",
+      "scores": [
+        {
+          "label": "",
+          "score": 388
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华科技实验高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 75
+    },
+    {
+      "id": "2026-公办-二类-坪山高级中学",
+      "name": "坪山高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 66,
+      "scoreText": "382",
+      "scores": [
+        {
+          "label": "",
+          "score": 382
+        }
+      ],
+      "brochure": "微信公众号：深圳市坪山高级中学教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 12
+    },
+    {
+      "id": "2026-公办-二类-深圳市聚龙科学中学",
+      "name": "深圳市聚龙科学中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "390",
+      "scores": [
+        {
+          "label": "",
+          "score": 390
+        }
+      ],
+      "brochure": "微信公众号：深圳市聚龙科学中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 63
+    },
+    {
+      "id": "2026-公办-二类-光明区高级中学",
+      "name": "光明区高级中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 118,
+      "scoreText": "394",
+      "scores": [
+        {
+          "label": "",
+          "score": 394
+        }
+      ],
+      "brochure": "微信公众号：深圳市光明区高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 4
+    },
+    {
+      "id": "2026-公办-二类-光明中学",
+      "name": "光明中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "372",
+      "scores": [
+        {
+          "label": "",
+          "score": 372
+        }
+      ],
+      "brochure": "微信公众号：深圳市光明区光明中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 3
+    },
+    {
+      "id": "2026-公办-二类-中国科学院深圳理工大学附属实验高级中学（中科附高）",
+      "name": "中国科学院深圳理工大学附属实验高级中学（中科附高）",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 13,
+      "scoreText": "420",
+      "scores": [
+        {
+          "label": "",
+          "score": 420
+        }
+      ],
+      "brochure": "微信公众号：中科附高",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 1
+    },
+    {
+      "id": "2026-公办-二类-人大附中深圳学校",
+      "name": "人大附中深圳学校",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 23,
+      "scoreText": "体育430、艺术450",
+      "scores": [
+        {
+          "label": "体育",
+          "score": 430
+        },
+        {
+          "label": "艺术",
+          "score": 450
+        }
+      ],
+      "brochure": "微信公众号：人大附中深圳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 2
+    },
+    {
+      "id": "2026-公办-二类-红岭教育集团大鹏华侨中学",
+      "name": "红岭教育集团大鹏华侨中学",
+      "ownership": "公办",
+      "category": "二类",
+      "plan": 5,
+      "scoreText": "430",
+      "scores": [
+        {
+          "label": "",
+          "score": 430
+        }
+      ],
+      "brochure": "微信公众号：红岭大鹏华侨中学-鹏城教育集团",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "大鹏新区",
+      "projects": [],
+      "profileIndex": 90
+    },
+    {
+      "id": "2026-民办-一类-深圳市罗湖区华美外国语学校",
+      "name": "深圳市罗湖区华美外国语学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 50,
+      "scoreText": "325",
+      "scores": [
+        {
+          "label": "",
+          "score": 325
+        }
+      ],
+      "brochure": "微信公众号：深圳市华美外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 143
+    },
+    {
+      "id": "2026-民办-一类-深圳市盐田区梅沙双语学校",
+      "name": "深圳市盐田区梅沙双语学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 48,
+      "scoreText": "335",
+      "scores": [
+        {
+          "label": "",
+          "score": 335
+        }
+      ],
+      "brochure": "微信公众号：梅沙高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 137
+    },
+    {
+      "id": "2026-民办-一类-深圳市万科梅沙书院",
+      "name": "深圳市万科梅沙书院",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 30,
+      "scoreText": "450",
+      "scores": [
+        {
+          "label": "",
+          "score": 450
+        }
+      ],
+      "brochure": "微信公众号：万科梅沙书院",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 104
+    },
+    {
+      "id": "2026-民办-一类-深圳（南山）中加学校",
+      "name": "深圳（南山）中加学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 10,
+      "scoreText": "400",
+      "scores": [
+        {
+          "label": "",
+          "score": 400
+        }
+      ],
+      "brochure": "微信公众号：深圳南山中加学校SCCSC",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 156
+    },
+    {
+      "id": "2026-民办-一类-深圳东方英文书院",
+      "name": "深圳东方英文书院",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 60,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳东方英文书院",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 103
+    },
+    {
+      "id": "2026-民办-一类-深圳市桃源居中澳实验学校",
+      "name": "深圳市桃源居中澳实验学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 80,
+      "scoreText": "390",
+      "scores": [
+        {
+          "label": "",
+          "score": 390
+        }
+      ],
+      "brochure": "微信公众号：深圳市桃源居中澳实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 133
+    },
+    {
+      "id": "2026-民办-一类-深圳市富源学校",
+      "name": "深圳市富源学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 30,
+      "scoreText": "540",
+      "scores": [
+        {
+          "label": "",
+          "score": 540
+        }
+      ],
+      "brochure": "微信公众号：深圳市富源学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 122
+    },
+    {
+      "id": "2026-民办-一类-深圳市滨海高级中学",
+      "name": "深圳市滨海高级中学",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 70,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳市滨海高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 136
+    },
+    {
+      "id": "2026-民办-一类-深圳市松岗中英文实验学校",
+      "name": "深圳市松岗中英文实验学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳市松岗中英文实验学校高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 131
+    },
+    {
+      "id": "2026-民办-一类-深圳市中荟高级中学",
+      "name": "深圳市中荟高级中学",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 10,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳市中荟高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 108
+    },
+    {
+      "id": "2026-民办-一类-深圳市建文外国语学校",
+      "name": "深圳市建文外国语学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 150,
+      "scoreText": "400",
+      "scores": [
+        {
+          "label": "",
+          "score": 400
+        }
+      ],
+      "brochure": "微信公众号：深圳市建文外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 125
+    },
+    {
+      "id": "2026-民办-一类-深圳市菁华中英文实验中学",
+      "name": "深圳市菁华中英文实验中学",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 10,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳菁华中英文实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 155
+    },
+    {
+      "id": "2026-民办-一类-深圳市承翰学校",
+      "name": "深圳市承翰学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 90,
+      "scoreText": "360",
+      "scores": [
+        {
+          "label": "",
+          "score": 360
+        }
+      ],
+      "brochure": "微信公众号：深圳市承翰学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 126
+    },
+    {
+      "id": "2026-民办-一类-深圳市美中学校",
+      "name": "深圳市美中学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 90,
+      "scoreText": "325",
+      "scores": [
+        {
+          "label": "",
+          "score": 325
+        }
+      ],
+      "brochure": "微信公众号：深圳市美中学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 144
+    },
+    {
+      "id": "2026-民办-一类-深圳市格睿特高级中学",
+      "name": "深圳市格睿特高级中学",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 20,
+      "scoreText": "320",
+      "scores": [
+        {
+          "label": "",
+          "score": 320
+        }
+      ],
+      "brochure": "微信公众号：格睿特高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 132
+    },
+    {
+      "id": "2026-民办-一类-深圳市展华实验学校",
+      "name": "深圳市展华实验学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 10,
+      "scoreText": "303",
+      "scores": [
+        {
+          "label": "",
+          "score": 303
+        }
+      ],
+      "brochure": "微信公众号：深圳市展华实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 123
+    },
+    {
+      "id": "2026-民办-一类-深圳市博恒实验学校",
+      "name": "深圳市博恒实验学校",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 10,
+      "scoreText": "460",
+      "scores": [
+        {
+          "label": "",
+          "score": 460
+        }
+      ],
+      "brochure": "微信公众号：深圳市博恒实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 148
+    },
+    {
+      "id": "2026-民办-一类-深圳市汉开数理高中",
+      "name": "深圳市汉开数理高中",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "320",
+      "scores": [
+        {
+          "label": "",
+          "score": 320
+        }
+      ],
+      "brochure": "微信公众号：深圳汉开数理高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 134
+    },
+    {
+      "id": "2026-民办-一类-深圳市正德高级中学",
+      "name": "深圳市正德高级中学",
+      "ownership": "民办",
+      "category": "一类",
+      "plan": 40,
+      "scoreText": "310",
+      "scores": [
+        {
+          "label": "",
+          "score": 310
+        }
+      ],
+      "brochure": "微信公众号：深圳市正德高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-民办-二类-深圳市罗湖区华美外国语学校",
+      "name": "深圳市罗湖区华美外国语学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 26,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：深圳市华美外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 143
+    },
+    {
+      "id": "2026-民办-二类-深圳市盐田区梅沙双语学校",
+      "name": "深圳市盐田区梅沙双语学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 15,
+      "scoreText": "335",
+      "scores": [
+        {
+          "label": "",
+          "score": 335
+        }
+      ],
+      "brochure": "微信公众号：梅沙高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "盐田区",
+      "projects": [],
+      "profileIndex": 137
+    },
+    {
+      "id": "2026-民办-二类-深圳（南山）中加学校",
+      "name": "深圳（南山）中加学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 20,
+      "scoreText": "350",
+      "scores": [
+        {
+          "label": "",
+          "score": 350
+        }
+      ],
+      "brochure": "微信公众号：深圳南山中加学校SCCSC",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "南山区",
+      "projects": [],
+      "profileIndex": 156
+    },
+    {
+      "id": "2026-民办-二类-深圳市崛起实验中学",
+      "name": "深圳市崛起实验中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 100,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市崛起实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 124
+    },
+    {
+      "id": "2026-民办-二类-深圳市华一实验学校",
+      "name": "深圳市华一实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 48,
+      "scoreText": "326",
+      "scores": [
+        {
+          "label": "",
+          "score": 326
+        }
+      ],
+      "brochure": "微信公众号：深圳市华一实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 110
+    },
+    {
+      "id": "2026-民办-二类-深圳市桃源居中澳实验学校",
+      "name": "深圳市桃源居中澳实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 50,
+      "scoreText": "390",
+      "scores": [
+        {
+          "label": "",
+          "score": 390
+        }
+      ],
+      "brochure": "微信公众号：深圳市桃源居中澳实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 133
+    },
+    {
+      "id": "2026-民办-二类-深圳市富源学校",
+      "name": "深圳市富源学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 90,
+      "scoreText": "360",
+      "scores": [
+        {
+          "label": "",
+          "score": 360
+        }
+      ],
+      "brochure": "微信公众号：深圳市富源学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 122
+    },
+    {
+      "id": "2026-民办-二类-深圳市滨海高级中学",
+      "name": "深圳市滨海高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 55,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：深圳市滨海高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 136
+    },
+    {
+      "id": "2026-民办-二类-深圳市福桥高级中学",
+      "name": "深圳市福桥高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 32,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：深圳市福桥高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 139
+    },
+    {
+      "id": "2026-民办-二类-深圳市松岗中英文实验学校",
+      "name": "深圳市松岗中英文实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "285",
+      "scores": [
+        {
+          "label": "",
+          "score": 285
+        }
+      ],
+      "brochure": "微信公众号：深圳市松岗中英文实验学校高中部",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "宝安区",
+      "projects": [],
+      "profileIndex": 131
+    },
+    {
+      "id": "2026-民办-二类-深圳市弘毅高级中学",
+      "name": "深圳市弘毅高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 10,
+      "scoreText": "285",
+      "scores": [
+        {
+          "label": "",
+          "score": 285
+        }
+      ],
+      "brochure": "微信公众号：深圳市弘毅高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    },
+    {
+      "id": "2026-民办-二类-深圳市中荟高级中学",
+      "name": "深圳市中荟高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 110,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市中荟高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 108
+    },
+    {
+      "id": "2026-民办-二类-深圳市鹏达高级中学",
+      "name": "深圳市鹏达高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 80,
+      "scoreText": "290",
+      "scores": [
+        {
+          "label": "",
+          "score": 290
+        }
+      ],
+      "brochure": "微信公众号：深圳市鹏达高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 146
+    },
+    {
+      "id": "2026-民办-二类-深圳市坤翔高级中学",
+      "name": "深圳市坤翔高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：坤翔高级中学订阅号",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 116
+    },
+    {
+      "id": "2026-民办-二类-深圳市龙岗区德琳学校",
+      "name": "深圳市龙岗区德琳学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 60,
+      "scoreText": "360",
+      "scores": [
+        {
+          "label": "",
+          "score": 360
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙岗区德琳学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 150
+    },
+    {
+      "id": "2026-民办-二类-深圳市菁华中英文实验中学",
+      "name": "深圳市菁华中英文实验中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 110,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳菁华中英文实验中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 155
+    },
+    {
+      "id": "2026-民办-二类-深圳市承翰学校",
+      "name": "深圳市承翰学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "360",
+      "scores": [
+        {
+          "label": "",
+          "score": 360
+        }
+      ],
+      "brochure": "微信公众号：深圳市承翰学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 126
+    },
+    {
+      "id": "2026-民办-二类-深圳市龙岗区珊蒂泉外国语学校",
+      "name": "深圳市龙岗区珊蒂泉外国语学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 55,
+      "scoreText": "252",
+      "scores": [
+        {
+          "label": "",
+          "score": 252
+        }
+      ],
+      "brochure": "微信公众号：深圳市珊蒂泉外国语学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙岗区",
+      "projects": [],
+      "profileIndex": 151
+    },
+    {
+      "id": "2026-民办-二类-深圳市美中学校",
+      "name": "深圳市美中学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 101,
+      "scoreText": "325",
+      "scores": [
+        {
+          "label": "",
+          "score": 325
+        }
+      ],
+      "brochure": "微信公众号：深圳市美中学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 144
+    },
+    {
+      "id": "2026-民办-二类-深圳市格睿特高级中学",
+      "name": "深圳市格睿特高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 85,
+      "scoreText": "252",
+      "scores": [
+        {
+          "label": "",
+          "score": 252
+        }
+      ],
+      "brochure": "微信公众号：格睿特高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 132
+    },
+    {
+      "id": "2026-民办-二类-深圳市展华实验学校",
+      "name": "深圳市展华实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 70,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市展华实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 123
+    },
+    {
+      "id": "2026-民办-二类-深圳市龙华中英文实验学校",
+      "name": "深圳市龙华中英文实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 80,
+      "scoreText": "252",
+      "scores": [
+        {
+          "label": "",
+          "score": 252
+        }
+      ],
+      "brochure": "微信公众号：深圳市龙华中英文实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 147
+    },
+    {
+      "id": "2026-民办-二类-深圳市博恒实验学校",
+      "name": "深圳市博恒实验学校",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：深圳市博恒实验学校",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 148
+    },
+    {
+      "id": "2026-民办-二类-深圳市汉开数理高中",
+      "name": "深圳市汉开数理高中",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "300",
+      "scores": [
+        {
+          "label": "",
+          "score": 300
+        }
+      ],
+      "brochure": "微信公众号：深圳汉开数理高中",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 134
+    },
+    {
+      "id": "2026-民办-二类-深圳市育华高级中学",
+      "name": "深圳市育华高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 80,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市育华高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "龙华区",
+      "projects": [],
+      "profileIndex": 145
+    },
+    {
+      "id": "2026-民办-二类-深圳市立人高级中学",
+      "name": "深圳市立人高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 80,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市立人高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "坪山区",
+      "projects": [],
+      "profileIndex": 142
+    },
+    {
+      "id": "2026-民办-二类-深圳市光明书院",
+      "name": "深圳市光明书院",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 40,
+      "scoreText": "260",
+      "scores": [
+        {
+          "label": "",
+          "score": 260
+        }
+      ],
+      "brochure": "微信公众号：深圳市光明书院",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 109
+    },
+    {
+      "id": "2026-民办-二类-深圳杰仁高级中学",
+      "name": "深圳杰仁高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 36,
+      "scoreText": "320",
+      "scores": [
+        {
+          "label": "",
+          "score": 320
+        }
+      ],
+      "brochure": "微信公众号：深圳杰仁高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "光明区",
+      "projects": [],
+      "profileIndex": 154
+    },
+    {
+      "id": "2026-民办-二类-深圳市正德高级中学",
+      "name": "深圳市正德高级中学",
+      "ownership": "民办",
+      "category": "二类",
+      "plan": 35,
+      "scoreText": "290",
+      "scores": [
+        {
+          "label": "",
+          "score": 290
+        }
+      ],
+      "brochure": "微信公众号：深圳市正德高级中学",
+      "scope": "面向全市招收ACD类本市初中应届毕业生",
+      "district": "罗湖区",
+      "projects": [],
+      "profileIndex": 22
+    }
+  ],
+  "profiles": [
+    {
+      "name": "东北师范大学附属中学深圳学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "坪山区",
+      "address": "深圳市坪山区马峦街道谷仓路3号",
+      "phone": "0755-85208713",
+      "boardingMode": "寄宿制",
+      "website": "http://www.dsfzsz.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726241.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "中国科学院深圳理工大学附属实验高级中学（中科附高）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "光明区",
+      "address": "深圳市光明区新湖街道楼村社区华裕路2222号",
+      "phone": "（0755）2773 1788",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12731992.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "人大附中深圳学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "大鹏新区",
+      "address": "深圳市大鹏新区葵涌街道溪坪南路80号",
+      "phone": "0755-26874318",
+      "boardingMode": "寄宿制",
+      "website": "无",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726849.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行;住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "光明中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "光明区",
+      "address": "深圳市光明区光明街道碧园路2号",
+      "phone": "0755-88219626",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729695.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "光明区高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "光明区",
+      "address": "深圳市光明区马田街道新围路5号",
+      "phone": "0755-27157903",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12732004.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "北京大学附属中学深圳学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "福田区",
+      "address": "深圳市福田区香蜜湖街道侨香三道99号",
+      "phone": "0755-83100634",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12730471.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "北京师范大学南山附属学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区招商街道左炮台路6号",
+      "phone": "0755-26652650、26652651",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726242.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：450元/学期。",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "华中师范大学龙岗附属中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区中心城大运新城飞扬路99号",
+      "phone": "0755-89911193",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12727894.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（市一级学校）",
+        "tuition": 1041,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "华侨城高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区沙河街道白石二道1号",
+      "phone": "0755-86089165",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726738.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "南头中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区深南大道12034号",
+      "phone": "0755-26502876；0755-26502897；0755-26502862",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728188.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "南山外国语学校（集团）高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区蛇口街道岸湾七街8号",
+      "phone": "0755-26899323",
+      "boardingMode": "寄宿制",
+      "website": "http://www.nsfls.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729700.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "南方科技大学附属中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区福海街道荔园路8号",
+      "phone": "0755-88012222",
+      "boardingMode": "寄宿制",
+      "website": "http://www.hsas.edu.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725590.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：450元/学期。",
+        "basis": "按市发改委一费制标准（市一级学校）",
+        "tuition": 1041,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "坪山高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "坪山区",
+      "address": "深圳市坪山区坪山街道沿河路1号",
+      "phone": "0755-23251259",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728297.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "宝安第一外国语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区航程街道学子路33号",
+      "phone": "0755-29966096",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726258.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "布吉中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区布吉街道吉华路222号",
+      "phone": "0755-28552425",
+      "boardingMode": "走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12727500.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "平冈中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙平东路252号",
+      "phone": "0755-28836087",
+      "boardingMode": "寄宿制",
+      "website": "https://szpgzx.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726832.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行，住宿费：450元 / 学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "平湖外国语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区平湖街道新厦大道11号",
+      "phone": "075589234332",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726841.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "广东实验中学深圳学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坂田街道象塘路63号",
+      "phone": "0755-89950523",
+      "boardingMode": "寄宿制",
+      "website": "https://www.gdsyzxsz.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729159.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "新安中学（集团）高中部",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安中心区金科路1号",
+      "phone": "0755-23093399",
+      "boardingMode": "半走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728547.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "松岗中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区松岗街道东方大道26号",
+      "phone": "0755-27081674",
+      "boardingMode": "寄宿制",
+      "website": "https://bjt.baoan.edu.cn/index.php?r=space/school/portal/index/index&sid=997a1d02-5947-40df-9928-e9c59174beae",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729817.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "横岗高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区横岗街道六约社区梧桐路28号",
+      "phone": "0755-89733522",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726653.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "沙井中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区沙井街道东岳路1号",
+      "phone": "0755-29856630",
+      "boardingMode": "寄宿制",
+      "website": "https://szssjzx.baoan.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728358.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区泥岗西路1068号；2026年招收高一新生安排在泥岗校区教学",
+      "phone": "0755-29391943、0755-29391945",
+      "boardingMode": "寄宿制",
+      "website": "https://www.shenzhong.net/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728932.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳中学实验高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "深汕特别合作区",
+      "address": "深圳市深汕特别合作区赤石镇科教大道南段东侧与桃园路南侧交汇",
+      "phone": "0755-22098011",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szzxgzy.net/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12734702.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳中学数理高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "深汕特别合作区",
+      "address": "深圳市深汕特别合作区赤石镇科教大道南段东侧与桃园路南侧交汇",
+      "phone": "0755-22098011",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szzxgzy.net/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12734720.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳中学科技高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "深汕特别合作区",
+      "address": "深圳市深汕特别合作区赤石镇科教大道南段东侧与桃园路南侧交汇",
+      "phone": "0755-22098012",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szzxgzy.net/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12733803.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳北理莫斯科大学附属实验中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "广东省深圳市龙岗区园山街道保安社区广达路53号",
+      "phone": "0755-28749865",
+      "boardingMode": "寄宿制",
+      "website": "https://fz.smbu.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729704.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳启元中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "2026—2027学年借址民办学校办学（地址：龙岗区宝龙街道鸿基路29号），过渡校区实行独立办学管理。；2027年秋季开学整体迁入永久校区（地址：龙岗区龙城街道回龙埔社区盐龙大道铺道）。",
+      "phone": " 0755-28189866",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12799367.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "盐田区",
+      "address": "深圳市盐田区盐田路1号",
+      "phone": "0755-25282042，0755-25282044",
+      "boardingMode": "寄宿制",
+      "website": "https://www.sfls.net.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729822.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校博雅高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "光明区",
+      "address": "深圳市光明区马田街道太阳路1008号",
+      "phone": "0755-21980888",
+      "boardingMode": "寄宿制",
+      "website": "http://www.swgzy.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729710.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校弘知高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "光明区",
+      "address": "深圳市光明区马田街道宏明路900号",
+      "phone": "0755-21980999",
+      "boardingMode": "寄宿制",
+      "website": "http://www.swgzy.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12815979.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校理工高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "光明区",
+      "address": "深圳市光明区马田街道太阳路1006号",
+      "phone": "0755-21980686、0755-21980687",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12731991.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校致远高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "光明区",
+      "address": "广东省深圳市光明区马田街道励学路333号",
+      "phone": "0755-21980777",
+      "boardingMode": "寄宿制",
+      "website": "http://www.swgzy.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12733777.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳外国语学校龙华高中部",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区观湖街道新樟路200号",
+      "phone": "0755-28019902，0755-28019958",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sfls.net.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12730519.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳大学附属中学中心校区（深大附中中心校区）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区月亮湾街道前海路0019号；原“深圳大学附属中学（深大附中） ”更名",
+      "phone": "0755-88274969",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sdsyfz.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12733751.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳大学附属中学盐田校区（深大附中盐田校区）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "盐田区",
+      "address": "2026-2027学年在“深圳大学附属中学前海校区”借址办学（地址：南山区前海路0353号）；后续搬回到学校永久校区（地址：盐田区盐田街道青云路）",
+      "phone": "0755-88274969；26453698",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sdsyfz.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12736405.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳大学附属实验中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "光明区",
+      "address": "深圳市光明区玉塘街道玉塘社区长松路366号",
+      "phone": "0755-61821063；0755-66882122",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726884.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳实验学校明理高中、深圳实验学校崇文高中、 深圳实验学校卓越高中、深圳实验学校至臻高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "坪山区",
+      "address": "深圳市碧岭区街道同富路9号",
+      "phone": "0755-85292999",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szsygzy.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726915.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳实验学校（光明高中部）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "光明区",
+      "address": "深圳市光明区光明街道牛山路768号",
+      "phone": "0755-23242539",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szsy.cn/guangmingbu/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729732.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳实验学校（高中部）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区西丽同发路99号",
+      "phone": "0755-26518078，0755-26518393，0755-26518169",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szsy.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725596.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：每生每学期450元",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市光明区中等职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "",
+      "district": "光明区",
+      "address": "广东省深圳市光明区光明街道迳口社区迳口路899号",
+      "phone": "0755－21099985",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12745670.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生免学费。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市博伦职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "省级重点",
+      "district": "南山区",
+      "address": "广东省深圳市南山区南博二路28号",
+      "phone": "0755-26400562",
+      "boardingMode": "半走读制",
+      "website": "https://www.sz.gov.cn/school/ns/nszx/content/post_9480749.html",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12729745.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费； 一般专业1359元/学期，高消耗专业1534元/学期;住宿费：450元/学期。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市宝安职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家中职教育改革发展示范校",
+      "district": "宝安区",
+      "address": "深圳市宝安区航城街道教育城学子路4号",
+      "phone": "0755-27590457",
+      "boardingMode": "寄宿制",
+      "website": "http://zs.szbazx.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12730501.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费；住宿费每生每学期450元。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市开放职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区协力路4号华夏动漫产业园",
+      "phone": "0755-28994868",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12727445.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市新鹏职业高级中学",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "无",
+      "district": "光明区",
+      "address": "深圳市光明区光明街道科泰路1118号",
+      "phone": "0755—61850111",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szyuxin.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12732015.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费,住宿费每生每学期450元。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市沙井职业高级中学",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区沙井街道沙壆三路23号",
+      "phone": "0755-27728306",
+      "boardingMode": "半走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12728310.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费;住宿费每生每学期450元。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市燕川中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区燕罗街道广田路与红湖路交汇处东北角",
+      "phone": "0755-29899388",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729206.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市盐港中学（综合高中班）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "盐田区",
+      "address": "深圳市盐田区东海道30号",
+      "phone": "0755-25207672",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728645.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市福海中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "宝安区",
+      "address": "深圳市宝安区福海街道桥达路168号",
+      "phone": "0755-85908985 85908211",
+      "boardingMode": "寄宿制",
+      "website": "https://fhzx.baoan.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725578.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行;住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市福田区华强职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家级重点",
+      "district": "福田区",
+      "address": "深圳市福田区莲花街道红荔西路景田南四街1号",
+      "phone": "0755-83902854",
+      "boardingMode": "走读制",
+      "website": "https://hqzx.szftedu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12726929.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第一职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家中职教育改革发展示范校",
+      "district": "福田区,坪山区",
+      "address": "福田校区（校本部）：深圳市福田区福中路13号；；坪山校区：深圳市坪山区坪山大道6346号",
+      "phone": "0755-83202264",
+      "boardingMode": "半走读制",
+      "website": "https://www.sz1z.net.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12729759.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费；住宿费每生每学期450元",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第一职业技术学校（综合高中班）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "福田区",
+      "address": "深圳市福田区福中路13号",
+      "phone": "0755-83202483",
+      "boardingMode": "寄宿制",
+      "website": "https://www.sz1z.net.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729765.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第七高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "宝安区",
+      "address": "宝安区沙井街道民主大道33号",
+      "phone": "0755-23019967",
+      "boardingMode": "寄宿制",
+      "website": "https://www.sz7g.com/lc-cms/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12731993.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第三职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "省级重点",
+      "district": "坪山区",
+      "address": "深圳市坪山区石井街道创景13号",
+      "phone": "0755-23678669、0755-23678693、0755-23678695",
+      "boardingMode": "寄宿制",
+      "website": "https://www.ceice.org",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12730502.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生免学费；学校为全寄宿制学校，住宿费每生每学期450元/学期",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第三高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙城街道如意路500号",
+      "phone": "0755-89556666",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sz3gao.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726927.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二实验学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区沿河北路2020号",
+      "phone": "0755-22253266；0755-22259136",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szdesy.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725612.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：每生每学期450元",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二实验学校明远高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "大鹏新区",
+      "address": "深圳市大鹏新区大鹏街道鹏飞路1-1号",
+      "phone": "0755-82299648",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726923.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家中职教育改革发展示范校",
+      "district": "光明区",
+      "address": "深圳市光明区新湖街道光侨大道 3409 号",
+      "phone": "0755-29199446，0755-81738666-6210",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szped.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12729609.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费；住宿费每生每学期450元",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区西丽创科路3号",
+      "phone": "0755-26502222",
+      "boardingMode": "寄宿制",
+      "website": "https://www.sz2g.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729746.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二高级中学宝安高中部",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "宝安区",
+      "address": "宝安区新桥街道中心路12-14号",
+      "phone": "0755-26502222-8005；0755-26502222-8200；0755-26502222-8230",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729756.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行，住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市第二高级中学深汕实验学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "深汕特别合作区",
+      "address": "深圳市深汕特别合作区赤石镇宝安路1号",
+      "phone": "0755-22093222",
+      "boardingMode": "寄宿制",
+      "website": "https://www.egsssy.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12730021.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市红山中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "龙华区民治街道向荣路38号",
+      "phone": "0755-61160052，0755-61160078",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12732008.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市美术学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区东盛路68号",
+      "phone": "0755-25225997",
+      "boardingMode": "寄宿制",
+      "website": "https://szms.luohuedu.net/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729814.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市聚龙科学中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "坪山区",
+      "address": "深圳市坪山区坑梓街道沙田社区田滨路6号",
+      "phone": "0755-89665981",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12727337.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市致理中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "深圳市龙华区大浪街道华辉路96号",
+      "phone": "0755-29829799，0755-29836388",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728930.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市艺术高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "深圳市龙华区龙华街道民清路255号",
+      "phone": "0755-29831666",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728661.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市行知职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家级重点",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区黄贝街道北斗路20号（文华花园内）",
+      "phone": "0755--25104655",
+      "boardingMode": "半走读制",
+      "website": "https://xzzx.luohuedu.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12728611.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市行知职业技术学校（综合高中班）",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "罗湖区",
+      "address": "罗湖区北斗路20号（文华花园内）",
+      "phone": "0755--25104655",
+      "boardingMode": "寄宿制",
+      "website": "https://xzzx.luohuedu.net/default.aspx?id=281",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12735339.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学东校区",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "坪山区",
+      "address": "深圳市坪山区耘田路1001号",
+      "phone": "0755-28241234",
+      "boardingMode": "寄宿制",
+      "website": "https://www.cn-school.com/main/index.html",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729721.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学中心校区",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "福田区",
+      "address": "深圳市福田区香蜜湖街道春田路2号",
+      "phone": "0755-83948694",
+      "boardingMode": "寄宿制",
+      "website": "https://www.cn-school.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729731.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学创新高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坪地街道坪西社区荟英路1号",
+      "phone": "0755-85293333",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sg-gzy.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12803401.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学文博高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坪地街道坪西社区荟英路1号",
+      "phone": "0755-85293333",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sg-gzy.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12803500.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学有为高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坪地街道坪西社区荟英路1号",
+      "phone": "0755-85293333",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sg-gzy.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12803562.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市高级中学理慧高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坪地街道坪西社区荟英路1号",
+      "phone": "0755-85293333",
+      "boardingMode": "寄宿制",
+      "website": "http://www.sg-gzy.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12803524.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙华外国语高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "深圳市龙华区民治街道临龙路1号",
+      "phone": "0755-28671288",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12727993.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙华科技实验高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "深圳市龙华区福城街道景悦路2号",
+      "phone": "0755-29849285",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729005.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙华职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "广东省深圳市龙华区观澜街道观光路1130号",
+      "phone": "0755-28187900",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12729809.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生免学费。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗区第二职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "省级重点",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区园山街道保安社区横坪路269号",
+      "phone": "0755-89383307/0755-89383382",
+      "boardingMode": "寄宿制",
+      "website": "https://lgez.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12729029.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费；住宿费每生每学期450元。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗区第二高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区南湾街道黄金南路49号；原“布吉高级中学”更名",
+      "phone": "0755-28373411、0755-28707664",
+      "boardingMode": "寄宿制",
+      "website": "https://bjgz.szlgedu.org.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12727647.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗职业技术学校",
+      "ownership": "公办",
+      "type": "中职",
+      "rank": "国家中职教育改革发展示范校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙城街道清林中路219号",
+      "phone": "0755-28924390",
+      "boardingMode": "寄宿制",
+      "website": "https://szlgzz.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbzz/content/post_12726187.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳技师学院",
+      "ownership": "公办",
+      "type": "高技",
+      "rank": "国家级重点",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙岗街道将军帽路1号",
+      "phone": "0755-83757353，0755-83757355",
+      "boardingMode": "寄宿制",
+      "website": "https://www.ssti.net.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbgj/content/post_12726899.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳理工大学附属中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "宝安区",
+      "address": "2026-2027学年在“深圳理工大学”借址办学（地址：光明区公常路1号）；后续搬回到学校永久校区（地址：宝安区航城街道黄田社区宝安教育城）",
+      "phone": "0755-88802471",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12741500.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳益新中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "龙华区福城街道福花路南侧",
+      "phone": "0755-89955678",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12767771.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳科学高中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区环城东路与三号路交汇处",
+      "phone": "0755-28382835（教学处）28382853（学生处）",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szkegao.net/main/index.html",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726916.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳科学高中龙岗分校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区坪地街道惠岭二路",
+      "phone": "0755-26590705（教学处），26590707（学生处）",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szkegao.net/main/index.html",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726902.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳第二外国语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区福城街道九龙山社区龙澜大道513号",
+      "phone": "0755-85260066",
+      "boardingMode": "寄宿制",
+      "website": "https://www.shenzhenew.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729169.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳鹏城技师学院",
+      "ownership": "公办",
+      "type": "高技",
+      "rank": "国家级重点",
+      "district": "福田区",
+      "address": "福强校区：深圳市福田区福强路1007号；侨城校区：深圳市福田区职教街10号",
+      "phone": "0755-83119101、0755-83119105",
+      "boardingMode": "半走读制",
+      "website": "http://szptc.edu.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbgj/content/post_12726913.html",
+      "fee": {
+        "text": "按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费。",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "盐田高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "盐田区",
+      "address": "深圳市盐田区盐田街道青云路13号",
+      "phone": "0755-22729290、22729293",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729115.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "石岩外国语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "宝安区石岩街道办育才路8号",
+      "phone": "0755-27610332",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729212.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行;住宿费450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "红岭中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "福田区",
+      "address": "深圳市福田区侨香路安托山九路3号红岭中学高中部",
+      "phone": "0755-88306944",
+      "boardingMode": "寄宿制",
+      "website": "https://hlzx.szftedu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12735784.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "红岭教育集团大鹏华侨中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "大鹏新区",
+      "address": "深圳市大鹏新区大鹏街道迎宾南路8号",
+      "phone": "0755-84307240",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726696.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "罗湖外语学校",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区莲塘街道国威路1号",
+      "phone": "0755-25739870",
+      "boardingMode": "寄宿制",
+      "website": "https://lhwy.luohuedu.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728143.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行;住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "罗湖高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区桂园街道金塘街6号",
+      "phone": "0755-22923606、 0755-22923701",
+      "boardingMode": "寄宿制",
+      "website": "https://lhgjzx.luohuedu.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12726769.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "翠园中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "罗湖区",
+      "address": "爱国路校区：罗湖区爱国路2011号 ； 东门北路校区：罗湖区东门北路1016号",
+      "phone": "0755-25016856、0755-25016805、0755-25016862",
+      "boardingMode": "寄宿制",
+      "website": "http://cyzx.luohuedu.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12774642.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "育才一中",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "南山区招商街道花果山社区 ；原“育才中学蛇口校区”更名",
+      "phone": "0755-26813568；0755-26813550",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729828.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "育才中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区桃源街道北环大道7366-7706号",
+      "phone": "0755-86586845；0755-26896364",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725601.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：每生每学期450元",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "西乡中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区西乡街道兴业路3015号",
+      "phone": "0755-29491893",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12728410.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费：450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "西交利物浦大学基础教育集团外国语高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "福田区",
+      "address": "福田区福荣路10号石厦南公交总站北（益田村西）",
+      "phone": "0755-83836903",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12729114.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "观澜中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区观湖街道育才路1号",
+      "phone": "0755-29831312",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12817774.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "香港中文大学（深圳）附属明德高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "无",
+      "district": "福田区",
+      "address": "深圳市福田区梅林街道梅东三路6号",
+      "phone": "0755-83165985",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12771260.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "龙华中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区龙华街道公园路1号",
+      "phone": "0755-28191743 0755-28106221",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12725591.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "龙华高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "深圳市龙华区民治街道华玺路9号",
+      "phone": "0755-21077753",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12810085.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（一般学校）",
+        "tuition": 905,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "龙城高级中学",
+      "ownership": "公办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙城街道黄阁路154号",
+      "phone": "0755—28938616",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/gbpg/content/post_12804552.html",
+      "fee": {
+        "text": "按市发改部门核定的一费制收费标准执行；住宿费:450元/学期",
+        "basis": "按市发改委一费制标准（省一级学校）",
+        "tuition": 1131,
+        "boarding": 450,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳东方英文书院",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区航城街道宝安教育城学子路10号",
+      "phone": "0755-27516669",
+      "boardingMode": "寄宿制",
+      "website": "www.szoec.com.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729716.html",
+      "fee": {
+        "text": "学杂费：普高30000元/学期，港澳联考课程30000元/学期，高中国际课程实验57400元/学期 住宿费：3200元/学期",
+        "basis": "学校公示",
+        "tuition": 30000,
+        "boarding": 3200,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市万科梅沙书院",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "盐田区",
+      "address": "深圳市盐田区大梅沙环梅路33号",
+      "phone": "0755-66618494",
+      "boardingMode": "寄宿制",
+      "website": "https://www.vankemeisha.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728400.html",
+      "fee": {
+        "text": "学术生13.9万/学期，住宿费9750/学期～18900/学期。",
+        "basis": "学校公示",
+        "tuition": 139000,
+        "boarding": 9750,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市中嘉职业技术学校",
+      "ownership": "民办",
+      "type": "中职",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区新桥街道新二南岭路21号",
+      "phone": "0755-27253103，0755-27253968",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szzjs.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzz/content/post_12725595.html",
+      "fee": {
+        "text": "学杂费收费标准：人工智能技术与应用、无人机操控与维护、汽车运用与维修、计算机平面设计、动漫与游戏制作、会计事务、电子商务、计算机应用、服装设计与工艺、商务英语、航空服务、城市轨道交通运营服务、艺术设计与制作、幼儿保育减免后学杂费15800元/学期； 舞蹈表演减免后学杂费18800元/学期； 住宿费1800元/学期",
+        "basis": "学校公示",
+        "tuition": 15800,
+        "boarding": 1800,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市中新中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "坪山区",
+      "address": "广东省深圳市坪山区马峦街道沙龙路3号深圳市中新中学",
+      "phone": " 0755-89664119",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728844.html",
+      "fee": {
+        "text": "学费39800元/生；住宿费5500元/生",
+        "basis": "学校公示",
+        "tuition": 39800,
+        "boarding": 5500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市中特技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区燕罗街道罗中路130号",
+      "phone": "0755-23504051；0755-23321096：0755-23591642",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12823524.html",
+      "fee": {
+        "text": "详见招生计划",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市中荟高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙城街道华大路12号",
+      "phone": "0755-89621123；0755-89628936；0755-89625123；0755-89628926",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12730523.html",
+      "fee": {
+        "text": "学费31800元/学期；住宿费 5500元 / 期；日语学费 33800元 /期；港澳台 36800 元 / 期",
+        "basis": "学校公示",
+        "tuition": 31800,
+        "boarding": 5500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市光明书院",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "光明区",
+      "address": "深圳光明区新湖街道新美路298号",
+      "phone": "0755-29752916",
+      "boardingMode": "半走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729111.html",
+      "fee": {
+        "text": "学费：26800元/学期，住宿费：2800元/学期，伙食费：4500元/学期",
+        "basis": "学校公示",
+        "tuition": 26800,
+        "boarding": 2800,
+        "meals": 4500
+      }
+    },
+    {
+      "name": "深圳市华一实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区新桥街道上星路160号",
+      "phone": "0755-27227786    0755-27686755",
+      "boardingMode": "寄宿制",
+      "website": "http://hysyxx.baoan.edu.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12730513.html",
+      "fee": {
+        "text": "学费：35000元/学期；住宿费：3500—4300元/学期；伙食费：4500元/学期；日语班：3000元/学期",
+        "basis": "学校公示",
+        "tuition": 35000,
+        "boarding": 3500,
+        "meals": 4500
+      }
+    },
+    {
+      "name": "深圳市华夏技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "",
+      "district": "坪山区",
+      "address": "深圳市坪山区龙田街道龙田社区同富裕路莹展花园",
+      "phone": "0755-28380067",
+      "boardingMode": "寄宿制",
+      "website": "www.szshxjgxx.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12730531.html",
+      "fee": {
+        "text": "坪山校区：学费9800元/学期（烹饪10400元/学期），住宿费1600元/学期。 龙岗校区：学费13800元/学期，住宿费2500元/学期。",
+        "basis": "学校公示",
+        "tuition": 9800,
+        "boarding": 1600,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市华文高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "坪山区",
+      "address": "深圳市坪山区龙田街道龙田社区龙腾路60号",
+      "phone": "0755-84111318",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727142.html",
+      "fee": {
+        "text": "学费：36800/学期；住宿费：5000/学期",
+        "basis": "学校公示",
+        "tuition": 36800,
+        "boarding": 5000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市华朗学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "坪山区",
+      "address": "深圳市坪山区龙田街道金牛东路50号",
+      "phone": "0755-25989999",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727081.html",
+      "fee": {
+        "text": "学费：68000元/学期 住宿费：6000元—7000元/人/学期",
+        "basis": "学校公示",
+        "tuition": 68000,
+        "boarding": 6000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市华胜实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区宝安大道5002号",
+      "phone": "0755-27692668",
+      "boardingMode": "寄宿制",
+      "website": "http:/www.huashengshiyan.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729781.html",
+      "fee": {
+        "text": "学费35000元/学期，住宿费4000元/学期，伙食费4000元/学期",
+        "basis": "学校公示",
+        "tuition": 35000,
+        "boarding": 4000,
+        "meals": 4000
+      }
+    },
+    {
+      "name": "深圳市启恩高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "宝安区",
+      "address": "深圳市宝安区燕罗街道燕湖路35号（原朝阳路7号）",
+      "phone": "0755-23000683",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12912227.html",
+      "fee": {
+        "text": "学费：27000元/学期，伙食费5000元/学期，住宿费5000元/学期。",
+        "basis": "学校公示",
+        "tuition": 27000,
+        "boarding": 5000,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳市坤翔高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区龙岗街道新生社区仙田路53号",
+      "phone": "0755-89909333",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12737607.html",
+      "fee": {
+        "text": "学费:25800元/期，住宿费：4500元—6500元/学期",
+        "basis": "学校公示",
+        "tuition": 25800,
+        "boarding": 4500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市奋达职业技术学校",
+      "ownership": "民办",
+      "type": "中职",
+      "rank": "",
+      "district": "宝安区",
+      "address": "广东省深圳市宝安区石岩街道洲石路奋达职业技术学校",
+      "phone": "0755-29686442",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szfdzx.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzz/content/post_12729768.html",
+      "fee": {
+        "text": "学费15600元/学期、住宿费1500元/学期、杂费全免、生活费自理（学校有2个食堂，学生自由消费）",
+        "basis": "学校公示",
+        "tuition": 15600,
+        "boarding": 1500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市宝安区中英公学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区海城路243号",
+      "phone": "0755-27908888",
+      "boardingMode": "寄宿制",
+      "website": "https://zygx.baoan.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729129.html",
+      "fee": {
+        "text": "人民币7.6万元/学期，其中每生每学期教育成本费:67000元；住宿费:5000元；伙食费:4000元。",
+        "basis": "学校公示",
+        "tuition": 67000,
+        "boarding": 5000,
+        "meals": 4000
+      }
+    },
+    {
+      "name": "深圳市宝安区翻身实验学校（西校区）",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "广东省深圳市宝安区福海街道塘尾社区建安路21号",
+      "phone": "0755-89474670",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726630.html",
+      "fee": {
+        "text": "学费：22000元/学期；住宿费：3550元/学期；餐费：4400元/学期",
+        "basis": "学校公示",
+        "tuition": 22000,
+        "boarding": 3550,
+        "meals": 4400
+      }
+    },
+    {
+      "name": "深圳市宝山技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "省级重点",
+      "district": "坪山区",
+      "address": "深圳市坪山区和强路7号",
+      "phone": "0755-89660666",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szbaoshan.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12726917.html",
+      "fee": {
+        "text": "学费：中技：11500元/学期。烹饪专业在校学习期间另加500元/学期。 住宿费：2200元/学期。 宿舍水电费、餐费按实际收取。",
+        "basis": "学校公示",
+        "tuition": 11500,
+        "boarding": 2200,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市宝民技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区松岗街道松白路7022号",
+      "phone": "0755-27711063",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szbm2.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12729743.html",
+      "fee": {
+        "text": "网络营销与直播技术、新媒体与互联网应用、计算机应用与维修、电子商务、幼儿教育专业11000元/学期（符合减免政策条件9000/元学期）；住宿费1800元/学期；伙食费30元/天； 按市发改部门核定的收费标准执行，符合相关政策的学生可减免学费",
+        "basis": "学校公示",
+        "tuition": 11000,
+        "boarding": 1800,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市富源学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区航城街道九围富源教育城",
+      "phone": "0755-27474218；0755-27474318；0755-27478510",
+      "boardingMode": "寄宿制",
+      "website": "http://www.fyedu.net",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727000.html",
+      "fee": {
+        "text": "每学期：学费39400元，住宿费4600元，校车费1100元等，伙食费自理。",
+        "basis": "学校公示",
+        "tuition": 39400,
+        "boarding": 4600,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市展华实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区龙华街道油松路6号",
+      "phone": "0755-28065511，0755-28065377，0755-28065577",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728793.html",
+      "fee": {
+        "text": "学费：33600元/学期，住宿费：4000元/学期，餐费：4700元/学期",
+        "basis": "学校公示",
+        "tuition": 33600,
+        "boarding": 4000,
+        "meals": 4700
+      }
+    },
+    {
+      "name": "深圳市崛起实验中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区宝城82区新安六路1031号",
+      "phone": "0755-27447811、27447770、23019234",
+      "boardingMode": "寄宿制",
+      "website": "http://www.jueqijy.com/jqcxsy.shtml",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727397.html",
+      "fee": {
+        "text": "学费30000元/学期/生；住宿费3550元/学期/生； 餐费另计",
+        "basis": "学校公示",
+        "tuition": 30000,
+        "boarding": 3550,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市建文外国语学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区宝龙街道沙背坜二路93号",
+      "phone": "0755-28246281",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726748.html",
+      "fee": {
+        "text": "学杂费：25000元/学期 （英语班） 28800元/学期 (小语种班) 住宿费：4000元/学期",
+        "basis": "学校公示",
+        "tuition": 25000,
+        "boarding": 4000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市承翰学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区布吉街道景园路1号",
+      "phone": "33211682/33287245（普高）28282686（国际实验课程）",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726919.html",
+      "fee": {
+        "text": "普高学费 30000 元/学期、国际实验课程学费 18.5 万元/学年，小语种费 用 4000 元/学期、住宿费 4200 元/学期，餐费 5000 元/学期",
+        "basis": "学校公示",
+        "tuition": 30000,
+        "boarding": 4200,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳市携创高级技工学校",
+      "ownership": "民办",
+      "type": "高技",
+      "rank": "国家级重点",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区横岗街道六约社区新塘路138号",
+      "phone": "0755-28685865、0755-28685623",
+      "boardingMode": "寄宿制",
+      "website": "https://www.xcjx08.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbgj/content/post_12729823.html",
+      "fee": {
+        "text": "1.特色专业班： （1）符合减免条件：享受减免后学费10700元/学期。 （2）不符合减免条件：设计类专业学费12950元/学期，其他专业学费12700元/学期。 *除人工智能技术应用专业外，各专业符合减免条件者前三年享受减免政策，第四、第五年不再享受减免政策。 *人工智能技术应用专业符合减免条件者前两年享受减免政策。第三、第四、第五年不再享受减免政策 2.“3+证书”升学培养班： （1）符合减免条件：享受减免后学费13600元/学期。 （2）不符合减免条件：设计类专业学费15850元/学期，其他专业学费15600元/学期。 3.中高职贯通“三二分段”班： （1）符合减免条件：享受减免后学费13900元/学期 （2）不符合减免条件：设计类专业学费16150元/学期，其他专业学费15900元/学期。 *高职阶段学费按对接高校当年全日制统招收费标准执行。住宿费2000元-3500元/学期不等。",
+        "basis": "学校公示",
+        "tuition": 10700,
+        "boarding": 2000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市明德外语实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区沙井街道西环路2173号",
+      "phone": "0755-27685088   0755-27685099",
+      "boardingMode": "半走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12810512.html",
+      "fee": {
+        "text": "学杂费：29500元/学生·学期（英语班）、31500元/学生·学期（日语班）； 住宿费：2600元/学生·学期； 餐费：营养配餐，自由选餐，实际结算。",
+        "basis": "学校公示",
+        "tuition": 29500,
+        "boarding": 2600,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市晟才高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区平湖街道芳坑路11号",
+      "phone": "0755+89686270，89686503",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szscgz.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726564.html",
+      "fee": {
+        "text": "学费31000元/学期，住宿费4800元/学期，伙食费4800元/学期日语生另收学杂费4800元/学期，体育生另收学杂费8800元/学期",
+        "basis": "学校公示",
+        "tuition": 31000,
+        "boarding": 4800,
+        "meals": 4800
+      }
+    },
+    {
+      "name": "深圳市智理技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "省级重点",
+      "district": "光明区",
+      "address": "深圳市光明区马田街道将围社区水库路56号（将围校区）；深圳市光明区马田街道水库路将石工业区（石围校区）",
+      "phone": "0755-29935021、0755-29935022",
+      "boardingMode": "寄宿制",
+      "website": "https://www.szzljg.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12729818.html",
+      "fee": {
+        "text": "1.学费：专业班10850元/学期；三二分段、中高技贯通班14850元/学期；美术绘画28800元/学期。 2.住宿费：10人间1800元/学期、8人间2200元/学期、6人间2600元/学期。",
+        "basis": "学校公示",
+        "tuition": 10850,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市松岗中英文实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区松岗街道松白路7035号（松岗新汽车站向东100米）",
+      "phone": "0755-27139299、0755-29139688",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729205.html",
+      "fee": {
+        "text": "学费 28000元/学期，住宿费3000元/学期，伙食费5000元/学期",
+        "basis": "学校公示",
+        "tuition": 28000,
+        "boarding": 3000,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳市格睿特高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "深圳市龙华区观湖街道新樟路116号",
+      "phone": "0755-82562955；0755-28022860",
+      "boardingMode": "寄宿制",
+      "website": "http://www.gritedu.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729773.html",
+      "fee": {
+        "text": "文化课班：29800元/学期 港澳台联考班：34800元/学期 住宿费：3900元/学期 餐费：一菜一价 充卡消费",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 3900,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市桃源居中澳实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "宝安区",
+      "address": "深圳市宝安区西乡街道桃源社区前进二路138号",
+      "phone": "0755-26849966",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szza.edu.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728966.html",
+      "fee": {
+        "text": "普高学杂费：33000元/学期；港澳籍学生班学杂费：40000元/学期；国际课程实验班学杂费：70000元/学期；住宿费：5000元/学期；伙食费：5500元/学期",
+        "basis": "学校公示",
+        "tuition": 33000,
+        "boarding": 5000,
+        "meals": 5500
+      }
+    },
+    {
+      "name": "深圳市汉开数理高中",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "深圳市龙华区福城街道大富路5号",
+      "phone": "0755-82339343",
+      "boardingMode": "寄宿制",
+      "website": "http://hankaischool.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727036.html",
+      "fee": {
+        "text": "学费：普高/港澳联考课程：48000元/学期，住宿费：6000元/学期",
+        "basis": "学校公示",
+        "tuition": 48000,
+        "boarding": 6000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市深科技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区松福大道4304号",
+      "phone": "0755-23216084",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szskjx.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12730499.html",
+      "fee": {
+        "text": "收费详情请查看招生计划表",
+        "basis": "见公示原文",
+        "tuition": null,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市滨海高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区福海街道和平社区桥和路308号",
+      "phone": "0755-27666899",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szbhgz.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12725600.html",
+      "fee": {
+        "text": "文化生学费：40000元/学期；艺术生艺术培养费：25000元/学期（集训免费）；住宿费：5000元/学期；伙食费：自行充值饭卡消费。",
+        "basis": "学校公示",
+        "tuition": 40000,
+        "boarding": 5000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市盐田区梅沙双语学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "盐田区",
+      "address": "深圳市盐田区大梅沙万科中心",
+      "phone": "0755-26669928；0755-26669935",
+      "boardingMode": "寄宿制",
+      "website": "http://mbs.vanke.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12725605.html",
+      "fee": {
+        "text": "学费：64,000元/学期；住宿费：8,500元/学期",
+        "basis": "学校公示",
+        "tuition": 64000,
+        "boarding": 8500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市知源高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "坪山区",
+      "address": "深圳市坪山区龙田街道兰竹东路12号",
+      "phone": "0755-28985978",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szzygjzx.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12745766.html",
+      "fee": {
+        "text": "学费33000元/学期：住宿费5000元/学期",
+        "basis": "学校公示",
+        "tuition": 33000,
+        "boarding": 5000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市福桥高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "宝安区",
+      "address": "深圳市宝安区福海街道福瑞路7号",
+      "phone": "0755-81773190/81773323",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726928.html",
+      "fee": {
+        "text": "学杂费 29500 元/学期；住宿费 4000 元/学期",
+        "basis": "学校公示",
+        "tuition": 29500,
+        "boarding": 4000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市科立高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙华区",
+      "address": "深圳市龙华区大浪街道丽荣路",
+      "phone": "0755-28190002；0755-28190003；0755-28190005",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12911626.html",
+      "fee": {
+        "text": "学费标准：29800元/学期；住宿标准：5500元/学期；餐饮费用：5500元/学期",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 5500,
+        "meals": 5500
+      }
+    },
+    {
+      "name": "深圳市科迪技工学校",
+      "ownership": "民办",
+      "type": "中技",
+      "rank": "省级重点",
+      "district": "坪山区",
+      "address": "深圳市坪山区坪山街道锦龙大道北10号",
+      "phone": "0755-84513399",
+      "boardingMode": "寄宿制",
+      "website": "http://www.szkedijx.cn",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbzj/content/post_12727456.html",
+      "fee": {
+        "text": "珠宝首饰技术、药物制剂专业11000元/学期，其它专业（包含幼儿教育、计算机广告制作、汽车维修、电子商务、计算机网络应用、健康与社会照护、无人机应用技术、计算机应用与维修）10000元/学期，住宿费1200元/学期。",
+        "basis": "学校公示",
+        "tuition": 11000,
+        "boarding": 1200,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市立人高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "坪山区",
+      "address": "深圳市坪山区龙田街道秋枫路2号",
+      "phone": "0755-61176660 / 0755-61616316",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12733242.html",
+      "fee": {
+        "text": "学费：33800元/学期 住宿费：4500元/学期 餐费：5000元/学期(平均50元/天)",
+        "basis": "学校公示",
+        "tuition": 33800,
+        "boarding": 4500,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳市罗湖区华美外国语学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "罗湖区",
+      "address": "深圳市罗湖区东湖街道望桐路266号",
+      "phone": "0755-82519888",
+      "boardingMode": "寄宿制",
+      "website": "www.hm-school.com / https://huamei.luohuedu.net/web2-309",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726717.html",
+      "fee": {
+        "text": "学费：38000元/学期；住宿费：6800元/学期",
+        "basis": "学校公示",
+        "tuition": 38000,
+        "boarding": 6800,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市美中学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区观湖街道环观南路103号",
+      "phone": "0755-29588888",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726787.html",
+      "fee": {
+        "text": "收费标准（高考班）：学费29800元/学期，住宿费3500元/学期，伙食费4500元/学期",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 3500,
+        "meals": 4500
+      }
+    },
+    {
+      "name": "深圳市育华高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙华区",
+      "address": "深圳市龙华区观澜桂月路339号",
+      "phone": "0755-28104888",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729140.html",
+      "fee": {
+        "text": "学费33800元/学期，住宿费5000元/学期，伙食费5000元/学期",
+        "basis": "学校公示",
+        "tuition": 33800,
+        "boarding": 5000,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳市鹏达高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区宝龙街道同德社区浪背村32号",
+      "phone": "0755-66891618，0755-28860345，0755-28860169",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728282.html",
+      "fee": {
+        "text": "学费：29800元/学期；住宿费：4000元/学期；小语种：4000元/学期",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 4000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙华中英文实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区龙华街道乐雅一路64号",
+      "phone": "0755-28113316",
+      "boardingMode": "半走读制",
+      "website": "http://lhzyw.yhj.com.cn/ ",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728116.html",
+      "fee": {
+        "text": "学费：28000元/学期，住宿费：5500元/学期",
+        "basis": "学校公示",
+        "tuition": 28000,
+        "boarding": 5500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙华区博恒实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "龙华区",
+      "address": "深圳市龙华区大浪街道同富邨鸿万邦科技园",
+      "phone": "0755-28091818",
+      "boardingMode": "寄宿制",
+      "website": "http://www.bhzyxx.com/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726444.html",
+      "fee": {
+        "text": "35000元/学期（学杂费）、4500元/学期（住宿费）",
+        "basis": "学校公示",
+        "tuition": 35000,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗区东升学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区布吉街道西环路95号",
+      "phone": "0755-28542111，0755-28542777",
+      "boardingMode": "寄宿制",
+      "website": "https://dsxx.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12730515.html",
+      "fee": {
+        "text": "学费：30000 元/学期；住宿费：3500元/学期",
+        "basis": "学校公示",
+        "tuition": 30000,
+        "boarding": 3500,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗区德琳学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "",
+      "district": "龙岗区",
+      "address": "龙岗区坪地街道湖田路99号",
+      "phone": "0755-84822016",
+      "boardingMode": "寄宿制",
+      "website": "http://m.delinschool.com/index.jsp",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12727534.html",
+      "fee": {
+        "text": "学费：29500元/学期；住宿费：4000元/学期。",
+        "basis": "学校公示",
+        "tuition": 29500,
+        "boarding": 4000,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙岗区珊蒂泉外国语学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区宝龙街道龙新社区东升路北1号",
+      "phone": "0755-89266999、0755-89266138",
+      "boardingMode": "寄宿制",
+      "website": "https://sandyquan.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729170.html",
+      "fee": {
+        "text": "学费：普通班28000元/学期；住宿费：3500元/学期（6人间）；餐费：4300元/学期",
+        "basis": "学校公示",
+        "tuition": 28000,
+        "boarding": 3500,
+        "meals": 4300
+      }
+    },
+    {
+      "name": "深圳市龙岗区科城实验学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区布吉街道吉政路68号",
+      "phone": "0755-28700297",
+      "boardingMode": "走读制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12733432.html",
+      "fee": {
+        "text": "学费：25800元/学期",
+        "basis": "学校公示",
+        "tuition": 25800,
+        "boarding": null,
+        "meals": null
+      }
+    },
+    {
+      "name": "深圳市龙翔学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "市一级学校",
+      "district": "坪山区",
+      "address": "深圳市坪山区马峦街道沙坣社区沙新路68号",
+      "phone": "0755-89934931",
+      "boardingMode": "寄宿制",
+      "website": "无",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12728121.html",
+      "fee": {
+        "text": "学费：29800元/学期、住宿费：3500元/学期、伙食费：3500元/学期",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 3500,
+        "meals": 3500
+      }
+    },
+    {
+      "name": "深圳杰仁高级中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "无",
+      "district": "光明区",
+      "address": "深圳市光明区新湖街道硕泰路7号",
+      "phone": "0755-81766642，0755-81765577",
+      "boardingMode": "寄宿制",
+      "website": "www.jierengz.com",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12726901.html",
+      "fee": {
+        "text": "学费：31700元/学期；住宿费：3800元/学期；餐费：5000元/学期",
+        "basis": "学校公示",
+        "tuition": 31700,
+        "boarding": 3800,
+        "meals": 5000
+      }
+    },
+    {
+      "name": "深圳菁华中英文实验中学",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "龙岗区",
+      "address": "深圳市龙岗区平湖街道新木北路（万达广场南）",
+      "phone": "0755-25111393；0755-25105306；0755-25105706；0755-25115793",
+      "boardingMode": "寄宿制",
+      "website": "https://jinghua.szlgedu.org.cn/",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12730498.html",
+      "fee": {
+        "text": "学费：29800元/学期 住宿费：4800元/学期 伙食费：4800元/学期 日语班学费：31800元/学期 港澳台侨联考班学费：33800元/学期",
+        "basis": "学校公示",
+        "tuition": 29800,
+        "boarding": 4800,
+        "meals": 4800
+      }
+    },
+    {
+      "name": "深圳（南山）中加学校",
+      "ownership": "民办",
+      "type": "普高",
+      "rank": "省一级学校",
+      "district": "南山区",
+      "address": "深圳市南山区西丽街道高新北六道16号",
+      "phone": "0755-26568886",
+      "boardingMode": "寄宿制",
+      "website": "",
+      "url": "https://szeb.sz.gov.cn/szzkw/ztzl/gzjdxxbxtsjs2026/mbpg/content/post_12729844.html",
+      "fee": {
+        "text": "学费：80000/学期；住宿费：6000/学期",
+        "basis": "学校公示",
+        "tuition": 80000,
+        "boarding": 6000,
+        "meals": null
+      }
+    }
+  ]
+}

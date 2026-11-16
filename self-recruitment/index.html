@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>深圳普高自主招生选校</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --blue: #2f6bff;
+    --blue-light: #eaf1ff;
+    --text: #1f2329;
+    --sub: #8a919f;
+    --bg: #f3f6fb;
+    --line: #e6e9f0;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(180deg, #4d86ff 0, #8db2ff 220px, var(--bg) 420px);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .app { max-width: 520px; margin: 0 auto; padding: 0 12px 24px; }
+  /* 自主招生视图：页面固定一屏，只有学校列表区域滚动 */
+  .app.fixed { height: 100vh; height: 100dvh; display: flex; flex-direction: column; padding-bottom: 10px; }
+  .app.fixed > footer { display: none; }
+  .app.fixed #view-zzzs { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .app.fixed #view-zzzs > .panel:last-child { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
+  .app.fixed .main { flex: 1; min-height: 0; align-items: stretch; }
+  .app.fixed .side { position: static; overflow-y: auto; scrollbar-width: none; }
+  .app.fixed .side::-webkit-scrollbar { display: none; }
+  @media (max-height: 760px) {
+    .app.fixed .side button { padding: 9px 2px; }
+    .app.fixed .side .title { padding: 6px 2px; }
+  }
+  .app.fixed .list { display: flex; flex-direction: column; min-height: 0; }
+  .app.fixed #list { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding-right: 4px; margin-right: -4px; }
+  .scroll-area::-webkit-scrollbar { width: 5px; }
+  .scroll-area::-webkit-scrollbar-thumb { background: #c9d3e6; border-radius: 3px; }
+  .scroll-area::-webkit-scrollbar-track { background: transparent; }
+  .scroll-area { scrollbar-width: thin; scrollbar-color: #c9d3e6 transparent; }
+  #list footer { padding: 4px 2px 8px; }
+  header { color: #fff; text-align: center; font-size: 18px; font-weight: 600; padding: 12px 0 8px; position: relative; }
+  .rule-btn {
+    position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+    border: 1px solid rgba(255,255,255,.7); background: rgba(255,255,255,.15); color: #fff;
+    border-radius: 999px; padding: 4px 10px; font-size: 12px; cursor: pointer;
+  }
+
+  .rules-mask {
+    position: fixed; inset: 0; background: rgba(15,23,42,.45); display: none; z-index: 10;
+    align-items: flex-end; justify-content: center;
+  }
+  .rules-mask.show { display: flex; }
+  .rules {
+    background: #fff; width: 100%; max-width: 520px; max-height: 85vh; border-radius: 16px 16px 0 0;
+    display: flex; flex-direction: column;
+  }
+  .rules-head {
+    display: flex; align-items: center; justify-content: space-between; padding: 14px 16px;
+    border-bottom: 1px solid var(--line); font-size: 16px; font-weight: 600;
+  }
+  .rules-head button { border: 0; background: none; font-size: 22px; color: var(--sub); cursor: pointer; line-height: 1; }
+  .rules-body { overflow-y: auto; padding: 4px 16px 20px; }
+  .rules-body h3 { font-size: 14px; color: var(--blue); margin: 14px 0 6px; padding-left: 8px; border-left: 3px solid var(--blue); }
+  .rules-body dl { font-size: 13px; line-height: 1.7; }
+  .rules-body dt { font-weight: 600; color: var(--text); margin-top: 8px; }
+  .rules-body dd { color: #4a5468; }
+  .rules-body .src { font-size: 12px; color: var(--sub); margin-top: 16px; line-height: 1.6; }
+  .rules-body .src a { color: var(--blue); }
+
+  .panel { background: #fff; border-radius: 14px; padding: 12px; margin-bottom: 10px; }
+  .seg { display: flex; background: var(--blue-light); border-radius: 999px; padding: 4px; }
+  .seg button {
+    flex: 1; border: 0; background: transparent; padding: 8px 0; border-radius: 999px;
+    font-size: 15px; color: #4a5468; cursor: pointer; transition: background .2s, color .2s;
+  }
+  .seg button.active { background: linear-gradient(90deg, #3d7bff, #2f63f5); color: #fff; font-weight: 600; box-shadow: 0 4px 10px rgba(47,107,255,.3); }
+
+  .tabs { display: flex; justify-content: space-around; margin-top: 8px; border-bottom: 1px solid var(--line); }
+  .tabs button {
+    border: 0; background: none; padding: 6px 6px 8px; font-size: 14px; color: #4a5468; cursor: pointer; position: relative;
+  }
+  .tabs button.active { color: var(--blue); font-weight: 600; }
+  .tabs button.active::after {
+    content: ""; position: absolute; left: 50%; bottom: -1px; width: 24px; height: 3px; margin-left: -12px;
+    background: var(--blue); border-radius: 2px;
+  }
+
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding-top: 10px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: none; border: 0; background: #f2f4f8; color: #4a5468; border-radius: 6px;
+    padding: 6px 12px; font-size: 13px; cursor: pointer;
+  }
+  .chip.active { background: var(--blue); color: #fff; }
+
+  .filters { display: flex; gap: 8px; align-items: center; padding-top: 10px; flex-wrap: wrap; }
+  .filters select, .filters input {
+    border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font-size: 13px; background: #fff; color: var(--text);
+    flex: 1 1 0; min-width: 0;
+  }
+
+  .summary {
+    text-align: center; font-size: 13px; color: #3d4b66; background: var(--blue-light);
+    border-radius: 999px; padding: 6px 10px; margin-bottom: 10px; flex: none;
+  }
+  .summary b { color: var(--blue); }
+
+  .main { display: flex; gap: 8px; align-items: flex-start; }
+  .side {
+    width: 78px; flex: none; background: #f7f9fc; border-radius: 10px; overflow: hidden; position: sticky; top: 8px;
+  }
+  .side .title { font-size: 12px; text-align: center; padding: 8px 4px; font-weight: 600; border-bottom: 1px solid var(--line); line-height: 1.4; }
+  .side .title small { display: block; font-weight: 400; color: var(--sub); }
+  .side button {
+    display: block; width: 100%; border: 0; background: none; padding: 13px 2px; font-size: 13px; color: #4a5468;
+    cursor: pointer; position: relative; white-space: nowrap;
+  }
+  .side button.active { background: #fff; color: var(--blue); font-weight: 600; }
+  .side button.active::before {
+    content: ""; position: absolute; left: 0; top: 50%; width: 3px; height: 16px; margin-top: -8px;
+    background: var(--blue); border-radius: 0 2px 2px 0;
+  }
+
+  .list { flex: 1; min-width: 0; }
+  .search {
+    display: flex; align-items: center; gap: 6px; background: #f7f9fc; border-radius: 8px; padding: 8px 10px; margin-bottom: 8px; flex: none;
+  }
+  .search input { border: 0; background: none; flex: 1; font-size: 14px; outline: none; min-width: 0; }
+
+  .card {
+    border: 1px solid var(--line); border-radius: 10px; margin-bottom: 8px; overflow: hidden; background: #fff;
+    transition: box-shadow .2s, border-color .2s;
+  }
+  .card:hover, .card.open { border-color: #cfdcf7; box-shadow: 0 2px 10px rgba(47,107,255,.08); }
+  .card-head { display: flex; gap: 10px; padding: 10px 12px; cursor: pointer; align-items: center; }
+  .card-head > div:not(.logo) { flex: 1; min-width: 0; }
+  .card-head::after {
+    content: "›"; color: #b8c0cf; font-size: 20px; line-height: 1; transition: transform .2s; flex: none;
+  }
+  .card.open .card-head::after { transform: rotate(90deg); }
+  .logo {
+    width: 40px; height: 40px; border-radius: 50%; flex: none; display: flex; align-items: center; justify-content: center;
+    color: #fff; font-size: 13px; font-weight: 600; letter-spacing: 1px;
+  }
+  .name { font-size: 15px; font-weight: 600; line-height: 1.35; }
+  .meta { font-size: 12px; color: var(--sub); margin-top: 3px; }
+  .meta .tag { display: inline-block; font-size: 11px; color: #c77800; background: #fff4e0; border-radius: 3px; padding: 0 4px; margin-left: 4px; }
+  .stats { display: flex; background: #f4f7fd; cursor: pointer; }
+  .stats div { flex: 1; text-align: center; padding: 6px 2px; }
+  .stats div + div { border-left: 1px solid #e3e9f5; }
+  .stats b { display: block; color: var(--blue); font-size: 16px; line-height: 1.4; }
+  .stats span { font-size: 12px; color: #5b6477; }
+  .detail { display: none; padding: 10px 12px 12px; font-size: 13px; color: #4a5468; border-top: 1px dashed var(--line); line-height: 1.7; }
+  .card.open .detail { display: block; }
+  .detail table { width: 100%; border-collapse: collapse; margin: 4px 0 8px; }
+  .detail td, .detail th { border-bottom: 1px solid var(--line); padding: 4px 2px; text-align: left; font-weight: 400; }
+  .detail th { color: var(--sub); }
+  .detail a { color: var(--blue); word-break: break-all; }
+
+  .empty { text-align: center; color: var(--sub); padding: 40px 0; font-size: 14px; }
+  footer { font-size: 12px; color: var(--sub); line-height: 1.7; padding: 8px 4px; }
+  footer a { color: var(--blue); }
+
+  .nav { display: flex; gap: 6px; justify-content: center; margin-bottom: 10px; flex-wrap: wrap; }
+  .nav button {
+    border: 0; background: rgba(255,255,255,.2); color: #fff; border-radius: 999px; padding: 6px 14px; font-size: 13px; cursor: pointer;
+  }
+  .nav button.active { background: #fff; color: var(--blue); font-weight: 600; }
+  .view[hidden] { display: none; }
+
+  .std-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; table-layout: fixed; }
+  .std-table th, .std-table td { border: 1px solid var(--line); padding: 6px 2px; text-align: center; word-break: break-all; }
+  .std-table tr > :first-child { width: 28%; }
+  .std-table th { background: #f4f7fd; color: #4a5468; font-weight: 600; }
+  .std-table td b { color: var(--blue); }
+  .note { font-size: 12px; color: var(--sub); line-height: 1.6; margin-top: 8px; }
+  .note a { color: var(--blue); }
+  .panel h2 { font-size: 15px; }
+  .fee-card .stats b { font-size: 15px; }
+  .fee-card .stats b.na { color: var(--sub); font-weight: 400; font-size: 13px; }
+  .basis { display: inline-block; font-size: 11px; border-radius: 3px; padding: 0 4px; margin-left: 4px; }
+  .basis.official { color: #1f7a4d; background: #e3f6ec; }
+  .basis.derived { color: #2f6bff; background: var(--blue-light); }
+  .basis.raw { color: #c77800; background: #fff4e0; }
+  .fee-link { color: var(--blue); cursor: pointer; text-decoration: underline; }
+  .score-note { font-size: 12px; color: #4a5468; line-height: 1.6; background: #f7f9fc; border-radius: 8px; padding: 8px 10px; margin-bottom: 10px; }
+  .score-note a { color: var(--blue); }
+  .img-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .img-links a { font-size: 12px; color: var(--blue); background: var(--blue-light); border-radius: 4px; padding: 2px 8px; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="app fixed">
+  <header><span id="viewTitle">自主招生</span><button class="rule-btn" id="openRules">规则说明</button></header>
+  <nav class="nav" id="nav">
+    <button data-view="zzzs" class="active">自主招生</button>
+    <button data-view="scores">录取分数线</button>
+    <button data-view="fee">收费标准</button>
+  </nav>
+
+  <div class="view" id="view-zzzs">
+  <div class="panel">
+    <div class="seg" id="categorySeg">
+      <button data-v="一类" class="active">一类自主招生</button>
+      <button data-v="二类">二类自主招生</button>
+    </div>
+    <div class="tabs" id="trackTabs"></div>
+    <div class="chips" id="subjectChips"></div>
+    <div class="filters">
+      <select id="ownership">
+        <option value="">公办+民办</option>
+        <option value="公办">公办</option>
+        <option value="民办">民办</option>
+      </select>
+      <select id="district"><option value="">全部区域</option></select>
+      <input id="myScore" type="number" inputmode="numeric" placeholder="我的中考分">
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="summary" id="summary"></div>
+    <div class="main">
+      <div class="side" id="side"></div>
+      <div class="list">
+        <div class="search">
+          <span>🔍</span>
+          <input id="keyword" placeholder="输入学校名称搜索">
+        </div>
+        <div id="list" class="scroll-area"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="view" id="view-scores" hidden>
+    <div class="panel">
+      <div class="seg" id="scoreBatch">
+        <button data-v="mee" class="active">名额分配</button>
+        <button data-v="batch1">第一批</button>
+        <button data-v="batch2">第二批</button>
+        <button data-v="second">二次划线</button>
+        <button data-v="batch3">第三批</button>
+      </div>
+      <div class="score-note" id="scoreNote"></div>
+      <div class="filters" id="scoreFilters">
+        <select id="scoreType"></select>
+        <select id="scoreCategory">
+          <option value="">全部类别</option>
+          <option value="AC">AC类</option>
+          <option value="D">D类</option>
+          <option value="ACD">ACD类</option>
+        </select>
+        <select id="scoreDistrict"><option value="">全部区域</option></select>
+        <input id="scoreMy" type="number" inputmode="numeric" placeholder="我的中考分">
+      </div>
+    </div>
+    <div class="panel" id="scorePanel">
+      <div class="summary" id="scoreSummary"></div>
+      <div class="search">
+        <span>🔍</span>
+        <input id="scoreKeyword" placeholder="输入学校名称搜索">
+      </div>
+      <div id="scoreList"></div>
+    </div>
+  </div>
+
+  <div class="view" id="view-fee" hidden>
+    <div class="panel">
+      <h2>公办普通高中收费标准（政府定价）</h2>
+      <div id="feeStandard"></div>
+    </div>
+    <div class="panel">
+      <div class="seg" id="feeOwnership">
+        <button data-v="" class="active">全部</button>
+        <button data-v="公办">公办</button>
+        <button data-v="民办">民办</button>
+      </div>
+      <div class="filters">
+        <select id="feeType"></select>
+        <select id="feeDistrict"><option value="">全部区域</option></select>
+        <select id="feeSort">
+          <option value="tuition-asc">学费从低到高</option>
+          <option value="tuition-desc">学费从高到低</option>
+          <option value="name">按名称</option>
+        </select>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="summary" id="feeSummary"></div>
+      <div class="search">
+        <span>🔍</span>
+        <input id="feeKeyword" placeholder="输入学校名称搜索">
+      </div>
+      <div id="feeList"></div>
+    </div>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<div class="rules-mask" id="rulesMask">
+  <div class="rules" role="dialog" aria-modal="true" aria-labelledby="rulesTitle">
+    <div class="rules-head">
+      <span id="rulesTitle">名称与规则说明</span>
+      <button id="closeRules" aria-label="关闭">×</button>
+    </div>
+    <div class="rules-body" id="rulesBody"></div>
+  </div>
+</div>
+
+<script src="data/zzzs-data.js"></script>
+<script src="data/scores-data.js"></script>
+<script>
+(function () {
+  const DATA = window.ZZZS_DATA;
+  if (!DATA) {
+    document.getElementById('list').innerHTML =
+      '<div class="empty">未找到数据，请先运行 <code>python scripts/fetch_data.py</code></div>';
+    return;
+  }
+
+  const TRACKS = ['全部', '理工科技', '人文社科'];
+  const SUBJECTS = {
+    '全部': ['全部'],
+    '理工科技': ['全部', '数学', '物理', '化学', '生物', '信息', '科创', '综合'],
+    '人文社科': ['全部', '语文', '英语', '小语种', '人文综合'],
+  };
+  // (lo, hi]：控制线落在区间内
+  const SEGMENTS = {
+    '一类': [['530分以上', 530, Infinity], ['510-530', 510, 530], ['490-510', 490, 510], ['470-490', 470, 490],
+             ['450-470', 450, 470], ['430-450', 430, 450], ['430以下', -Infinity, 430]],
+    '二类': [['450分以上', 450, Infinity], ['420-450', 420, 450], ['390-420', 390, 420], ['360-390', 360, 390],
+             ['330-360', 330, 360], ['300-330', 300, 330], ['300以下', -Infinity, 300]],
+  };
+  const COLORS = ['#2f6bff', '#13a8a8', '#e0663b', '#7a5af8', '#1f9d55', '#c2410c', '#0e7490', '#be185d'];
+
+  const state = { category: '一类', track: '全部', subject: '全部', segment: null, ownership: '', district: '', keyword: '', myScore: null };
+  const $ = (id) => document.getElementById(id);
+
+  const districts = [...new Set(DATA.schools.map(s => s.district).filter(Boolean))].sort();
+  $('district').insertAdjacentHTML('beforeend', districts.map(d => `<option>${d}</option>`).join(''));
+
+  function trackPlan(s, track) {
+    return s.projects.filter(p => p.track === track).reduce((n, p) => n + p.plan, 0);
+  }
+
+  function displayPlan(s) {
+    if (state.category !== '一类' || !s.projects.length) return s.plan || 0;
+    const ps = s.projects.filter(p =>
+      (state.track === '全部' || p.track === state.track) &&
+      (state.subject === '全部' || p.subject === state.subject));
+    return ps.reduce((n, p) => n + p.plan, 0);
+  }
+
+  function filtered() {
+    const seg = state.segment && SEGMENTS[state.category].find(x => x[0] === state.segment);
+    const kw = state.keyword.trim();
+    return DATA.schools.filter(s => {
+      if (s.category !== state.category) return false;
+      if (state.ownership && s.ownership !== state.ownership) return false;
+      if (state.district && s.district !== state.district) return false;
+      if (kw && !s.name.includes(kw)) return false;
+      const scores = s.scores.map(x => x.score);
+      if (seg && !scores.some(v => v > seg[1] && v <= seg[2])) return false;
+      if (state.myScore != null && !scores.some(v => v <= state.myScore)) return false;
+      if (state.category === '一类' && (state.track !== '全部' || state.subject !== '全部')) {
+        // 选择具体学科时，只保留有项目明细且命中的学校；仅选大类时，无明细的学校也保留
+        if (!s.projects.length) return state.subject === '全部';
+        return displayPlan(s) > 0;
+      }
+      return true;
+    }).sort((a, b) => Math.max(...b.scores.map(x => x.score), 0) - Math.max(...a.scores.map(x => x.score), 0));
+  }
+
+  function linkify(text) {
+    if (!text) return '—';
+    const m = text.match(/(https?:\/\/\S+|www\.\S+|[\w-]+\.[\w.-]+\.(?:cn|com|net)\S*)/);
+    if (!m) return escapeHtml(text);
+    const url = m[0].startsWith('http') ? m[0] : 'http://' + m[0];
+    return escapeHtml(text.slice(0, m.index)) + `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(m[0])}</a>`;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function shortName(name) {
+    const base = name.replace(/[（(].*?[)）]/g, '');
+    const stripped = base.replace(/^深圳市?/, '');
+    return (stripped.length >= 4 ? stripped : base).slice(0, 2);
+  }
+
+  function scoreLabel(s) {
+    if (s.scores.length <= 1) return s.scores[0] ? String(s.scores[0].score) : s.scoreText || '—';
+    return s.scores.map(x => (x.label ? x.label.slice(0, 2) : '') + x.score).join(' / ');
+  }
+
+  function cardHtml(s, i) {
+    const color = COLORS[[...s.name].reduce((n, c) => n + c.charCodeAt(0), 0) % COLORS.length];
+    let stats;
+    if (s.category === '一类' && s.projects.length) {
+      stats = `<div><b>${trackPlan(s, '理工科技')}</b><span>理工科技</span></div>
+               <div><b>${trackPlan(s, '人文社科')}</b><span>人文社科</span></div>`;
+    } else {
+      stats = `<div><b>${s.plan ?? '—'}</b><span>计划数</span></div>`;
+    }
+    stats += `<div><b>${escapeHtml(scoreLabel(s))}</b><span>控制分</span></div>`;
+
+    const projects = s.projects.length
+      ? `<table><tr><th>类型</th><th>项目</th><th>计划</th></tr>${s.projects.map(p =>
+          `<tr><td>${escapeHtml(p.track)}</td><td>${escapeHtml(p.name)}</td><td>${p.plan}</td></tr>`).join('')}</table>`
+      : (s.category === '一类' ? '<div>官方汇总表未细分项目，具体项目与人数见学校简章。</div>' : '');
+
+    return `<div class="card" data-i="${i}">
+      <div class="card-head">
+        <div class="logo" style="background:${color}">${escapeHtml(shortName(s.name))}</div>
+        <div>
+          <div class="name">${escapeHtml(s.name)}</div>
+          <div class="meta">${s.ownership}${s.district ? ' | ' + s.district : ''}${
+            s.category === '一类' && !s.projects.length ? '<span class="tag">项目未细分</span>' : ''}</div>
+        </div>
+      </div>
+      <div class="stats">${stats}</div>
+      <div class="detail">
+        ${projects}
+        <div>中考成绩控制线：${escapeHtml(s.scoreText || '—')}</div>
+        <div>招生范围：${escapeHtml(s.scope || '—')}</div>
+        <div>招生简章：${linkify(s.brochure)}</div>
+        ${profileOf(s) ? `<div>收费：${escapeHtml(feeBrief(profileOf(s).fee))}
+          <span class="fee-link" data-fee="${escapeHtml(profileOf(s).name)}">查看收费标准</span></div>` : ''}
+      </div>
+    </div>`;
+  }
+
+  function profileOf(s) {
+    return s.profileIndex != null && DATA.profiles ? DATA.profiles[s.profileIndex] : null;
+  }
+
+  function feeBrief(fee) {
+    if (fee.tuition == null) return '见公示原文';
+    return `学费 ${fee.tuition.toLocaleString()} 元/学期` + (fee.boarding != null ? `，住宿费 ${fee.boarding.toLocaleString()} 元/学期` : '');
+  }
+
+  function renderControls() {
+    document.querySelectorAll('#categorySeg button').forEach(b => b.classList.toggle('active', b.dataset.v === state.category));
+
+    const isOne = state.category === '一类';
+    $('trackTabs').style.display = isOne ? '' : 'none';
+    $('subjectChips').style.display = isOne && state.track !== '全部' ? '' : 'none';
+    $('trackTabs').innerHTML = TRACKS.map(t =>
+      `<button data-v="${t}" class="${t === state.track ? 'active' : ''}">${t}</button>`).join('');
+    $('subjectChips').innerHTML = SUBJECTS[state.track].map(t =>
+      `<button class="chip ${t === state.subject ? 'active' : ''}" data-v="${t}">${t}</button>`).join('');
+
+    $('side').innerHTML = `<div class="title">${DATA.year}年<small>控制线分段</small></div>
+      <button data-v="" class="${state.segment ? '' : 'active'}">重置</button>` +
+      SEGMENTS[state.category].map(([label]) =>
+        `<button data-v="${label}" class="${label === state.segment ? 'active' : ''}">${label}</button>`).join('');
+  }
+
+  function renderList() {
+    const items = filtered();
+    const total = items.reduce((n, s) => n + displayPlan(s), 0);
+    $('summary').innerHTML = `👤 共<b>${items.length}</b>所高中，共<b>${total}</b>个自招名额`;
+    $('list').innerHTML = (items.length ? items.map(cardHtml).join('') : '<div class="empty">没有符合条件的学校</div>') +
+      `<footer>${$('footer').innerHTML}</footer>`;
+    $('list').scrollTop = 0;
+  }
+
+  function render() { renderControls(); renderList(); }
+
+  $('categorySeg').addEventListener('click', e => {
+    const v = e.target.closest('button')?.dataset.v;
+    if (!v || v === state.category) return;
+    Object.assign(state, { category: v, track: '全部', subject: '全部', segment: null });
+    render();
+  });
+  $('trackTabs').addEventListener('click', e => {
+    const v = e.target.closest('button')?.dataset.v;
+    if (!v) return;
+    Object.assign(state, { track: v, subject: '全部' });
+    render();
+  });
+  $('subjectChips').addEventListener('click', e => {
+    const v = e.target.closest('button')?.dataset.v;
+    if (!v) return;
+    state.subject = v;
+    render();
+  });
+  $('side').addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    state.segment = b.dataset.v || null;
+    render();
+  });
+  $('ownership').addEventListener('change', e => { state.ownership = e.target.value; renderList(); });
+  $('district').addEventListener('change', e => { state.district = e.target.value; renderList(); });
+  $('keyword').addEventListener('input', e => { state.keyword = e.target.value; renderList(); });
+  $('myScore').addEventListener('input', e => {
+    const v = parseInt(e.target.value, 10);
+    state.myScore = Number.isFinite(v) ? v : null;
+    renderList();
+  });
+  $('list').addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    const feeLink = e.target.closest('.fee-link');
+    if (feeLink) {
+      Object.assign(fee, { ownership: '', type: '', district: '', keyword: feeLink.dataset.fee });
+      $('feeKeyword').value = fee.keyword;
+      switchView('fee');
+      return;
+    }
+    e.target.closest('.card-head, .stats')?.parentElement.classList.toggle('open');
+  });
+
+  // ---------- 收费标准 ----------
+  const PROFILES = DATA.profiles || [];
+  const fee = { ownership: '', type: '普高', district: '', keyword: '', sort: 'tuition-asc' };
+  const yuan = (v) => v == null ? null : v.toLocaleString();
+
+  function switchView(view) {
+    document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+    $('view-zzzs').hidden = view !== 'zzzs';
+    $('view-fee').hidden = view !== 'fee';
+    $('view-scores').hidden = view !== 'scores';
+    document.querySelector('.app').classList.toggle('fixed', view === 'zzzs');
+    $('viewTitle').textContent = view === 'fee' ? '收费标准' : view === 'scores' ? '录取分数线' : '自主招生';
+    if (view === 'fee') renderFee();
+    if (view === 'scores') renderScores();
+    const hash = view === 'fee' ? '#fee' : view === 'scores' ? '#scores' : '';
+    history.replaceState(null, '', hash || (location.pathname + location.search));
+    window.scrollTo(0, 0);
+  }
+
+  function renderFeeStandard() {
+    const std = DATA.publicFeeStandard;
+    if (!std) return;
+    $('feeStandard').innerHTML = `<table class="std-table">
+        <tr><th>学校等级</th>${Object.keys(std.tuition).map(k => `<th>${escapeHtml(k.replace('学校', ''))}</th>`).join('')}</tr>
+        <tr><td>学费（元/学期）</td>${Object.values(std.tuition).map(v => `<td><b>${yuan(v)}</b></td>`).join('')}</tr>
+      </table>
+      <div class="note">住宿费 ${yuan(std.boarding)} 元/学期。伙食费、校车费等服务性收费和代收费，由学校按非营利、学生自愿原则据实收取。
+        来源：<a href="${escapeHtml(std.source)}" target="_blank" rel="noopener">深圳市发展和改革委员会</a></div>`;
+  }
+
+  function filteredFees() {
+    const kw = fee.keyword.trim();
+    const list = PROFILES.filter(p =>
+      (!fee.ownership || p.ownership === fee.ownership) &&
+      (!fee.type || p.type === fee.type) &&
+      (!fee.district || p.district === fee.district) &&
+      (!kw || p.name.includes(kw)));
+    const t = (p) => p.fee.tuition;
+    if (fee.sort === 'name') return list.sort((a, b) => a.name.localeCompare(b.name, 'zh'));
+    const dir = fee.sort === 'tuition-desc' ? -1 : 1;
+    return list.sort((a, b) => (t(a) == null) - (t(b) == null) || dir * (t(a) - t(b)) || a.name.localeCompare(b.name, 'zh'));
+  }
+
+  function basisTag(f) {
+    if (f.tuition == null) return '<span class="basis raw">见公示原文</span>';
+    if (f.basis.startsWith('按市发改委')) return `<span class="basis derived">${escapeHtml(f.basis)}</span>`;
+    return '<span class="basis official">学校公示</span>';
+  }
+
+  function feeCardHtml(p) {
+    const f = p.fee;
+    const stat = (v, label) => `<div><b class="${v == null ? 'na' : ''}">${v == null ? '—' : yuan(v)}</b><span>${label}</span></div>`;
+    const meta = [p.ownership, p.district, p.rank && p.rank !== '无' ? p.rank : '', p.boardingMode].filter(Boolean).join(' | ');
+    return `<div class="card fee-card">
+      <div class="card-head">
+        <div>
+          <div class="name">${escapeHtml(p.name)}</div>
+          <div class="meta">${escapeHtml(meta)}${basisTag(f)}</div>
+        </div>
+      </div>
+      <div class="stats">${stat(f.tuition, '学费/学期')}${stat(f.boarding, '住宿费/学期')}${stat(f.meals, '伙食费/学期')}</div>
+      <div class="detail">
+        <div>公示收费标准：${escapeHtml(f.text || '—')}</div>
+        ${f.tuition != null ? `<div>三年学费合计约：${yuan(f.tuition * 6)} 元${f.boarding != null ? `；含住宿约：${yuan((f.tuition + f.boarding) * 6)} 元` : ''}</div>` : ''}
+        <div>地址：${escapeHtml(p.address || '—')}</div>
+        <div>电话：${escapeHtml(p.phone || '—')}</div>
+        <div>官网：${linkify(p.website)}</div>
+        <div>学校介绍：<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">深圳招考网</a></div>
+      </div>
+    </div>`;
+  }
+
+  function renderFee() {
+    document.querySelectorAll('#feeOwnership button').forEach(b => b.classList.toggle('active', b.dataset.v === fee.ownership));
+    $('feeType').value = fee.type;
+    $('feeDistrict').value = fee.district;
+    const items = filteredFees();
+    const priced = items.filter(p => p.fee.tuition != null).map(p => p.fee.tuition);
+    const range = priced.length ? `，学费 <b>${yuan(Math.min(...priced))}</b>～<b>${yuan(Math.max(...priced))}</b> 元/学期` : '';
+    $('feeSummary').innerHTML = `共<b>${items.length}</b>所学校${range}`;
+    $('feeList').innerHTML = items.length ? items.map(feeCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>';
+  }
+
+  const types = [...new Set(PROFILES.map(p => p.type).filter(Boolean))];
+  $('feeType').innerHTML = '<option value="">全部类型</option>' +
+    types.map(t => `<option ${t === fee.type ? 'selected' : ''}>${escapeHtml(t)}</option>`).join('');
+  $('feeDistrict').insertAdjacentHTML('beforeend',
+    [...new Set(PROFILES.map(p => p.district).filter(Boolean))].sort().map(d => `<option>${escapeHtml(d)}</option>`).join(''));
+
+  $('nav').addEventListener('click', e => {
+    const v = e.target.closest('button')?.dataset.view;
+    if (v) switchView(v);
+  });
+  $('feeOwnership').addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    fee.ownership = b.dataset.v;
+    renderFee();
+  });
+  $('feeType').addEventListener('change', e => { fee.type = e.target.value; renderFee(); });
+  $('feeDistrict').addEventListener('change', e => { fee.district = e.target.value; renderFee(); });
+  $('feeSort').addEventListener('change', e => { fee.sort = e.target.value; renderFee(); });
+  $('feeKeyword').addEventListener('input', e => { fee.keyword = e.target.value; renderFee(); });
+  $('feeList').addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    e.target.closest('.card-head, .stats')?.parentElement.classList.toggle('open');
+  });
+  renderFeeStandard();
+
+  // ---------- 录取分数线 ----------
+  const SCORES = window.SCORES_DATA;
+  const scoreState = { batch: 'mee', type: '', category: '', district: '', keyword: '', myScore: null };
+  const BATCH_NAME = { mee: '名额分配', batch1: '第一批', batch2: '第二批', second: '二次划线', batch3: '第三批' };
+
+  function scoreItems() {
+    if (!SCORES) return [];
+    return (SCORES.schools || []).filter(s => s.batch === scoreState.batch);
+  }
+
+  function filteredScores() {
+    const kw = scoreState.keyword.trim();
+    return scoreItems().filter(s => {
+      if (scoreState.type && s.type !== scoreState.type) return false;
+      if (scoreState.district && s.district !== scoreState.district) return false;
+      if (kw && !s.name.includes(kw) && !(s.rawName || '').includes(kw)) return false;
+      if (scoreState.category) {
+        const hitCat = (s.category && s.category === scoreState.category) ||
+          s.scores.some(x => x.label.includes(scoreState.category));
+        if (!hitCat) return false;
+      }
+      if (scoreState.myScore != null) {
+        const vals = s.scores.map(x => x.score);
+        if (!vals.some(v => v <= scoreState.myScore)) return false;
+        if (scoreState.category) {
+          const focused = s.scores.filter(x => x.label.includes(scoreState.category)).map(x => x.score);
+          if (focused.length && !focused.some(v => v <= scoreState.myScore)) return false;
+        }
+      }
+      return true;
+    }).sort((a, b) => {
+      const sa = Math.max(...a.scores.map(x => x.score), 0);
+      const sb = Math.max(...b.scores.map(x => x.score), 0);
+      return sb - sa || a.name.localeCompare(b.name, 'zh');
+    });
+  }
+
+  function scoreCardHtml(s) {
+    const stats = s.scores.map(x =>
+      `<div><b>${x.score}</b><span>${escapeHtml(x.label)}</span></div>`).join('');
+    const meta = [s.ownership, s.type, s.district, s.category && (s.category + '类'), s.scoreKind]
+      .filter(Boolean).join(' | ');
+    return `<div class="card fee-card">
+      <div class="card-head"><div>
+        <div class="name">${escapeHtml(s.name)}</div>
+        <div class="meta">${escapeHtml(meta)}${s.plan != null ? ` | 计划 ${s.plan}` : ''}</div>
+      </div></div>
+      <div class="stats">${stats}</div>
+      <div class="detail">
+        ${s.rawName && s.rawName !== s.name ? `<div>原始名称：${escapeHtml(s.rawName)}</div>` : ''}
+        ${s.boardingMode ? `<div>住宿：${escapeHtml(s.boardingMode)}</div>` : ''}
+        ${s.code ? `<div>学校代码：${escapeHtml(s.code)}</div>` : ''}
+        <div>分数类型：${escapeHtml(s.scoreKind || '—')}（${escapeHtml(BATCH_NAME[s.batch] || s.batch)}）</div>
+      </div>
+    </div>`;
+  }
+
+  function renderScoreNote() {
+    if (!SCORES) {
+      $('scoreNote').innerHTML = '未找到分数线数据，请先运行 <code>python scripts/fetch_scores.py</code>';
+      return;
+    }
+    if (scoreState.batch === 'batch3') {
+      const n = SCORES.batch3Note || SCORES.sources.batch3;
+      $('scoreNote').innerHTML = `${escapeHtml(n.note)} 查询入口：<a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">深圳招考网</a>`;
+      return;
+    }
+    const src = SCORES.sources[scoreState.batch];
+    const imgs = (SCORES.images && SCORES.images[scoreState.batch]) || [];
+    let extra = '';
+    if (scoreState.batch === 'second') {
+      extra = `<div>本页列表为<strong>资格线</strong>（填报门槛）。实际录取分数线 ≥ 资格线，详见官方公告图片。</div>`;
+      if (src.planUrl) extra += `<div>计划原文：<a href="${escapeHtml(src.planUrl)}" target="_blank" rel="noopener">第二次划线录取计划 PDF</a></div>`;
+    }
+    const imgHtml = imgs.length
+      ? `<div class="img-links">官方分数线原图：${imgs.map((im, i) =>
+          `<a href="${escapeHtml(im.url)}" target="_blank" rel="noopener">图${i + 1}</a>`).join('')}</div>`
+      : '';
+    $('scoreNote').innerHTML = `<div>${escapeHtml(src.note)}</div>
+      <div>来源：<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.title)}</a></div>
+      ${extra}${imgHtml}`;
+  }
+
+  function refreshScoreFilters() {
+    const items = scoreItems();
+    const types = [...new Set(items.map(s => s.type).filter(Boolean))];
+    const districts = [...new Set(items.map(s => s.district).filter(Boolean))].sort();
+    if (!types.includes(scoreState.type)) scoreState.type = '';
+    if (!districts.includes(scoreState.district)) scoreState.district = '';
+    $('scoreType').innerHTML = '<option value="">全部类型</option>' +
+      types.map(t => `<option ${t === scoreState.type ? 'selected' : ''}>${escapeHtml(t)}</option>`).join('');
+    $('scoreDistrict').innerHTML = '<option value="">全部区域</option>' +
+      districts.map(d => `<option ${d === scoreState.district ? 'selected' : ''}>${escapeHtml(d)}</option>`).join('');
+    $('scoreCategory').value = scoreState.category;
+  }
+
+  function renderScores() {
+    document.querySelectorAll('#scoreBatch button').forEach(b => b.classList.toggle('active', b.dataset.v === scoreState.batch));
+    renderScoreNote();
+    const isBatch3 = scoreState.batch === 'batch3';
+    $('scoreFilters').style.display = isBatch3 ? 'none' : '';
+    $('scorePanel').style.display = isBatch3 ? 'none' : '';
+    if (isBatch3) return;
+    if (!SCORES) {
+      $('scoreList').innerHTML = '<div class="empty">没有分数线数据</div>';
+      return;
+    }
+    refreshScoreFilters();
+    const items = filteredScores();
+    const vals = items.flatMap(s => s.scores.map(x => x.score));
+    const range = vals.length ? `，分数 <b>${Math.min(...vals)}</b>～<b>${Math.max(...vals)}</b>` : '';
+    const kind = items[0]?.scoreKind || '分数';
+    $('scoreSummary').innerHTML = `共<b>${items.length}</b>所学校${range}（${escapeHtml(kind)}）`;
+    $('scoreList').innerHTML = items.length ? items.map(scoreCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>';
+  }
+
+  $('scoreBatch').addEventListener('click', e => {
+    const v = e.target.closest('button')?.dataset.v;
+    if (!v) return;
+    scoreState.batch = v;
+    scoreState.keyword = '';
+    $('scoreKeyword').value = '';
+    renderScores();
+  });
+  $('scoreType').addEventListener('change', e => { scoreState.type = e.target.value; renderScores(); });
+  $('scoreCategory').addEventListener('change', e => { scoreState.category = e.target.value; renderScores(); });
+  $('scoreDistrict').addEventListener('change', e => { scoreState.district = e.target.value; renderScores(); });
+  $('scoreKeyword').addEventListener('input', e => { scoreState.keyword = e.target.value; renderScores(); });
+  $('scoreMy').addEventListener('input', e => {
+    const v = parseInt(e.target.value, 10);
+    scoreState.myScore = Number.isFinite(v) ? v : null;
+    renderScores();
+  });
+  $('scoreList').addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    e.target.closest('.card-head, .stats')?.parentElement.classList.toggle('open');
+  });
+
+  const src = DATA.source;
+  $('footer').innerHTML = `数据来源：<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.title)}</a>
+    （${escapeHtml(src.publishedAt || '')}）附件：${src.attachments.map(a =>
+      `<a href="${escapeHtml(a.url)}" target="_blank" rel="noopener">${escapeHtml(a.name)}</a>`).join('、')}。<br>
+    ${DATA.profileSource ? `区域与收费：<a href="${escapeHtml(DATA.profileSource.url)}" target="_blank" rel="noopener">深圳招考网·${escapeHtml(DATA.profileSource.title)}</a>（各校公示）。<br>` : ''}
+    ${SCORES ? `录取分数线抓取时间：${escapeHtml(SCORES.fetchedAt)}。<br>` : ''}
+    数据抓取时间：${escapeHtml(DATA.fetchedAt)}。自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费金额由公示文本自动提取，实际以学校公示原文为准。`;
+
+  render();
+  if (location.hash === '#fee') switchView('fee');
+  else if (location.hash === '#scores') switchView('scores');
+})();
+</script>
+<script>
+(function () {
+  const RULES = [
+    {
+      title: '页面中的名称',
+      items: [
+        ['一类自主招生', '面向在理工科技、人文社科方面有特长的考生。公办一类和民办自主招生统一在“深圳市普通高中学校自主招生管理平台”网上报名。'],
+        ['二类自主招生', '面向在艺术、体育方面有专长的考生。公办二类须到招生学校现场报名，按《公办普通高中学校二类自主招生工作方案》执行。'],
+        ['理工科技 / 人文社科', '一类自主招生的两大类型，每类再细分为数学、物理、化学、生物、科创、信息技术、中文、英语、历史等具体项目，由各校在简章中自行设置。'],
+        ['计划数', '学校该类自主招生的总招生人数，来自市教育局公布的招生计划汇总表。'],
+        ['控制分（中考成绩控制线）', '考生中考成绩不得低于此分数才能参与该校自主招生录取排序。注意：该控制线只用于自主招生批次，与学校第一批录取分数线无关，不能作为填报第一批志愿的参考。'],
+        ['体育 / 艺术分开的控制分', '部分学校二类自主招生按体育、艺术分别设置控制线，如“体育426、艺术454”。'],
+        ['ACD类、D类不超过 N 人', '招生范围中的考生类别，按深圳市中考招生文件的考生分类执行；部分项目对 D 类考生人数设有上限，详见学校简章。'],
+        ['项目未细分', '官方汇总表只给出学校总计划数，本页面暂未收录该校各项目人数，具体以学校简章为准。'],
+        ['公办 / 民办', '公办学校来自附件1，民办学校来自附件2。'],
+      ],
+    },
+    {
+      title: '报名规则',
+      items: [
+        ['只能报 1 所学校的 1 个项目', '一类和二类不能兼报、公办和民办不能兼报、同一学校的不同项目不能兼报。'],
+        ['报名时间', '2026年6月12日—16日；6月17日—22日学校审核；6月23日公布入围考核名单。'],
+        ['考核时间', '一类项目考核统一在7月4日；二类专项考核在7月4日—5日，具体时段由学校通知。'],
+        ['费用', '自主招生报名和考核测试不收取任何费用。'],
+      ],
+    },
+    {
+      title: '录取规则',
+      items: [
+        ['合成总分', '中考成绩和学校项目考核成绩分别折算为百分制，按 中考60% + 项目考核40% 合成总分，由高到低录取。'],
+        ['同分排序', '合成总分相同时，先比项目考核成绩，再按中考“同分比较”原则排序。'],
+        ['入围比例', '公办学校按不低于项目计划 3 倍、不超过 5 倍的人数筛选入围考生；某项目报名人数不足计划 3 倍时，同比例缩减该项目计划。'],
+        ['综合素质评价', '报考省一级普通高中自主招生的考生，综合素质评价结果须为“达标”。'],
+        ['录取后', '被自主招生录取的考生不再参加名额分配及后续批次录取，不得转录其他学校。未完成的自招计划转为普通生计划。'],
+      ],
+    },
+    {
+      title: '控制线分段',
+      items: [
+        ['分段含义', '左侧分段按学校控制分筛选，区间为“下限（不含）～上限（含）”，例如 510-530 包含控制分 511～530 的学校。有多个控制分的学校，任一分数落在区间内即显示。'],
+        ['我的中考分', '输入分数后，只显示控制分不高于你分数的学校。达到控制线只代表有资格参与排序，不代表一定录取。'],
+      ],
+    },
+    {
+      title: '录取分数线（非自招）',
+      items: [
+        ['名额分配控制线', '填报名额分配志愿并参与该批次投档的最低资格线，按前三年同类录取线均值降 20 分划定；与当年第一批录取分数线无关。'],
+        ['第一批录取分数线', '普通高中统招（除自招、名额分配外）及部分中职/技工试点专业的实际投档录取线，通常分 AC/D、住宿/走读。'],
+        ['第二批录取分数线', '本市中职、技工院校（除第一批试点专业外）的实际录取线。'],
+        ['第二次划线资格线', '补录填报门槛，不是最终录取线；实际录取分数线 ≥ 资格线，以市教育局公告图片为准。'],
+        ['第三批', '部省属及跨市中职，由省考试院组织，请到深圳招考网 / 省考试院查询当期公告。'],
+      ],
+    },
+  ];
+
+  const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const src = window.ZZZS_DATA && window.ZZZS_DATA.source;
+
+  document.getElementById('rulesBody').innerHTML = RULES.map(sec =>
+    `<h3>${esc(sec.title)}</h3><dl>${sec.items.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`
+  ).join('') + `<div class="src">以上内容依据${src
+    ? `<a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title)}</a>（${esc(src.publishedAt || '')}）`
+    : '深圳市教育局自主招生通知'}整理，如有出入以官方文件和学校简章为准。</div>`;
+
+  const mask = document.getElementById('rulesMask');
+  const open = () => { mask.classList.add('show'); document.body.style.overflow = 'hidden'; };
+  const close = () => { mask.classList.remove('show'); document.body.style.overflow = ''; };
+  document.getElementById('openRules').addEventListener('click', open);
+  document.getElementById('closeRules').addEventListener('click', close);
+  mask.addEventListener('click', e => { if (e.target === mask) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  if (location.hash === '#rules') open();
+})();
+</script>
+</body>
+</html>
