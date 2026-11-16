@@ -24,10 +24,11 @@
   /* 自主招生视图：页面固定一屏，只有学校列表区域滚动 */
   .app.fixed { height: 100vh; height: 100dvh; display: flex; flex-direction: column; padding-bottom: 10px; }
   .app.fixed > footer { display: none; }
-  .app.fixed #view-zzzs,
-  .app.fixed #view-scores { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-  .app.fixed #view-zzzs > .panel:last-child,
-  .app.fixed #view-scores > .panel:last-child { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
+  .app.fixed #view-zzzs:not([hidden]),
+  .app.fixed #view-scores:not([hidden]) { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  .app.fixed #view-zzzs:not([hidden]) > .panel:last-child,
+  .app.fixed #view-scores:not([hidden]) > .panel:last-child { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
+  .view[hidden] { display: none !important; }
   .app.fixed .main { flex: 1; min-height: 0; align-items: stretch; }
   .app.fixed .side { position: static; overflow-y: auto; scrollbar-width: none; }
   .app.fixed .side::-webkit-scrollbar { display: none; }
@@ -171,7 +172,6 @@
     border: 0; background: rgba(255,255,255,.2); color: #fff; border-radius: 999px; padding: 6px 14px; font-size: 13px; cursor: pointer;
   }
   .nav button.active { background: #fff; color: var(--blue); font-weight: 600; }
-  .view[hidden] { display: none; }
 
   .std-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; table-layout: fixed; }
   .std-table th, .std-table td { border: 1px solid var(--line); padding: 6px 2px; text-align: center; word-break: break-all; }
