@@ -19,6 +19,7 @@ if (Test-Path $dist) { Remove-Item $dist -Recurse -Force }
 New-Item -ItemType Directory -Path (Join-Path $dist "data") | Out-Null
 Copy-Item (Join-Path $root "index.html") $dist
 Copy-Item (Join-Path $root "data\zzzs-data.js") (Join-Path $dist "data")
+Copy-Item (Join-Path $root "data\scores-data.js") (Join-Path $dist "data")
 # 数据文件不缓存，重新部署后打开即是最新数据
 Set-Content -Path (Join-Path $dist "_headers") -Encoding utf8 -Value "/data/*`n  Cache-Control: no-cache"
 
