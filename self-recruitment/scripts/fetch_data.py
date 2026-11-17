@@ -198,6 +198,32 @@ def strip_html(text: str) -> str:
     return re.sub(r"[；;\s]*$", "", re.sub(r"\s+", " ", text)).strip()
 
 
+def brief_intro(raw: str, limit: int = 160) -> str:
+    """从学校简介 HTML 抽出一句简略描述。纯图片简介没有可摘的文字，返回空字符串。"""
+    if not raw:
+        return ""
+    text = re.sub(r"<img\b[^>]*>", "", raw, flags=re.I)
+    text = strip_html(text).strip("；; \t")
+    parts = [p.strip("；; \t") for p in text.split("；") if p.strip("；; \t")]
+    if not parts:
+        return ""
+    # 第一段已经能读，就不再拼下一段；第一段只是口号时再补一段
+    text = parts[0]
+    if len(re.sub(r"\W", "", text, flags=re.U)) < 24 and len(parts) > 1:
+        text = text + "；" + parts[1]
+    text = re.sub(r"^(?:学校)?简介\s*[:：]\s*", "", text).strip()
+    if len(re.sub(r"\W", "", text, flags=re.U)) < 12:
+        return ""
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    for sep in ("。", "；", "，"):
+        pos = cut.rfind(sep)
+        if pos >= 40:
+            return cut[: pos + 1]
+    return cut.rstrip("；;，, ") + "…"
+
+
 def fetch_profiles(page_url: str):
     """调用学校介绍页使用的广东政务搜索 JSONP 接口，返回全部学校的基本信息。"""
     page = decode_html(http_get(page_url, {"User-Agent": BROWSER_UA}))
@@ -231,6 +257,8 @@ def fetch_profiles(page_url: str):
         rank = ext.get("xxdj") or ""
         fee_text = strip_html(ext.get("sfbz"))
         school_type = ext.get("xxlb") or ""
+        summary = brief_intro(ext.get("xxjs") or "") or brief_intro(ext.get("bxts") or "")
+        postal = ext.get("yzbm")
         profiles.append({
             "name": name,
             "ownership": ownership,
@@ -238,9 +266,11 @@ def fetch_profiles(page_url: str):
             "rank": rank,
             "district": ext.get("szq_string") or "、".join(ext.get("szq") or []),
             "address": strip_html(ext.get("xxdz")),
+            "postalCode": "" if postal is None else str(postal).strip(),
             "phone": ext.get("lxdh") or "",
             "boardingMode": ext.get("zsqk") or "",
             "website": ext.get("xxwz") or "",
+            "summary": summary,
             "url": r.get("url") or "",
             "fee": parse_fee(fee_text, ownership, rank, school_type),
         })

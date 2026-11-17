@@ -162,6 +162,8 @@
   .detail td, .detail th { border-bottom: 1px solid var(--line); padding: 4px 2px; text-align: left; font-weight: 400; }
   .detail th { color: var(--sub); }
   .detail a { color: var(--blue); word-break: break-all; }
+  .school-info { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
+  .school-summary { color: var(--text); margin-bottom: 4px; }
 
   .empty { text-align: center; color: var(--sub); padding: 40px 0; font-size: 14px; }
   footer { font-size: 12px; color: var(--sub); line-height: 1.7; padding: 8px 4px; }
@@ -646,6 +648,23 @@
       ' <span class="fee-link" data-fee="' + escapeHtml(profile.name) + '">查看收费标准</span></div>';
   }
 
+  function websiteHtml(website) {
+    const t = showText(website);
+    return t ? linkify(t) : '—';
+  }
+
+  function profileInfoHtml(p) {
+    if (!p) return '';
+    const rows = [];
+    if (showText(p.summary)) rows.push('<div class="school-summary">' + escapeHtml(p.summary) + '</div>');
+    rows.push('<div>地址：' + escapeHtml(showText(p.address) || '—') + '</div>');
+    if (showText(p.postalCode)) rows.push('<div>邮编：' + escapeHtml(String(p.postalCode).trim()) + '</div>');
+    rows.push('<div>电话：' + escapeHtml(showText(p.phone) || '—') + '</div>');
+    rows.push('<div>官网：' + websiteHtml(p.website) + '</div>');
+    if (p.url) rows.push('<div>学校介绍：<a href="' + escapeHtml(p.url) + '" target="_blank" rel="noopener">深圳招考网</a></div>');
+    return '<div class="school-info">' + rows.join('') + '</div>';
+  }
+
   function zzzsScoreText(r) {
     if (r.scoreText) return r.scoreText;
     if (!r.scores || !r.scores.length) return '';
@@ -873,6 +892,7 @@
         '<div>招生范围：' + escapeHtml(s.scope || '—') + '</div>' +
         '<div>招生简章：' + linkify(s.brochure) + '</div>' +
         feeDetailHtml(profile) +
+        profileInfoHtml(profile) +
       '</div></div>';
   }
 
@@ -990,6 +1010,7 @@
         '<div>' + escapeHtml(kindLabel) + '：' + escapeHtml(s.scores.map(x => (x.label ? x.label + ' ' : '') + x.score).join('、') || '—') + '</div>' +
         '<div>批次：' + escapeHtml(BATCH_NAME[s.batch] || s.batch) + '</div>' +
         feeDetailHtml(profile) +
+        profileInfoHtml(profile) +
       '</div></div>';
   }
 
@@ -1012,10 +1033,7 @@
       '<div class="detail">' +
         '<div>公示收费标准：' + escapeHtml(f.text || '—') + '</div>' +
         (f.tuition != null ? '<div>三年学费合计约：' + yuan(f.tuition * 6) + ' 元' + (f.boarding != null ? '；含住宿约：' + yuan((f.tuition + f.boarding) * 6) + ' 元' : '') + '</div>' : '') +
-        '<div>地址：' + escapeHtml(p.address || '—') + '</div>' +
-        '<div>电话：' + escapeHtml(p.phone || '—') + '</div>' +
-        '<div>官网：' + linkify(p.website) + '</div>' +
-        '<div>学校介绍：<a href="' + escapeHtml(p.url) + '" target="_blank" rel="noopener">深圳招考网</a></div>' +
+        profileInfoHtml(p) +
       '</div></div>';
   }
 
@@ -1298,6 +1316,8 @@
       row('学费', c => compareFeeCell(c.profile)) +
       row('住宿', c => compareBoardCell(c.profile)) +
       row('区域', c => compareDistrictCell(c.b, c.profile)) +
+      row('地址', c => showText(c.profile && c.profile.address) || '—') +
+      row('官网', c => showText(c.profile && c.profile.website) || '—') +
       row('项目', c => compareProjectCell(c.b)) +
       '</tbody></table></div>' : '';
     dock.innerHTML = sheet + '<div class="bar"><b>对比 ' + compareNames.length + '/3</b><span class="grow"></span>' +

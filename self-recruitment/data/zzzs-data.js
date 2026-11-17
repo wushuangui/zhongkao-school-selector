@@ -4497,7 +4497,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "中国科学院深圳理工大学附属实验高级中学（中科附高）",
@@ -4516,7 +4518,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "人大附中深圳学校",
@@ -4535,7 +4539,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518119",
+      "summary": ""
     },
     {
       "name": "光明中学",
@@ -4554,7 +4560,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "光明区高级中学",
@@ -4573,7 +4581,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518106",
+      "summary": ""
     },
     {
       "name": "北京大学附属中学深圳学校",
@@ -4592,7 +4602,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518049",
+      "summary": ""
     },
     {
       "name": "北京师范大学南山附属学校",
@@ -4611,7 +4623,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518068",
+      "summary": ""
     },
     {
       "name": "华中师范大学龙岗附属中学",
@@ -4630,7 +4644,9 @@ window.ZZZS_DATA = {
         "tuition": 1041,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518172",
+      "summary": ""
     },
     {
       "name": "华侨城高级中学",
@@ -4649,7 +4665,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "南头中学",
@@ -4668,7 +4686,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518052",
+      "summary": ""
     },
     {
       "name": "南山外国语学校（集团）高级中学",
@@ -4687,7 +4707,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "南方科技大学附属中学",
@@ -4706,7 +4728,9 @@ window.ZZZS_DATA = {
         "tuition": 1041,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "坪山高级中学",
@@ -4725,7 +4749,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "宝安第一外国语学校",
@@ -4744,7 +4770,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "布吉中学",
@@ -4763,7 +4791,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "平冈中学",
@@ -4782,7 +4812,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "平湖外国语学校",
@@ -4801,7 +4833,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518111",
+      "summary": ""
     },
     {
       "name": "广东实验中学深圳学校",
@@ -4820,7 +4854,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518129",
+      "summary": ""
     },
     {
       "name": "新安中学（集团）高中部",
@@ -4839,7 +4875,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518101",
+      "summary": ""
     },
     {
       "name": "松岗中学",
@@ -4858,7 +4896,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "横岗高级中学",
@@ -4877,7 +4917,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518115",
+      "summary": "2011年创办的深圳市龙岗区横岗高级中学，是龙岗区区属寄宿制公办普通高中、广东省一级学校。十余年来，学校扎根深圳东部，秉持“博爱横高 多元发展”办学理念，以“励志敦品 博学笃行”为校训，以创建深圳东部新特色高中为办学目标，凭借数智教学创新、多元育人体系与优质办学保障，为学子铺就全方位成才之路。"
     },
     {
       "name": "沙井中学",
@@ -4896,7 +4938,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518104",
+      "summary": "深圳市沙井中学创建于1956年，是深圳市最早的四所完全中学之一，1999年被评为宝安区一级学校，2007年被评为广东省高中教学水平优秀学校，2008年被评为广东省国家级示范性普通高中。"
     },
     {
       "name": "深圳中学",
@@ -4915,7 +4959,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518001",
+      "summary": ""
     },
     {
       "name": "深圳中学实验高中",
@@ -4934,7 +4980,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518200",
+      "summary": ""
     },
     {
       "name": "深圳中学数理高中",
@@ -4953,7 +5001,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518200",
+      "summary": ""
     },
     {
       "name": "深圳中学科技高中",
@@ -4972,7 +5022,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518200",
+      "summary": ""
     },
     {
       "name": "深圳北理莫斯科大学附属实验中学",
@@ -4991,7 +5043,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳启元中学",
@@ -5010,7 +5064,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518172",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校",
@@ -5029,7 +5085,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518083",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校博雅高中",
@@ -5048,7 +5106,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校弘知高中",
@@ -5067,7 +5127,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校理工高中",
@@ -5086,7 +5148,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校致远高中",
@@ -5105,7 +5169,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518106",
+      "summary": ""
     },
     {
       "name": "深圳外国语学校龙华高中部",
@@ -5124,7 +5190,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳大学附属中学中心校区（深大附中中心校区）",
@@ -5143,7 +5211,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518054",
+      "summary": ""
     },
     {
       "name": "深圳大学附属中学盐田校区（深大附中盐田校区）",
@@ -5162,7 +5232,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518054",
+      "summary": ""
     },
     {
       "name": "深圳大学附属实验中学",
@@ -5181,7 +5253,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": "深圳大学附属实验中学（深大实验）位于深圳市光明区，是一所由深圳市教育局直属，深圳大学管理的公办高中。学校占地3.5万平方米，以“光明磊落、博大精深”为校训，践行“共生共长，惟精惟实”理念，培养具人格魅力、家国情怀、国际视野、创新意识的未来人才。"
     },
     {
       "name": "深圳实验学校明理高中、深圳实验学校崇文高中、 深圳实验学校卓越高中、深圳实验学校至臻高中",
@@ -5200,7 +5274,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳实验学校（光明高中部）",
@@ -5219,7 +5295,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳实验学校（高中部）",
@@ -5238,7 +5316,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518055",
+      "summary": ""
     },
     {
       "name": "深圳市光明区中等职业技术学校",
@@ -5257,7 +5337,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": "光明区职教明珠，湾区产业人才摇篮；深圳市光明区中等职业技术学校，是光明区重点打造的公办中等职业技术学校，于2024年正式成立。学校坐落于光明区光明街道迳口路899号，承载着推动区域职业教育高质量发展、赋能产业升级的重要使命。"
     },
     {
       "name": "深圳市博伦职业技术学校",
@@ -5276,7 +5358,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518052",
+      "summary": ""
     },
     {
       "name": "深圳市宝安职业技术学校",
@@ -5295,7 +5379,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518128",
+      "summary": ""
     },
     {
       "name": "深圳市开放职业技术学校",
@@ -5314,7 +5400,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市新鹏职业高级中学",
@@ -5333,7 +5421,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳市沙井职业高级中学",
@@ -5352,7 +5442,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518104",
+      "summary": ""
     },
     {
       "name": "深圳市燕川中学",
@@ -5371,7 +5463,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518127",
+      "summary": ""
     },
     {
       "name": "深圳市盐港中学（综合高中班）",
@@ -5390,7 +5484,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518083",
+      "summary": "深圳市盐港中学是一所以体艺特色为品牌的公办综合高中，是深圳市职普融通综合高中试点学校。作为职普融通典范学校，学校以“融通世界，能创未来”为办学理念，首创“职普双轨并行、体艺特色领航”的育人模式，培养有志气、能笃行，有正气、能致远，有朝气、能创新的未来人才。"
     },
     {
       "name": "深圳市福海中学",
@@ -5409,7 +5505,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518103",
+      "summary": ""
     },
     {
       "name": "深圳市福田区华强职业技术学校",
@@ -5428,7 +5526,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市第一职业技术学校",
@@ -5447,7 +5547,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518026",
+      "summary": ""
     },
     {
       "name": "深圳市第一职业技术学校（综合高中班）",
@@ -5466,7 +5568,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518026",
+      "summary": ""
     },
     {
       "name": "深圳市第七高级中学",
@@ -5485,7 +5589,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市第三职业技术学校",
@@ -5504,7 +5610,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518518",
+      "summary": ""
     },
     {
       "name": "深圳市第三高级中学",
@@ -5523,7 +5631,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518172",
+      "summary": ""
     },
     {
       "name": "深圳市第二实验学校",
@@ -5542,7 +5652,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市第二实验学校明远高中",
@@ -5561,7 +5673,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518124",
+      "summary": ""
     },
     {
       "name": "深圳市第二职业技术学校",
@@ -5580,7 +5694,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳市第二高级中学",
@@ -5599,7 +5715,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518055",
+      "summary": ""
     },
     {
       "name": "深圳市第二高级中学宝安高中部",
@@ -5618,7 +5736,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518101",
+      "summary": ""
     },
     {
       "name": "深圳市第二高级中学深汕实验学校",
@@ -5637,7 +5757,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518200",
+      "summary": ""
     },
     {
       "name": "深圳市红山中学",
@@ -5656,7 +5778,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市美术学校",
@@ -5675,7 +5799,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518019",
+      "summary": ""
     },
     {
       "name": "深圳市聚龙科学中学",
@@ -5694,7 +5820,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市致理中学",
@@ -5713,7 +5841,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "深圳市艺术高中",
@@ -5732,7 +5862,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市行知职业技术学校",
@@ -5751,7 +5883,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518003",
+      "summary": ""
     },
     {
       "name": "深圳市行知职业技术学校（综合高中班）",
@@ -5770,7 +5904,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518003",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学东校区",
@@ -5789,7 +5925,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学中心校区",
@@ -5808,7 +5946,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518040",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学创新高中",
@@ -5827,7 +5967,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学文博高中",
@@ -5846,7 +5988,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学有为高中",
@@ -5865,7 +6009,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市高级中学理慧高中",
@@ -5884,7 +6030,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市龙华外国语高级中学",
@@ -5903,7 +6051,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518129",
+      "summary": ""
     },
     {
       "name": "深圳市龙华科技实验高级中学",
@@ -5922,7 +6072,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市龙华职业技术学校",
@@ -5941,7 +6093,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区第二职业技术学校",
@@ -5960,7 +6114,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518115",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区第二高级中学",
@@ -5979,7 +6135,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518123",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗职业技术学校",
@@ -5998,7 +6156,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518172",
+      "summary": "深圳市龙岗职业技术学校(龙岗中等专业学校)创办于1994年，是国家级重点中等职业学校、国家中等职业教育改革发展示范学校、广东省高水平中职学校。"
     },
     {
       "name": "深圳技师学院",
@@ -6017,7 +6177,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "深圳理工大学附属中学",
@@ -6036,7 +6198,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518128",
+      "summary": ""
     },
     {
       "name": "深圳益新中学",
@@ -6055,7 +6219,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳科学高中",
@@ -6074,7 +6240,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518129",
+      "summary": ""
     },
     {
       "name": "深圳科学高中龙岗分校",
@@ -6093,7 +6261,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518129",
+      "summary": ""
     },
     {
       "name": "深圳第二外国语学校",
@@ -6112,7 +6282,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳鹏城技师学院",
@@ -6131,7 +6303,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "盐田高级中学",
@@ -6150,7 +6324,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518083",
+      "summary": ""
     },
     {
       "name": "石岩外国语学校",
@@ -6169,7 +6345,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518101",
+      "summary": ""
     },
     {
       "name": "红岭中学",
@@ -6188,7 +6366,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518049",
+      "summary": ""
     },
     {
       "name": "红岭教育集团大鹏华侨中学",
@@ -6207,7 +6387,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518120",
+      "summary": ""
     },
     {
       "name": "罗湖外语学校",
@@ -6226,7 +6408,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518004",
+      "summary": ""
     },
     {
       "name": "罗湖高级中学",
@@ -6245,7 +6429,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518010",
+      "summary": ""
     },
     {
       "name": "翠园中学",
@@ -6264,7 +6450,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518003",
+      "summary": ""
     },
     {
       "name": "育才一中",
@@ -6283,7 +6471,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "育才中学",
@@ -6302,7 +6492,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "西乡中学",
@@ -6321,7 +6513,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518102",
+      "summary": "西乡中学创办于1969年，位于前海中心，是一所大型公办完全中学。学校先后荣获广东省国家级示范性普通高中、全国中小学人工智能应用优秀实践学校、全国航空特色学校、全国科技体育传统学校、广东省一级学校、广东省绿色学校、广东省基础教育县（市、区）教研基地学校等三百余项荣誉称号。"
     },
     {
       "name": "西交利物浦大学基础教育集团外国语高级中学",
@@ -6340,7 +6534,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518038",
+      "summary": ""
     },
     {
       "name": "观澜中学",
@@ -6359,7 +6555,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "香港中文大学（深圳）附属明德高级中学",
@@ -6378,7 +6576,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518049",
+      "summary": ""
     },
     {
       "name": "龙华中学",
@@ -6397,7 +6597,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "龙华高级中学",
@@ -6416,7 +6618,9 @@ window.ZZZS_DATA = {
         "tuition": 905,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518131",
+      "summary": ""
     },
     {
       "name": "龙城高级中学",
@@ -6435,7 +6639,9 @@ window.ZZZS_DATA = {
         "tuition": 1131,
         "boarding": 450,
         "meals": null
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "深圳东方英文书院",
@@ -6454,7 +6660,9 @@ window.ZZZS_DATA = {
         "tuition": 30000,
         "boarding": 3200,
         "meals": null
-      }
+      },
+      "postalCode": "518128",
+      "summary": "深圳东方英文书院创办于1994年，坐落在美丽的凤凰山麓宝安教育城，占地面积达15万平方米，建筑面积12万平方米。是一所集小学、初中、高中、港校、高中国际课程实验于一体的高起点、现代化、规范化的寄宿制民办学校。"
     },
     {
       "name": "深圳市万科梅沙书院",
@@ -6473,7 +6681,9 @@ window.ZZZS_DATA = {
         "tuition": 139000,
         "boarding": 9750,
         "meals": null
-      }
+      },
+      "postalCode": "518085",
+      "summary": ""
     },
     {
       "name": "深圳市中嘉职业技术学校",
@@ -6492,7 +6702,9 @@ window.ZZZS_DATA = {
         "tuition": 15800,
         "boarding": 1800,
         "meals": null
-      }
+      },
+      "postalCode": "518104",
+      "summary": ""
     },
     {
       "name": "深圳市中新中学",
@@ -6511,7 +6723,9 @@ window.ZZZS_DATA = {
         "tuition": 39800,
         "boarding": 5500,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": "深圳市中新中学创办于2020年5月，隶属于湖北方子教育集团，是深圳市教育局批准的一所精致、高端、国际化的寄宿制高中。学校坐落于坪山区燕子岭湿地公园畔，毗邻深圳市自然博物馆，自然环境优美，人文氛围浓厚。"
     },
     {
       "name": "深圳市中特技工学校",
@@ -6530,7 +6744,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市中荟高级中学",
@@ -6549,7 +6765,9 @@ window.ZZZS_DATA = {
         "tuition": 31800,
         "boarding": 5500,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市光明书院",
@@ -6568,7 +6786,9 @@ window.ZZZS_DATA = {
         "tuition": 26800,
         "boarding": 2800,
         "meals": 4500
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳市华一实验学校",
@@ -6587,7 +6807,9 @@ window.ZZZS_DATA = {
         "tuition": 35000,
         "boarding": 3500,
         "meals": 4500
-      }
+      },
+      "postalCode": "518125",
+      "summary": ""
     },
     {
       "name": "深圳市华夏技工学校",
@@ -6606,7 +6828,9 @@ window.ZZZS_DATA = {
         "tuition": 9800,
         "boarding": 1600,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市华文高级中学",
@@ -6625,7 +6849,9 @@ window.ZZZS_DATA = {
         "tuition": 36800,
         "boarding": 5000,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市华朗学校",
@@ -6644,7 +6870,9 @@ window.ZZZS_DATA = {
         "tuition": 68000,
         "boarding": 6000,
         "meals": null
-      }
+      },
+      "postalCode": "518122",
+      "summary": ""
     },
     {
       "name": "深圳市华胜实验学校",
@@ -6663,7 +6891,9 @@ window.ZZZS_DATA = {
         "tuition": 35000,
         "boarding": 4000,
         "meals": 4000
-      }
+      },
+      "postalCode": "518126",
+      "summary": ""
     },
     {
       "name": "深圳市启恩高级中学",
@@ -6682,7 +6912,9 @@ window.ZZZS_DATA = {
         "tuition": 27000,
         "boarding": 5000,
         "meals": 5000
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市坤翔高级中学",
@@ -6701,7 +6933,9 @@ window.ZZZS_DATA = {
         "tuition": 25800,
         "boarding": 4500,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市奋达职业技术学校",
@@ -6720,7 +6954,9 @@ window.ZZZS_DATA = {
         "tuition": 15600,
         "boarding": 1500,
         "meals": null
-      }
+      },
+      "postalCode": "518108",
+      "summary": ""
     },
     {
       "name": "深圳市宝安区中英公学",
@@ -6739,7 +6975,9 @@ window.ZZZS_DATA = {
         "tuition": 67000,
         "boarding": 5000,
         "meals": 4000
-      }
+      },
+      "postalCode": "518102",
+      "summary": ""
     },
     {
       "name": "深圳市宝安区翻身实验学校（西校区）",
@@ -6758,7 +6996,9 @@ window.ZZZS_DATA = {
         "tuition": 22000,
         "boarding": 3550,
         "meals": 4400
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市宝山技工学校",
@@ -6777,7 +7017,9 @@ window.ZZZS_DATA = {
         "tuition": 11500,
         "boarding": 2200,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": "深圳市宝山技工学校成立于2006年，是经深圳市人力资源和社会保障局批准成立的一所民办全日制技工学校。"
     },
     {
       "name": "深圳市宝民技工学校",
@@ -6796,7 +7038,9 @@ window.ZZZS_DATA = {
         "tuition": 11000,
         "boarding": 1800,
         "meals": null
-      }
+      },
+      "postalCode": "518105",
+      "summary": ""
     },
     {
       "name": "深圳市富源学校",
@@ -6815,7 +7059,9 @@ window.ZZZS_DATA = {
         "tuition": 39400,
         "boarding": 4600,
         "meals": null
-      }
+      },
+      "postalCode": "518126",
+      "summary": ""
     },
     {
       "name": "深圳市展华实验学校",
@@ -6834,7 +7080,9 @@ window.ZZZS_DATA = {
         "tuition": 33600,
         "boarding": 4000,
         "meals": 4700
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "深圳市崛起实验中学",
@@ -6853,7 +7101,9 @@ window.ZZZS_DATA = {
         "tuition": 30000,
         "boarding": 3550,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市建文外国语学校",
@@ -6872,7 +7122,9 @@ window.ZZZS_DATA = {
         "tuition": 25000,
         "boarding": 4000,
         "meals": null
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "深圳市承翰学校",
@@ -6891,7 +7143,9 @@ window.ZZZS_DATA = {
         "tuition": 30000,
         "boarding": 4200,
         "meals": 5000
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市携创高级技工学校",
@@ -6910,7 +7164,9 @@ window.ZZZS_DATA = {
         "tuition": 10700,
         "boarding": 2000,
         "meals": null
-      }
+      },
+      "postalCode": "518173",
+      "summary": ""
     },
     {
       "name": "深圳市明德外语实验学校",
@@ -6929,7 +7185,9 @@ window.ZZZS_DATA = {
         "tuition": 29500,
         "boarding": 2600,
         "meals": null
-      }
+      },
+      "postalCode": "518104",
+      "summary": ""
     },
     {
       "name": "深圳市晟才高级中学",
@@ -6948,7 +7206,9 @@ window.ZZZS_DATA = {
         "tuition": 31000,
         "boarding": 4800,
         "meals": 4800
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "深圳市智理技工学校",
@@ -6967,7 +7227,9 @@ window.ZZZS_DATA = {
         "tuition": 10850,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518106",
+      "summary": ""
     },
     {
       "name": "深圳市松岗中英文实验学校",
@@ -6986,7 +7248,9 @@ window.ZZZS_DATA = {
         "tuition": 28000,
         "boarding": 3000,
         "meals": 5000
-      }
+      },
+      "postalCode": "518105",
+      "summary": ""
     },
     {
       "name": "深圳市格睿特高级中学",
@@ -7005,7 +7269,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 3900,
         "meals": null
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市桃源居中澳实验学校",
@@ -7024,7 +7290,9 @@ window.ZZZS_DATA = {
         "tuition": 33000,
         "boarding": 5000,
         "meals": 5500
-      }
+      },
+      "postalCode": "518102",
+      "summary": ""
     },
     {
       "name": "深圳市汉开数理高中",
@@ -7043,7 +7311,9 @@ window.ZZZS_DATA = {
         "tuition": 48000,
         "boarding": 6000,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市深科技工学校",
@@ -7062,7 +7332,9 @@ window.ZZZS_DATA = {
         "tuition": null,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518100",
+      "summary": ""
     },
     {
       "name": "深圳市滨海高级中学",
@@ -7081,7 +7353,9 @@ window.ZZZS_DATA = {
         "tuition": 40000,
         "boarding": 5000,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市盐田区梅沙双语学校",
@@ -7100,7 +7374,9 @@ window.ZZZS_DATA = {
         "tuition": 64000,
         "boarding": 8500,
         "meals": null
-      }
+      },
+      "postalCode": "518085",
+      "summary": ""
     },
     {
       "name": "深圳市知源高级中学",
@@ -7119,7 +7395,9 @@ window.ZZZS_DATA = {
         "tuition": 33000,
         "boarding": 5000,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市福桥高级中学",
@@ -7138,7 +7416,9 @@ window.ZZZS_DATA = {
         "tuition": 29500,
         "boarding": 4000,
         "meals": null
-      }
+      },
+      "postalCode": "518103",
+      "summary": ""
     },
     {
       "name": "深圳市科立高级中学",
@@ -7157,7 +7437,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 5500,
         "meals": 5500
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市科迪技工学校",
@@ -7176,7 +7458,9 @@ window.ZZZS_DATA = {
         "tuition": 11000,
         "boarding": 1200,
         "meals": null
-      }
+      },
+      "postalCode": "518118",
+      "summary": "深圳市科迪技工学校是2011年9月经深圳市人力资源和社会保障局批准成立的全日制民办技工学校，2023年3月评为省级重点技工学校。学校教学设备先进，拥有珠宝首饰技术、药物制剂、无人机应用技术、汽车维修、电子商务等38个实训室，满足实训教学需要。其中，珠宝首饰技术、药物制剂专业均为广东省省级优质专业。"
     },
     {
       "name": "深圳市立人高级中学",
@@ -7195,7 +7479,9 @@ window.ZZZS_DATA = {
         "tuition": 33800,
         "boarding": 4500,
         "meals": 5000
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳市罗湖区华美外国语学校",
@@ -7214,7 +7500,9 @@ window.ZZZS_DATA = {
         "tuition": 38000,
         "boarding": 6800,
         "meals": null
-      }
+      },
+      "postalCode": "518001",
+      "summary": ""
     },
     {
       "name": "深圳市美中学校",
@@ -7233,7 +7521,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 3500,
         "meals": 4500
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市育华高级中学",
@@ -7252,7 +7542,9 @@ window.ZZZS_DATA = {
         "tuition": 33800,
         "boarding": 5000,
         "meals": 5000
-      }
+      },
+      "postalCode": "518110",
+      "summary": ""
     },
     {
       "name": "深圳市鹏达高级中学",
@@ -7271,7 +7563,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 4000,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     },
     {
       "name": "深圳市龙华中英文实验学校",
@@ -7290,7 +7584,9 @@ window.ZZZS_DATA = {
         "tuition": 28000,
         "boarding": 5500,
         "meals": null
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "深圳市龙华区博恒实验学校",
@@ -7309,7 +7605,9 @@ window.ZZZS_DATA = {
         "tuition": 35000,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518109",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区东升学校",
@@ -7328,7 +7626,9 @@ window.ZZZS_DATA = {
         "tuition": 30000,
         "boarding": 3500,
         "meals": null
-      }
+      },
+      "postalCode": "518112",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区德琳学校",
@@ -7347,7 +7647,9 @@ window.ZZZS_DATA = {
         "tuition": 29500,
         "boarding": 4000,
         "meals": null
-      }
+      },
+      "postalCode": "518117",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区珊蒂泉外国语学校",
@@ -7366,7 +7668,9 @@ window.ZZZS_DATA = {
         "tuition": 28000,
         "boarding": 3500,
         "meals": 4300
-      }
+      },
+      "postalCode": "518116",
+      "summary": ""
     },
     {
       "name": "深圳市龙岗区科城实验学校",
@@ -7385,7 +7689,9 @@ window.ZZZS_DATA = {
         "tuition": 25800,
         "boarding": null,
         "meals": null
-      }
+      },
+      "postalCode": "518112",
+      "summary": ""
     },
     {
       "name": "深圳市龙翔学校",
@@ -7404,7 +7710,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 3500,
         "meals": 3500
-      }
+      },
+      "postalCode": "518118",
+      "summary": ""
     },
     {
       "name": "深圳杰仁高级中学",
@@ -7423,7 +7731,9 @@ window.ZZZS_DATA = {
         "tuition": 31700,
         "boarding": 3800,
         "meals": 5000
-      }
+      },
+      "postalCode": "518107",
+      "summary": ""
     },
     {
       "name": "深圳菁华中英文实验中学",
@@ -7442,7 +7752,9 @@ window.ZZZS_DATA = {
         "tuition": 29800,
         "boarding": 4800,
         "meals": 4800
-      }
+      },
+      "postalCode": "518111",
+      "summary": "深圳菁华中英文实验中学创建于1997年，是广东省一级学校。至今办学28年,荣获国家级荣誉25项、市级荣誉86项、区级荣誉209项等各类重要奖项,自2011年起,荣获包括深圳市首批“规范优质办学奖”“广东省普通高中教学水平优秀学校”:2014年,荣获“深圳市依法治校示范校”称号;2015年,荣获“深圳市平安校园示范校”及…"
     },
     {
       "name": "深圳（南山）中加学校",
@@ -7461,7 +7773,9 @@ window.ZZZS_DATA = {
         "tuition": 80000,
         "boarding": 6000,
         "meals": null
-      }
+      },
+      "postalCode": "518000",
+      "summary": ""
     }
   ]
 };
