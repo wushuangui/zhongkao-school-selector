@@ -188,9 +188,19 @@
   .basis.derived { color: #2f6bff; background: var(--blue-light); }
   .basis.raw { color: #c77800; background: #fff4e0; }
   .fee-link { color: var(--blue); cursor: pointer; text-decoration: underline; }
-  .score-note { font-size: 12px; color: #4a5468; line-height: 1.6; background: #f7f9fc; border-radius: 8px; padding: 8px 10px; margin-bottom: 10px; }
+  .score-note-wrap { margin-bottom: 10px; background: #f7f9fc; border-radius: 8px; overflow: hidden; }
+  .score-note-toggle {
+    width: 100%; border: 0; background: transparent; padding: 8px 10px; display: flex; align-items: center; gap: 8px;
+    font-size: 12px; color: #4a5468; cursor: pointer; text-align: left;
+  }
+  .score-note-toggle .label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .score-note-toggle .hint { flex: none; color: var(--blue); font-size: 12px; }
+  .score-note-toggle .arrow { flex: none; color: #b8c0cf; font-size: 14px; transition: transform .2s; line-height: 1; }
+  .score-note-wrap.open .score-note-toggle .arrow { transform: rotate(90deg); }
+  .score-note { display: none; font-size: 12px; color: #4a5468; line-height: 1.6; padding: 0 10px 8px; border-top: 1px dashed var(--line); }
+  .score-note-wrap.open .score-note { display: block; padding-top: 8px; }
   .score-note a { color: var(--blue); }
-  .img-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .img-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; max-height: 120px; overflow-y: auto; }
   .img-links a { font-size: 12px; color: var(--blue); background: var(--blue-light); border-radius: 4px; padding: 2px 8px; text-decoration: none; }
 </style>
 </head>
@@ -246,7 +256,14 @@
         <button data-v="second">二次划线</button>
         <button data-v="batch3">第三批</button>
       </div>
-      <div class="score-note" id="scoreNote"></div>
+      <div class="score-note-wrap" id="scoreNoteWrap">
+        <button type="button" class="score-note-toggle" id="scoreNoteToggle" aria-expanded="false">
+          <span class="label" id="scoreNoteLabel">说明与原图</span>
+          <span class="hint" id="scoreNoteHint">展开</span>
+          <span class="arrow">›</span>
+        </button>
+        <div class="score-note" id="scoreNote"></div>
+      </div>
       <div class="filters" id="scoreFilters">
         <select id="scoreType"></select>
         <select id="scoreCategory">
@@ -634,7 +651,7 @@
 
   // ---------- 录取分数线 ----------
   const SCORES = window.SCORES_DATA;
-  const scoreState = { batch: 'mee', type: '', category: '', district: '', keyword: '', myScore: null, segment: null };
+  const scoreState = { batch: 'mee', type: '', category: '', district: '', keyword: '', myScore: null, segment: null, noteOpen: false };
   const BATCH_NAME = { mee: '名额分配', batch1: '第一批', batch2: '第二批', second: '二次划线', batch3: '第三批' };
   // (lo, hi]：分数落在区间内即命中；普高批次与中职批次分段不同
   const SCORE_SEG_HIGH = [
@@ -758,14 +775,24 @@
     </div>`;
   }
 
+  function syncScoreNoteToggle(summary, detailHint) {
+    const wrap = $('scoreNoteWrap');
+    wrap.classList.toggle('open', scoreState.noteOpen);
+    $('scoreNoteToggle').setAttribute('aria-expanded', scoreState.noteOpen ? 'true' : 'false');
+    $('scoreNoteLabel').textContent = summary || '说明与原图';
+    $('scoreNoteHint').textContent = scoreState.noteOpen ? '收起' : (detailHint || '展开');
+  }
+
   function renderScoreNote() {
     if (!SCORES) {
       $('scoreNote').innerHTML = '未找到分数线数据，请先运行 <code>python scripts/fetch_scores.py</code>';
+      syncScoreNoteToggle('说明与原图', '展开');
       return;
     }
     if (scoreState.batch === 'batch3') {
       const n = SCORES.batch3Note || SCORES.sources.batch3;
       $('scoreNote').innerHTML = `${escapeHtml(n.note)} 查询入口：<a href="${escapeHtml(n.url)}" target="_blank" rel="noopener">深圳招考网</a>`;
+      syncScoreNoteToggle(n.note || '第三批说明', '展开');
       return;
     }
     const src = SCORES.sources[scoreState.batch];
@@ -782,6 +809,8 @@
     $('scoreNote').innerHTML = `<div>${escapeHtml(src.note)}</div>
       <div>来源：<a href="${escapeHtml(src.url)}" target="_blank" rel="noopener">${escapeHtml(src.title)}</a></div>
       ${extra}${imgHtml}`;
+    const hint = imgs.length ? `展开（${imgs.length}张原图）` : '展开';
+    syncScoreNoteToggle(src.title || src.note || '说明与原图', hint);
   }
 
   function refreshScoreFilters() {
@@ -826,8 +855,13 @@
     scoreState.batch = v;
     scoreState.keyword = '';
     scoreState.segment = null;
+    scoreState.noteOpen = false;
     $('scoreKeyword').value = '';
     renderScores();
+  });
+  $('scoreNoteToggle').addEventListener('click', () => {
+    scoreState.noteOpen = !scoreState.noteOpen;
+    renderScoreNote();
   });
   $('scoreSide').addEventListener('click', e => {
     const b = e.target.closest('button');
