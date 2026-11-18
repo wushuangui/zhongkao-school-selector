@@ -1,0 +1,17 @@
+---
+description: Pointer to self-recruitment three-agent workflow and PRD decisions D-1～D-4
+globs: self-recruitment/**/*,docs/**
+alwaysApply: false
+---
+
+# Self-recruitment agents
+
+For V1/V2 P0 work on 深圳普高自主招生选校, follow **docs/AGENTS-self-recruitment.md** and invoke project skills:
+
+- `self-recruitment-product` — handoffs before code
+- `self-recruitment-implement` — static app under `self-recruitment/`
+- `self-recruitment-verify` — PASS/FAIL before marking issues done
+
+**Locked decisions** (PRD §3): **D-1** pure static, no subscription backend; **D-2** conservative default reco; **D-3** no港澳/D类简版 IA; **D-4** monorepo brand + data schema alignment.
+
+Sources: `docs/PRD-self-recruitment.md`, `docs/issues-P0-self-recruitment.md`.

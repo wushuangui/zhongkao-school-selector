@@ -665,6 +665,7 @@
   }
 
   function currentView() {
+    if (!$('view-guide').hidden) return 'guide';
     if (!$('view-fee').hidden) return 'fee';
     if (!$('view-scores').hidden) return 'scores';
     return 'zzzs';
@@ -672,6 +673,7 @@
 
   function viewHash() {
     const view = currentView();
+    if (view === 'guide') return '#guide';
     if (view === 'fee') return '#fee';
     if (view === 'scores') return '#scores';
     if (location.hash === '#rules') return '#rules';
@@ -990,6 +992,7 @@
     }
     $('feeSummary').innerHTML = '共<b>' + items.length + '</b>所学校' + range;
     $('feeList').innerHTML = items.length ? items.map(feeCardHtml).join('') : '<div class="empty">没有符合条件的学校</div>';
+    $('feeList').scrollTop = 0;
     renderFeeTags();
     renderCompareDock();
     writeUrl();
@@ -1291,11 +1294,16 @@
     $('view-zzzs').hidden = view !== 'zzzs';
     $('view-fee').hidden = view !== 'fee';
     $('view-scores').hidden = view !== 'scores';
-    document.querySelector('.app').classList.toggle('fixed', view === 'zzzs' || view === 'scores');
-    $('viewTitle').textContent = view === 'fee' ? '收费标准' : view === 'scores' ? '录取分数线' : '自主招生';
+    $('view-guide').hidden = view !== 'guide';
+    document.querySelector('.app').classList.toggle('fixed', view === 'zzzs' || view === 'scores' || view === 'fee' || view === 'guide');
+    const titles = { fee: '收费标准', scores: '录取分数线', guide: '填报指南', zzzs: '自主招生' };
+    $('viewTitle').textContent = titles[view] || '自主招生';
     if (view === 'fee') renderFee();
     else if (view === 'scores') renderScores();
-    else render();
+    else if (view === 'guide') {
+      if (typeof window.renderGuide === 'function') window.renderGuide();
+      writeUrl();
+    } else render();
     window.scrollTo(0, 0);
   }
 
@@ -1529,7 +1537,8 @@
   readUrl();
   renderFeeStandard();
   render();
-  if (location.hash === '#fee') switchView('fee');
+  if (location.hash === '#guide') switchView('guide');
+  else if (location.hash === '#fee') switchView('fee');
   else if (location.hash === '#scores') switchView('scores');
   allowUrlWrite = true;
   writeUrl();
