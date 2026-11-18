@@ -1,4 +1,4 @@
-// 由 scripts/fetch_data.py 自动生成，请勿手改
+// 由 scripts/sync_verify_fields.py 根据 zzzs-*.json 生成，请勿手改
 window.ZZZS_DATA = {
   "year": 2026,
   "source": {
@@ -106,7 +106,9 @@ window.ZZZS_DATA = {
           "plan": 40
         }
       ],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳中学科技高中",
@@ -125,7 +127,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 25
+      "profileIndex": 25,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳中学数理高中",
@@ -144,7 +148,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 24
+      "profileIndex": 24,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳中学实验高中",
@@ -163,7 +169,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 23
+      "profileIndex": 23,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校（高中部）",
@@ -225,7 +233,9 @@ window.ZZZS_DATA = {
           "plan": 5
         }
       ],
-      "profileIndex": 39
+      "profileIndex": 39,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校（光明高中部）",
@@ -244,7 +254,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 38
+      "profileIndex": 38,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校明理高中",
@@ -263,7 +275,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校崇文高中",
@@ -282,7 +296,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校卓越高中",
@@ -301,7 +317,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳实验学校至臻高中",
@@ -320,7 +338,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校",
@@ -339,7 +359,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 28
+      "profileIndex": 28,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校龙华高中部",
@@ -358,7 +380,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 33
+      "profileIndex": 33,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校致远高中",
@@ -377,7 +401,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 32
+      "profileIndex": 32,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校弘知高中",
@@ -396,7 +422,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 30
+      "profileIndex": 30,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校博雅高中",
@@ -415,7 +443,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 29
+      "profileIndex": 29,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳外国语学校理工高中",
@@ -434,7 +464,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 31
+      "profileIndex": 31,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学中心校区",
@@ -453,7 +485,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 69
+      "profileIndex": 69,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学东校区",
@@ -472,7 +506,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 68
+      "profileIndex": 68,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学创新高中",
@@ -491,7 +527,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 70
+      "profileIndex": 70,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学文博高中",
@@ -510,7 +548,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 71
+      "profileIndex": 71,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学理慧高中",
@@ -529,7 +569,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 73
+      "profileIndex": 73,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市高级中学有为高中",
@@ -548,7 +590,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 72
+      "profileIndex": 72,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第三高级中学",
@@ -571,7 +615,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 54
+      "profileIndex": 54,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳启元中学",
@@ -590,7 +636,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 27
+      "profileIndex": 27,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳益新中学",
@@ -609,7 +657,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 82
+      "profileIndex": 82,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳大学附属中学中心校区（深大附中中心校区）",
@@ -628,7 +678,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 34
+      "profileIndex": 34,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳大学附属中学盐田校区（深大附中盐田校区）",
@@ -647,7 +699,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 35
+      "profileIndex": 35,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳大学附属实验中学",
@@ -666,7 +720,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 36
+      "profileIndex": 36,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第二实验学校",
@@ -685,7 +741,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 55
+      "profileIndex": 55,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第二实验学校明远高中",
@@ -704,7 +762,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 56
+      "profileIndex": 56,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第二高级中学",
@@ -723,7 +783,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 58
+      "profileIndex": 58,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第二高级中学宝安高中部",
@@ -742,7 +804,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 59
+      "profileIndex": 59,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第二高级中学深汕实验学校",
@@ -761,7 +825,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 60
+      "profileIndex": 60,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳第二外国语学校",
@@ -780,7 +846,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 85
+      "profileIndex": 85,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳科学高中",
@@ -799,7 +867,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 83
+      "profileIndex": 83,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳科学高中龙岗分校",
@@ -818,7 +888,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 84
+      "profileIndex": 84,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市第七高级中学",
@@ -837,7 +909,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 52
+      "profileIndex": 52,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-南方科技大学附属中学",
@@ -856,7 +930,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 11
+      "profileIndex": 11,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-广东实验中学深圳学校",
@@ -875,7 +951,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 17
+      "profileIndex": 17,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳技术大学附属中学",
@@ -894,7 +972,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-东北师范大学附属中学深圳学校",
@@ -913,7 +993,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 0
+      "profileIndex": 0,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳北理莫斯科大学附属实验中学",
@@ -932,7 +1014,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 26
+      "profileIndex": 26,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳理工大学附属中学",
@@ -951,7 +1035,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 81
+      "profileIndex": 81,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市曙光中学（综合高中）",
@@ -970,7 +1056,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳创新高级中学（综合高中）",
@@ -989,7 +1077,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-红岭中学",
@@ -1008,7 +1098,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 89
+      "profileIndex": 89,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-福田中学",
@@ -1027,7 +1119,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-北京大学附属中学深圳学校",
@@ -1046,7 +1140,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 5
+      "profileIndex": 5,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-西交利物浦大学基础教育集团外国语高级中学",
@@ -1065,7 +1161,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 97
+      "profileIndex": 97,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-香港中文大学（深圳）附属明德高级中学",
@@ -1084,7 +1182,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 99
+      "profileIndex": 99,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-翠园中学（爱国路校区）",
@@ -1103,7 +1203,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 93
+      "profileIndex": 93,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-翠园中学（东门北路校区）",
@@ -1122,7 +1224,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 93
+      "profileIndex": 93,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-罗湖高级中学",
@@ -1141,7 +1245,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 92
+      "profileIndex": 92,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-罗湖外语学校",
@@ -1160,7 +1266,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 91
+      "profileIndex": 91,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-盐田高级中学",
@@ -1179,7 +1287,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 87
+      "profileIndex": 87,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-南头中学",
@@ -1198,7 +1308,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 9
+      "profileIndex": 9,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-育才中学",
@@ -1217,7 +1329,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 95
+      "profileIndex": 95,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-育才一中",
@@ -1236,7 +1350,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 94
+      "profileIndex": 94,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-华侨城高级中学",
@@ -1255,7 +1371,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 8
+      "profileIndex": 8,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-北京师范大学南山附属学校",
@@ -1274,7 +1392,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 6
+      "profileIndex": 6,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-南山外国语学校（集团）高级中学",
@@ -1293,7 +1413,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 10
+      "profileIndex": 10,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-宝安中学（集团）高中部",
@@ -1312,7 +1434,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-新安中学（集团）高中部",
@@ -1331,7 +1455,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 18
+      "profileIndex": 18,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-宝安第一外国语学校",
@@ -1350,7 +1476,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 13
+      "profileIndex": 13,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-西乡中学",
@@ -1369,7 +1497,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 96
+      "profileIndex": 96,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-松岗中学",
@@ -1388,7 +1518,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 19
+      "profileIndex": 19,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-石岩外国语学校",
@@ -1407,7 +1539,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 88
+      "profileIndex": 88,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市福海中学",
@@ -1426,7 +1560,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 48
+      "profileIndex": 48,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市龙津中学",
@@ -1445,7 +1581,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市燕川中学",
@@ -1464,7 +1602,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 46
+      "profileIndex": 46,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-龙城高级中学",
@@ -1483,7 +1623,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 102
+      "profileIndex": 102,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市龙岗区第二高级中学",
@@ -1502,7 +1644,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 78
+      "profileIndex": 78,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-华中师范大学龙岗附属中学",
@@ -1521,7 +1665,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 7
+      "profileIndex": 7,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-龙岗区实验高级中学",
@@ -1540,7 +1686,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-观澜中学",
@@ -1559,7 +1707,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 98
+      "profileIndex": 98,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-龙华高级中学",
@@ -1578,7 +1728,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 101
+      "profileIndex": 101,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市格致中学",
@@ -1597,7 +1749,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市红山中学",
@@ -1616,7 +1770,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 61
+      "profileIndex": 61,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市龙华外国语高级中学",
@@ -1635,7 +1791,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 74
+      "profileIndex": 74,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市致理中学",
@@ -1654,7 +1812,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 64
+      "profileIndex": 64,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市龙华科技实验高级中学",
@@ -1673,7 +1833,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 75
+      "profileIndex": 75,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-坪山高级中学",
@@ -1692,7 +1854,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 12
+      "profileIndex": 12,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-深圳市聚龙科学中学",
@@ -1711,7 +1875,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 63
+      "profileIndex": 63,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-光明区高级中学",
@@ -1730,7 +1896,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 4
+      "profileIndex": 4,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-光明中学",
@@ -1749,7 +1917,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 3
+      "profileIndex": 3,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-中国科学院深圳理工大学附属实验高级中学（中科附高）",
@@ -1768,7 +1938,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 1
+      "profileIndex": 1,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-人大附中深圳学校",
@@ -1787,7 +1959,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 2
+      "profileIndex": 2,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-一类-红岭教育集团大鹏华侨中学",
@@ -1806,7 +1980,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 90
+      "profileIndex": 90,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳中学",
@@ -1825,7 +2001,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳中学科技高中",
@@ -1844,7 +2022,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 25
+      "profileIndex": 25,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳中学数理高中",
@@ -1863,7 +2043,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 24
+      "profileIndex": 24,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳中学实验高中",
@@ -1882,7 +2064,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 23
+      "profileIndex": 23,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校（高中部）",
@@ -1901,7 +2085,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 39
+      "profileIndex": 39,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校（光明高中部）",
@@ -1924,7 +2110,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 38
+      "profileIndex": 38,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校明理高中",
@@ -1943,7 +2131,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校崇文高中",
@@ -1962,7 +2152,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校卓越高中",
@@ -1981,7 +2173,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳实验学校至臻高中",
@@ -2000,7 +2194,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 37
+      "profileIndex": 37,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校",
@@ -2019,7 +2215,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 28
+      "profileIndex": 28,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校龙华高中部",
@@ -2038,7 +2236,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 33
+      "profileIndex": 33,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校致远高中",
@@ -2057,7 +2257,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 32
+      "profileIndex": 32,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校弘知高中",
@@ -2076,7 +2278,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 30
+      "profileIndex": 30,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校博雅高中",
@@ -2095,7 +2299,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 29
+      "profileIndex": 29,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳外国语学校理工高中",
@@ -2114,7 +2320,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 31
+      "profileIndex": 31,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学中心校区",
@@ -2133,7 +2341,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 69
+      "profileIndex": 69,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学东校区",
@@ -2152,7 +2362,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 68
+      "profileIndex": 68,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学创新高中",
@@ -2171,7 +2383,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 70
+      "profileIndex": 70,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学文博高中",
@@ -2190,7 +2404,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 71
+      "profileIndex": 71,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学理慧高中",
@@ -2209,7 +2425,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 73
+      "profileIndex": 73,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市高级中学有为高中",
@@ -2228,7 +2446,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 72
+      "profileIndex": 72,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第三高级中学",
@@ -2247,7 +2467,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 54
+      "profileIndex": 54,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳大学附属中学中心校区（深大附中中心校区）",
@@ -2270,7 +2492,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 34
+      "profileIndex": 34,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳大学附属实验中学",
@@ -2293,7 +2517,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 36
+      "profileIndex": 36,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第二实验学校",
@@ -2312,7 +2538,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 55
+      "profileIndex": 55,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第二实验学校明远高中",
@@ -2331,7 +2559,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 56
+      "profileIndex": 56,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第二高级中学",
@@ -2350,7 +2580,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 58
+      "profileIndex": 58,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第二高级中学深汕实验学校",
@@ -2373,7 +2605,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "深汕特别合作区",
       "projects": [],
-      "profileIndex": 60
+      "profileIndex": 60,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳第二外国语学校",
@@ -2392,7 +2626,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 85
+      "profileIndex": 85,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第七高级中学",
@@ -2411,7 +2647,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 52
+      "profileIndex": 52,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-南方科技大学附属中学",
@@ -2430,7 +2668,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 11
+      "profileIndex": 11,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-广东实验中学深圳学校",
@@ -2449,7 +2689,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 17
+      "profileIndex": 17,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳技术大学附属中学",
@@ -2468,7 +2710,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-东北师范大学附属中学深圳学校",
@@ -2491,7 +2735,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 0
+      "profileIndex": 0,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳北理莫斯科大学附属实验中学",
@@ -2514,7 +2760,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 26
+      "profileIndex": 26,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳创新高级中学（综合高中）",
@@ -2537,7 +2785,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市体育实验学校",
@@ -2555,7 +2805,9 @@ window.ZZZS_DATA = {
       "brochure": "微信公众号：深圳市体育运动学校",
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": null,
-      "projects": []
+      "projects": [],
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市第二高级中学宝安高中部",
@@ -2574,7 +2826,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 59
+      "profileIndex": 59,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳大学附属中学盐田校区（深大附中盐田校区）",
@@ -2597,7 +2851,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 35
+      "profileIndex": 35,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳理工大学附属中学",
@@ -2616,7 +2872,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 81
+      "profileIndex": 81,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-红岭中学",
@@ -2639,7 +2897,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 89
+      "profileIndex": 89,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-福田中学",
@@ -2662,7 +2922,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-西交利物浦大学基础教育集团外国语高级中学",
@@ -2681,7 +2943,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 97
+      "profileIndex": 97,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-香港中文大学（深圳）附属明德高级中学",
@@ -2700,7 +2964,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "福田区",
       "projects": [],
-      "profileIndex": 99
+      "profileIndex": 99,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-翠园中学（东门北路校区）",
@@ -2723,7 +2989,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 93
+      "profileIndex": 93,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-罗湖高级中学",
@@ -2742,7 +3010,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 92
+      "profileIndex": 92,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-罗湖外语学校",
@@ -2761,7 +3031,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 91
+      "profileIndex": 91,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市美术学校",
@@ -2780,7 +3052,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 62
+      "profileIndex": 62,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市行知职业技术学校（综合高中班）",
@@ -2799,7 +3073,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 67
+      "profileIndex": 67,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-盐田高级中学",
@@ -2818,7 +3094,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 87
+      "profileIndex": 87,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市盐港中学（综合高中班）",
@@ -2841,7 +3119,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 47
+      "profileIndex": 47,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-南头中学",
@@ -2864,7 +3144,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 9
+      "profileIndex": 9,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-育才中学",
@@ -2883,7 +3165,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 95
+      "profileIndex": 95,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-育才一中",
@@ -2906,7 +3190,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 94
+      "profileIndex": 94,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-华侨城高级中学",
@@ -2925,7 +3211,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 8
+      "profileIndex": 8,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-北京师范大学南山附属学校",
@@ -2944,7 +3232,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 6
+      "profileIndex": 6,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-南山外国语学校（集团）高级中学",
@@ -2963,7 +3253,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 10
+      "profileIndex": 10,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-宝安中学（集团）高中部",
@@ -2982,7 +3274,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-新安中学（集团）高中部",
@@ -3001,7 +3295,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 18
+      "profileIndex": 18,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-宝安第一外国语学校",
@@ -3020,7 +3316,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 13
+      "profileIndex": 13,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-西乡中学",
@@ -3039,7 +3337,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 96
+      "profileIndex": 96,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-沙井中学",
@@ -3058,7 +3358,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 21
+      "profileIndex": 21,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-松岗中学",
@@ -3077,7 +3379,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 19
+      "profileIndex": 19,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-石岩外国语学校",
@@ -3096,7 +3400,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 88
+      "profileIndex": 88,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市福海中学",
@@ -3115,7 +3421,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 48
+      "profileIndex": 48,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市龙津中学",
@@ -3134,7 +3442,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市燕川中学",
@@ -3157,7 +3467,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 46
+      "profileIndex": 46,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-平冈中学",
@@ -3176,7 +3488,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 15
+      "profileIndex": 15,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市龙岗区第二高级中学",
@@ -3195,7 +3509,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 78
+      "profileIndex": 78,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-布吉中学",
@@ -3214,7 +3530,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 14
+      "profileIndex": 14,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-横岗高级中学",
@@ -3233,7 +3551,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 20
+      "profileIndex": 20,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-平湖外国语学校",
@@ -3252,7 +3572,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 16
+      "profileIndex": 16,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-华中师范大学龙岗附属中学",
@@ -3271,7 +3593,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 7
+      "profileIndex": 7,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-龙华中学",
@@ -3290,7 +3614,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 100
+      "profileIndex": 100,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-观澜中学",
@@ -3309,7 +3635,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 98
+      "profileIndex": 98,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市艺术高中",
@@ -3328,7 +3656,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 65
+      "profileIndex": 65,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市格致中学",
@@ -3347,7 +3677,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市红山中学",
@@ -3370,7 +3702,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 61
+      "profileIndex": 61,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市龙华外国语高级中学",
@@ -3389,7 +3723,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 74
+      "profileIndex": 74,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市致理中学",
@@ -3408,7 +3744,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 64
+      "profileIndex": 64,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市龙华科技实验高级中学",
@@ -3427,7 +3765,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 75
+      "profileIndex": 75,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-坪山高级中学",
@@ -3446,7 +3786,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 12
+      "profileIndex": 12,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-深圳市聚龙科学中学",
@@ -3465,7 +3807,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 63
+      "profileIndex": 63,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-光明区高级中学",
@@ -3484,7 +3828,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 4
+      "profileIndex": 4,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-光明中学",
@@ -3503,7 +3849,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 3
+      "profileIndex": 3,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-中国科学院深圳理工大学附属实验高级中学（中科附高）",
@@ -3522,7 +3870,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 1
+      "profileIndex": 1,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-人大附中深圳学校",
@@ -3545,7 +3895,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 2
+      "profileIndex": 2,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-公办-二类-红岭教育集团大鹏华侨中学",
@@ -3564,7 +3916,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "大鹏新区",
       "projects": [],
-      "profileIndex": 90
+      "profileIndex": 90,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市罗湖区华美外国语学校",
@@ -3583,7 +3937,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 143
+      "profileIndex": 143,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市盐田区梅沙双语学校",
@@ -3602,7 +3958,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 137
+      "profileIndex": 137,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市万科梅沙书院",
@@ -3621,7 +3979,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 104
+      "profileIndex": 104,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳（南山）中加学校",
@@ -3640,7 +4000,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 156
+      "profileIndex": 156,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳东方英文书院",
@@ -3659,7 +4021,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 103
+      "profileIndex": 103,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市桃源居中澳实验学校",
@@ -3678,7 +4042,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 133
+      "profileIndex": 133,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市富源学校",
@@ -3697,7 +4063,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 122
+      "profileIndex": 122,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市滨海高级中学",
@@ -3716,7 +4084,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 136
+      "profileIndex": 136,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市松岗中英文实验学校",
@@ -3735,7 +4105,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 131
+      "profileIndex": 131,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市中荟高级中学",
@@ -3754,7 +4126,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 108
+      "profileIndex": 108,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市建文外国语学校",
@@ -3773,7 +4147,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 125
+      "profileIndex": 125,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市菁华中英文实验中学",
@@ -3792,7 +4168,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 155
+      "profileIndex": 155,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市承翰学校",
@@ -3811,7 +4189,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 126
+      "profileIndex": 126,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市美中学校",
@@ -3830,7 +4210,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 144
+      "profileIndex": 144,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市格睿特高级中学",
@@ -3849,7 +4231,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 132
+      "profileIndex": 132,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市展华实验学校",
@@ -3868,7 +4252,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 123
+      "profileIndex": 123,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市博恒实验学校",
@@ -3887,7 +4273,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 148
+      "profileIndex": 148,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市汉开数理高中",
@@ -3906,7 +4294,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 134
+      "profileIndex": 134,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-一类-深圳市正德高级中学",
@@ -3925,7 +4315,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市罗湖区华美外国语学校",
@@ -3944,7 +4336,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 143
+      "profileIndex": 143,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市盐田区梅沙双语学校",
@@ -3963,7 +4357,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "盐田区",
       "projects": [],
-      "profileIndex": 137
+      "profileIndex": 137,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳（南山）中加学校",
@@ -3982,7 +4378,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "南山区",
       "projects": [],
-      "profileIndex": 156
+      "profileIndex": 156,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市崛起实验中学",
@@ -4001,7 +4399,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 124
+      "profileIndex": 124,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市华一实验学校",
@@ -4020,7 +4420,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 110
+      "profileIndex": 110,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市桃源居中澳实验学校",
@@ -4039,7 +4441,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 133
+      "profileIndex": 133,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市富源学校",
@@ -4058,7 +4462,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 122
+      "profileIndex": 122,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市滨海高级中学",
@@ -4077,7 +4483,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 136
+      "profileIndex": 136,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市福桥高级中学",
@@ -4096,7 +4504,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 139
+      "profileIndex": 139,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市松岗中英文实验学校",
@@ -4115,7 +4525,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "宝安区",
       "projects": [],
-      "profileIndex": 131
+      "profileIndex": 131,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市弘毅高级中学",
@@ -4134,7 +4546,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市中荟高级中学",
@@ -4153,7 +4567,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 108
+      "profileIndex": 108,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市鹏达高级中学",
@@ -4172,7 +4588,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 146
+      "profileIndex": 146,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市坤翔高级中学",
@@ -4191,7 +4609,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 116
+      "profileIndex": 116,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市龙岗区德琳学校",
@@ -4210,7 +4630,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 150
+      "profileIndex": 150,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市菁华中英文实验中学",
@@ -4229,7 +4651,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 155
+      "profileIndex": 155,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市承翰学校",
@@ -4248,7 +4672,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 126
+      "profileIndex": 126,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市龙岗区珊蒂泉外国语学校",
@@ -4267,7 +4693,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙岗区",
       "projects": [],
-      "profileIndex": 151
+      "profileIndex": 151,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市美中学校",
@@ -4286,7 +4714,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 144
+      "profileIndex": 144,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市格睿特高级中学",
@@ -4305,7 +4735,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 132
+      "profileIndex": 132,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市展华实验学校",
@@ -4324,7 +4756,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 123
+      "profileIndex": 123,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市龙华中英文实验学校",
@@ -4343,7 +4777,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 147
+      "profileIndex": 147,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市博恒实验学校",
@@ -4362,7 +4798,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 148
+      "profileIndex": 148,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市汉开数理高中",
@@ -4381,7 +4819,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 134
+      "profileIndex": 134,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市育华高级中学",
@@ -4400,7 +4840,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "龙华区",
       "projects": [],
-      "profileIndex": 145
+      "profileIndex": 145,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市立人高级中学",
@@ -4419,7 +4861,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "坪山区",
       "projects": [],
-      "profileIndex": 142
+      "profileIndex": 142,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市光明书院",
@@ -4438,7 +4882,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 109
+      "profileIndex": 109,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳杰仁高级中学",
@@ -4457,7 +4903,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "光明区",
       "projects": [],
-      "profileIndex": 154
+      "profileIndex": 154,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "2026-民办-二类-深圳市正德高级中学",
@@ -4476,7 +4924,9 @@ window.ZZZS_DATA = {
       "scope": "面向全市招收ACD类本市初中应届毕业生",
       "district": "罗湖区",
       "projects": [],
-      "profileIndex": 22
+      "profileIndex": 22,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     }
   ],
   "profiles": [
@@ -7777,5 +8227,8 @@ window.ZZZS_DATA = {
       "postalCode": "518000",
       "summary": ""
     }
-  ]
+  ],
+  "targetYear": 2027,
+  "verifyStatus": "reference-2026",
+  "sourceType": "official"
 };

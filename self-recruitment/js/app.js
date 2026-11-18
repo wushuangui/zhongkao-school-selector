@@ -43,6 +43,13 @@
     segment: null, noteOpen: false, filtersOpen: false, sort: 'score', boarding: '',
   };
   const BRAND_DISCLAIMER = '本站整理公开招生信息，不构成录取承诺；以教育局、招考网及学校简章为准。';
+  const PRODUCT_TARGET_YEAR = 2027;
+  const VERIFY_STATUS_LABEL = {
+    'verified-history': '历史已核实',
+    'reference-2026': '2026 参考',
+    'verified-2027': '2027 已核实',
+    pending: '待发布',
+  };
   const SCORE_KINDS = ['资格线', '录取线', '控制线'];
   const shared = { myScore: null, onlyReach: false, budget: null };
   function myNum() {
@@ -397,9 +404,10 @@
     ];
     return '<table class="lines">' + rows.map(([label, kind, recs, year, fmt]) => {
       const has = recs && recs.length;
-      const yearCell = has && year != null ? year + '年' : '—';
+      const srcTag = has && recs[0] && recs[0].sourceType === 'unofficial' ? unofficialTag('unofficial') : '';
+      const yearCell = has && year != null ? year + '年' + srcTag : '—';
       const scoreCell = has ? withGaps(fmt(recs), myNum()) : '—';
-      return '<tr><th>' + label + '</th><td>' + kind + '</td><td>' + escapeHtml(yearCell) + '</td><td>' + escapeHtml(scoreCell) + '</td></tr>';
+      return '<tr><th>' + label + '</th><td>' + kind + '</td><td>' + yearCell + '</td><td>' + escapeHtml(scoreCell) + '</td></tr>';
     }).join('') + '</table>';
   }
 
@@ -514,6 +522,7 @@
     let meta = escapeHtml(bits.join(' | '));
     if (s.category === '一类' && !s.projects.length) meta += '<span class="tag">项目未细分</span>';
     if (miss) meta += '<span class="tag">未达线</span>';
+    meta += recordSourceTags(s);
     meta += tierTag(scores);
     let stats;
     if (s.category === '一类' && s.projects.length) {
@@ -638,7 +647,8 @@
     const bits = [s.ownership, s.district, showText(profile && profile.rank), showText(profile && profile.boardingMode)].filter(Boolean);
     const tags = [s.type, s.category && (s.category + '类')].filter(Boolean)
       .map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-    const meta = escapeHtml(bits.join(' | ')) + tags + (miss ? '<span class="tag">未达线</span>' : '') + tierTag(vals);
+    const meta = escapeHtml(bits.join(' | ')) + tags + (miss ? '<span class="tag">未达线</span>' : '') +
+      recordSourceTags(s) + tierTag(vals);
     const skip = s.batch === 'mee' ? 'mee' : s.batch === 'batch1' ? 'batch1' : null;
     return '<div class="card' + (miss ? ' miss' : '') + '">' +
       '<div class="card-head">' +
@@ -1222,6 +1232,16 @@
       writeUrl();
       return;
     }
+    if (SCORES.verifyStatus === 'pending') {
+      $('scoreSummary').innerHTML = '';
+      $('scoreList').innerHTML = '<div class="empty">' + escapeHtml(String(SCORES.targetYear || PRODUCT_TARGET_YEAR)) +
+        '年分数线' + escapeHtml(VERIFY_STATUS_LABEL.pending) + '，暂未收录可比对数据。</div>';
+      renderScoreTags();
+      renderScoreSide();
+      renderCompareDock();
+      writeUrl();
+      return;
+    }
     refreshScoreFilters();
     renderScoreSide();
     const items = filteredScores();
@@ -1616,41 +1636,71 @@
     }
   });
 
-  function sourceAnchor(url, title) {
+  function unofficialTag(sourceType) {
+    return sourceType === 'unofficial' ? ' <span class="tag unofficial">非官方</span>' : '';
+  }
+
+  function verifyStatusLabel(status) {
+    return (status && VERIFY_STATUS_LABEL[status]) ? VERIFY_STATUS_LABEL[status] : '';
+  }
+
+  function verifyStatusTag(status) {
+    const label = verifyStatusLabel(status);
+    return label ? ' <span class="tag verify">' + escapeHtml(label) + '</span>' : '';
+  }
+
+  function sourceAnchor(url, title, sourceType) {
     if (!url) return '来源链接缺失';
-    return '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(title || '官方来源') + '</a>';
+    return unofficialTag(sourceType) +
+      '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(title || '官方来源') + '</a>';
   }
 
   function freshnessBits(obj) {
     if (!obj) return '数据未加载';
+    const vs = obj.verifyStatus;
+    if (vs === 'pending') {
+      const y = obj.targetYear || PRODUCT_TARGET_YEAR;
+      return escapeHtml(String(y)) + '年 · ' + escapeHtml(VERIFY_STATUS_LABEL.pending);
+    }
     const year = obj.year != null && String(obj.year) !== '' ? escapeHtml(String(obj.year)) + '年' : '年份缺失';
     const at = obj.fetchedAt ? '抓取 ' + escapeHtml(String(obj.fetchedAt)) : '抓取时间缺失';
-    return year + ' · ' + at;
+    const vsLabel = verifyStatusLabel(vs);
+    const ref = vsLabel ? ' · ' + escapeHtml(vsLabel) : '';
+    return year + ' · ' + at + ref;
+  }
+
+  function recordSourceTags(item) {
+    if (!item) return '';
+    return unofficialTag(item.sourceType) + verifyStatusTag(item.verifyStatus);
   }
 
   function scoreSourceLinks() {
     if (!SCORES || !SCORES.sources) return '来源链接缺失';
     return Object.keys(SCORES.sources).map(key => {
       const item = SCORES.sources[key];
-      return sourceAnchor(item && item.url, item && item.title);
+      return sourceAnchor(item && item.url, item && item.title, item && item.sourceType);
     }).join('、');
   }
 
   function renderProvenance() {
     const zSrc = DATA && DATA.source;
     const feeUrl = DATA && DATA.publicFeeStandard && DATA.publicFeeStandard.source;
-    $('zzzsMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title);
-    $('feeMeta').innerHTML = '收费依据 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(feeUrl, '市发改委收费标准');
-    $('guideMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, '教育局通知') +
-      '<br>录取分数线 ' + freshnessBits(SCORES) + ' · ' + scoreSourceLinks();
+    $('zzzsMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + verifyStatusTag(DATA.verifyStatus) + ' · ' +
+      sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title, DATA.sourceType);
+    $('feeMeta').innerHTML = '收费依据 ' + freshnessBits(DATA) + verifyStatusTag(DATA.verifyStatus) + ' · ' +
+      sourceAnchor(feeUrl, '市发改委收费标准', 'official');
+    $('guideMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + verifyStatusTag(DATA.verifyStatus) + ' · ' +
+      sourceAnchor(zSrc && zSrc.url, '教育局通知', DATA.sourceType) +
+      '<br>录取分数线 ' + freshnessBits(SCORES) + verifyStatusTag(SCORES && SCORES.verifyStatus) + ' · ' + scoreSourceLinks();
     const attach = zSrc && zSrc.attachments && zSrc.attachments.length
-      ? '附件：' + zSrc.attachments.map(a => sourceAnchor(a.url, a.name)).join('、') + '。<br>'
+      ? '附件：' + zSrc.attachments.map(a => sourceAnchor(a.url, a.name, 'official')).join('、') + '。<br>'
       : '';
-    $('footer').innerHTML = '自主招生：' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title) +
+    $('footer').innerHTML = '自主招生：' + freshnessBits(DATA) + verifyStatusTag(DATA.verifyStatus) + ' · ' +
+      sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title, DATA.sourceType) +
       (zSrc && zSrc.publishedAt ? '（' + escapeHtml(zSrc.publishedAt) + '）' : '') + '<br>' + attach +
-      (DATA.profileSource ? '区域与办学介绍：' + sourceAnchor(DATA.profileSource.url, DATA.profileSource.title) + '。<br>' : '') +
-      '录取分数线：' + freshnessBits(SCORES) + ' · ' + scoreSourceLinks() + '<br>' +
-      (feeUrl ? '公办收费标准：' + sourceAnchor(feeUrl, '市发改委') + '。<br>' : '') +
+      (DATA.profileSource ? '区域与办学介绍：' + sourceAnchor(DATA.profileSource.url, DATA.profileSource.title, 'official') + '。<br>' : '') +
+      '录取分数线：' + freshnessBits(SCORES) + verifyStatusTag(SCORES && SCORES.verifyStatus) + ' · ' + scoreSourceLinks() + '<br>' +
+      (feeUrl ? '公办收费标准：' + sourceAnchor(feeUrl, '市发改委', 'official') + '。<br>' : '') +
       '自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费以学校公示原文为准。<br>' +
       escapeHtml(BRAND_DISCLAIMER);
     renderScoreMeta();
@@ -1658,8 +1708,8 @@
 
   function renderScoreMeta() {
     const src = SCORES && SCORES.sources && SCORES.sources[scoreState.batch];
-    $('scoreMeta').innerHTML = '录取分数线 ' + freshnessBits(SCORES) + ' · ' +
-      (src ? sourceAnchor(src.url, src.title) : '来源链接缺失');
+    $('scoreMeta').innerHTML = '录取分数线 ' + freshnessBits(SCORES) + verifyStatusTag(SCORES && SCORES.verifyStatus) + ' · ' +
+      (src ? sourceAnchor(src.url, src.title, src.sourceType) : '来源链接缺失');
   }
 
   function syncPresetButtons() {

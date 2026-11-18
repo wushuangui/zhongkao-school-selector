@@ -10,7 +10,9 @@ window.TIMELINE_DATA = {
       "start": "2026-06-12",
       "end": "2026-06-16",
       "guide": "path-zzzs",
-      "note": "一类在深圳市普通高中学校自主招生管理平台网上报名；公办二类到招生学校现场报名。只能报 1 所学校的 1 个项目。"
+      "note": "一类在深圳市普通高中学校自主招生管理平台网上报名；公办二类到招生学校现场报名。只能报 1 所学校的 1 个项目。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "zzzs-review",
@@ -18,7 +20,9 @@ window.TIMELINE_DATA = {
       "start": "2026-06-17",
       "end": "2026-06-22",
       "guide": "path-zzzs",
-      "note": "由招生学校审核。一类、二类不能兼报。"
+      "note": "由招生学校审核。一类、二类不能兼报。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "zzzs-shortlist",
@@ -26,7 +30,9 @@ window.TIMELINE_DATA = {
       "start": "2026-06-23",
       "end": "2026-06-23",
       "guide": "path-zzzs",
-      "note": "入围后才能参加学校项目考核。"
+      "note": "入围后才能参加学校项目考核。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "zzzs-exam",
@@ -34,7 +40,9 @@ window.TIMELINE_DATA = {
       "start": "2026-07-04",
       "end": "2026-07-05",
       "guide": "path-zzzs",
-      "note": "一类项目考核在 7 月 4 日；二类专项考核在 7 月 4 日—5 日，具体时段由学校通知。"
+      "note": "一类项目考核在 7 月 4 日；二类专项考核在 7 月 4 日—5 日，具体时段由学校通知。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "mee-batch",
@@ -42,7 +50,9 @@ window.TIMELINE_DATA = {
       "start": "",
       "end": "",
       "guide": "path-batch",
-      "note": "见当年招考公告。名额分配控制线是资格线，不是第一批录取线。"
+      "note": "见当年招考公告。名额分配控制线是资格线，不是第一批录取线。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "score-release",
@@ -50,7 +60,9 @@ window.TIMELINE_DATA = {
       "start": "",
       "end": "",
       "guide": "path-batch",
-      "note": "见当年招考公告。本站「录取分数线」可查已收录的各批次线。"
+      "note": "见当年招考公告。本站「录取分数线」可查已收录的各批次线。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "id": "makeup",
@@ -58,7 +70,12 @@ window.TIMELINE_DATA = {
       "start": "",
       "end": "",
       "guide": "path-makeup",
-      "note": "见当年招考公告。二次划线公布的是补录资格线，不是最终录取线。"
+      "note": "见当年招考公告。二次划线公布的是补录资格线，不是最终录取线。",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     }
-  ]
+  ],
+  "targetYear": 2027,
+  "verifyStatus": "reference-2026",
+  "sourceType": "official"
 };

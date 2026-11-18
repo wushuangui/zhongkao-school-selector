@@ -1,4 +1,4 @@
-// 由 scripts/fetch_scores.py 自动生成，请勿手改
+// 由 scripts/sync_verify_fields.py 根据 scores-*.json 生成，请勿手改
 window.SCORES_DATA = {
   "year": 2026,
   "fetchedAt": "2026-11-16T11:27:26+08:00",
@@ -6,28 +6,33 @@ window.SCORES_DATA = {
     "mee": {
       "title": "2026年深圳市高中阶段学校考生报考指导手册（名额分配招生计划表）",
       "url": "https://imgbdb3.bendibao.com/szbdb/edu/20265/29/2026529154210_87805.pdf",
-      "note": "控制线按前三年同类录取线均值降 20 分划定，仅用于名额分配批次，不能当作第一批志愿参考。"
+      "note": "控制线按前三年同类录取线均值降 20 分划定，仅用于名额分配批次，不能当作第一批志愿参考。",
+      "sourceType": "unofficial"
     },
     "batch1": {
       "title": "深圳市2026年高中阶段学校第一批录取分数线公布",
       "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12909874.html",
-      "note": "普通高中统招（除自招、名额分配外）及部分中职/技工试点专业。"
+      "note": "普通高中统招（除自招、名额分配外）及部分中职/技工试点专业。",
+      "sourceType": "official"
     },
     "batch2": {
       "title": "深圳市2026年高中阶段学校第二批录取分数线公布",
       "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12909892.html",
-      "note": "本市中等职业学校及技工院校（除第一批试点专业外）。"
+      "note": "本市中等职业学校及技工院校（除第一批试点专业外）。",
+      "sourceType": "official"
     },
     "second": {
       "title": "深圳市2026年高中阶段学校第二次划线录取分数线公布",
       "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12919057.html",
       "planUrl": "https://szeb.sz.gov.cn/attachment/1/1735/1735048/12913724.pdf",
-      "note": "资格线是填报门槛；实际录取分数线 ≥ 资格线，由投档产生。官方实际录取分数线以公告图片为准。"
+      "note": "资格线是填报门槛；实际录取分数线 ≥ 资格线，由投档产生。官方实际录取分数线以公告图片为准。",
+      "sourceType": "official"
     },
     "batch3": {
       "title": "第三批（部省属及跨市中等职业学校）",
       "url": "https://szeb.sz.gov.cn/szzkw/zkfw/index.html",
-      "note": "由广东省教育考试院组织录取，学校与分数线以省考试院及深圳招考网当期公告为准。"
+      "note": "由广东省教育考试院组织录取，学校与分数线以省考试院及深圳招考网当期公告为准。",
+      "sourceType": "official"
     }
   },
   "images": {
@@ -262,7 +267,9 @@ window.SCORES_DATA = {
           "score": 570
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -279,7 +286,9 @@ window.SCORES_DATA = {
           "score": 458
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -296,7 +305,9 @@ window.SCORES_DATA = {
           "score": 489
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -313,7 +324,9 @@ window.SCORES_DATA = {
           "score": 458
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -330,7 +343,9 @@ window.SCORES_DATA = {
           "score": 568
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -347,7 +362,9 @@ window.SCORES_DATA = {
           "score": 547
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -364,7 +381,9 @@ window.SCORES_DATA = {
           "score": 514
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -381,7 +400,9 @@ window.SCORES_DATA = {
           "score": 498
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -398,7 +419,9 @@ window.SCORES_DATA = {
           "score": 489
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -415,7 +438,9 @@ window.SCORES_DATA = {
           "score": 484
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -432,7 +457,9 @@ window.SCORES_DATA = {
           "score": 566
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -449,7 +476,9 @@ window.SCORES_DATA = {
           "score": 547
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -466,7 +495,9 @@ window.SCORES_DATA = {
           "score": 480
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -483,7 +514,9 @@ window.SCORES_DATA = {
           "score": 507
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -500,7 +533,9 @@ window.SCORES_DATA = {
           "score": 492
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -517,7 +552,9 @@ window.SCORES_DATA = {
           "score": 477
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -534,7 +571,9 @@ window.SCORES_DATA = {
           "score": 567
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -551,7 +590,9 @@ window.SCORES_DATA = {
           "score": 545
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -568,7 +609,9 @@ window.SCORES_DATA = {
           "score": 531
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -585,7 +628,9 @@ window.SCORES_DATA = {
           "score": 511
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -602,7 +647,9 @@ window.SCORES_DATA = {
           "score": 519
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -619,7 +666,9 @@ window.SCORES_DATA = {
           "score": 506
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -636,7 +685,9 @@ window.SCORES_DATA = {
           "score": 520
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -653,7 +704,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -670,7 +723,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -687,7 +742,9 @@ window.SCORES_DATA = {
           "score": 560
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -704,7 +761,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -721,7 +780,9 @@ window.SCORES_DATA = {
           "score": 541
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -738,7 +799,9 @@ window.SCORES_DATA = {
           "score": 550
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -755,7 +818,9 @@ window.SCORES_DATA = {
           "score": 470
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -772,7 +837,9 @@ window.SCORES_DATA = {
           "score": 554
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -789,7 +856,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -806,7 +875,9 @@ window.SCORES_DATA = {
           "score": 454
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -823,7 +894,9 @@ window.SCORES_DATA = {
           "score": 528
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -840,7 +913,9 @@ window.SCORES_DATA = {
           "score": 558
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -857,7 +932,9 @@ window.SCORES_DATA = {
           "score": 542
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -874,7 +951,9 @@ window.SCORES_DATA = {
           "score": 493
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -891,7 +970,9 @@ window.SCORES_DATA = {
           "score": 553
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -908,7 +989,9 @@ window.SCORES_DATA = {
           "score": 546
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -925,7 +1008,9 @@ window.SCORES_DATA = {
           "score": 522
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -942,7 +1027,9 @@ window.SCORES_DATA = {
           "score": 538
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -959,7 +1046,9 @@ window.SCORES_DATA = {
           "score": 539
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -976,7 +1065,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -993,7 +1084,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1010,7 +1103,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1027,7 +1122,9 @@ window.SCORES_DATA = {
           "score": 563
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1044,7 +1141,9 @@ window.SCORES_DATA = {
           "score": 528
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1061,7 +1160,9 @@ window.SCORES_DATA = {
           "score": 475
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1078,7 +1179,9 @@ window.SCORES_DATA = {
           "score": 519
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1095,7 +1198,9 @@ window.SCORES_DATA = {
           "score": 533
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1112,7 +1217,9 @@ window.SCORES_DATA = {
           "score": 552
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1129,7 +1236,9 @@ window.SCORES_DATA = {
           "score": 447
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1146,7 +1255,9 @@ window.SCORES_DATA = {
           "score": 516
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1163,7 +1274,9 @@ window.SCORES_DATA = {
           "score": 529
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1180,7 +1293,9 @@ window.SCORES_DATA = {
           "score": 452
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1197,7 +1312,9 @@ window.SCORES_DATA = {
           "score": 538
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1214,7 +1331,9 @@ window.SCORES_DATA = {
           "score": 538
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1231,7 +1350,9 @@ window.SCORES_DATA = {
           "score": 561
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1248,7 +1369,9 @@ window.SCORES_DATA = {
           "score": 478
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1265,7 +1388,9 @@ window.SCORES_DATA = {
           "score": 535
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1282,7 +1407,9 @@ window.SCORES_DATA = {
           "score": 558
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1299,7 +1426,9 @@ window.SCORES_DATA = {
           "score": 555
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1316,7 +1445,9 @@ window.SCORES_DATA = {
           "score": 562
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1333,7 +1464,9 @@ window.SCORES_DATA = {
           "score": 544
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1350,7 +1483,9 @@ window.SCORES_DATA = {
           "score": 531
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1367,7 +1502,9 @@ window.SCORES_DATA = {
           "score": 502
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1384,7 +1521,9 @@ window.SCORES_DATA = {
           "score": 459
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1401,7 +1540,9 @@ window.SCORES_DATA = {
           "score": 532
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1418,7 +1559,9 @@ window.SCORES_DATA = {
           "score": 456
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1435,7 +1578,9 @@ window.SCORES_DATA = {
           "score": 493
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1452,7 +1597,9 @@ window.SCORES_DATA = {
           "score": 525
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1469,7 +1616,9 @@ window.SCORES_DATA = {
           "score": 510
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1486,7 +1635,9 @@ window.SCORES_DATA = {
           "score": 553
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1503,7 +1654,9 @@ window.SCORES_DATA = {
           "score": 510
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1520,7 +1673,9 @@ window.SCORES_DATA = {
           "score": 463
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1537,7 +1692,9 @@ window.SCORES_DATA = {
           "score": 449
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1554,7 +1711,9 @@ window.SCORES_DATA = {
           "score": 468
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1571,7 +1730,9 @@ window.SCORES_DATA = {
           "score": 460
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1588,7 +1749,9 @@ window.SCORES_DATA = {
           "score": 542
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1605,7 +1768,9 @@ window.SCORES_DATA = {
           "score": 527
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1622,7 +1787,9 @@ window.SCORES_DATA = {
           "score": 459
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1639,7 +1806,9 @@ window.SCORES_DATA = {
           "score": 486
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1656,7 +1825,9 @@ window.SCORES_DATA = {
           "score": 550
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1673,7 +1844,9 @@ window.SCORES_DATA = {
           "score": 456
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1690,7 +1863,9 @@ window.SCORES_DATA = {
           "score": 534
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1707,7 +1882,9 @@ window.SCORES_DATA = {
           "score": 534
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1724,7 +1901,9 @@ window.SCORES_DATA = {
           "score": 491
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1741,7 +1920,9 @@ window.SCORES_DATA = {
           "score": 485
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1758,7 +1939,9 @@ window.SCORES_DATA = {
           "score": 465
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1775,7 +1958,9 @@ window.SCORES_DATA = {
           "score": 480
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1792,7 +1977,9 @@ window.SCORES_DATA = {
           "score": 475
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1809,7 +1996,9 @@ window.SCORES_DATA = {
           "score": 497
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1826,7 +2015,9 @@ window.SCORES_DATA = {
           "score": 469
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1843,7 +2034,9 @@ window.SCORES_DATA = {
           "score": 534
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1860,7 +2053,9 @@ window.SCORES_DATA = {
           "score": 549
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1877,7 +2072,9 @@ window.SCORES_DATA = {
           "score": 513
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1894,7 +2091,9 @@ window.SCORES_DATA = {
           "score": 571
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1911,7 +2110,9 @@ window.SCORES_DATA = {
           "score": 490
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1928,7 +2129,9 @@ window.SCORES_DATA = {
           "score": 516
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1945,7 +2148,9 @@ window.SCORES_DATA = {
           "score": 490
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1962,7 +2167,9 @@ window.SCORES_DATA = {
           "score": 569
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1979,7 +2186,9 @@ window.SCORES_DATA = {
           "score": 550
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -1996,7 +2205,9 @@ window.SCORES_DATA = {
           "score": 517
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2013,7 +2224,9 @@ window.SCORES_DATA = {
           "score": 505
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2030,7 +2243,9 @@ window.SCORES_DATA = {
           "score": 505
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2047,7 +2262,9 @@ window.SCORES_DATA = {
           "score": 504
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2064,7 +2281,9 @@ window.SCORES_DATA = {
           "score": 566
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2081,7 +2300,9 @@ window.SCORES_DATA = {
           "score": 545
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2098,7 +2319,9 @@ window.SCORES_DATA = {
           "score": 505
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2115,7 +2338,9 @@ window.SCORES_DATA = {
           "score": 510
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2132,7 +2357,9 @@ window.SCORES_DATA = {
           "score": 507
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2149,7 +2376,9 @@ window.SCORES_DATA = {
           "score": 503
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2166,7 +2395,9 @@ window.SCORES_DATA = {
           "score": 567
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2183,7 +2414,9 @@ window.SCORES_DATA = {
           "score": 543
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2200,7 +2433,9 @@ window.SCORES_DATA = {
           "score": 533
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2217,7 +2452,9 @@ window.SCORES_DATA = {
           "score": 515
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2234,7 +2471,9 @@ window.SCORES_DATA = {
           "score": 520
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2251,7 +2490,9 @@ window.SCORES_DATA = {
           "score": 513
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2268,7 +2509,9 @@ window.SCORES_DATA = {
           "score": 524
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2285,7 +2528,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2302,7 +2547,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2319,7 +2566,9 @@ window.SCORES_DATA = {
           "score": 560
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2336,7 +2585,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2353,7 +2604,9 @@ window.SCORES_DATA = {
           "score": 543
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2370,7 +2623,9 @@ window.SCORES_DATA = {
           "score": 549
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2387,7 +2642,9 @@ window.SCORES_DATA = {
           "score": 501
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2404,7 +2661,9 @@ window.SCORES_DATA = {
           "score": 553
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2421,7 +2680,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2438,7 +2699,9 @@ window.SCORES_DATA = {
           "score": 497
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2455,7 +2718,9 @@ window.SCORES_DATA = {
           "score": 531
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2472,7 +2737,9 @@ window.SCORES_DATA = {
           "score": 559
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2489,7 +2756,9 @@ window.SCORES_DATA = {
           "score": 544
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2506,7 +2775,9 @@ window.SCORES_DATA = {
           "score": 516
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2523,7 +2794,9 @@ window.SCORES_DATA = {
           "score": 554
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2540,7 +2813,9 @@ window.SCORES_DATA = {
           "score": 547
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2557,7 +2832,9 @@ window.SCORES_DATA = {
           "score": 530
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2574,7 +2851,9 @@ window.SCORES_DATA = {
           "score": 539
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2591,7 +2870,9 @@ window.SCORES_DATA = {
           "score": 539
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2608,7 +2889,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2625,7 +2908,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2642,7 +2927,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2659,7 +2946,9 @@ window.SCORES_DATA = {
           "score": 563
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2676,7 +2965,9 @@ window.SCORES_DATA = {
           "score": 532
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2693,7 +2984,9 @@ window.SCORES_DATA = {
           "score": 505
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2710,7 +3003,9 @@ window.SCORES_DATA = {
           "score": 521
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2727,7 +3022,9 @@ window.SCORES_DATA = {
           "score": 534
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2744,7 +3041,9 @@ window.SCORES_DATA = {
           "score": 552
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2761,7 +3060,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2778,7 +3079,9 @@ window.SCORES_DATA = {
           "score": 520
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2795,7 +3098,9 @@ window.SCORES_DATA = {
           "score": 533
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2812,7 +3117,9 @@ window.SCORES_DATA = {
           "score": 482
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2829,7 +3136,9 @@ window.SCORES_DATA = {
           "score": 540
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2846,7 +3155,9 @@ window.SCORES_DATA = {
           "score": 541
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2863,7 +3174,9 @@ window.SCORES_DATA = {
           "score": 561
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2880,7 +3193,9 @@ window.SCORES_DATA = {
           "score": 501
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2897,7 +3212,9 @@ window.SCORES_DATA = {
           "score": 536
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2914,7 +3231,9 @@ window.SCORES_DATA = {
           "score": 558
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2931,7 +3250,9 @@ window.SCORES_DATA = {
           "score": 555
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2948,7 +3269,9 @@ window.SCORES_DATA = {
           "score": 562
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2965,7 +3288,9 @@ window.SCORES_DATA = {
           "score": 546
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2982,7 +3307,9 @@ window.SCORES_DATA = {
           "score": 535
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -2999,7 +3326,9 @@ window.SCORES_DATA = {
           "score": 518
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3016,7 +3345,9 @@ window.SCORES_DATA = {
           "score": 500
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3033,7 +3364,9 @@ window.SCORES_DATA = {
           "score": 535
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3050,7 +3383,9 @@ window.SCORES_DATA = {
           "score": 492
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3067,7 +3402,9 @@ window.SCORES_DATA = {
           "score": 516
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3084,7 +3421,9 @@ window.SCORES_DATA = {
           "score": 531
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3101,7 +3440,9 @@ window.SCORES_DATA = {
           "score": 528
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3118,7 +3459,9 @@ window.SCORES_DATA = {
           "score": 554
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3135,7 +3478,9 @@ window.SCORES_DATA = {
           "score": 527
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3152,7 +3497,9 @@ window.SCORES_DATA = {
           "score": 500
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3169,7 +3516,9 @@ window.SCORES_DATA = {
           "score": 492
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3186,7 +3535,9 @@ window.SCORES_DATA = {
           "score": 503
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3203,7 +3554,9 @@ window.SCORES_DATA = {
           "score": 499
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3220,7 +3573,9 @@ window.SCORES_DATA = {
           "score": 542
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3237,7 +3592,9 @@ window.SCORES_DATA = {
           "score": 535
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3254,7 +3611,9 @@ window.SCORES_DATA = {
           "score": 501
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3271,7 +3630,9 @@ window.SCORES_DATA = {
           "score": 512
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3288,7 +3649,9 @@ window.SCORES_DATA = {
           "score": 550
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3305,7 +3668,9 @@ window.SCORES_DATA = {
           "score": 494
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3322,7 +3687,9 @@ window.SCORES_DATA = {
           "score": 538
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3339,7 +3706,9 @@ window.SCORES_DATA = {
           "score": 537
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3356,7 +3725,9 @@ window.SCORES_DATA = {
           "score": 512
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3373,7 +3744,9 @@ window.SCORES_DATA = {
           "score": 513
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3390,7 +3763,9 @@ window.SCORES_DATA = {
           "score": 494
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3407,7 +3782,9 @@ window.SCORES_DATA = {
           "score": 508
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3424,7 +3801,9 @@ window.SCORES_DATA = {
           "score": 508
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3441,7 +3820,9 @@ window.SCORES_DATA = {
           "score": 521
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3458,7 +3839,9 @@ window.SCORES_DATA = {
           "score": 503
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3475,7 +3858,9 @@ window.SCORES_DATA = {
           "score": 537
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3492,7 +3877,9 @@ window.SCORES_DATA = {
           "score": 549
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3509,7 +3896,9 @@ window.SCORES_DATA = {
           "score": 524
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "batch": "mee",
@@ -3526,7 +3915,9 @@ window.SCORES_DATA = {
           "score": 423
         }
       ],
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "unofficial"
     },
     {
       "name": "深圳中学",
@@ -3554,7 +3945,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "罗湖区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳中学科技高中",
@@ -3574,7 +3967,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "深汕区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳中学数理高中",
@@ -3594,7 +3989,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "深汕区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳中学实验高中",
@@ -3614,7 +4011,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "深汕区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校高中部",
@@ -3642,7 +4041,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "福田区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校光明部",
@@ -3670,7 +4071,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "光明区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校明理高中",
@@ -3698,7 +4101,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "坪山区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校崇文高中",
@@ -3726,7 +4131,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "坪山区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校卓越高中",
@@ -3754,7 +4161,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "坪山区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳实验学校至臻高中",
@@ -3782,7 +4191,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "坪山区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校",
@@ -3810,7 +4221,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校龙华高中部",
@@ -3838,7 +4251,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校致远高中",
@@ -3866,7 +4281,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校弘知高中",
@@ -3894,7 +4311,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校博雅高中",
@@ -3922,7 +4341,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳外国语学校理工高中",
@@ -3950,7 +4371,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学中心校区",
@@ -3978,7 +4401,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学东校区",
@@ -4006,7 +4431,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学创新高中",
@@ -4034,7 +4461,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学文博高中",
@@ -4062,7 +4491,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学理慧高中",
@@ -4090,7 +4521,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市高级中学有为高中",
@@ -4118,7 +4551,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三高级中学（国内高考班）",
@@ -4146,7 +4581,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳启元中学",
@@ -4174,7 +4611,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳益新中学",
@@ -4202,7 +4641,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳大学附属中学中心校区（深大附中中心校区）",
@@ -4230,7 +4671,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳大学附属中学盐田校区（深大附中盐田校区）",
@@ -4258,7 +4701,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳大学附属实验中学",
@@ -4286,7 +4731,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二实验学校",
@@ -4314,7 +4761,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "福田区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二实验学校明远高中",
@@ -4342,7 +4791,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "大鹏新区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二高级中学",
@@ -4370,7 +4821,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二高级中学宝安高中部",
@@ -4398,7 +4851,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二高级中学深汕实验学校",
@@ -4418,7 +4873,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "深汕区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳第二外国语学校",
@@ -4446,7 +4903,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "龙华区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳科学高中",
@@ -4474,7 +4933,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "龙岗区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳科学高中龙岗分校",
@@ -4502,7 +4963,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "龙岗区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第七高级中学",
@@ -4530,7 +4993,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "南方科技大学附属中学",
@@ -4558,7 +5023,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "宝安区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "广东实验中学深圳学校",
@@ -4586,7 +5053,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技术大学附属中学",
@@ -4614,7 +5083,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "东北师范大学附属中学深圳学校",
@@ -4642,7 +5113,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳北理莫斯科大学附属实验中学",
@@ -4670,7 +5143,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳理工大学附属中学",
@@ -4698,7 +5173,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市曙光中学（综合高中）",
@@ -4726,7 +5203,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳创新高级中学（综合高中）",
@@ -4746,7 +5225,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "福田区红岭中学（红岭教育集团）高中部",
@@ -4774,7 +5255,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "福田区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "福田中学",
@@ -4802,7 +5285,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "北京大学附属中学深圳学校",
@@ -4830,7 +5315,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "西交利物浦大学基础教育集团外国语高级中学",
@@ -4858,7 +5345,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "香港中文大学（深圳）附属明德高级中学",
@@ -4886,7 +5375,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "翠园中学（爱国路校区）",
@@ -4914,7 +5405,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "罗湖区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "翠园中学（东门北路校区）",
@@ -4942,7 +5435,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "罗湖区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "罗湖高级中学",
@@ -4970,7 +5465,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "罗湖外语学校",
@@ -4998,7 +5495,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市美术学校",
@@ -5026,7 +5525,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "盐田高级中学",
@@ -5054,7 +5555,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "南头中学",
@@ -5082,7 +5585,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "育才中学",
@@ -5110,7 +5615,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "育才一中",
@@ -5138,7 +5645,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "华侨城高级中学",
@@ -5166,7 +5675,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "北京师范大学南山附属学校",
@@ -5194,7 +5705,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "南山外国语学校（集团）高级中学",
@@ -5222,7 +5735,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "南山区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安中学（集团）高中部",
@@ -5250,7 +5765,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "宝安区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "新安中学（集团）高中部",
@@ -5278,7 +5795,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安第一外国语学校",
@@ -5306,7 +5825,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "宝安区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "西乡中学",
@@ -5334,7 +5855,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "沙井中学",
@@ -5362,7 +5885,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "松岗中学",
@@ -5390,7 +5915,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "石岩外国语学校",
@@ -5418,7 +5945,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福海中学",
@@ -5446,7 +5975,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "龙津中学",
@@ -5474,7 +6005,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "宝安区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市燕川中学",
@@ -5502,7 +6035,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "龙城高级中学",
@@ -5530,7 +6065,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "平冈中学",
@@ -5558,7 +6095,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二高级中学",
@@ -5586,7 +6125,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "布吉中学",
@@ -5606,7 +6147,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "横岗高级中学",
@@ -5634,7 +6177,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "平湖外国语学校",
@@ -5662,7 +6207,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "华中师范大学龙岗附属中学",
@@ -5690,7 +6237,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "龙岗区实验高级中学",
@@ -5718,7 +6267,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "龙华中学",
@@ -5746,7 +6297,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "观澜中学",
@@ -5774,7 +6327,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "龙华高级中学",
@@ -5802,7 +6357,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市艺术高中",
@@ -5830,7 +6387,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市格致中学",
@@ -5858,7 +6417,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市红山中学",
@@ -5886,7 +6447,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华外国语高级中学",
@@ -5914,7 +6477,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市致理中学",
@@ -5942,7 +6507,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华科技实验高级中学",
@@ -5970,7 +6537,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "坪山高级中学",
@@ -5998,7 +6567,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市聚龙科学中学",
@@ -6026,7 +6597,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "光明区高级中学",
@@ -6054,7 +6627,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "光明中学",
@@ -6082,7 +6657,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "中国科学院深圳理工大学附属实验高级中学（中科附高）",
@@ -6110,7 +6687,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "人大附中深圳学校（高中部）",
@@ -6130,7 +6709,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "大鹏新区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "红岭教育集团大鹏华侨中学",
@@ -6158,7 +6739,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "大鹏新区",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三高级中学（国家留学基金会自费出国留学班）",
@@ -6174,7 +6757,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（综合高中班）",
@@ -6190,7 +6775,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（综合高中班）",
@@ -6206,7 +6793,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（综合高中班）",
@@ -6222,7 +6811,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市罗湖区华美外国语学校",
@@ -6238,7 +6829,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市万科梅沙书院",
@@ -6254,7 +6847,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐田区梅沙双语学校",
@@ -6270,7 +6865,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳（南山）中加学校",
@@ -6286,7 +6883,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市南山中英文学校",
@@ -6302,7 +6901,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳东方英文书院",
@@ -6318,7 +6919,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市崛起实验中学",
@@ -6334,7 +6937,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市桃源居中澳实验学校",
@@ -6350,7 +6955,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华胜实验学校",
@@ -6366,7 +6973,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市富源学校",
@@ -6382,7 +6991,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华侨（康桥）书院",
@@ -6398,7 +7009,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市明德外语实验学校",
@@ -6414,7 +7027,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安区中英公学",
@@ -6430,7 +7045,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市松岗中英文实验学校",
@@ -6446,7 +7063,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安区翻身实验学校（西校区）",
@@ -6462,7 +7081,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华一实验学校",
@@ -6478,7 +7099,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福桥高级中学",
@@ -6494,7 +7117,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市滨海高级中学",
@@ -6510,7 +7135,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市弘毅高级中学",
@@ -6526,7 +7153,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区东升学校",
@@ -6542,7 +7171,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市建文外国语学校",
@@ -6558,7 +7189,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区科城实验学校",
@@ -6574,7 +7207,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市承翰学校",
@@ -6590,7 +7225,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市坤翔高级中学",
@@ -6606,7 +7243,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区珊蒂泉外国语学校",
@@ -6622,7 +7261,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市枫叶学校",
@@ -6638,7 +7279,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区德琳学校",
@@ -6654,7 +7297,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市鹏达高级中学",
@@ -6670,7 +7315,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳菁华中英文实验中学",
@@ -6686,7 +7333,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市展才高级中学",
@@ -6702,7 +7351,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中荟高级中学",
@@ -6718,7 +7369,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华中英文实验学校",
@@ -6734,7 +7387,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市美中学校",
@@ -6750,7 +7405,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市展华实验学校",
@@ -6766,7 +7423,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市格睿特高级中学",
@@ -6782,7 +7441,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华区博恒实验学校",
@@ -6798,7 +7459,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市汉开数理高中",
@@ -6814,7 +7477,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市育华高级中学",
@@ -6830,7 +7495,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙翔学校",
@@ -6846,7 +7513,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中新中学",
@@ -6862,7 +7531,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市立人高级中学",
@@ -6878,7 +7549,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华朗学校",
@@ -6894,7 +7567,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市知源高级中学",
@@ -6910,7 +7585,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华文高级中学",
@@ -6926,7 +7603,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市光明书院",
@@ -6942,7 +7621,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳杰仁高级中学",
@@ -6958,7 +7639,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市耀华外国语学校",
@@ -6974,7 +7657,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市光明区贝赛思外国语学校",
@@ -6990,7 +7675,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市正德高级中学",
@@ -7006,7 +7693,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（工业机器人技术应用）（中本贯通）",
@@ -7022,7 +7711,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（数字影像技术）（中本贯通）",
@@ -7038,7 +7729,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（计算机应用）（中本贯通）",
@@ -7054,7 +7747,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（新能源汽车运用与维修）（中本贯通）",
@@ -7070,7 +7765,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（工业机器人技术应用）",
@@ -7086,7 +7783,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（智能设备运行与维护）",
@@ -7102,7 +7801,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（室内设计）（长学制）",
@@ -7118,7 +7819,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（机电一体化技术）（三二分段）",
@@ -7134,7 +7837,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（低空飞行器技术应用）",
@@ -7150,7 +7855,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（智能机器人应用与维护）",
@@ -7166,7 +7873,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（计算机应用）（中本贯通）",
@@ -7182,7 +7891,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（电子商务）（三二分段）",
@@ -7198,7 +7909,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（数字影像技术）",
@@ -7214,7 +7927,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（艺术设计与制作）",
@@ -7230,7 +7945,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（电子商务）（中本贯通）",
@@ -7246,7 +7963,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（人工智能技术与应用）（长学制）",
@@ -7262,7 +7981,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（数控技术应用）（中本贯通）",
@@ -7278,7 +7999,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（服装设计与工艺）（长学制）",
@@ -7294,7 +8017,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（动漫与游戏制作）",
@@ -7310,7 +8035,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（工业机器人技术应用）",
@@ -7326,7 +8053,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（社区公共事务管理）（中本贯通）",
@@ -7342,7 +8071,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（动漫与游戏制作）",
@@ -7358,7 +8089,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch1"
+      "batch": "batch1",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（艺术设计与制作）",
@@ -7374,7 +8107,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（会计事务）",
@@ -7390,7 +8125,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（直播电商服务）",
@@ -7406,7 +8143,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（跨境电子商务）",
@@ -7422,7 +8161,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（计算机应用）",
@@ -7438,7 +8179,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（大数据技术应用）",
@@ -7454,7 +8197,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（物联网技术应用）",
@@ -7470,7 +8215,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（界面设计与制作）",
@@ -7486,7 +8233,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（人工智能技术与应用）",
@@ -7502,7 +8251,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（环境治理技术）（三二分段）",
@@ -7518,7 +8269,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（制药技术应用）（三二分段）",
@@ -7534,7 +8287,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（计算机网络技术）（长学制）",
@@ -7550,7 +8305,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（智能化生产线安装与运维）（长学制）",
@@ -7566,7 +8323,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（纳税事务）（长学制）",
@@ -7582,7 +8341,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（制药技术应用）（长学制）",
@@ -7598,7 +8359,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第一职业技术学校（药品食品检验）（长学制）",
@@ -7614,7 +8377,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（会计事务）",
@@ -7630,7 +8395,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（新能源汽车运用与维修）",
@@ -7646,7 +8413,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（无人机操控与维护）",
@@ -7662,7 +8431,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（汽车运用与维修）",
@@ -7678,7 +8449,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（物流服务与管理）",
@@ -7694,7 +8467,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（中餐烹饪）",
@@ -7710,7 +8485,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（商务英语）",
@@ -7726,7 +8503,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（艺术设计与制作）",
@@ -7742,7 +8521,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（社区公共事务管理）",
@@ -7758,7 +8539,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（电子商务）",
@@ -7774,7 +8557,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（服务机器人装配与维护）",
@@ -7790,7 +8575,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（动漫与游戏制作）",
@@ -7806,7 +8593,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（计算机应用）（三二分段）",
@@ -7822,7 +8611,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（社区公共事务管理）（三二分段）",
@@ -7838,7 +8629,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（网络信息安全）（三二分段）",
@@ -7854,7 +8647,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（电子商务）（三二分段）",
@@ -7870,7 +8665,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（智能网联汽车技术）（长学制）",
@@ -7886,7 +8683,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（会计事务）（长学制）",
@@ -7902,7 +8701,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（人工智能技术与应用）（长学制）",
@@ -7918,7 +8719,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（动漫与游戏制作）（长学制）",
@@ -7934,7 +8737,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（电子商务）（长学制）",
@@ -7950,7 +8755,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第二职业技术学校（计算机应用）（长学制）",
@@ -7966,7 +8773,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市新鹏职业高级中学（电子商务）",
@@ -7982,7 +8791,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市新鹏职业高级中学（高星级饭店运营与管理）",
@@ -7998,7 +8809,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市新鹏职业高级中学（汽车运用与维修）",
@@ -8014,7 +8827,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（智能化生产线安装与运维）",
@@ -8030,7 +8845,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（动漫与游戏制作）",
@@ -8046,7 +8863,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（工业机器人技术应用）",
@@ -8062,7 +8881,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（计算机网络技术）",
@@ -8078,7 +8899,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（电子商务）",
@@ -8094,7 +8917,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（工艺品设计与制作）（走读班）",
@@ -8110,7 +8935,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（康养休闲旅游服务）（走读班）",
@@ -8126,7 +8953,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（艺术设计与制作）（走读班）",
@@ -8142,7 +8971,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（无人机操控与维护）（走读班）",
@@ -8158,7 +8989,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（智慧健康养老服务）（走读班）",
@@ -8174,7 +9007,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（物流服务与管理）（三二分段）",
@@ -8190,7 +9025,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（电子商务）（三二分段）",
@@ -8206,7 +9043,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（现代通信技术应用）（长学制）",
@@ -8222,7 +9061,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（城市轨道交通运营服务）（长学制）",
@@ -8238,7 +9079,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市开放职业技术学校（工业机器人技术应用）（长学制）",
@@ -8254,7 +9097,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（工业互联网技术与应用）",
@@ -8270,7 +9115,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（光伏工程技术与应用）",
@@ -8286,7 +9133,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（电子商务）",
@@ -8302,7 +9151,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（移动应用技术与服务）",
@@ -8318,7 +9169,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（物流服务与管理）",
@@ -8334,7 +9187,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（电梯安装与维修保养）",
@@ -8350,7 +9205,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（工业机器人技术应用）（三二分段）",
@@ -8366,7 +9223,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（物联网技术应用）（三二分段）",
@@ -8382,7 +9241,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（会计事务）（三二分段）",
@@ -8398,7 +9259,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（移动应用技术与服务）（三二分段）",
@@ -8414,7 +9277,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（计算机网络技术）（长学制）",
@@ -8430,7 +9295,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市第三职业技术学校（建筑智能化设备安装与运维）（长学制）",
@@ -8446,7 +9313,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（电子商务）",
@@ -8462,7 +9331,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（计算机平面设计）",
@@ -8478,7 +9349,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（工业机器人技术应用）",
@@ -8494,7 +9367,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（计算机应用）",
@@ -8510,7 +9385,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（软件与信息服务）",
@@ -8526,7 +9403,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（艺术设计与制作）",
@@ -8542,7 +9421,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（新能源汽车运用与维修）",
@@ -8558,7 +9439,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（数字媒体技术应用）",
@@ -8574,7 +9457,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（无人机操控与维护）",
@@ -8590,7 +9475,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（动漫与游戏制作）",
@@ -8606,7 +9493,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（人工智能技术与应用）",
@@ -8622,7 +9511,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（电子商务）坪山教学点",
@@ -8638,7 +9529,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（动漫与游戏制作）坪山教学点",
@@ -8654,7 +9547,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（艺术设计与制作）坪山教学点",
@@ -8670,7 +9565,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（计算机应用）坪山教学点",
@@ -8686,7 +9583,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（新能源汽车运用与维修）（三二分段）",
@@ -8702,7 +9601,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（软件与信息服务）（三二分段）",
@@ -8718,7 +9619,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（建筑装饰技术）（三二分段）",
@@ -8734,7 +9637,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（数字媒体技术应用）（三二分段）",
@@ -8750,7 +9655,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市奋达职业技术学校（电子商务）（三二分段）",
@@ -8766,7 +9673,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（计算机平面设计）",
@@ -8782,7 +9691,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（电子商务）",
@@ -8798,7 +9709,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（服装设计与工艺）",
@@ -8814,7 +9727,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（航空服务）",
@@ -8830,7 +9745,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（计算机应用）",
@@ -8846,7 +9763,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（动漫与游戏制作）",
@@ -8862,7 +9781,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（会计事务）",
@@ -8878,7 +9799,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（幼儿保育）",
@@ -8894,7 +9817,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（商务英语）",
@@ -8910,7 +9835,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（城市轨道交通运营服务）",
@@ -8926,7 +9853,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（艺术设计与制作）",
@@ -8942,7 +9871,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（汽车运用与维修）",
@@ -8958,7 +9889,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（舞蹈表演）",
@@ -8974,7 +9907,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（人工智能技术与应用）",
@@ -8990,7 +9925,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中嘉职业技术学校（无人机操控与维护）",
@@ -9006,7 +9943,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（工业设计）",
@@ -9022,7 +9961,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（智能光电技术应用）",
@@ -9038,7 +9979,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（广告设计与制作）",
@@ -9054,7 +9997,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（工业机器人与应用维护）",
@@ -9070,7 +10015,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（3D打印技术应用）",
@@ -9086,7 +10033,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（工业互联网与大数据应用）",
@@ -9102,7 +10051,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（传播与策划）",
@@ -9118,7 +10069,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（网络营销与直播电商）",
@@ -9134,7 +10087,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（智能医疗设备技术）",
@@ -9150,7 +10105,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（计算机动画制作）（三二分段）",
@@ -9166,7 +10123,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（航空服务）（三二分段）",
@@ -9182,7 +10141,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（珠宝首饰鉴定与营销）（三二分段）",
@@ -9198,7 +10159,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（新能源汽车检测与维修）（三二分段）",
@@ -9214,7 +10177,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（药物制剂）（三二分段）",
@@ -9230,7 +10195,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（环境艺术设计）（三二分段）",
@@ -9246,7 +10213,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（机电一体化技术）（长学制）",
@@ -9262,7 +10231,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（珠宝首饰设计与制作）（长学制）",
@@ -9278,7 +10249,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（应用生物技术）（长学制）",
@@ -9294,7 +10267,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（航空服务）（长学制）",
@@ -9310,7 +10285,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（云计算技术应用）（长学制）",
@@ -9326,7 +10303,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（通信网络应用）（长学制）",
@@ -9342,7 +10321,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（现代物流）（长学制）",
@@ -9358,7 +10339,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（商务数据分析与应用）（长学制）",
@@ -9374,7 +10357,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（数字媒体技术应用）（长学制）",
@@ -9390,7 +10375,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳技师学院（环境艺术设计）（长学制）",
@@ -9406,7 +10393,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（消防工程技术）",
@@ -9422,7 +10411,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（云计算技术应用）",
@@ -9438,7 +10429,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（电子商务）",
@@ -9454,7 +10447,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（电子商务）（走读班）",
@@ -9470,7 +10465,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（楼宇智能化技术）",
@@ -9486,7 +10483,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（楼宇智能化技术）（走读班）",
@@ -9502,7 +10501,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（大数据应用技术）",
@@ -9518,7 +10519,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（人工智能技术应用）",
@@ -9534,7 +10537,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（人工智能技术应用）（走读班）",
@@ -9550,7 +10555,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（工业机器人与应用维护）",
@@ -9566,7 +10573,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（工业机器人与应用维护）（走读班）",
@@ -9582,7 +10591,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（数字化设计与制造）",
@@ -9598,7 +10609,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（数字化设计与制造）（走读班）",
@@ -9614,7 +10627,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（视觉训练与康复）",
@@ -9630,7 +10645,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（视觉训练与康复）（走读班）",
@@ -9646,7 +10663,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（家居产品设计与展示）",
@@ -9662,7 +10681,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（家居产品设计与展示）（走读班）",
@@ -9678,7 +10699,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（食品质量与安全）",
@@ -9694,7 +10717,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（食品质量与安全）（走读班）",
@@ -9710,7 +10735,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（物联网应用技术）（走读班）",
@@ -9726,7 +10753,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（新能源汽车检测与维修）",
@@ -9742,7 +10771,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（新能源汽车检测与维修）（走读班）",
@@ -9758,7 +10789,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（烹调工艺与营养）",
@@ -9774,7 +10807,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（烹调工艺与营养）（走读班）",
@@ -9790,7 +10825,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（工业互联网与大数据应用）",
@@ -9806,7 +10843,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（工业互联网与大数据应用）（走读班）",
@@ -9822,7 +10861,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（移动互联网应用技术）",
@@ -9838,7 +10879,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（移动互联网应用技术）（走读班）",
@@ -9854,7 +10897,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（现代物流）",
@@ -9870,7 +10915,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（现代物流）（走读班）",
@@ -9886,7 +10933,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（数控编程）",
@@ -9902,7 +10951,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（新媒体与互联网应用）",
@@ -9918,7 +10969,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（新媒体与互联网应用）（走读班）",
@@ -9934,7 +10987,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（电子产品检测与认证）",
@@ -9950,7 +11005,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（电子产品检测与认证）（走读班）",
@@ -9966,7 +11023,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（会展设计）",
@@ -9982,7 +11041,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（会展设计）（走读班）",
@@ -9998,7 +11059,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（智能网联汽车技术应用）",
@@ -10014,7 +11077,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳鹏城技师学院（智能网联汽车技术应用）（走读班）",
@@ -10030,7 +11095,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（金融事务）（金融大数据处理方向）",
@@ -10046,7 +11113,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（会计事务）（智能财税方向）",
@@ -10062,7 +11131,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（服务机器人装配与维护）",
@@ -10078,7 +11149,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（数字媒体技术应用）",
@@ -10094,7 +11167,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（物流服务与管理）",
@@ -10110,7 +11185,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（跨境电子商务）",
@@ -10126,7 +11203,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（旅游服务与管理）（数智文旅方向）",
@@ -10142,7 +11221,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（工业机器人技术应用）",
@@ -10158,7 +11239,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（高星级饭店运营与管理）（数字化运营方向）",
@@ -10174,7 +11257,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（艺术设计与制作）",
@@ -10190,7 +11275,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（人工智能技术与应用）",
@@ -10206,7 +11293,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（大数据技术应用）",
@@ -10222,7 +11311,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（无人机操控与维护）",
@@ -10238,7 +11329,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（动漫与游戏设计）（三二分段）",
@@ -10254,7 +11347,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（艺术设计与制作）（长学制）",
@@ -10270,7 +11365,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（计算机应用）（长学制）",
@@ -10286,7 +11383,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（计算机网络技术）（长学制）",
@@ -10302,7 +11401,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市福田区华强职业技术学校（电子商务）（长学制）",
@@ -10318,7 +11419,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（电子商务）",
@@ -10334,7 +11437,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（工艺美术）",
@@ -10350,7 +11455,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（绘画）",
@@ -10366,7 +11473,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（首饰设计与制作）",
@@ -10382,7 +11491,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（无人机操控与维护）",
@@ -10398,7 +11509,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（音乐表演）",
@@ -10414,7 +11527,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（数字影像技术）（长学制）",
@@ -10430,7 +11545,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市行知职业技术学校（动漫与游戏制作）（长学制）",
@@ -10446,7 +11563,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学",
@@ -10462,7 +11581,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（计算机应用）（走读班）",
@@ -10478,7 +11599,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（首饰设计与制作）（走读班）",
@@ -10494,7 +11617,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（艺术设计与制作）（走读班）",
@@ -10510,7 +11635,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（物流服务与管理）（走读班）",
@@ -10526,7 +11653,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（计算机网络技术）（走读班）",
@@ -10542,7 +11671,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（城市轨道交通运营服务）（走读班）",
@@ -10558,7 +11689,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（纺织技术与服务）（三二分段）（走读班）",
@@ -10574,7 +11707,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市盐港中学（物流服务与管理）（长学制）（走读班）",
@@ -10590,7 +11725,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（首饰设计与制作）",
@@ -10606,7 +11743,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（电子商务）",
@@ -10622,7 +11761,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（会计事务）",
@@ -10638,7 +11779,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（运动训练）",
@@ -10654,7 +11797,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（艺术设计与制作）",
@@ -10670,7 +11815,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（物联网技术应用）",
@@ -10686,7 +11833,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（影像与影视技术）",
@@ -10702,7 +11851,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（音乐表演）",
@@ -10718,7 +11869,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（宝玉石加工与检测）",
@@ -10734,7 +11887,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（园林技术）",
@@ -10750,7 +11905,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（食品加工工艺）",
@@ -10766,7 +11923,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（首饰设计与制作）（三二分段）",
@@ -10782,7 +11941,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（食品安全与检测技术）（三二分段）",
@@ -10798,7 +11959,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（计算机应用）（三二分段）",
@@ -10814,7 +11977,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（宝玉石加工与检测）（长学制）",
@@ -10830,7 +11995,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市博伦职业技术学校（工业机器人技术应用）（长学制）",
@@ -10846,7 +12013,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（动漫与游戏制作）",
@@ -10862,7 +12031,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（会计事务）",
@@ -10878,7 +12049,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（电子商务）",
@@ -10894,7 +12067,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（计算机网络技术）",
@@ -10910,7 +12085,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（数控技术应用）",
@@ -10926,7 +12103,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（人工智能技术与应用）",
@@ -10942,7 +12121,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（新能源汽车运用与维修）",
@@ -10958,7 +12139,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（商务英语）",
@@ -10974,7 +12157,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（工业机器人技术应用）",
@@ -10990,7 +12175,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（会计事务）（三二分段）",
@@ -11006,7 +12193,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（计算机应用）（三二分段）",
@@ -11022,7 +12211,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（服装设计与工艺）（三二分段）",
@@ -11038,7 +12229,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（数控技术应用）（三二分段）",
@@ -11054,7 +12247,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（计算机网络技术）（三二分段）",
@@ -11070,7 +12265,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（动漫与游戏制作）（三二分段）",
@@ -11086,7 +12283,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（物流服务与管理）（三二分段）",
@@ -11102,7 +12301,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（物流服务与管理）（长学制）",
@@ -11118,7 +12319,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（新能源汽车运用与维修）（长学制）",
@@ -11134,7 +12337,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝安职业技术学校（软件与信息服务）（长学制）",
@@ -11150,7 +12355,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（会计事务）",
@@ -11166,7 +12373,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（电子商务）",
@@ -11182,7 +12391,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（数控技术应用）（机器人应用方向）",
@@ -11198,7 +12409,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（模具制造技术）（工业设计方向三二分段）",
@@ -11214,7 +12427,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（中餐烹饪）（三二分段）",
@@ -11230,7 +12445,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（中餐烹饪）（三二分段）（走读班）",
@@ -11246,7 +12463,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（物联网技术应用）（三二分段）（走读班）",
@@ -11262,7 +12481,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（数控技术应用）（长学制）",
@@ -11278,7 +12499,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（数控技术应用）（长学制）（走读班）",
@@ -11294,7 +12517,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（物联网技术应用）（长学制）",
@@ -11310,7 +12535,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（物联网技术应用）（长学制）（走读班）",
@@ -11326,7 +12553,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（数字媒体技术应用）（长学制）",
@@ -11342,7 +12571,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市沙井职业高级中学（数字媒体技术应用）（长学制）（走读班）",
@@ -11358,7 +12589,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（艺术设计与制作）",
@@ -11374,7 +12607,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（新能源汽车运用与维修）",
@@ -11390,7 +12625,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（机电技术应用）",
@@ -11406,7 +12643,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（汽车运用与维修）",
@@ -11422,7 +12661,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（计算机应用）",
@@ -11438,7 +12679,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（会计事务）",
@@ -11454,7 +12697,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（跨境电子商务）",
@@ -11470,7 +12715,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（数控技术应用）",
@@ -11486,7 +12733,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（社会文化艺术）（三二分段）",
@@ -11502,7 +12751,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（计算机网络技术）（长学制）",
@@ -11518,7 +12769,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗职业技术学校（物流服务与管理）（长学制）",
@@ -11534,7 +12787,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（电子商务）",
@@ -11550,7 +12805,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（会展服务与管理）",
@@ -11566,7 +12823,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（会计事务）",
@@ -11582,7 +12841,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（物联网技术应用）",
@@ -11598,7 +12859,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（金融事务）",
@@ -11614,7 +12877,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（眼视光与配镜）",
@@ -11630,7 +12895,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（会展服务与管理）（三二分段）",
@@ -11646,7 +12913,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（社区公共事务管理）（三二分段）",
@@ -11662,7 +12931,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（物联网技术应用）（三二分段）",
@@ -11678,7 +12949,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（计算机网络技术）（长学制）",
@@ -11694,7 +12967,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（网络信息安全）（长学制）",
@@ -11710,7 +12985,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（高星级饭店运营与管理）（长学制）",
@@ -11726,7 +13003,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙岗区第二职业技术学校（电子商务）（长学制）",
@@ -11742,7 +13021,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（工业机器人技术应用）",
@@ -11758,7 +13039,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（人工智能技术与应用）",
@@ -11774,7 +13057,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（大数据技术应用）",
@@ -11790,7 +13075,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（幼儿保育）",
@@ -11806,7 +13093,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（现代通信技术应用）（长学制）",
@@ -11822,7 +13111,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市龙华职业技术学校（网络信息安全）（长学制）",
@@ -11838,7 +13129,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市光明区中等职业技术学校（数字媒体技术应用）",
@@ -11854,7 +13147,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市光明区中等职业技术学校（精细化工技术）",
@@ -11870,7 +13165,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市光明区中等职业技术学校（动漫与游戏设计）",
@@ -11886,7 +13183,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（美术设计与制作）（三年制）",
@@ -11902,7 +13201,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机动画制作）（三年制）",
@@ -11918,7 +13219,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机动画制作）（五年制）",
@@ -11934,7 +13237,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电子商务）（三年制）",
@@ -11950,7 +13255,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电子商务）（五年制）",
@@ -11966,7 +13273,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（舞蹈表演）（三年制）",
@@ -11982,7 +13291,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电气自动化设备安装与维修）（三年制）",
@@ -11998,7 +13309,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电气自动化设备安装与维修）（五年制）",
@@ -12014,7 +13327,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（数字媒体艺术）（三年制）",
@@ -12030,7 +13345,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（数字媒体艺术）（五年制）",
@@ -12046,7 +13363,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（口腔医学技术）（三年制）",
@@ -12062,7 +13381,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（口腔医学技术）（五年制）",
@@ -12078,7 +13399,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（新媒体运营）（三年制）",
@@ -12094,7 +13417,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（新媒体运营）（五年制）",
@@ -12110,7 +13435,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（会计）（三年制）",
@@ -12126,7 +13453,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（物联网应用技术）（三年制）",
@@ -12142,7 +13471,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（物联网应用技术）（五年制）",
@@ -12158,7 +13489,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机网络应用）（三年制）",
@@ -12174,7 +13507,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机网络应用）（五年制）",
@@ -12190,7 +13525,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（中药营养保健）（三年制）",
@@ -12206,7 +13543,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（中药营养保健）（五年制）",
@@ -12222,7 +13561,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（护理）（三年制）",
@@ -12238,7 +13579,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（护理）（五年制）",
@@ -12254,7 +13597,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（摄影摄像技术）（三年制）",
@@ -12270,7 +13615,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（摄影摄像技术）（五年制）",
@@ -12286,7 +13633,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（康复保健）（三年制）",
@@ -12302,7 +13651,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（康复保健）（五年制）",
@@ -12318,7 +13669,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（宠物医疗与护理）（三年制）",
@@ -12334,7 +13687,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（宠物医疗与护理）（五年制）",
@@ -12350,7 +13705,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（人工智能技术应用）（五年制）",
@@ -12366,7 +13723,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（无人机应用技术）（三年制）",
@@ -12382,7 +13741,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（无人机应用技术）（五年制）",
@@ -12398,7 +13759,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（珠宝首饰设计与制作）（三年制）",
@@ -12414,7 +13777,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（珠宝首饰设计与制作）（五年制）",
@@ -12430,7 +13795,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（新能源汽车检测与维修）（三年制）",
@@ -12446,7 +13813,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（新能源汽车检测与维修）（五年制）",
@@ -12462,7 +13831,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电子商务）（三二分段）",
@@ -12478,7 +13849,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（会计）（三二分段）",
@@ -12494,7 +13867,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（休闲体育服务）（三二分段）",
@@ -12510,7 +13885,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（舞蹈表演）（三二分段）",
@@ -12526,7 +13903,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（数字媒体艺术）（三二分段）",
@@ -12542,7 +13921,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（宠物医疗与护理）（三二分段）",
@@ -12558,7 +13939,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（护理）（三二分段）",
@@ -12574,7 +13957,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（电气自动化设备安装与维修）（三二分段）",
@@ -12590,7 +13975,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机网络应用）（三二分段）",
@@ -12606,7 +13993,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（物联网应用技术）（三二分段）",
@@ -12622,7 +14011,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（美术设计与制作）（三二分段）",
@@ -12638,7 +14029,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（计算机动画制作）（三二分段）",
@@ -12654,7 +14047,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市携创高级技工学校（平面设计）（三二分段）",
@@ -12670,7 +14065,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（电气自动化设备安装与维修）",
@@ -12686,7 +14083,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（计算机网络应用）",
@@ -12702,7 +14101,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（计算机动画制作）",
@@ -12718,7 +14119,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（计算机广告制作）",
@@ -12734,7 +14137,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（汽车维修）",
@@ -12750,7 +14155,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（建筑装饰）",
@@ -12766,7 +14173,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（会计）",
@@ -12782,7 +14191,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（电子商务）",
@@ -12798,7 +14209,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（幼儿教育）",
@@ -12814,7 +14227,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（烹饪）",
@@ -12830,7 +14245,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（护理）",
@@ -12846,7 +14263,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（3D打印技术应用）",
@@ -12862,7 +14281,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（交通客运服务）",
@@ -12878,7 +14299,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（数控加工）",
@@ -12894,7 +14317,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（工业机器人与应用维护）",
@@ -12910,7 +14335,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（新能源汽车检测与维修）",
@@ -12926,7 +14353,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（数字媒体技术应用）",
@@ -12942,7 +14371,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（跨境电子商务）",
@@ -12958,7 +14389,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深德高级技工学校（幼儿教育）（三二分段）",
@@ -12974,7 +14407,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（数控加工）",
@@ -12990,7 +14425,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（工业机器人与应用维护）",
@@ -13006,7 +14443,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（汽车维修）",
@@ -13022,7 +14461,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（新能源汽车检测与维修）",
@@ -13038,7 +14479,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（智能网联汽车技术应用）",
@@ -13054,7 +14497,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（计算机网络应用）",
@@ -13070,7 +14515,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（电子商务）",
@@ -13086,7 +14533,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（计算机广告制作）",
@@ -13102,7 +14551,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（计算机动画制作）",
@@ -13118,7 +14569,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（形象设计）",
@@ -13134,7 +14587,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（中式烹调）",
@@ -13150,7 +14605,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（中西式面点）",
@@ -13166,7 +14623,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（幼儿教育）（三二分段）",
@@ -13182,7 +14641,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（健康与社会照护）（三二分段）",
@@ -13198,7 +14659,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝山技工学校（中科校区）",
@@ -13214,7 +14677,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（珠宝首饰鉴定与营销）",
@@ -13230,7 +14695,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（药物制剂）",
@@ -13246,7 +14713,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（幼儿教育）",
@@ -13262,7 +14731,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（计算机广告制作）",
@@ -13278,7 +14749,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（计算机应用与维修）",
@@ -13294,7 +14767,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（电子商务）",
@@ -13310,7 +14785,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（汽车维修）",
@@ -13326,7 +14803,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（计算机网络应用）",
@@ -13342,7 +14821,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（健康与社会照护）",
@@ -13358,7 +14839,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（无人机应用技术）",
@@ -13374,7 +14857,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市科迪技工学校（珠宝首饰设计与制作）（三二分段）",
@@ -13390,7 +14875,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（计算机程序设计）",
@@ -13406,7 +14893,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（电子商务）",
@@ -13422,7 +14911,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（计算机网络应用）",
@@ -13438,7 +14929,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（护理）",
@@ -13454,7 +14947,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（药物制剂）",
@@ -13470,7 +14965,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（口腔义齿制造）",
@@ -13486,7 +14983,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（幼儿教育）",
@@ -13502,7 +15001,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（烹饪）",
@@ -13518,7 +15019,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（汽车维修）",
@@ -13534,7 +15037,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（美容美发与造型）",
@@ -13550,7 +15055,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市华夏技工学校（美术设计与制作）",
@@ -13566,7 +15073,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝民技工学校（计算机应用与维修）",
@@ -13582,7 +15091,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝民技工学校（电子商务）",
@@ -13598,7 +15109,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝民技工学校（幼儿教育）",
@@ -13614,7 +15127,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝民技工学校（新媒体与互联网应用）",
@@ -13630,7 +15145,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市宝民技工学校（网络营销与直播技术）",
@@ -13646,7 +15163,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（展示艺术设计）",
@@ -13662,7 +15181,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（护理）",
@@ -13678,7 +15199,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（电子商务）",
@@ -13694,7 +15217,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（计算机网络应用）",
@@ -13710,7 +15235,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（宠物医疗与护理）",
@@ -13726,7 +15253,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（烹饪）",
@@ -13742,7 +15271,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（形象设计与健康管理）",
@@ -13758,7 +15289,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（咖啡生产与加工）",
@@ -13774,7 +15307,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（美术绘画）",
@@ -13790,7 +15325,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（无人机应用技术）",
@@ -13806,7 +15343,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（人工智能技术应用）（五年制）",
@@ -13822,7 +15361,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市智理技工学校（电子商务）（五年制）",
@@ -13838,7 +15379,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（计算机网络应用）",
@@ -13854,7 +15397,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（烹饪）（中西式面点）",
@@ -13870,7 +15415,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（烹饪）（中式烹调）",
@@ -13886,7 +15433,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（形象设计）",
@@ -13902,7 +15451,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（汽车维修）",
@@ -13918,7 +15469,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（计算机动画制作）",
@@ -13934,7 +15487,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（电子商务）",
@@ -13950,7 +15505,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（宠物医疗与护理）",
@@ -13966,7 +15523,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（工业机器人与应用维护）",
@@ -13982,7 +15541,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（无人机应用技术）",
@@ -13998,7 +15559,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（3D打印技术应用）",
@@ -14014,7 +15577,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（平面设计）",
@@ -14030,7 +15595,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（室内设计）",
@@ -14046,7 +15613,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（护理）",
@@ -14062,7 +15631,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（机电一体化技术）",
@@ -14078,7 +15649,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市深科技工学校（美术设计与制作）",
@@ -14094,7 +15667,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（电子商务）",
@@ -14110,7 +15685,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（汽车维修）",
@@ -14126,7 +15703,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（数字媒体艺术）",
@@ -14142,7 +15721,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（新能源汽车检测与维修）",
@@ -14158,7 +15739,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（计算机动画制作）",
@@ -14174,7 +15757,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（计算机网络应用）",
@@ -14190,7 +15775,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（健康与社会照护）",
@@ -14206,7 +15793,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（宠物医疗与护理）",
@@ -14222,7 +15811,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（无人机技术应用）",
@@ -14238,7 +15829,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（烹饪）",
@@ -14254,7 +15847,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "name": "深圳市中特技工学校（消防工程技术）",
@@ -14270,7 +15865,9 @@ window.SCORES_DATA = {
         }
       ],
       "district": "",
-      "batch": "batch2"
+      "batch": "batch2",
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14288,7 +15885,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14306,7 +15905,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14324,7 +15925,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14342,7 +15945,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14360,7 +15965,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14378,7 +15985,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "部分住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14396,7 +16005,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14414,7 +16025,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14432,7 +16045,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14450,7 +16065,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14468,7 +16085,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "部分住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14486,7 +16105,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14504,7 +16125,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14522,7 +16145,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14540,7 +16165,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14558,7 +16185,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14576,7 +16205,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14594,7 +16225,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14612,7 +16245,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "走读",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14630,7 +16265,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14648,7 +16285,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14666,7 +16305,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14684,7 +16325,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14702,7 +16345,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14720,7 +16365,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14738,7 +16385,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14756,7 +16405,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14774,7 +16425,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14792,7 +16445,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "部分住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14810,7 +16465,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14828,7 +16485,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14846,7 +16505,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14864,7 +16525,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14882,7 +16545,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14900,7 +16565,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14918,7 +16585,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14936,7 +16605,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14954,7 +16625,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "部分住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14972,7 +16645,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -14990,7 +16665,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15008,7 +16685,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15026,7 +16705,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15044,7 +16725,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15062,7 +16745,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15080,7 +16765,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15098,7 +16785,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15116,7 +16805,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15134,7 +16825,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15152,7 +16845,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15170,7 +16865,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15188,7 +16885,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15206,7 +16905,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15224,7 +16925,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15242,7 +16945,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15260,7 +16965,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15278,7 +16985,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15296,7 +17005,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15314,7 +17025,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15332,7 +17045,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15350,7 +17065,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15368,7 +17085,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15386,7 +17105,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15404,7 +17125,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15422,7 +17145,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15440,7 +17165,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15458,7 +17185,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15476,7 +17205,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15494,7 +17225,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15512,7 +17245,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15530,7 +17265,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15548,7 +17285,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15566,7 +17305,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15584,7 +17325,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15602,7 +17345,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15620,7 +17365,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15638,7 +17385,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15656,7 +17405,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15674,7 +17425,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15692,7 +17445,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15710,7 +17465,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15728,7 +17485,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15746,7 +17505,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15764,7 +17525,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15782,7 +17545,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15800,7 +17565,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15818,7 +17585,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15836,7 +17605,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15854,7 +17625,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15872,7 +17645,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15890,7 +17665,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15908,7 +17685,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15926,7 +17705,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15944,7 +17725,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15962,7 +17745,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15980,7 +17765,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -15998,7 +17785,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16016,7 +17805,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16034,7 +17825,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16052,7 +17845,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16070,7 +17865,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16088,7 +17885,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16106,7 +17905,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16124,7 +17925,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16142,7 +17945,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16160,7 +17965,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16178,7 +17985,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16196,7 +18005,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16214,7 +18025,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16232,7 +18045,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16250,7 +18065,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16268,7 +18085,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16286,7 +18105,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16304,7 +18125,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16322,7 +18145,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16340,7 +18165,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16358,7 +18185,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16376,7 +18205,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16394,7 +18225,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16412,7 +18245,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16430,7 +18265,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16448,7 +18285,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16466,7 +18305,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16484,7 +18325,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16502,7 +18345,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16520,7 +18365,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16538,7 +18385,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16556,7 +18405,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16574,7 +18425,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16592,7 +18445,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16610,7 +18465,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16628,7 +18485,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16646,7 +18505,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16664,7 +18525,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16682,7 +18545,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16700,7 +18565,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16718,7 +18585,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16736,7 +18605,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16754,7 +18625,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16772,7 +18645,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16790,7 +18665,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16808,7 +18685,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16826,7 +18705,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16844,7 +18725,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16862,7 +18745,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16880,7 +18765,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16898,7 +18785,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16916,7 +18805,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16934,7 +18825,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16952,7 +18845,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16970,7 +18865,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -16988,7 +18885,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17006,7 +18905,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17024,7 +18925,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17042,7 +18945,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17060,7 +18965,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17078,7 +18985,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17096,7 +19005,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17114,7 +19025,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17132,7 +19045,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17150,7 +19065,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17168,7 +19085,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17186,7 +19105,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17204,7 +19125,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17222,7 +19145,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17240,7 +19165,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17258,7 +19185,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17276,7 +19205,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17294,7 +19225,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17312,7 +19245,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17330,7 +19265,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17348,7 +19285,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17366,7 +19305,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17384,7 +19325,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17402,7 +19345,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17420,7 +19365,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17438,7 +19385,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17456,7 +19405,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17474,7 +19425,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17492,7 +19445,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17510,7 +19465,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17528,7 +19485,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17546,7 +19505,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17564,7 +19525,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17582,7 +19545,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17600,7 +19565,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17618,7 +19585,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17636,7 +19605,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17654,7 +19625,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17672,7 +19645,9 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     },
     {
       "batch": "second",
@@ -17690,12 +19665,17 @@ window.SCORES_DATA = {
         }
       ],
       "boardingMode": "全住宿",
-      "district": null
+      "district": null,
+      "verifyStatus": "reference-2026",
+      "sourceType": "official"
     }
   ],
   "batch3Note": {
     "title": "第三批（部省属及跨市中等职业学校）",
     "url": "https://szeb.sz.gov.cn/szzkw/zkfw/index.html",
     "note": "由广东省教育考试院组织录取，学校与分数线以省考试院及深圳招考网当期公告为准。"
-  }
+  },
+  "targetYear": 2027,
+  "verifyStatus": "reference-2026",
+  "sourceType": "official"
 };

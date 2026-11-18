@@ -55,6 +55,7 @@ def main():
     for name in ("zzzs-data.js", "scores-meta.js"):
         require_fetched_at(ROOT / "data" / name)
     subprocess.run([sys.executable, str(ROOT / "scripts" / "check_score_schema.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "check_verify_schema.py")], check=True)
     subprocess.run([sys.executable, str(ROOT / "scripts" / "check_school_links.py")], check=True)
 
     page = (ROOT / "index.html").read_text(encoding="utf-8")

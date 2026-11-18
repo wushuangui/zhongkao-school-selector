@@ -415,8 +415,12 @@ def main():
     for name in unmatched:
         print(f"  - {name}")
 
+    verify_status = "reference-2026" if args.year == 2026 else "pending"
     result = {
         "year": args.year,
+        "targetYear": 2027,
+        "verifyStatus": verify_status,
+        "sourceType": "official",
         "source": notice,
         "profileSource": {"title": f"{args.year}年高中阶段学校办学特色介绍", "url": args.profile_page},
         "publicFeeStandard": PUBLIC_FEE_STANDARD,
@@ -424,6 +428,9 @@ def main():
         "schools": schools,
         "profiles": profiles,
     }
+    for school in schools:
+        school["verifyStatus"] = verify_status
+        school["sourceType"] = "official"
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     payload = json.dumps(result, ensure_ascii=False, indent=2)
     (DATA_DIR / f"zzzs-{args.year}.json").write_text(payload, encoding="utf-8")

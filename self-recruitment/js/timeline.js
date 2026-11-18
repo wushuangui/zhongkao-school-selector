@@ -31,6 +31,12 @@
   }
 
   const PHASE_LABEL = { past: '已结束', now: '进行中', future: '未开始', open: '见公告' };
+  const VERIFY_LABEL = {
+    'verified-history': '历史已核实',
+    'reference-2026': '2026 参考',
+    'verified-2027': '2027 已核实',
+    pending: '待发布',
+  };
 
   function renderTimeline() {
     const box = document.getElementById('timeline');
@@ -52,8 +58,11 @@
         (guide ? '<div class="img-links">' + guide + '</div>' : '') +
         '</li>';
     }).join('');
+    const vs = data.verifyStatus && VERIFY_LABEL[data.verifyStatus]
+      ? ' <span class="tag verify">' + esc(VERIFY_LABEL[data.verifyStatus]) + '</span>' : '';
+    const un = data.sourceType === 'unofficial' ? ' <span class="tag unofficial">非官方</span>' : '';
     box.innerHTML =
-      '<h3 class="name" id="timeline-title">' + esc(data.title || '关键节点') + '</h3>' +
+      '<h3 class="name" id="timeline-title">' + esc(data.title || '关键节点') + vs + un + '</h3>' +
       '<p class="note">' + esc(data.disclaimer || '以教育局最新通知为准。') + '</p>' +
       '<ol class="timeline">' + items + '</ol>';
   }

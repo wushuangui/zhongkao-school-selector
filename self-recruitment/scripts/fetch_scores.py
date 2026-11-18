@@ -265,12 +265,21 @@ def main():
     schools = mee + batch1 + batch2 + second
     result = {
         "year": args.year,
+        "targetYear": 2027,
+        "verifyStatus": "reference-2026" if args.year == 2026 else "pending",
+        "sourceType": "official",
         "fetchedAt": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
         "sources": SOURCES,
         "images": images,
         "schools": schools,
         "batch3Note": SOURCES["batch3"],
     }
+    for key, src in result["sources"].items():
+        if isinstance(src, dict):
+            src["sourceType"] = "unofficial" if key == "mee" else "official"
+    for school in schools:
+        school["verifyStatus"] = result["verifyStatus"]
+        school["sourceType"] = "unofficial" if school.get("batch") == "mee" else "official"
     payload = json.dumps(result, ensure_ascii=False, indent=2)
     (DATA_DIR / f"scores-{args.year}.json").write_text(payload, encoding="utf-8")
     (DATA_DIR / "scores-data.js").write_text(
