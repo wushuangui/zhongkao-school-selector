@@ -255,6 +255,13 @@ def main():
     for k, v in images.items():
         print(f"  {k}: {len(v)} 张")
 
+    alias_path = ROOT.parent / "data" / "school-aliases.json"
+    if alias_path.exists():
+        alias_doc = json.loads(alias_path.read_text(encoding="utf-8"))
+        print(f"已读取别名表 {alias_path}（{len(alias_doc.get('aliases') or [])} 组），校名以官方公布为准，不在此改写。")
+    else:
+        print(f"未找到别名表 {alias_path}")
+
     schools = mee + batch1 + batch2 + second
     result = {
         "year": args.year,

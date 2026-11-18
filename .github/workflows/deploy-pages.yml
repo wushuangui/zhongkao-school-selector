@@ -19,8 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # 发版步骤见 docs/runbook-data-release.md（监测→抓取→QA→发布→回滚）
       - name: Check FAQ shares rules
         run: python self-recruitment/scripts/check_faq_rules.py
+      - name: Check score schema and school links
+        run: |
+          python self-recruitment/scripts/check_score_schema.py
+          python self-recruitment/scripts/check_school_links.py
+          python self-recruitment/scripts/check_reco_fixtures.py
       - name: Prepare site
         run: |
           mkdir -p _site/data _site/css _site/js
@@ -32,8 +38,11 @@ jobs:
           cp self-recruitment/js/timeline.js _site/js/
           cp self-recruitment/js/rules-data.js _site/js/
           cp self-recruitment/js/rules.js _site/js/
+          cp self-recruitment/js/reco.js _site/js/
           cp self-recruitment/data/zzzs-data.js _site/data/
-          cp self-recruitment/data/scores-data.js _site/data/
+          cp self-recruitment/data/scores-meta.js _site/data/
+          cp self-recruitment/data/scores-batch-*.js _site/data/
+          cp self-recruitment/data/mapping-data.js _site/data/
           cp self-recruitment/data/timeline-data.js _site/data/
           cp self-recruitment/data/changelog-data.js _site/data/
           cp self-recruitment/data/timeline-2026.json _site/data/

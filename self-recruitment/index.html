@@ -43,6 +43,16 @@
       <select id="zzzsSort"></select>
       <input id="myScore" type="number" inputmode="numeric" placeholder="我的中考分">
       <label class="reach-check"><input id="onlyReach" type="checkbox">只看达到我的分数</label>
+      <div class="estimator" id="estimator">
+        <span>平时分折算</span>
+        <select id="mockType"></select>
+        <input id="mockScore" type="number" inputmode="numeric" placeholder="折算分">
+        <button type="button" id="mockApply">估算</button>
+        <span id="mockOut"></span>
+        <input id="budgetYuan" type="number" inputmode="numeric" placeholder="三年预算可选">
+        <div class="preset-row" id="presetRow"></div>
+      </div>
+      <button type="button" class="chip" id="openPool">志愿池（保守）</button>
     </div>
     <div class="filter-tags" id="zzzsTags" hidden></div>
     </div>
@@ -193,10 +203,39 @@
   </div>
 </div>
 
+<div class="rules-mask" id="recoMask">
+  <div class="rules" role="dialog" aria-modal="true" aria-labelledby="recoTitle">
+    <div class="rules-head">
+      <span id="recoTitle">推荐说明</span>
+    </div>
+    <div class="rules-body">
+      <p>档位（冲 / 稳 / 保 / 不推荐）只表示预估分与公开分数线的相对位置，不是录取概率，也不构成录取承诺。</p>
+      <p>默认使用保守档（区间下沿）。数据有年度差和录入误差，以教育局、招考网和学校简章为准。</p>
+      <p>本站整理公开招生信息，不构成录取承诺；以教育局、招考网及学校简章为准。</p>
+      <button type="button" id="recoAck">我已了解</button>
+    </div>
+  </div>
+</div>
+<div class="rules-mask" id="poolMask">
+  <div class="rules" role="dialog" aria-modal="true" aria-labelledby="poolTitle">
+    <div class="rules-head">
+      <span id="poolTitle">志愿池草稿</span>
+      <button id="closePool" aria-label="关闭">×</button>
+    </div>
+    <div class="rules-body" id="poolSheet"></div>
+    <div class="rules-head">
+      <button type="button" id="copyPool">复制 Markdown</button>
+      <button type="button" id="printPool">打印</button>
+    </div>
+  </div>
+</div>
 <script src="data/zzzs-data.js"></script>
-<script src="data/scores-data.js"></script>
+<script src="data/scores-meta.js"></script>
+<!--SCORES_FULL-->
+<script src="data/mapping-data.js"></script>
 <script src="data/timeline-data.js"></script>
 <script src="data/changelog-data.js"></script>
+<script src="js/reco.js"></script>
 <script src="js/app.js"></script>
 <script src="js/changelog.js"></script>
 <script src="js/timeline.js"></script>

@@ -42,13 +42,43 @@
     batch: 'mee', type: '', category: '', district: '', keyword: '',
     segment: null, noteOpen: false, filtersOpen: false, sort: 'score', boarding: '',
   };
-  const shared = { myScore: null, onlyReach: false };
+  const BRAND_DISCLAIMER = '本站整理公开招生信息，不构成录取承诺；以教育局、招考网及学校简章为准。';
+  const SCORE_KINDS = ['资格线', '录取线', '控制线'];
+  const shared = { myScore: null, onlyReach: false, budget: null };
+  function myNum() {
+    if (!window.Reco) return typeof shared.myScore === 'number' ? shared.myScore : null;
+    return window.Reco.compareScore(shared.myScore);
+  }
   let allowUrlWrite = false;
   let compareOpen = false;
   const lineCache = new Map();
   const $ = (id) => document.getElementById(id);
   const PROFILES = DATA.profiles || [];
-  const SCORES = window.SCORES_DATA;
+  function assembleScores() {
+    if (window.SCORES_DATA) return window.SCORES_DATA;
+    const meta = window.SCORES_META;
+    if (!meta) return null;
+    const schools = [];
+    const parts = window.SCORES_PARTS || {};
+    Object.keys(parts).forEach(key => {
+      (parts[key] || []).forEach(row => schools.push(row));
+    });
+    return Object.assign({}, meta, { schools: schools });
+  }
+  let SCORES = assembleScores();
+  const scoreBatchFailed = {};
+  function ensureScoreBatch(batch, done) {
+    SCORES = assembleScores();
+    if (window.SCORES_DATA || (window.SCORES_PARTS && window.SCORES_PARTS[batch]) || scoreBatchFailed[batch]) {
+      done();
+      return;
+    }
+    const el = document.createElement('script');
+    el.src = 'data/scores-batch-' + batch + '.js';
+    el.onload = function () { SCORES = assembleScores(); done(); };
+    el.onerror = function () { scoreBatchFailed[batch] = true; done(); };
+    document.body.appendChild(el);
+  }
   const yuan = (v) => v == null ? null : v.toLocaleString();
 
   const districts = [...new Set(DATA.schools.map(s => s.district).filter(Boolean))].sort();
@@ -186,8 +216,8 @@
   }
 
   function reachGroup(scores) {
-    if (shared.myScore == null) return 0;
-    return reaches(scores, shared.myScore) ? 0 : 1;
+    if (myNum() == null) return 0;
+    return reaches(scores, myNum()) ? 0 : 1;
   }
 
   function threeYear(feeObj) {
@@ -220,8 +250,8 @@
   }
 
   function zzzsGapInner(s) {
-    if (shared.myScore == null || !s.scores.length) return '';
-    const my = shared.myScore;
+    if (myNum() == null || !s.scores.length) return '';
+    const my = myNum();
     if (s.scores.length === 1) return gapText(s.scores[0].score, my);
     return s.scores.map(x => (x.label ? x.label.slice(0, 2) : '') + gapText(x.score, my)).join(' / ');
   }
@@ -368,7 +398,7 @@
     return '<table class="lines">' + rows.map(([label, kind, recs, year, fmt]) => {
       const has = recs && recs.length;
       const yearCell = has && year != null ? year + '年' : '—';
-      const scoreCell = has ? withGaps(fmt(recs), shared.myScore) : '—';
+      const scoreCell = has ? withGaps(fmt(recs), myNum()) : '—';
       return '<tr><th>' + label + '</th><td>' + kind + '</td><td>' + escapeHtml(yearCell) + '</td><td>' + escapeHtml(scoreCell) + '</td></tr>';
     }).join('') + '</table>';
   }
@@ -424,7 +454,7 @@
   function filtered() {
     const seg = state.segment && SEGMENTS[state.category].find(x => x[0] === state.segment);
     const kw = state.keyword.trim();
-    const my = shared.myScore;
+    const my = myNum();
     const list = DATA.schools.filter(s => {
       if (s.category !== state.category) return false;
       if (state.ownership && s.ownership !== state.ownership) return false;
@@ -458,10 +488,24 @@
     return list;
   }
 
+  function recoAcked() {
+    try { return sessionStorage.getItem('zzzs.recoAck') === '1'; } catch (e) { return false; }
+  }
+
+  function tierTag(lines) {
+    if (!recoAcked() || !shared.myScore || typeof shared.myScore !== 'object' || !window.Reco) return '';
+    const nums = (lines || []).filter(n => typeof n === 'number');
+    if (!nums.length) return '';
+    const line = Math.min.apply(null, nums);
+    const t = window.Reco.tier(shared.myScore, line);
+    if (!t) return '';
+    return '<span class="tag tier" title="' + escapeHtml(t.ruleId + ' · ' + t.field) + '">' + escapeHtml(t.label) + '</span>';
+  }
+
   function cardHtml(s, i) {
     const color = COLORS[[...s.name].reduce((n, c) => n + c.charCodeAt(0), 0) % COLORS.length];
     const scores = s.scores.map(x => x.score);
-    const miss = shared.myScore != null && !reaches(scores, shared.myScore);
+    const miss = myNum() != null && !reaches(scores, myNum());
     const kw = state.keyword.trim();
     const forceOpen = state.category === '一类' && kw && !s.name.includes(kw) &&
       (s.projects || []).some(p => String(p.name || '').includes(kw));
@@ -470,6 +514,7 @@
     let meta = escapeHtml(bits.join(' | '));
     if (s.category === '一类' && !s.projects.length) meta += '<span class="tag">项目未细分</span>';
     if (miss) meta += '<span class="tag">未达线</span>';
+    meta += tierTag(scores);
     let stats;
     if (s.category === '一类' && s.projects.length) {
       stats = '<div><b>' + trackPlan(s, '理工科技') + '</b><span>理工科技</span></div>' +
@@ -520,7 +565,7 @@
     const kw = scoreState.keyword.trim();
     const segs = SCORE_SEGMENTS[scoreState.batch] || SCORE_SEG_HIGH;
     const seg = scoreState.segment && segs.find(x => x[0] === scoreState.segment);
-    const my = shared.myScore;
+    const my = myNum();
     const list = scoreItems().filter(s => {
       if (scoreState.type && s.type !== scoreState.type) return false;
       if (scoreState.district && s.district !== scoreState.district) return false;
@@ -568,10 +613,10 @@
 
   function scoreCardHtml(s) {
     const color = COLORS[[...s.name].reduce((n, c) => n + c.charCodeAt(0), 0) % COLORS.length];
-    const kindLabel = s.scoreKind || (BATCH_NAME[s.batch] || '分数');
+    const kindLabel = (s.scoreKind && SCORE_KINDS.indexOf(s.scoreKind) >= 0) ? s.scoreKind : '待标注';
     const vals = scoreValues(s);
-    const miss = shared.myScore != null && !reaches(vals, shared.myScore);
-    const my = shared.myScore;
+    const miss = myNum() != null && !reaches(vals, myNum());
+    const my = myNum();
     let stats = '<div><b>' + (s.plan ?? '—') + '</b><span>计划数</span></div>';
     if (s.scores.length <= 2) {
       stats += s.scores.map(x => {
@@ -593,7 +638,7 @@
     const bits = [s.ownership, s.district, showText(profile && profile.rank), showText(profile && profile.boardingMode)].filter(Boolean);
     const tags = [s.type, s.category && (s.category + '类')].filter(Boolean)
       .map(t => '<span class="tag">' + escapeHtml(t) + '</span>').join('');
-    const meta = escapeHtml(bits.join(' | ')) + tags + (miss ? '<span class="tag">未达线</span>' : '');
+    const meta = escapeHtml(bits.join(' | ')) + tags + (miss ? '<span class="tag">未达线</span>' : '') + tierTag(vals);
     const skip = s.batch === 'mee' ? 'mee' : s.batch === 'batch1' ? 'batch1' : null;
     return '<div class="card' + (miss ? ' miss' : '') + '">' +
       '<div class="card-head">' +
@@ -682,7 +727,14 @@
 
   function buildQuery() {
     const p = new URLSearchParams();
-    if (shared.myScore != null) p.set('my', String(shared.myScore));
+    if (myNum() != null) {
+      p.set('my', String(myNum()));
+      if (shared.myScore && typeof shared.myScore === 'object') {
+        const src = { final: 'e', mock1: '1', mock2: '2', direct: 'd' }[shared.myScore.source] || 'd';
+        const pre = { conservative: 'c', neutral: 'n', optimistic: 'o' }[shared.myScore.riskPreset] || 'c';
+        p.set('est', [shared.myScore.point, shared.myScore.low, shared.myScore.high, src, pre].join('.'));
+      }
+    }
     if (shared.onlyReach) p.set('reach', '1');
     if (state.category === '二类') p.set('zcat', '二类');
     if (state.track === '理工科技' || state.track === '人文社科') p.set('ztrack', state.track);
@@ -726,7 +778,7 @@
 
   function sortOptions(current) {
     const opts = [['score', '分数从高到低'], ['plan', '计划人数从多到少']];
-    if (shared.myScore != null) opts.push(['gap', '按与我的分的差距']);
+    if (myNum() != null) opts.push(['gap', '按与我的分的差距']);
     return opts.map(([v, lab]) => '<option value="' + v + '">' + lab + '</option>').join('');
   }
 
@@ -736,16 +788,16 @@
   }
 
   function syncSharedControls() {
-    if (shared.myScore == null) {
+    if (myNum() == null) {
       if (state.sort === 'gap') state.sort = 'score';
       if (scoreState.sort === 'gap') scoreState.sort = 'score';
     }
-    const shown = shared.myScore == null ? '' : String(shared.myScore);
+    const shown = myNum() == null ? '' : String(myNum());
     ['myScore', 'scoreMy', 'feeMy'].forEach(id => setIdleValue($(id), shown));
     $('onlyReach').checked = shared.onlyReach;
-    $('onlyReach').disabled = shared.myScore == null;
+    $('onlyReach').disabled = myNum() == null;
     $('scoreOnlyReach').checked = shared.onlyReach;
-    $('scoreOnlyReach').disabled = shared.myScore == null;
+    $('scoreOnlyReach').disabled = myNum() == null;
     fillSort($('zzzsSort'), state.sort);
     fillSort($('scoreSort'), scoreState.sort);
     setIdleValue($('keyword'), state.keyword);
@@ -781,7 +833,7 @@
     if (state.segment) tags.push(['seg', state.segment]);
     if (state.keyword.trim()) tags.push(['q', '搜索：' + state.keyword.trim()]);
     if (state.boarding) tags.push(['board', '住宿：' + state.boarding]);
-    if (shared.onlyReach && shared.myScore != null) tags.push(['reach', '只看达到我的分数']);
+    if (shared.onlyReach && myNum() != null) tags.push(['reach', '只看达到我的分数']);
     if (state.projectView && state.category === '一类') tags.push(['view', '按项目看']);
     renderTagBox('zzzsTags', tags);
   }
@@ -793,7 +845,7 @@
     if (scoreState.segment) tags.push(['seg', scoreState.segment]);
     if (scoreState.keyword.trim()) tags.push(['q', '搜索：' + scoreState.keyword.trim()]);
     if (scoreState.boarding) tags.push(['board', '住宿：' + scoreState.boarding]);
-    if (shared.onlyReach && shared.myScore != null) tags.push(['reach', '只看达到我的分数']);
+    if (shared.onlyReach && myNum() != null) tags.push(['reach', '只看达到我的分数']);
     renderTagBox('scoreTags', tags);
   }
   function renderFeeTags() {
@@ -845,19 +897,19 @@
     if (!b.zzzs.length || DATA.year == null) return '—';
     const body = formatZzzsFull(b.zzzs);
     if (!body || body === '—') return '—';
-    return DATA.year + '年 ' + withGaps(body, shared.myScore);
+    return DATA.year + '年 ' + withGaps(body, myNum());
   }
   function compareMeeText(b) {
     if (!b.mee.length || !SCORES || SCORES.year == null) return '—';
     const body = formatMeeFull(b.mee);
     if (!body || body === '—') return '—';
-    return SCORES.year + '年 ' + withGaps(body, shared.myScore);
+    return SCORES.year + '年 ' + withGaps(body, myNum());
   }
   function compareBatch1Text(b) {
     if (!b.batch1.length || !SCORES || SCORES.year == null) return '—';
     const body = formatBatch1Full(b.batch1);
     if (!body || body === '—') return '—';
-    return SCORES.year + '年 ' + withGaps(body, shared.myScore);
+    return SCORES.year + '年 ' + withGaps(body, myNum());
   }
   function comparePlanCell(b) {
     const parts = [];
@@ -1014,7 +1066,7 @@
     else if (fee.type && fee.type !== '普高') parts.push(fee.type);
     if (fee.district) parts.push(fee.district);
     if (fee.sort && fee.sort !== 'tuition-asc') parts.push(FEE_SORT_LABEL[fee.sort] || fee.sort);
-    if (shared.myScore != null) parts.push('我的分 ' + shared.myScore);
+    if (myNum() != null) parts.push('我的分 ' + myNum());
     const onlyDefault = !parts.length;
     return onlyDefault ? '筛选与说明' : parts.join(' · ');
   }
@@ -1039,7 +1091,7 @@
     if (state.ownership) parts.push(state.ownership);
     if (state.district) parts.push(state.district);
     if (state.boarding) parts.push(state.boarding);
-    if (shared.myScore != null) parts.push('我的分 ' + shared.myScore);
+    if (myNum() != null) parts.push('我的分 ' + myNum());
     if (shared.onlyReach) parts.push('只看达到');
     if (state.segment) parts.push(state.segment);
     const onlyDefault = parts.length === 1 && (parts[0] === '一类' || parts[0] === '二类');
@@ -1063,7 +1115,7 @@
     if (scoreState.category) parts.push(scoreState.category + '类');
     if (scoreState.district) parts.push(scoreState.district);
     if (scoreState.boarding) parts.push(scoreState.boarding);
-    if (shared.myScore != null) parts.push('我的分 ' + shared.myScore);
+    if (myNum() != null) parts.push('我的分 ' + myNum());
     if (shared.onlyReach) parts.push('只看达到');
     return parts.length ? parts.join(' · ') : '筛选与说明';
   }
@@ -1142,6 +1194,12 @@
   }
 
   function renderScores() {
+    if (scoreState.batch !== 'batch3' && !window.SCORES_DATA && !(window.SCORES_PARTS && window.SCORES_PARTS[scoreState.batch]) && !scoreBatchFailed[scoreState.batch]) {
+      if ($('scoreList')) $('scoreList').innerHTML = '<div class="empty">正在加载本批次分数线…</div>';
+      ensureScoreBatch(scoreState.batch, function () { renderScores(); });
+      return;
+    }
+    SCORES = assembleScores();
     renderScoreMeta();
     syncSharedControls();
     document.querySelectorAll('#scoreBatch button').forEach(b => b.classList.toggle('active', b.dataset.v === scoreState.batch));
@@ -1168,7 +1226,7 @@
     renderScoreSide();
     const items = filteredScores();
     const vals = items.flatMap(s => scoreValues(s)).filter(n => typeof n === 'number');
-    const kind = (items[0] && items[0].scoreKind) || '分数';
+    const kind = (items[0] && SCORE_KINDS.indexOf(items[0].scoreKind) >= 0) ? items[0].scoreKind : '待标注';
     let range = '';
     if (vals.length) {
       const lo = Math.min(...vals);
@@ -1193,21 +1251,25 @@
     else render();
   }
 
+  function directEstimate(v) {
+    return { point: v, low: v, high: v, source: 'direct', riskPreset: 'conservative' };
+  }
+
   function setMyScore(raw) {
     const text = String(raw ?? '').trim();
     const v = parseInt(text, 10);
     if (text !== '' && Number.isFinite(v)) {
-      shared.myScore = v;
-      lsSet('zzzs.myScore', String(v));
+      shared.myScore = directEstimate(v);
+      lsSet('zzzs.myScore', JSON.stringify(shared.myScore));
     } else {
       shared.myScore = null;
       lsDel('zzzs.myScore');
     }
-    if (shared.myScore == null) {
+    if (myNum() == null) {
       if (state.sort === 'gap') state.sort = 'score';
       if (scoreState.sort === 'gap') scoreState.sort = 'score';
     }
-    const shown = shared.myScore == null ? '' : String(shared.myScore);
+    const shown = myNum() == null ? '' : String(myNum());
     ['myScore', 'scoreMy', 'feeMy'].forEach(id => {
       const el = $(id);
       if (el && document.activeElement !== el) el.value = shown;
@@ -1218,18 +1280,46 @@
   function applyStoredScore() {
     const stored = lsGet('zzzs.myScore');
     if (stored == null || stored === '') return;
+    if (stored.charAt(0) === '{') {
+      try {
+        const obj = JSON.parse(stored);
+        if (obj && typeof obj.point === 'number') {
+          shared.myScore = obj;
+          if (!shared.myScore.riskPreset) shared.myScore.riskPreset = 'conservative';
+          return;
+        }
+      } catch (e) { /* 旧版纯数字 */ }
+    }
     const v = parseInt(stored, 10);
-    if (Number.isFinite(v)) shared.myScore = v;
+    if (Number.isFinite(v)) shared.myScore = directEstimate(v);
+  }
+
+  function parseEst(raw) {
+    const parts = String(raw || '').split('.');
+    if (parts.length < 5) return null;
+    const point = parseInt(parts[0], 10);
+    const low = parseInt(parts[1], 10);
+    const high = parseInt(parts[2], 10);
+    if (![point, low, high].every(Number.isFinite)) return null;
+    const source = { e: 'final', '1': 'mock1', '2': 'mock2', d: 'direct' }[parts[3]] || 'direct';
+    const riskPreset = { c: 'conservative', n: 'neutral', o: 'optimistic' }[parts[4]] || 'conservative';
+    return { point: point, low: low, high: high, source: source, riskPreset: riskPreset };
   }
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
-    if (p.has('my')) {
+    if (p.has('est')) {
+      const est = parseEst(p.get('est'));
+      if (est) {
+        shared.myScore = est;
+        lsSet('zzzs.myScore', JSON.stringify(est));
+      } else applyStoredScore();
+    } else if (p.has('my')) {
       const raw = (p.get('my') || '').trim();
       const v = parseInt(raw, 10);
       if (raw !== '' && Number.isFinite(v)) {
-        shared.myScore = v;
-        lsSet('zzzs.myScore', String(v));
+        shared.myScore = directEstimate(v);
+        lsSet('zzzs.myScore', JSON.stringify(shared.myScore));
       } else applyStoredScore();
     } else applyStoredScore();
     shared.onlyReach = p.get('reach') === '1';
@@ -1284,7 +1374,7 @@
     const fsort = p.get('fsort');
     if (fsort === 'tuition-desc' || fsort === 'name' || fsort === 'total3-asc' || fsort === 'total3-desc') fee.sort = fsort;
     if (p.get('fq')) fee.keyword = p.get('fq');
-    if (shared.myScore == null) {
+    if (myNum() == null) {
       if (state.sort === 'gap') state.sort = 'score';
       if (scoreState.sort === 'gap') scoreState.sort = 'score';
     }
@@ -1563,7 +1653,8 @@
       (DATA.profileSource ? '区域与办学介绍：' + sourceAnchor(DATA.profileSource.url, DATA.profileSource.title) + '。<br>' : '') +
       '录取分数线：' + freshnessBits(SCORES) + ' · ' + scoreSourceLinks() + '<br>' +
       (feeUrl ? '公办收费标准：' + sourceAnchor(feeUrl, '市发改委') + '。<br>' : '') +
-      '自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费以学校公示原文为准。';
+      '自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费以学校公示原文为准。<br>' +
+      escapeHtml(BRAND_DISCLAIMER);
     renderScoreMeta();
   }
 
@@ -1572,6 +1663,125 @@
     $('scoreMeta').innerHTML = '录取分数线 ' + freshnessBits(SCORES) + ' · ' +
       (src ? sourceAnchor(src.url, src.title) : '来源链接缺失');
   }
+
+  function syncPresetButtons() {
+    const cur = (shared.myScore && shared.myScore.riskPreset) || (window.MAPPING_V1 && window.MAPPING_V1.defaultPreset) || 'conservative';
+    document.querySelectorAll('#presetRow button').forEach(b => b.classList.toggle('active', b.dataset.preset === cur));
+  }
+
+  function fillEstimator() {
+    const m = window.MAPPING_V1;
+    if (!m || !$('mockType')) return;
+    $('mockType').innerHTML = Object.keys(m.mockTypes).map(k =>
+      '<option value="' + escapeHtml(k) + '">' + escapeHtml(m.mockTypes[k].label) + '</option>').join('');
+    $('presetRow').innerHTML = Object.keys(m.presets).map(k =>
+      '<button type="button" data-preset="' + escapeHtml(k) + '">' + escapeHtml(m.presets[k].label) + '</button>').join('');
+    syncPresetButtons();
+  }
+
+  function showRecoModal() {
+    if (recoAcked() || !$('recoMask')) return;
+    $('recoMask').classList.add('show');
+  }
+
+  function poolMarkdown(result) {
+    function lines(title, rows) {
+      if (!rows.length) return '### ' + title + '\n\n（本档不足）\n';
+      return '### ' + title + '\n\n' + rows.map(r => '- ' + r.name + ' · ' + (r.line != null ? r.line : r.control)).join('\n') + '\n';
+    }
+    return '# 志愿池草稿（' + (result.preset || 'conservative') + '）\n\n' +
+      '若自招录取则后续批次作废。本表不是官方志愿表，档位不是录取概率。\n\n' +
+      lines('冲（最多 2）', result.chong) + '\n' +
+      lines('稳（最多 3）', result.wen) + '\n' +
+      lines('保（最多 2）', result.bao) + '\n' +
+      lines('自招备选（最多 1）', result.zzzs.map(z => ({ name: z.name, control: z.control }))) + '\n' +
+      (result.rejected.length ? '### 未纳入\n\n' + result.rejected.slice(0, 8).map(r => '- ' + r.name + '：' + r.reason + '（' + r.ruleId + '）').join('\n') : '');
+  }
+
+  function openPool() {
+    if (!recoAcked()) { showRecoModal(); return; }
+    ensureScoreBatch('batch1', function () {
+      SCORES = assembleScores();
+      const est = shared.myScore && typeof shared.myScore === 'object' ? shared.myScore : null;
+      if (!est || !window.Reco) {
+        $('poolSheet').textContent = '请先填写中考分，或用平时分估算。';
+        $('poolMask').classList.add('show');
+        return;
+      }
+      const batch1 = ((SCORES && SCORES.schools) || []).filter(s => s.batch === 'batch1').map(s => {
+        const nums = (s.scores || []).map(x => x.score).filter(n => typeof n === 'number');
+        return { name: s.name, category: s.category, line: nums.length ? Math.min.apply(null, nums) : null, fee3: null };
+      });
+      const zzzsPicks = (DATA.schools || []).filter(s => s.category === state.category).filter(s => {
+        const nums = (s.scores || []).map(x => x.score).filter(n => typeof n === 'number');
+        const control = nums.length ? Math.min.apply(null, nums) : null;
+        return control != null && myNum() != null && myNum() >= control;
+      }).slice(0, 1).map(s => {
+        const nums = s.scores.map(x => x.score);
+        return { name: s.name, control: Math.min.apply(null, nums) };
+      });
+      const budget = parseInt(($('budgetYuan') && $('budgetYuan').value) || '', 10);
+      shared.budget = Number.isFinite(budget) ? budget : null;
+      const result = window.Reco.pool({
+        estimate: est,
+        category: scoreState.category,
+        budget: shared.budget,
+        zzzsPicks: zzzsPicks,
+        batch1: batch1,
+      });
+      const md = poolMarkdown(result);
+      $('poolSheet').innerHTML = '<pre>' + escapeHtml(md) + '</pre>';
+      $('poolSheet').dataset.md = md;
+      $('poolMask').classList.add('show');
+    });
+  }
+
+  fillEstimator();
+  if ($('mockApply')) {
+    $('mockApply').addEventListener('click', () => {
+      if (!window.Reco) return;
+      const est = window.Reco.estimate($('mockType').value, $('mockScore').value);
+      if (!est) return;
+      est.riskPreset = 'conservative';
+      shared.myScore = est;
+      lsSet('zzzs.myScore', JSON.stringify(est));
+      syncPresetButtons();
+      showRecoModal();
+      renderCurrent();
+    });
+  }
+  if ($('presetRow')) {
+    $('presetRow').addEventListener('click', e => {
+      const preset = e.target.closest('button') && e.target.closest('button').dataset.preset;
+      if (!preset || !shared.myScore || typeof shared.myScore !== 'object') return;
+      if (preset !== 'conservative') {
+        const ok = window.confirm('切换到中性或乐观会抬高用来对照的分数，可能高估可达学校。档位不是录取概率。确定切换？');
+        if (!ok) return;
+      }
+      shared.myScore.riskPreset = preset;
+      lsSet('zzzs.myScore', JSON.stringify(shared.myScore));
+      syncPresetButtons();
+      renderCurrent();
+      if ($('poolMask').classList.contains('show')) openPool();
+    });
+  }
+  if ($('openPool')) $('openPool').addEventListener('click', openPool);
+  if ($('closePool')) $('closePool').addEventListener('click', () => $('poolMask').classList.remove('show'));
+  if ($('recoAck')) $('recoAck').addEventListener('click', () => {
+    try { sessionStorage.setItem('zzzs.recoAck', '1'); } catch (e) { /* 忽略 */ }
+    $('recoMask').classList.remove('show');
+    renderCurrent();
+  });
+  if ($('copyPool')) $('copyPool').addEventListener('click', () => {
+    const md = $('poolSheet').dataset.md || '';
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(md);
+  });
+  if ($('printPool')) $('printPool').addEventListener('click', () => window.print());
+  ['myScore', 'scoreMy', 'feeMy'].forEach(id => {
+    const el = $(id);
+    if (!el) return;
+    el.addEventListener('change', () => { if (el.value.trim()) showRecoModal(); });
+  });
 
   renderProvenance();
   readUrl();

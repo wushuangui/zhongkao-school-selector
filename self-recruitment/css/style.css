@@ -364,6 +364,18 @@ footer a { color: var(--blue); }
   .nav.nav-four { gap: 4px; }
   .nav.nav-four button { font-size: 12px; padding: 8px 0; }
 }
+.estimator { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 8px; font-size: 13px; }
+.estimator input, .estimator select, .estimator button { min-height: 36px; }
+.preset-row { display: flex; gap: 6px; }
+.preset-row button.active { background: var(--blue); color: #fff; }
+.tag.tier { background: var(--blue-light); color: var(--blue); }
+#recoMask, #poolMask { z-index: 30; }
+#poolSheet { font-size: 14px; line-height: 1.6; }
+@media print {
+  body * { visibility: hidden; }
+  #poolSheet, #poolSheet * { visibility: visible; }
+  #poolSheet { position: absolute; left: 0; top: 0; }
+}
 @media (max-height: 700px) {
   .panel { padding: 10px; }
   .app.fixed #view-zzzs:not([hidden]) > .panel:first-child,

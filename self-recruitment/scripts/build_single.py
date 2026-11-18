@@ -24,7 +24,9 @@ ASSETS = [
     ('<script src="js/rules.js"></script>', ROOT / "js" / "rules.js", "script"),
     ('<script src="data/timeline-data.js"></script>', ROOT / "data" / "timeline-data.js", "script"),
     ('<script src="data/zzzs-data.js"></script>', ROOT / "data" / "zzzs-data.js", "script"),
-    ('<script src="data/scores-data.js"></script>', ROOT / "data" / "scores-data.js", "script"),
+    ('<script src="data/scores-meta.js"></script>', ROOT / "data" / "scores-meta.js", "script"),
+    ('<script src="data/mapping-data.js"></script>', ROOT / "data" / "mapping-data.js", "script"),
+    ('<script src="js/reco.js"></script>', ROOT / "js" / "reco.js", "script"),
 ]
 
 
@@ -39,6 +41,7 @@ def require_fetched_at(path):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--refresh", action="store_true", help="打包前先运行 fetch_data.py 与 fetch_scores.py")
+    ap.add_argument("--lazy", action="store_true", help="不内嵌全量 scores-data.js，保留按批次加载")
     ap.add_argument("--out", default=str(ROOT / "dist" / "深圳自主招生选校.html"))
     args = ap.parse_args()
 
@@ -49,10 +52,20 @@ def main():
         subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_data.py")], check=True)
         subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_scores.py")], check=True)
 
-    for name in ("zzzs-data.js", "scores-data.js"):
+    for name in ("zzzs-data.js", "scores-meta.js"):
         require_fetched_at(ROOT / "data" / name)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "check_score_schema.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "check_school_links.py")], check=True)
 
     page = (ROOT / "index.html").read_text(encoding="utf-8")
+    full_tag = "<!--SCORES_FULL-->"
+    if full_tag not in page:
+        raise SystemExit("index.html 中未找到 <!--SCORES_FULL-->")
+    if args.lazy:
+        page = page.replace(full_tag, "")
+    else:
+        score_js = (ROOT / "data" / "scores-data.js").read_text(encoding="utf-8").replace("</", "<\\/")
+        page = page.replace(full_tag, "<script>\n" + score_js + "</script>")
     for tag, path, kind in ASSETS:
         if not path.exists():
             raise SystemExit(f"缺少 {path}")

@@ -321,22 +321,45 @@ def parse_fee(text: str, ownership: str, rank: str, school_type: str):
     }
 
 
+def load_alias_names():
+    """仓库级 data/school-aliases.json。返回 name -> 等价名集合。"""
+    path = ROOT.parent / "data" / "school-aliases.json"
+    if not path.exists():
+        print(f"未找到别名表 {path}")
+        return {}
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    mapped = {}
+    for row in doc.get("aliases") or []:
+        names = [row.get("canonical") or ""] + list(row.get("aliases") or [])
+        names = [n for n in names if n]
+        for n in names:
+            mapped.setdefault(n, set()).update(names)
+    print(f"已读取别名表 {path}（{len(doc.get('aliases') or [])} 组）")
+    return mapped
+
+
 def normalize_name(name: str) -> str:
     return re.sub(r"[（）()\s·]|^深圳市?", "", name)
 
 
-def link_profiles(schools, profiles):
+def link_profiles(schools, profiles, alias_names=None):
     """按学校名称把自主招生学校与学校介绍关联起来，补充区域和收费信息。"""
     by_norm = {normalize_name(p["name"]): i for i, p in enumerate(profiles)}
+    alias_names = alias_names or {}
     unmatched = set()
     for s in schools:
-        key = normalize_name(s["name"])
-        idx = by_norm.get(key)
-        if idx is None:
-            idx = by_norm.get(normalize_name(re.sub(r"[（(].*?[)）]", "", s["name"])))
-        if idx is None:
-            hits = [i for k, i in by_norm.items() if key in k or k in key]
-            idx = hits[0] if len(hits) == 1 else None
+        candidates = alias_names.get(s["name"], {s["name"]})
+        idx = None
+        for cand in candidates:
+            key = normalize_name(cand)
+            idx = by_norm.get(key)
+            if idx is None:
+                idx = by_norm.get(normalize_name(re.sub(r"[（(].*?[)）]", "", cand)))
+            if idx is None:
+                hits = [i for k, i in by_norm.items() if key in k or k in key]
+                idx = hits[0] if len(hits) == 1 else None
+            if idx is not None:
+                break
         if idx is None:
             unmatched.add(s["name"])
             continue
@@ -346,14 +369,20 @@ def link_profiles(schools, profiles):
     return sorted(unmatched)
 
 
-def apply_supplement(schools):
+def apply_supplement(schools, alias_names=None):
     """data/supplement.json：按学校名称补充区域、细分项目（官方附件中没有的信息）。"""
     path = DATA_DIR / "supplement.json"
     if not path.exists():
         return
     sup = json.loads(path.read_text(encoding="utf-8")).get("schools", {})
+    alias_names = alias_names or {}
     for s in schools:
         extra = sup.get(s["name"])
+        if not extra:
+            for cand in alias_names.get(s["name"], ()):
+                extra = sup.get(cand)
+                if extra:
+                    break
         if not extra:
             continue
         if extra.get("district"):
@@ -379,8 +408,9 @@ def main():
 
     print("抓取学校介绍与收费标准…")
     profiles = fetch_profiles(args.profile_page)
-    unmatched = link_profiles(schools, profiles)
-    apply_supplement(schools)
+    alias_names = load_alias_names()
+    unmatched = link_profiles(schools, profiles, alias_names)
+    apply_supplement(schools, alias_names)
     print(f"学校介绍：{len(profiles)} 所；自主招生学校未匹配到介绍的：{len(unmatched)} 所")
     for name in unmatched:
         print(f"  - {name}")

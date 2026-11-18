@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "effectiveYear": 2026,
+  "changelog": "首版专家缺省：μ = a×平时折算分 + b，区间半宽为该 mock 类型的 σ。尚未用历年中考样本回归，计划在下一升学季用公开分数分布做校准后再升 version。",
+  "defaultPreset": "conservative",
+  "mockTypes": {
+    "final": { "label": "期末", "a": 0.92, "b": 18, "sigma": 18 },
+    "mock1": { "label": "一模", "a": 0.96, "b": 8, "sigma": 12 },
+    "mock2": { "label": "二模", "a": 0.98, "b": 4, "sigma": 8 }
+  },
+  "presets": {
+    "conservative": { "label": "保守", "use": "low" },
+    "neutral": { "label": "中性", "use": "point" },
+    "optimistic": { "label": "乐观", "use": "high" }
+  },
+  "tierRules": {
+    "id": "R-TIER-1",
+    "field": "scores.score",
+    "bao": "low >= line",
+    "wen": "point >= line 且 low < line",
+    "chong": "high >= line 且 point < line",
+    "skip": "high < line"
+  }
+}
