@@ -1,0 +1,6746 @@
+[
+ {
+  "year": 2025,
+  "school": "深圳中学（一）",
+  "type": "住宿",
+  "score": "574",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学（一）",
+  "type": "走读",
+  "score": "570",
+  "condition": "生物地理:92 语数英三科总分:303",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学（二）",
+  "type": "住宿",
+  "score": "574",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学（二）",
+  "type": "走读",
+  "score": "570",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学科技高中（一）",
+  "type": "住宿",
+  "score": "470",
+  "condition": "生物地理:59",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学科技高中（二）",
+  "type": "住宿",
+  "score": "505",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学数理高中（一）",
+  "type": "住宿",
+  "score": "468",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学数理高中（二）",
+  "type": "住宿",
+  "score": "511",
+  "condition": "生物地理:84 语数英三科总分:261",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学实验高中（一）",
+  "type": "住宿",
+  "score": "468",
+  "condition": "生物地理:73",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳中学实验高中（二）",
+  "type": "住宿",
+  "score": "506",
+  "condition": "生物地理:78 语数英三科总分:262",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（高中部）（一）",
+  "type": "住宿",
+  "score": "570",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（高中部）（一）",
+  "type": "走读",
+  "score": "569",
+  "condition": "生物地理:92 语数英三科总分:296",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（高中部）（二）",
+  "type": "住宿",
+  "score": "570",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（高中部）（二）",
+  "type": "走读",
+  "score": "565",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（光明高中部）（一）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:88 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（光明高中部）（一）",
+  "type": "走读",
+  "score": "542",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（光明高中部）（二）",
+  "type": "住宿",
+  "score": "552",
+  "condition": "生物地理:84 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校（光明高中部）（二）",
+  "type": "走读",
+  "score": "549",
+  "condition": "生物地理:88 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校明理高中（一）",
+  "type": "住宿",
+  "score": "511",
+  "condition": "生物地理:84 语数英三科总分:265",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校明理高中（一）",
+  "type": "走读",
+  "score": "476",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校明理高中（二）",
+  "type": "住宿",
+  "score": "523",
+  "condition": "生物地理:76 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校明理高中（二）",
+  "type": "走读",
+  "score": "492",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校崇文高中（一）",
+  "type": "住宿",
+  "score": "511",
+  "condition": "生物地理:64 语数英三科总分:272",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校崇文高中（一）",
+  "type": "走读",
+  "score": "480",
+  "condition": "生物地理:67",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校崇文高中（二）",
+  "type": "住宿",
+  "score": "513",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校崇文高中（二）",
+  "type": "走读",
+  "score": "500",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校卓越高中（一）",
+  "type": "住宿",
+  "score": "503",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校卓越高中（一）",
+  "type": "走读",
+  "score": "474",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校卓越高中（二）",
+  "type": "住宿",
+  "score": "514",
+  "condition": "生物地理:76 语数英三科总分:260",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校卓越高中（二）",
+  "type": "走读",
+  "score": "501",
+  "condition": "生物地理:81 语数英三科总分:251",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校至臻高中（一）",
+  "type": "住宿",
+  "score": "501",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校至臻高中（一）",
+  "type": "走读",
+  "score": "483",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校至臻高中（二）",
+  "type": "住宿",
+  "score": "514",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳实验学校至臻高中（二）",
+  "type": "走读",
+  "score": "501",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校（一）",
+  "type": "住宿",
+  "score": "568",
+  "condition": "生物地理:90 语数英三科总分:296",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校（一）",
+  "type": "走读",
+  "score": "566",
+  "condition": "生物地理:92 语数英三科总分:295",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校（二）",
+  "type": "住宿",
+  "score": "568",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校（二）",
+  "type": "走读",
+  "score": "562",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校龙华高中部（一）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:86 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校龙华高中部（一）",
+  "type": "走读",
+  "score": "543",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校龙华高中部（二）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校龙华高中部（二）",
+  "type": "走读",
+  "score": "541",
+  "condition": "生物地理:81 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校致远高中（一）",
+  "type": "住宿",
+  "score": "495",
+  "condition": "生物地理:73",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校致远高中（一）",
+  "type": "走读",
+  "score": "477",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校致远高中（二）",
+  "type": "住宿",
+  "score": "513",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校致远高中（二）",
+  "type": "走读",
+  "score": "506",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校弘知高中（一）",
+  "type": "住宿",
+  "score": "514",
+  "condition": "生物地理:87 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校弘知高中（一）",
+  "type": "走读",
+  "score": "503",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校弘知高中（二）",
+  "type": "住宿",
+  "score": "520",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校弘知高中（二）",
+  "type": "走读",
+  "score": "515",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校博雅高中（一）",
+  "type": "住宿",
+  "score": "501",
+  "condition": "生物地理:67",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校博雅高中（一）",
+  "type": "走读",
+  "score": "479",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校博雅高中（二）",
+  "type": "住宿",
+  "score": "513",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校博雅高中（二）",
+  "type": "走读",
+  "score": "509",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校理工高中（一）",
+  "type": "住宿",
+  "score": "489",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校理工高中（一）",
+  "type": "走读",
+  "score": "475",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校理工高中（二）",
+  "type": "住宿",
+  "score": "511",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳外国语学校理工高中（二）",
+  "type": "走读",
+  "score": "506",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学中心校区（一）",
+  "type": "住宿",
+  "score": "569",
+  "condition": "生物地理:94 语数英三科总分:300",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学中心校区（一）",
+  "type": "走读",
+  "score": "568",
+  "condition": "生物地理:95 语数英三科总分:295",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学中心校区（二）",
+  "type": "住宿",
+  "score": "569",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学中心校区（二）",
+  "type": "走读",
+  "score": "564",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学东校区（一）",
+  "type": "住宿",
+  "score": "548",
+  "condition": "生物地理:85 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学东校区（一）",
+  "type": "走读",
+  "score": "538",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学东校区（二）",
+  "type": "住宿",
+  "score": "546",
+  "condition": "生物地理:81 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学东校区（二）",
+  "type": "走读",
+  "score": "539",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学创新高中（一）",
+  "type": "住宿",
+  "score": "532",
+  "condition": "生物地理:82 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学创新高中（一）",
+  "type": "走读",
+  "score": "519",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学创新高中（二）",
+  "type": "住宿",
+  "score": "538",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学创新高中（二）",
+  "type": "走读",
+  "score": "527",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学文博高中（一）",
+  "type": "住宿",
+  "score": "512",
+  "condition": "生物地理:82 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学文博高中（一）",
+  "type": "走读",
+  "score": "482",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学文博高中（二）",
+  "type": "住宿",
+  "score": "522",
+  "condition": "生物地理:81 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学文博高中（二）",
+  "type": "走读",
+  "score": "503",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学理慧高中（一）",
+  "type": "住宿",
+  "score": "524",
+  "condition": "生物地理:81 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学理慧高中（一）",
+  "type": "走读",
+  "score": "496",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学理慧高中（二）",
+  "type": "住宿",
+  "score": "529",
+  "condition": "生物地理:86 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学理慧高中（二）",
+  "type": "走读",
+  "score": "512",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学有为高中（一）",
+  "type": "住宿",
+  "score": "517",
+  "condition": "生物地理:85 语数英三科总分:266",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学有为高中（一）",
+  "type": "走读",
+  "score": "491",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学有为高中（二）",
+  "type": "住宿",
+  "score": "523",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市高级中学有为高中（二）",
+  "type": "走读",
+  "score": "507",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第三高级中学（国内高考班）（一）",
+  "type": "住宿",
+  "score": "524",
+  "condition": "生物地理:84 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第三高级中学（国内高考班）（一）",
+  "type": "走读",
+  "score": "514",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第三高级中学（国内高考班）（二）",
+  "type": "住宿",
+  "score": "530",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第三高级中学（国内高考班）（二）",
+  "type": "走读",
+  "score": "520",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第三高级中学（国家留学基金委自费出国留学班）",
+  "type": "住宿",
+  "score": "423",
+  "condition": "生物地理:64",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属中学（深大附中）（一）",
+  "type": "住宿",
+  "score": "562",
+  "condition": "生物地理:93 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属中学（深大附中）（一）",
+  "type": "走读",
+  "score": "560",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属中学（深大附中）（二）",
+  "type": "住宿",
+  "score": "562",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属中学（深大附中）（二）",
+  "type": "走读",
+  "score": "551",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属实验中学（一）",
+  "type": "住宿",
+  "score": "546",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属实验中学（一）",
+  "type": "走读",
+  "score": "540",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属实验中学（二）",
+  "type": "住宿",
+  "score": "548",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳大学附属实验中学（二）",
+  "type": "走读",
+  "score": "541",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校（一）",
+  "type": "住宿",
+  "score": "550",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校（一）",
+  "type": "走读",
+  "score": "547",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校（二）",
+  "type": "住宿",
+  "score": "552",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校（二）",
+  "type": "走读",
+  "score": "547",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校明远高中（一）",
+  "type": "住宿",
+  "score": "474",
+  "condition": "生物地理:68",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校明远高中（一）",
+  "type": "走读",
+  "score": "457",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校明远高中（二）",
+  "type": "住宿",
+  "score": "509",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二实验学校明远高中（二）",
+  "type": "走读",
+  "score": "501",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学（一）",
+  "type": "住宿",
+  "score": "557",
+  "condition": "生物地理:88 语数英三科总分:294",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学（一）",
+  "type": "走读",
+  "score": "555",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学（二）",
+  "type": "住宿",
+  "score": "554",
+  "condition": "生物地理:89 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学（二）",
+  "type": "走读",
+  "score": "546",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学深汕实验学校（一）",
+  "type": "住宿",
+  "score": "466",
+  "condition": "生物地理:62 语数英三科总分:233",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第二高级中学深汕实验学校（二）",
+  "type": "住宿",
+  "score": "505",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳第二外国语学校（一）",
+  "type": "住宿",
+  "score": "530",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳第二外国语学校（一）",
+  "type": "走读",
+  "score": "521",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳第二外国语学校（二）",
+  "type": "住宿",
+  "score": "534",
+  "condition": "生物地理:83 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳第二外国语学校（二）",
+  "type": "走读",
+  "score": "525",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中（一）",
+  "type": "住宿",
+  "score": "560",
+  "condition": "生物地理:89 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中（一）",
+  "type": "走读",
+  "score": "558",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中（二）",
+  "type": "住宿",
+  "score": "560",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中（二）",
+  "type": "走读",
+  "score": "550",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中龙岗分校（一）",
+  "type": "住宿",
+  "score": "545",
+  "condition": "生物地理:90 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中龙岗分校（一）",
+  "type": "走读",
+  "score": "538",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中龙岗分校（二）",
+  "type": "住宿",
+  "score": "547",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳科学高中龙岗分校（二）",
+  "type": "走读",
+  "score": "539",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第七高级中学（一）",
+  "type": "住宿",
+  "score": "504",
+  "condition": "生物地理:75 语数英三科总分:269",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第七高级中学（一）",
+  "type": "走读",
+  "score": "488",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第七高级中学（二）",
+  "type": "住宿",
+  "score": "520",
+  "condition": "生物地理:78 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第七高级中学（二）",
+  "type": "走读",
+  "score": "515",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南方科技大学附属中学（一）",
+  "type": "住宿",
+  "score": "556",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南方科技大学附属中学（一）",
+  "type": "走读",
+  "score": "552",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南方科技大学附属中学（二）",
+  "type": "住宿",
+  "score": "556",
+  "condition": "生物地理:90 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南方科技大学附属中学（二）",
+  "type": "走读",
+  "score": "553",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "广东实验中学深圳学校（一）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:84 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "广东实验中学深圳学校（一）",
+  "type": "走读",
+  "score": "540",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "广东实验中学深圳学校（二）",
+  "type": "住宿",
+  "score": "550",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "广东实验中学深圳学校（二）",
+  "type": "走读",
+  "score": "536",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳技术大学附属中学（一）",
+  "type": "住宿",
+  "score": "531",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳技术大学附属中学（一）",
+  "type": "走读",
+  "score": "519",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳技术大学附属中学（二）",
+  "type": "住宿",
+  "score": "536",
+  "condition": "生物地理:88 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳技术大学附属中学（二）",
+  "type": "走读",
+  "score": "529",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "东北师范大学附属中学深圳学校（一）",
+  "type": "住宿",
+  "score": "540",
+  "condition": "生物地理:82 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "东北师范大学附属中学深圳学校（一）",
+  "type": "走读",
+  "score": "530",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "东北师范大学附属中学深圳学校（二）",
+  "type": "住宿",
+  "score": "543",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "东北师范大学附属中学深圳学校（二）",
+  "type": "走读",
+  "score": "534",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳北理莫斯科大学附属实验中学（一）",
+  "type": "住宿",
+  "score": "544",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳北理莫斯科大学附属实验中学（一）",
+  "type": "走读",
+  "score": "535",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳北理莫斯科大学附属实验中学（二）",
+  "type": "住宿",
+  "score": "545",
+  "condition": "生物地理:90 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳北理莫斯科大学附属实验中学（二）",
+  "type": "走读",
+  "score": "537",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市第一职业技术学校（综合高中）",
+  "type": "住宿",
+  "score": "503",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭中学（一）",
+  "type": "住宿",
+  "score": "565",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭中学（一）",
+  "type": "走读",
+  "score": "564",
+  "condition": "生物地理:93 语数英三科总分:294",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭中学（二）",
+  "type": "住宿",
+  "score": "565",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭中学（二）",
+  "type": "走读",
+  "score": "557",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "福田中学（一）",
+  "type": "住宿",
+  "score": "532",
+  "condition": "生物地理:78 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "福田中学（一）",
+  "type": "走读",
+  "score": "525",
+  "condition": "生物地理:86 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "福田中学（二）",
+  "type": "住宿",
+  "score": "537",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "福田中学（二）",
+  "type": "走读",
+  "score": "531",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京大学附属中学深圳学校（一）",
+  "type": "住宿",
+  "score": "495",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京大学附属中学深圳学校（一）",
+  "type": "走读",
+  "score": "491",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京大学附属中学深圳学校（二）",
+  "type": "住宿",
+  "score": "517",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京大学附属中学深圳学校（二）",
+  "type": "走读",
+  "score": "513",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西交利物浦大学基础教育集团外国语高级中学（一）",
+  "type": "住宿",
+  "score": "524",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西交利物浦大学基础教育集团外国语高级中学（一）",
+  "type": "走读",
+  "score": "519",
+  "condition": "生物地理:79 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西交利物浦大学基础教育集团外国语高级中学（二）",
+  "type": "住宿",
+  "score": "530",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西交利物浦大学基础教育集团外国语高级中学（二）",
+  "type": "走读",
+  "score": "526",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "香港中文大学（深圳）附属明德高级中学（一）",
+  "type": "住宿",
+  "score": "536",
+  "condition": "生物地理:81 语数英三科总分:292",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "香港中文大学（深圳）附属明德高级中学（一）",
+  "type": "走读",
+  "score": "533",
+  "condition": "生物地理:84 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "香港中文大学（深圳）附属明德高级中学（二）",
+  "type": "住宿",
+  "score": "539",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "香港中文大学（深圳）附属明德高级中学（二）",
+  "type": "走读",
+  "score": "534",
+  "condition": "生物地理:79 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "翠园中学（一）",
+  "type": "住宿",
+  "score": "557",
+  "condition": "生物地理:84 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "翠园中学（一）",
+  "type": "走读",
+  "score": "555",
+  "condition": "生物地理:90 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "翠园中学（二）",
+  "type": "住宿",
+  "score": "556",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "翠园中学（二）",
+  "type": "走读",
+  "score": "555",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖高级中学（一）",
+  "type": "住宿",
+  "score": "523",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖高级中学（一）",
+  "type": "走读",
+  "score": "518",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖高级中学（二）",
+  "type": "住宿",
+  "score": "528",
+  "condition": "生物地理:79 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖高级中学（二）",
+  "type": "走读",
+  "score": "523",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖外语学校（一）",
+  "type": "住宿",
+  "score": "532",
+  "condition": "生物地理:81 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖外语学校（一）",
+  "type": "走读",
+  "score": "519",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖外语学校（二）",
+  "type": "住宿",
+  "score": "538",
+  "condition": "生物地理:75 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "罗湖外语学校（二）",
+  "type": "走读",
+  "score": "526",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市美术学校（一）",
+  "type": "住宿",
+  "score": "459",
+  "condition": "生物地理:66",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市美术学校（一）",
+  "type": "走读",
+  "score": "444",
+  "condition": "生物地理:60",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市美术学校（二）",
+  "type": "住宿",
+  "score": "492",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市美术学校（二）",
+  "type": "走读",
+  "score": "470",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市行知职业技术学校（综合高中）",
+  "type": "住宿",
+  "score": "491",
+  "condition": "生物地理:78 语数英三科总分:254",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "盐田高级中学（一）",
+  "type": "住宿",
+  "score": "539",
+  "condition": "生物地理:89 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "盐田高级中学（一）",
+  "type": "走读",
+  "score": "525",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "盐田高级中学（二）",
+  "type": "住宿",
+  "score": "541",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "盐田高级中学（二）",
+  "type": "走读",
+  "score": "530",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市盐港中学（综合高中）",
+  "type": "住宿",
+  "score": "492",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南头中学（一）",
+  "type": "住宿",
+  "score": "541",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南头中学（一）",
+  "type": "走读",
+  "score": "539",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南头中学（二）",
+  "type": "住宿",
+  "score": "542",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南头中学（二）",
+  "type": "走读",
+  "score": "536",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学（一）",
+  "type": "住宿",
+  "score": "564",
+  "condition": "生物地理:91 语数英三科总分:293",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学（一）",
+  "type": "走读",
+  "score": "563",
+  "condition": "生物地理:90 语数英三科总分:297",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学（二）",
+  "type": "住宿",
+  "score": "564",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学（二）",
+  "type": "走读",
+  "score": "561",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学蛇口校区（一）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:80 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学蛇口校区（一）",
+  "type": "走读",
+  "score": "546",
+  "condition": "生物地理:86 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学蛇口校区（二）",
+  "type": "住宿",
+  "score": "548",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "育才中学蛇口校区（二）",
+  "type": "走读",
+  "score": "546",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华侨城高级中学（一）",
+  "type": "住宿",
+  "score": "536",
+  "condition": "生物地理:82 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华侨城高级中学（一）",
+  "type": "走读",
+  "score": "533",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华侨城高级中学（二）",
+  "type": "住宿",
+  "score": "537",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华侨城高级中学（二）",
+  "type": "走读",
+  "score": "531",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京师范大学南山附属学校（一）",
+  "type": "住宿",
+  "score": "562",
+  "condition": "生物地理:90 语数英三科总分:292",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京师范大学南山附属学校（一）",
+  "type": "走读",
+  "score": "560",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京师范大学南山附属学校（二）",
+  "type": "住宿",
+  "score": "562",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "北京师范大学南山附属学校（二）",
+  "type": "走读",
+  "score": "554",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南山外国语学校（集团）高级中学（一）",
+  "type": "住宿",
+  "score": "559",
+  "condition": "生物地理:91 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南山外国语学校（集团）高级中学（一）",
+  "type": "走读",
+  "score": "558",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南山外国语学校（集团）高级中学（二）",
+  "type": "住宿",
+  "score": "557",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "南山外国语学校（集团）高级中学（二）",
+  "type": "走读",
+  "score": "553",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安中学（集团）高中部（一）",
+  "type": "住宿",
+  "score": "564",
+  "condition": "生物地理:84 语数英三科总分:295",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安中学（集团）高中部（一）",
+  "type": "走读",
+  "score": "562",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安中学（集团）高中部（二）",
+  "type": "住宿",
+  "score": "562",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安中学（集团）高中部（二）",
+  "type": "走读",
+  "score": "558",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "新安中学（集团）高中部（一）",
+  "type": "住宿",
+  "score": "547",
+  "condition": "生物地理:93 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "新安中学（集团）高中部（一）",
+  "type": "走读",
+  "score": "544",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "新安中学（集团）高中部（二）",
+  "type": "住宿",
+  "score": "549",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "新安中学（集团）高中部（二）",
+  "type": "走读",
+  "score": "542",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安第一外国语学校（一）",
+  "type": "住宿",
+  "score": "531",
+  "condition": "生物地理:84 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安第一外国语学校（一）",
+  "type": "走读",
+  "score": "521",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安第一外国语学校（二）",
+  "type": "住宿",
+  "score": "535",
+  "condition": "生物地理:85 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "宝安第一外国语学校（二）",
+  "type": "走读",
+  "score": "526",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西乡中学（一）",
+  "type": "住宿",
+  "score": "513",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西乡中学（一）",
+  "type": "走读",
+  "score": "506",
+  "condition": "生物地理:74 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西乡中学（二）",
+  "type": "住宿",
+  "score": "523",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "西乡中学（二）",
+  "type": "走读",
+  "score": "518",
+  "condition": "生物地理:72",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "沙井中学（一）",
+  "type": "住宿",
+  "score": "469",
+  "condition": "生物地理:78 语数英三科总分:244",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "沙井中学（一）",
+  "type": "走读",
+  "score": "465",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "沙井中学（二）",
+  "type": "住宿",
+  "score": "508",
+  "condition": "生物地理:67",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "沙井中学（二）",
+  "type": "走读",
+  "score": "505",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "松岗中学（一）",
+  "type": "住宿",
+  "score": "532",
+  "condition": "生物地理:80 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "松岗中学（一）",
+  "type": "走读",
+  "score": "527",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "松岗中学（二）",
+  "type": "住宿",
+  "score": "538",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "松岗中学（二）",
+  "type": "走读",
+  "score": "533",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "石岩外国语学校（一）",
+  "type": "住宿",
+  "score": "482",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "石岩外国语学校（一）",
+  "type": "走读",
+  "score": "465",
+  "condition": "生物地理:72",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "石岩外国语学校（二）",
+  "type": "住宿",
+  "score": "512",
+  "condition": "生物地理:74 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "石岩外国语学校（二）",
+  "type": "走读",
+  "score": "504",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市福海中学（一）",
+  "type": "住宿",
+  "score": "507",
+  "condition": "生物地理:73 语数英三科总分:259",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市福海中学（一）",
+  "type": "走读",
+  "score": "482",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市福海中学（二）",
+  "type": "住宿",
+  "score": "523",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市福海中学（二）",
+  "type": "走读",
+  "score": "513",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙津中学（一）",
+  "type": "住宿",
+  "score": "528",
+  "condition": "生物地理:76 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙津中学（一）",
+  "type": "走读",
+  "score": "504",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙津中学（二）",
+  "type": "住宿",
+  "score": "534",
+  "condition": "生物地理:81 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙津中学（二）",
+  "type": "走读",
+  "score": "521",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市燕川中学（一）",
+  "type": "住宿",
+  "score": "521",
+  "condition": "生物地理:86 语数英三科总分:262",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市燕川中学（一）",
+  "type": "走读",
+  "score": "487",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市燕川中学（二）",
+  "type": "住宿",
+  "score": "532",
+  "condition": "生物地理:86 语数英三科总分:276",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市燕川中学（二）",
+  "type": "走读",
+  "score": "514",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙城高级中学（一）",
+  "type": "住宿",
+  "score": "557",
+  "condition": "生物地理:83 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙城高级中学（一）",
+  "type": "走读",
+  "score": "554",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙城高级中学（二）",
+  "type": "住宿",
+  "score": "557",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙城高级中学（二）",
+  "type": "走读",
+  "score": "554",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平冈中学（一）",
+  "type": "住宿",
+  "score": "519",
+  "condition": "生物地理:72",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平冈中学（一）",
+  "type": "走读",
+  "score": "509",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平冈中学（二）",
+  "type": "住宿",
+  "score": "533",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平冈中学（二）",
+  "type": "走读",
+  "score": "528",
+  "condition": "生物地理:73",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉高级中学（一）",
+  "type": "住宿",
+  "score": "474",
+  "condition": "生物地理:58",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉高级中学（一）",
+  "type": "走读",
+  "score": "470",
+  "condition": "生物地理:67",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉高级中学（二）",
+  "type": "住宿",
+  "score": "508",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉高级中学（二）",
+  "type": "走读",
+  "score": "505",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉中学（一）",
+  "type": "走读",
+  "score": "462",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "布吉中学（二）",
+  "type": "走读",
+  "score": "503",
+  "condition": "生物地理:62",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "横岗高级中学（一）",
+  "type": "住宿",
+  "score": "480",
+  "condition": "生物地理:67",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "横岗高级中学（一）",
+  "type": "走读",
+  "score": "474",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "横岗高级中学（二）",
+  "type": "住宿",
+  "score": "510",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "横岗高级中学（二）",
+  "type": "走读",
+  "score": "507",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平湖外国语学校（一）",
+  "type": "住宿",
+  "score": "471",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平湖外国语学校（一）",
+  "type": "走读",
+  "score": "464",
+  "condition": "生物地理:69",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平湖外国语学校（二）",
+  "type": "住宿",
+  "score": "506",
+  "condition": "生物地理:77 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "平湖外国语学校（二）",
+  "type": "走读",
+  "score": "502",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华中师范大学龙岗附属中学（一）",
+  "type": "住宿",
+  "score": "545",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华中师范大学龙岗附属中学（一）",
+  "type": "走读",
+  "score": "540",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华中师范大学龙岗附属中学（二）",
+  "type": "住宿",
+  "score": "545",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "华中师范大学龙岗附属中学（二）",
+  "type": "走读",
+  "score": "538",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙岗区实验高级中学（一）",
+  "type": "住宿",
+  "score": "536",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙岗区实验高级中学（一）",
+  "type": "走读",
+  "score": "524",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙岗区实验高级中学（二）",
+  "type": "住宿",
+  "score": "540",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙岗区实验高级中学（二）",
+  "type": "走读",
+  "score": "532",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华中学（一）",
+  "type": "住宿",
+  "score": "475",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华中学（一）",
+  "type": "走读",
+  "score": "462",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华中学（二）",
+  "type": "住宿",
+  "score": "510",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华中学（二）",
+  "type": "走读",
+  "score": "501",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "观澜中学（一）",
+  "type": "住宿",
+  "score": "495",
+  "condition": "生物地理:75 语数英三科总分:250",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "观澜中学（一）",
+  "type": "走读",
+  "score": "485",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "观澜中学（二）",
+  "type": "住宿",
+  "score": "517",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "观澜中学（二）",
+  "type": "走读",
+  "score": "512",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华高级中学（一）",
+  "type": "住宿",
+  "score": "553",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华高级中学（一）",
+  "type": "走读",
+  "score": "551",
+  "condition": "生物地理:76",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华高级中学（二）",
+  "type": "住宿",
+  "score": "552",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "龙华高级中学（二）",
+  "type": "走读",
+  "score": "543",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市艺术高中（一）",
+  "type": "住宿",
+  "score": "464",
+  "condition": "生物地理:66",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市艺术高中（一）",
+  "type": "走读",
+  "score": "460",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市艺术高中（二）",
+  "type": "住宿",
+  "score": "499",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市艺术高中（二）",
+  "type": "走读",
+  "score": "494",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市格致中学（一）",
+  "type": "住宿",
+  "score": "537",
+  "condition": "生物地理:80 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市格致中学（一）",
+  "type": "走读",
+  "score": "529",
+  "condition": "生物地理:92 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市格致中学（二）",
+  "type": "住宿",
+  "score": "541",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市格致中学（二）",
+  "type": "走读",
+  "score": "529",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市红山中学（一）",
+  "type": "住宿",
+  "score": "537",
+  "condition": "生物地理:88 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市红山中学（一）",
+  "type": "走读",
+  "score": "531",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市红山中学（二）",
+  "type": "住宿",
+  "score": "540",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市红山中学（二）",
+  "type": "走读",
+  "score": "532",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华外国语高级中学（一）",
+  "type": "住宿",
+  "score": "507",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华外国语高级中学（一）",
+  "type": "走读",
+  "score": "501",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华外国语高级中学（二）",
+  "type": "住宿",
+  "score": "522",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华外国语高级中学（二）",
+  "type": "走读",
+  "score": "515",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市致理中学（一）",
+  "type": "住宿",
+  "score": "501",
+  "condition": "生物地理:86 语数英三科总分:255",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市致理中学（一）",
+  "type": "走读",
+  "score": "484",
+  "condition": "生物地理:72",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市致理中学（二）",
+  "type": "住宿",
+  "score": "521",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市致理中学（二）",
+  "type": "走读",
+  "score": "513",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华科技实验高级中学（一）",
+  "type": "住宿",
+  "score": "489",
+  "condition": "生物地理:69 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华科技实验高级中学（一）",
+  "type": "走读",
+  "score": "472",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华科技实验高级中学（二）",
+  "type": "住宿",
+  "score": "514",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华科技实验高级中学（二）",
+  "type": "走读",
+  "score": "506",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "坪山高级中学（一）",
+  "type": "住宿",
+  "score": "492",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "坪山高级中学（一）",
+  "type": "走读",
+  "score": "467",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "坪山高级中学（二）",
+  "type": "住宿",
+  "score": "518",
+  "condition": "生物地理:77 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "坪山高级中学（二）",
+  "type": "走读",
+  "score": "506",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市聚龙科学中学（一）",
+  "type": "住宿",
+  "score": "485",
+  "condition": "生物地理:69 语数英三科总分:251",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市聚龙科学中学（一）",
+  "type": "走读",
+  "score": "461",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市聚龙科学中学（二）",
+  "type": "住宿",
+  "score": "516",
+  "condition": "生物地理:82 语数英三科总分:260",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市聚龙科学中学（二）",
+  "type": "走读",
+  "score": "508",
+  "condition": "生物地理:73",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明区高级中学（一）",
+  "type": "住宿",
+  "score": "508",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明区高级中学（一）",
+  "type": "走读",
+  "score": "495",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明区高级中学（二）",
+  "type": "住宿",
+  "score": "526",
+  "condition": "生物地理:89 语数英三科总分:272",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明区高级中学（二）",
+  "type": "走读",
+  "score": "518",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明中学（一）",
+  "type": "住宿",
+  "score": "480",
+  "condition": "生物地理:71 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明中学（一）",
+  "type": "走读",
+  "score": "473",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明中学（二）",
+  "type": "住宿",
+  "score": "509",
+  "condition": "生物地理:82 语数英三科总分:266",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "光明中学（二）",
+  "type": "走读",
+  "score": "506",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "中国科学院深圳理工大学附属实验高级中学（一）",
+  "type": "住宿",
+  "score": "542",
+  "condition": "生物地理:85 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "中国科学院深圳理工大学附属实验高级中学（一）",
+  "type": "走读",
+  "score": "537",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "中国科学院深圳理工大学附属实验高级中学（二）",
+  "type": "住宿",
+  "score": "541",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "中国科学院深圳理工大学附属实验高级中学（二）",
+  "type": "走读",
+  "score": "538",
+  "condition": "生物地理:82 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "人大附中深圳学校（一）",
+  "type": "住宿",
+  "score": "553",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "人大附中深圳学校（一）",
+  "type": "走读",
+  "score": "541",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "人大附中深圳学校（二）",
+  "type": "住宿",
+  "score": "552",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "人大附中深圳学校（二）",
+  "type": "走读",
+  "score": "538",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭教育集团大鹏华侨中学（一）",
+  "type": "住宿",
+  "score": "521",
+  "condition": "生物地理:68",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭教育集团大鹏华侨中学（一）",
+  "type": "走读",
+  "score": "501",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭教育集团大鹏华侨中学（二）",
+  "type": "住宿",
+  "score": "531",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "红岭教育集团大鹏华侨中学（二）",
+  "type": "走读",
+  "score": "519",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市云顶学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市罗湖区华美外国语学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市万科梅沙书院",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市盐田区梅沙双语学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳（南山）中加学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳东方英文书院",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市崛起实验中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市桃源居中澳实验学校",
+  "type": "住宿",
+  "score": "400",
+  "condition": "生物地理:57",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市华胜实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市富源学校",
+  "type": "住宿",
+  "score": "415",
+  "condition": "生物地理:64",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市华侨（康桥）书院",
+  "type": "住宿",
+  "score": "369",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市明德外语实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市宝安区中英公学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市松岗中英文实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市宝安区翻身实验学校（西校区）",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市华一实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市福桥高级中学",
+  "type": "住宿",
+  "score": "360",
+  "condition": "生物地理:58",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市滨海高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市弘毅高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙岗区东升学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市建文外国语学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙岗区科城实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市承翰学校",
+  "type": "住宿",
+  "score": "377",
+  "condition": "生物地理:57",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市坤翔高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙岗区珊蒂泉外国语学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市枫叶学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙岗区德琳学校",
+  "type": "住宿",
+  "score": "353",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市鹏达高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳菁华中英文实验中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市晟才高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市中荟高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华中英文实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市美中学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市展华实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市格睿特高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙华区博恒实验学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市汉开数理高中",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市育华高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市龙翔学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市中新中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市立人高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市华朗学校",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市知源高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市华文高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市光明书院",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳杰仁高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2025,
+  "school": "深圳市正德高级中学",
+  "type": "住宿",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学（一）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:93 语数英三科总分:292",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学（二）",
+  "type": "",
+  "score": "568",
+  "condition": "生物地理:93 语数英三科总分:289",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学科技高中（一）",
+  "type": "",
+  "score": "464",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学科技高中（二）",
+  "type": "",
+  "score": "495",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学数理高中（一）",
+  "type": "",
+  "score": "483",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学数理高中（二）",
+  "type": "",
+  "score": "515",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学实验高中（一）",
+  "type": "",
+  "score": "467",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳中学实验高中（二）",
+  "type": "",
+  "score": "494",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校（高中部）（一）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:95 语数英三科总分:294",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校（高中部）（二）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校（光明高中部）（一）",
+  "type": "",
+  "score": "543",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校（光明高中部）（二）",
+  "type": "",
+  "score": "547",
+  "condition": "生物地理:95 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校明理高中（一）",
+  "type": "",
+  "score": "509",
+  "condition": "生物地理:84 语数英三科总分:255",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校明理高中（二）",
+  "type": "",
+  "score": "511",
+  "condition": "生物地理:87 语数英三科总分:260",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校崇文高中（一）",
+  "type": "",
+  "score": "492",
+  "condition": "生物地理:80 语数英三科总分:243",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校崇文高中（二）",
+  "type": "",
+  "score": "496",
+  "condition": "生物地理:85 语数英三科总分:248",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校卓越高中（一）",
+  "type": "",
+  "score": "481",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校卓越高中（二）",
+  "type": "",
+  "score": "495",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校至臻高中（一）",
+  "type": "",
+  "score": "473",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳实验学校至臻高中（二）",
+  "type": "",
+  "score": "495",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校（一）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:95 语数英三科总分:294",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校（二）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校龙华高中部（一）",
+  "type": "",
+  "score": "543",
+  "condition": "生物地理:90 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校龙华高中部（二）",
+  "type": "",
+  "score": "541",
+  "condition": "生物地理:92 语数英三科总分:272",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校致远高中（一）",
+  "type": "",
+  "score": "468",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校致远高中（二）",
+  "type": "",
+  "score": "497",
+  "condition": "生物地理:88 语数英三科总分:243",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校弘知高中（一）",
+  "type": "",
+  "score": "502",
+  "condition": "生物地理:79 语数英三科总分:257",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校弘知高中（二）",
+  "type": "",
+  "score": "501",
+  "condition": "生物地理:74",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校博雅高中（一）",
+  "type": "",
+  "score": "485",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校博雅高中（二）",
+  "type": "",
+  "score": "498",
+  "condition": "生物地理:86 语数英三科总分:252",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校理工高中（一）",
+  "type": "",
+  "score": "465",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳外国语学校理工高中（二）",
+  "type": "",
+  "score": "495",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学中心校区（一）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:93 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学中心校区（二）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学东校区（一）",
+  "type": "",
+  "score": "541",
+  "condition": "生物地理:86 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学东校区（二）",
+  "type": "",
+  "score": "538",
+  "condition": "生物地理:92 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学创新高中（一）",
+  "type": "",
+  "score": "526",
+  "condition": "生物地理:90 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学创新高中（二）",
+  "type": "",
+  "score": "528",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学文博高中（一）",
+  "type": "",
+  "score": "507",
+  "condition": "生物地理:84 语数英三科总分:251",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学文博高中（二）",
+  "type": "",
+  "score": "508",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学理慧高中（一）",
+  "type": "",
+  "score": "512",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学理慧高中（二）",
+  "type": "",
+  "score": "513",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学有为高中（一）",
+  "type": "",
+  "score": "503",
+  "condition": "生物地理:85 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市高级中学有为高中（二）",
+  "type": "",
+  "score": "506",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第三高级中学（国内高考班）（一）",
+  "type": "",
+  "score": "514",
+  "condition": "生物地理:80 语数英三科总分:261",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第三高级中学（国内高考班）（二）",
+  "type": "",
+  "score": "519",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第三高级中学（国家留学基金委自费出国留学班）",
+  "type": "",
+  "score": "432",
+  "condition": "生物地理:66",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳大学附属中学（深大附中）（一）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:92 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳大学附属中学（深大附中）（二）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳大学附属实验中学（一）",
+  "type": "",
+  "score": "537",
+  "condition": "生物地理:82 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳大学附属实验中学（二）",
+  "type": "",
+  "score": "539",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二实验学校（一）",
+  "type": "",
+  "score": "548",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二实验学校（二）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:93 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二实验学校明远高中（一）",
+  "type": "",
+  "score": "464",
+  "condition": "生物地理:76 语数英三科总分:223",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二实验学校明远高中（二）",
+  "type": "",
+  "score": "492",
+  "condition": "生物地理:91 语数英三科总分:242",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二高级中学（一）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二高级中学（二）",
+  "type": "",
+  "score": "550",
+  "condition": "生物地理:87 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二高级中学深汕实验学校（一）",
+  "type": "",
+  "score": "448",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第二高级中学深汕实验学校（二）",
+  "type": "",
+  "score": "491",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳第二外国语学校（一）",
+  "type": "",
+  "score": "523",
+  "condition": "生物地理:83 语数英三科总分:262",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳第二外国语学校（二）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳科学高中（一）",
+  "type": "",
+  "score": "555",
+  "condition": "生物地理:93 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳科学高中（二）",
+  "type": "",
+  "score": "557",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳科学高中龙岗分校（一）",
+  "type": "",
+  "score": "538",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳科学高中龙岗分校（二）",
+  "type": "",
+  "score": "539",
+  "condition": "生物地理:93 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第七高级中学（一）",
+  "type": "",
+  "score": "485",
+  "condition": "生物地理:80 语数英三科总分:246",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第七高级中学（二）",
+  "type": "",
+  "score": "509",
+  "condition": "生物地理:80 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "南方科技大学附属中学（一）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "南方科技大学附属中学（二）",
+  "type": "",
+  "score": "552",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "广东实验中学深圳学校（一）",
+  "type": "",
+  "score": "542",
+  "condition": "生物地理:92 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "广东实验中学深圳学校（二）",
+  "type": "",
+  "score": "543",
+  "condition": "生物地理:91 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳技术大学附属中学（一）",
+  "type": "",
+  "score": "518",
+  "condition": "生物地理:84 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳技术大学附属中学（二）",
+  "type": "",
+  "score": "523",
+  "condition": "生物地理:88 语数英三科总分:265",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "东北师范大学附属中学深圳学校（一）",
+  "type": "",
+  "score": "535",
+  "condition": "生物地理:85 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "东北师范大学附属中学深圳学校（二）",
+  "type": "",
+  "score": "534",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳北理莫斯科大学附属实验中学（一）",
+  "type": "",
+  "score": "534",
+  "condition": "生物地理:84 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳北理莫斯科大学附属实验中学（二）",
+  "type": "",
+  "score": "535",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市第一职业技术学校（综合高中）",
+  "type": "",
+  "score": "487",
+  "condition": "生物地理:87 语数英三科总分:236",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "红岭中学（一）",
+  "type": "",
+  "score": "560",
+  "condition": "生物地理:95 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "红岭中学（二）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "福田中学（一）",
+  "type": "",
+  "score": "523",
+  "condition": "生物地理:82 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "福田中学（二）",
+  "type": "",
+  "score": "526",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "北京大学附属中学深圳学校（一）",
+  "type": "",
+  "score": "463",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "北京大学附属中学深圳学校（二）",
+  "type": "",
+  "score": "495",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "福田区外国语高级中学（一）",
+  "type": "",
+  "score": "513",
+  "condition": "生物地理:71",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "福田区外国语高级中学（二）",
+  "type": "",
+  "score": "515",
+  "condition": "生物地理:85 语数英三科总分:266",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳明德实验学校（集团）高级中学（香蜜校区）（一）",
+  "type": "",
+  "score": "527",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳明德实验学校（集团）高级中学（香蜜校区）（二）",
+  "type": "",
+  "score": "527",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳明德实验学校（集团）高级中学（梅中校区）（一）",
+  "type": "",
+  "score": "454",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳明德实验学校（集团）高级中学（梅中校区）（二）",
+  "type": "",
+  "score": "489",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市耀华实验学校",
+  "type": "",
+  "score": "413",
+  "condition": "生物地理:81",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市云顶学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "翠园中学（一）",
+  "type": "",
+  "score": "548",
+  "condition": "生物地理:94 语数英三科总分:276",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "翠园中学（二）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:90 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "罗湖高级中学（一）",
+  "type": "",
+  "score": "510",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "罗湖高级中学（二）",
+  "type": "",
+  "score": "513",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "罗湖外语学校（一）",
+  "type": "",
+  "score": "522",
+  "condition": "生物地理:84 语数英三科总分:262",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "罗湖外语学校（二）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市美术学校（一）",
+  "type": "",
+  "score": "442",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市美术学校（二）",
+  "type": "",
+  "score": "485",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市行知职业技术学校（综合高中）",
+  "type": "",
+  "score": "482",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳奥斯翰外语学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "南头中学（一）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:92 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "南头中学（二）",
+  "type": "",
+  "score": "538",
+  "condition": "生物地理:87 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "育才中学（一）",
+  "type": "",
+  "score": "559",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "育才中学（二）",
+  "type": "",
+  "score": "559",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "华侨城高级中学（一）",
+  "type": "",
+  "score": "530",
+  "condition": "生物地理:89 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "华侨城高级中学（二）",
+  "type": "",
+  "score": "532",
+  "condition": "生物地理:86 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "北京师范大学南山附属学校（一）",
+  "type": "",
+  "score": "556",
+  "condition": "生物地理:94 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "北京师范大学南山附属学校（二）",
+  "type": "",
+  "score": "556",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "南山外国语学校（集团）高级中学（一）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:85 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "南山外国语学校（集团）高级中学（二）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳(南山)中加学校",
+  "type": "",
+  "score": "343",
+  "condition": "生物地理:77",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "盐田高级中学（一）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "盐田高级中学（二）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:87 语数英三科总分:272",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市盐港中学（综合高中）",
+  "type": "",
+  "score": "482",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市万科梅沙书院",
+  "type": "",
+  "score": "418",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市盐田区梅沙双语学校",
+  "type": "",
+  "score": "447",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "宝安中学（集团）高中部（一）",
+  "type": "",
+  "score": "559",
+  "condition": "生物地理:94 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "宝安中学（集团）高中部（二）",
+  "type": "",
+  "score": "560",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "新安中学（集团）高中部（一）",
+  "type": "",
+  "score": "540",
+  "condition": "生物地理:85 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "新安中学（集团）高中部（二）",
+  "type": "",
+  "score": "542",
+  "condition": "生物地理:93 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "宝安第一外国语学校（一）",
+  "type": "",
+  "score": "526",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "宝安第一外国语学校（二）",
+  "type": "",
+  "score": "532",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "西乡中学（一）",
+  "type": "",
+  "score": "493",
+  "condition": "生物地理:77 语数英三科总分:239",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "西乡中学（二）",
+  "type": "",
+  "score": "511",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "沙井中学（一）",
+  "type": "",
+  "score": "450",
+  "condition": "生物地理:78 语数英三科总分:230",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "沙井中学（二）",
+  "type": "",
+  "score": "490",
+  "condition": "生物地理:86 语数英三科总分:254",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "松岗中学（一）",
+  "type": "",
+  "score": "527",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "松岗中学（二）",
+  "type": "",
+  "score": "530",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "石岩外国语学校（一）",
+  "type": "",
+  "score": "447",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "石岩外国语学校（二）",
+  "type": "",
+  "score": "494",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市福海中学（一）",
+  "type": "",
+  "score": "484",
+  "condition": "生物地理:75 语数英三科总分:243",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市福海中学（二）",
+  "type": "",
+  "score": "509",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙津中学（一）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:92 语数英三科总分:266",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙津中学（二）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:92 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市燕川中学（一）",
+  "type": "",
+  "score": "504",
+  "condition": "生物地理:91 语数英三科总分:247",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市燕川中学（二）",
+  "type": "",
+  "score": "522",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳东方英文书院",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市崛起实验中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市桃源居中澳实验学校",
+  "type": "",
+  "score": "423",
+  "condition": "生物地理:84 语数英三科总分:232",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市华胜实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市富源学校",
+  "type": "",
+  "score": "436",
+  "condition": "生物地理:67",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市华侨（康桥）书院",
+  "type": "",
+  "score": "408",
+  "condition": "生物地理:75 语数英三科总分:207",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市明德外语实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市宝安区中英公学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市松岗中英文实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市宝安区翻身实验学校（西校区）",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市华一实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市福桥高级中学",
+  "type": "",
+  "score": "400",
+  "condition": "生物地理:62",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市滨海高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市弘毅高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "龙城高级中学（一）",
+  "type": "",
+  "score": "550",
+  "condition": "生物地理:94 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙城高级中学（二）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "平冈中学（一）",
+  "type": "",
+  "score": "504",
+  "condition": "生物地理:88 语数英三科总分:256",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "平冈中学（二）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:89 语数英三科总分:257",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "布吉高级中学（一）",
+  "type": "",
+  "score": "454",
+  "condition": "生物地理:74 语数英三科总分:216",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "布吉高级中学（二）",
+  "type": "",
+  "score": "491",
+  "condition": "生物地理:91 语数英三科总分:236",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "布吉中学（一）",
+  "type": "",
+  "score": "445",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "布吉中学（二）",
+  "type": "",
+  "score": "488",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "横岗高级中学（一）",
+  "type": "",
+  "score": "458",
+  "condition": "生物地理:74 语数英三科总分:218",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "横岗高级中学（二）",
+  "type": "",
+  "score": "494",
+  "condition": "生物地理:83 语数英三科总分:248",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "平湖外国语学校（一）",
+  "type": "",
+  "score": "451",
+  "condition": "生物地理:72 语数英三科总分:214",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "平湖外国语学校（二）",
+  "type": "",
+  "score": "491",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "华中师范大学龙岗附属中学（一）",
+  "type": "",
+  "score": "539",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "华中师范大学龙岗附属中学（二）",
+  "type": "",
+  "score": "537",
+  "condition": "生物地理:89 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙岗区实验高级中学（一）",
+  "type": "",
+  "score": "523",
+  "condition": "生物地理:87 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙岗区实验高级中学（二）",
+  "type": "",
+  "score": "530",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙岗区东升学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市建文外国语学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙岗区科城实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市承翰学校",
+  "type": "",
+  "score": "432",
+  "condition": "生物地理:72",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市坤翔高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙岗区珊蒂泉外国语学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市枫叶学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙岗区德琳学校",
+  "type": "",
+  "score": "394",
+  "condition": "生物地理:56",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市鹏达高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳菁华中英文实验中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市晟才高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "龙华中学（一）",
+  "type": "",
+  "score": "449",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙华中学（二）",
+  "type": "",
+  "score": "490",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "观澜中学（一）",
+  "type": "",
+  "score": "476",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "观澜中学（二）",
+  "type": "",
+  "score": "505",
+  "condition": "生物地理:77",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙华高级中学（一）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:88 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "龙华高级中学（二）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市艺术高中（一）",
+  "type": "",
+  "score": "450",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市艺术高中（二）",
+  "type": "",
+  "score": "490",
+  "condition": "生物地理:81 语数英三科总分:256",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市格致中学（一）",
+  "type": "",
+  "score": "530",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市格致中学（二）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:83 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市红山中学（一）",
+  "type": "",
+  "score": "529",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市红山中学（二）",
+  "type": "",
+  "score": "531",
+  "condition": "生物地理:90 语数英三科总分:269",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华外国语高级中学（一）",
+  "type": "",
+  "score": "482",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华外国语高级中学（二）",
+  "type": "",
+  "score": "504",
+  "condition": "生物地理:83 语数英三科总分:255",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市致理中学（一）",
+  "type": "",
+  "score": "474",
+  "condition": "生物地理:88 语数英三科总分:242",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市致理中学（二）",
+  "type": "",
+  "score": "506",
+  "condition": "生物地理:91 语数英三科总分:259",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华科技实验高级中学（一）",
+  "type": "",
+  "score": "466",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华科技实验高级中学（二）",
+  "type": "",
+  "score": "497",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华中英文实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市美中学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市展华实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市格睿特高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华区博恒实验学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市汉开数理高中",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙华区诺德双语学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "坪山高级中学（一）",
+  "type": "",
+  "score": "468",
+  "condition": "生物地理:83 语数英三科总分:231",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "坪山高级中学（二）",
+  "type": "",
+  "score": "498",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市聚龙科学中学（一）",
+  "type": "",
+  "score": "464",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市聚龙科学中学（二）",
+  "type": "",
+  "score": "500",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市龙翔学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市中新中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市立人高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市华朗学校",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市知源高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市华文高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "光明区高级中学（一）",
+  "type": "",
+  "score": "489",
+  "condition": "生物地理:78 语数英三科总分:235",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "光明区高级中学（二）",
+  "type": "",
+  "score": "514",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "光明中学（一）",
+  "type": "",
+  "score": "459",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "光明中学（二）",
+  "type": "",
+  "score": "494",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "中国科学院深圳理工大学附属实验高级中学（一）",
+  "type": "",
+  "score": "528",
+  "condition": "生物地理:89 语数英三科总分:275",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "中国科学院深圳理工大学附属实验高级中学（二）",
+  "type": "",
+  "score": "531",
+  "condition": "生物地理:89 语数英三科总分:270",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市光明书院",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳杰仁高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2024,
+  "school": "人大附中深圳学校（一）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:93 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "人大附中深圳学校（二）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:92 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "红岭教育集团大鹏华侨中学（一）",
+  "type": "",
+  "score": "508",
+  "condition": "生物地理:85 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "红岭教育集团大鹏华侨中学（二）",
+  "type": "",
+  "score": "519",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2024,
+  "school": "深圳市正德高级中学",
+  "type": "",
+  "score": "325",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳中学（一）",
+  "type": "",
+  "score": "574",
+  "condition": "生物地理:97 语数英三科总分:295",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校（高中部）（一）",
+  "type": "",
+  "score": "573",
+  "condition": "生物地理:100",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校（一）",
+  "type": "",
+  "score": "572",
+  "condition": "生物地理:96 语数英三科总分:297",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学中心校区（一）",
+  "type": "",
+  "score": "572",
+  "condition": "生物地理:98 语数英三科总分:294",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第三高级中学（国内高考班）（一）",
+  "type": "",
+  "score": "531",
+  "condition": "生物地理:96 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第三高级中学（国家留学基金委自费出国留学班）",
+  "type": "",
+  "score": "434",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳大学附属中学（深大附中）（一）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:98 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二实验学校（一）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:86 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二高级中学（一）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:96 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳第二外国语学校（一）",
+  "type": "",
+  "score": "541",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳科学高中（一）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:93 语数英三科总分:290",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第七高级中学（一）",
+  "type": "",
+  "score": "504",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学东校区（一）",
+  "type": "",
+  "score": "554",
+  "condition": "生物地理:97 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校龙华高中部（一）",
+  "type": "",
+  "score": "555",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校光明高中部（一）",
+  "type": "",
+  "score": "557",
+  "condition": "生物地理:100",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳科学高中龙岗分校（一）",
+  "type": "",
+  "score": "552",
+  "condition": "生物地理:97 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "广东实验中学深圳学校（一）",
+  "type": "",
+  "score": "554",
+  "condition": "生物地理:99",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "南方科技大学附属中学（一）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:99 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳大学附属实验中学（一）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳技术大学附属中学（一）",
+  "type": "",
+  "score": "528",
+  "condition": "生物地理:88 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "东北师范大学附属中学深圳学校（一）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:96 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校明理高中（一）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:89 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校崇文高中（一）",
+  "type": "",
+  "score": "503",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校卓越高中（一）",
+  "type": "",
+  "score": "496",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校致远高中（一）",
+  "type": "",
+  "score": "492",
+  "condition": "生物地理:77 语数英三科总分:261",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校弘知高中（一）",
+  "type": "",
+  "score": "517",
+  "condition": "生物地理:94 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校博雅高中（一）",
+  "type": "",
+  "score": "504",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学创新高中（一）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:98 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学文博高中（一）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:91 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学理慧高中（一）",
+  "type": "",
+  "score": "532",
+  "condition": "生物地理:93 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二高级中学深汕实验学校（一）",
+  "type": "",
+  "score": "463",
+  "condition": "生物地理:81 语数英三科总分:216",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳中学数理高中（一）",
+  "type": "",
+  "score": "528",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校至臻高中（一）",
+  "type": "",
+  "score": "490",
+  "condition": "生物地理:94 语数英三科总分:243",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校理工高中（一）",
+  "type": "",
+  "score": "490",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学有为高中（一）",
+  "type": "",
+  "score": "510",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二实验学校明远高中（一）",
+  "type": "",
+  "score": "486",
+  "condition": "生物地理:79",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳北理莫斯科大学附属实验中学（一）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "坪山高级中学（一）",
+  "type": "",
+  "score": "493",
+  "condition": "生物地理:81 语数英三科总分:252",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙翔学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市中新中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市立人高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市华朗学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市聚龙科学中学（一）",
+  "type": "",
+  "score": "490",
+  "condition": "生物地理:82 语数英三科总分:245",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市知源高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "翠园中学（一）",
+  "type": "",
+  "score": "559",
+  "condition": "生物地理:97 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "翠园中学（二）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:97 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "罗湖高级中学（一）",
+  "type": "",
+  "score": "526",
+  "condition": "生物地理:94 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "罗湖外语学校（一）",
+  "type": "",
+  "score": "542",
+  "condition": "生物地理:94 语数英三科总分:279",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市美术学校（一）",
+  "type": "",
+  "score": "472",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳奥斯翰外语学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "红岭中学（一）",
+  "type": "",
+  "score": "569",
+  "condition": "生物地理:96 语数英三科总分:293",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "福田中学（一）",
+  "type": "",
+  "score": "538",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "梅林中学（一）",
+  "type": "",
+  "score": "481",
+  "condition": "生物地理:81",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "福田区外国语高级中学（一）",
+  "type": "",
+  "score": "530",
+  "condition": "生物地理:88 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市福景外国语学校",
+  "type": "",
+  "score": "347",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市耀华实验学校",
+  "type": "",
+  "score": "406",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市云顶学校",
+  "type": "",
+  "score": "351",
+  "condition": "生物地理:65",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市皇御苑学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳明德实验学校（集团）高级中学（香蜜校区）（一）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳明德实验学校（集团）高级中学（大鹏校区）（一）",
+  "type": "",
+  "score": "474",
+  "condition": "生物地理:83",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "南头中学（一）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:98 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "育才中学（一）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "华侨城中学（一）",
+  "type": "",
+  "score": "547",
+  "condition": "生物地理:91 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "北师大南山附属学校中学部（一）",
+  "type": "",
+  "score": "563",
+  "condition": "生物地理:99",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市南山外国语学校（集团）高级中学（一）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:95 语数英三科总分:288",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市为明学校（原北大附中深圳南山分校 ）",
+  "type": "",
+  "score": "447",
+  "condition": "生物地理:85",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳(南山)中加学校",
+  "type": "",
+  "score": "354",
+  "condition": "生物地理:81",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "宝安中学（集团）高中部（一）",
+  "type": "",
+  "score": "568",
+  "condition": "生物地理:92 语数英三科总分:295",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "宝安第一外国语学校（一）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:96 语数英三科总分:276",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "新安中学（集团）高中部（一）",
+  "type": "",
+  "score": "554",
+  "condition": "生物地理:98 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "西乡中学（一）",
+  "type": "",
+  "score": "513",
+  "condition": "生物地理:90 语数英三科总分:257",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "沙井中学 （一）",
+  "type": "",
+  "score": "474",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "松岗中学（一）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:91 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市桃源居中澳实验学校",
+  "type": "",
+  "score": "426",
+  "condition": "生物地理:77",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市石岩公学（公办班）",
+  "type": "",
+  "score": "512",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳东方英文书院",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市富源学校",
+  "type": "",
+  "score": "434",
+  "condition": "生物地理:76",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市崛起实验中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市华胜实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市华侨（康桥）书院",
+  "type": "",
+  "score": "393",
+  "condition": "生物地理:59",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市明德外语实验学校",
+  "type": "",
+  "score": "347",
+  "condition": "生物地理:57",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市宝安区中英公学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市松岗中英文实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市宝安区翻身实验学校（西校区）",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市华一实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳杰仁高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市福桥高级中学",
+  "type": "",
+  "score": "378",
+  "condition": "生物地理:70",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市滨海高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市福海中学（一）",
+  "type": "",
+  "score": "501",
+  "condition": "生物地理:86 语数英三科总分:251",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙津中学（一）",
+  "type": "",
+  "score": "537",
+  "condition": "生物地理:89 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市燕川中学（一）",
+  "type": "",
+  "score": "515",
+  "condition": "生物地理:92 语数英三科总分:258",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙城高级中学（一）",
+  "type": "",
+  "score": "560",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "平冈中学（一）",
+  "type": "",
+  "score": "519",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "布吉高级中学（一）",
+  "type": "",
+  "score": "476",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "布吉中学（一）",
+  "type": "",
+  "score": "456",
+  "condition": "生物地理:82 语数英三科总分:236",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "横岗高级中学（一）",
+  "type": "",
+  "score": "480",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "平湖外国语学校（一）",
+  "type": "",
+  "score": "475",
+  "condition": "生物地理:70",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "华中师范大学龙岗附属中学（一）",
+  "type": "",
+  "score": "550",
+  "condition": "生物地理:98 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区东升学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市建文外国语学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区科城实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市承翰学校",
+  "type": "",
+  "score": "392",
+  "condition": "生物地理:74",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市德邦高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区珊蒂泉外国语学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市枫叶学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区德琳学校",
+  "type": "",
+  "score": "390",
+  "condition": "生物地理:76 语数英三科总分:186",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市鹏达高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳菁华中英文实验中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区实验高级中学（一）",
+  "type": "",
+  "score": "532",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市晟才高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "盐田高级中学（一）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:97 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市万科梅沙书院",
+  "type": "",
+  "score": "470",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市盐田区梅沙双语学校",
+  "type": "",
+  "score": "452",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "光明区高级中学（一）",
+  "type": "",
+  "score": "505",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "光明中学（一）",
+  "type": "",
+  "score": "482",
+  "condition": "生物地理:75",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市光明书院",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "中国科学院深圳理工大学附属实验高级中学（一）",
+  "type": "",
+  "score": "542",
+  "condition": "生物地理:92 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙华中学（一）",
+  "type": "",
+  "score": "468",
+  "condition": "生物地理:74 语数英三科总分:235",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "观澜中学（一）",
+  "type": "",
+  "score": "501",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙华高级中学（一）",
+  "type": "",
+  "score": "557",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙华中英文实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市美中学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市展华实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市厚德书院",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市格睿特高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市艺术高中（一）",
+  "type": "",
+  "score": "471",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市格致中学（一）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:94 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市红山中学（一）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:91 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市明瑞高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市汉开数理高中",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙华外国语高级中学（一）",
+  "type": "",
+  "score": "497",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙华区博恒实验学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市致理中学（一）",
+  "type": "",
+  "score": "492",
+  "condition": "生物地理:94 语数英三科总分:255",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "人大附中深圳学校（一）",
+  "type": "",
+  "score": "556",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市明德实验双语学校",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市正德高级中学",
+  "type": "",
+  "score": "340",
+  "condition": "",
+  "schoolType": "民办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市红岭教育集团大鹏华侨中学（一）",
+  "type": "",
+  "score": "522",
+  "condition": "生物地理:85 语数英三科总分:276",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳中学（二）",
+  "type": "",
+  "score": "575",
+  "condition": "生物地理:97 语数英三科总分:298",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳中学数理高中（二）",
+  "type": "",
+  "score": "533",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校（高中部）（二）",
+  "type": "",
+  "score": "574",
+  "condition": "生物地理:95 语数英三科总分:297",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校光明高中部（二）",
+  "type": "",
+  "score": "559",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校明理高中（二）",
+  "type": "",
+  "score": "527",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校崇文高中（二）",
+  "type": "",
+  "score": "516",
+  "condition": "生物地理:80 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校卓越高中（二）",
+  "type": "",
+  "score": "516",
+  "condition": "生物地理:84 语数英三科总分:267",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳实验学校至臻高中（二）",
+  "type": "",
+  "score": "515",
+  "condition": "生物地理:91 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校（二）",
+  "type": "",
+  "score": "572",
+  "condition": "生物地理:95 语数英三科总分:299",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校龙华高中部（二）",
+  "type": "",
+  "score": "552",
+  "condition": "生物地理:99 语数英三科总分:284",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校致远高中（二）",
+  "type": "",
+  "score": "517",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校弘知高中（二）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校博雅高中（二）",
+  "type": "",
+  "score": "521",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳外国语学校理工高中（二）",
+  "type": "",
+  "score": "516",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学中心校区（二）",
+  "type": "",
+  "score": "572",
+  "condition": "生物地理:92 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学东校区（二）",
+  "type": "",
+  "score": "553",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学创新高中（二）",
+  "type": "",
+  "score": "541",
+  "condition": "生物地理:98 语数英三科总分:278",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学文博高中（二）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学理慧高中（二）",
+  "type": "",
+  "score": "527",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市高级中学有为高中（二）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:86",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第三高级中学（国内高考班）（二）",
+  "type": "",
+  "score": "534",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳大学附属中学（深大附中）（二）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:93 语数英三科总分:293",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二实验学校（二）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:91 语数英三科总分:286",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二实验学校明远高中（二）",
+  "type": "",
+  "score": "514",
+  "condition": "生物地理:91 语数英三科总分:269",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二高级中学（二）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第二高级中学深汕实验学校（二）",
+  "type": "",
+  "score": "507",
+  "condition": "生物地理:80",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳第二外国语学校（二）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:97",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳科学高中（二）",
+  "type": "",
+  "score": "565",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳科学高中龙岗分校（二）",
+  "type": "",
+  "score": "554",
+  "condition": "生物地理:94 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第七高级中学（二）",
+  "type": "",
+  "score": "528",
+  "condition": "生物地理:93 语数英三科总分:268",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "南方科技大学附属中学（二）",
+  "type": "",
+  "score": "562",
+  "condition": "生物地理:97 语数英三科总分:293",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "广东实验中学深圳学校（二）",
+  "type": "",
+  "score": "556",
+  "condition": "生物地理:96",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳大学附属实验中学（二）",
+  "type": "",
+  "score": "550",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳技术大学附属中学（二）",
+  "type": "",
+  "score": "540",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "东北师范大学附属中学深圳学校（二）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:92 语数英三科总分:282",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳北理莫斯科大学附属实验中学（二）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市第一职业技术学校（综合高中）",
+  "type": "",
+  "score": "499",
+  "condition": "生物地理:78",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "红岭中学（二）",
+  "type": "",
+  "score": "570",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "福田中学（二）",
+  "type": "",
+  "score": "541",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "梅林中学（二）",
+  "type": "",
+  "score": "514",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "福田区外国语高级中学（二）",
+  "type": "",
+  "score": "528",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳明德实验学校（集团）高级中学（香蜜校区）（二）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳明德实验学校（集团）高级中学（大鹏校区）（二）",
+  "type": "",
+  "score": "512",
+  "condition": "生物地理:88 语数英三科总分:261",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "罗湖高级中学（二）",
+  "type": "",
+  "score": "529",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "罗湖外语学校（二）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市美术学校（二）",
+  "type": "",
+  "score": "483",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市行知职业技术学校（综合高中）",
+  "type": "",
+  "score": "492",
+  "condition": "生物地理:82 语数英三科总分:249",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "南头中学（二）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:89 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "育才中学（二）",
+  "type": "",
+  "score": "567",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "华侨城中学（二）",
+  "type": "",
+  "score": "547",
+  "condition": "生物地理:94 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "北师大南山附属学校中学部（二）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:98",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市南山外国语学校（集团）高级中学（二）",
+  "type": "",
+  "score": "563",
+  "condition": "生物地理:95 语数英三科总分:297",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "盐田高级中学（二）",
+  "type": "",
+  "score": "553",
+  "condition": "生物地理:96 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市盐港中学（综合高中）",
+  "type": "",
+  "score": "506",
+  "condition": "生物地理:82",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "宝安中学（集团）高中部（二）",
+  "type": "",
+  "score": "569",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "新安中学（集团）高中部（二）",
+  "type": "",
+  "score": "555",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "宝安第一外国语学校（二）",
+  "type": "",
+  "score": "548",
+  "condition": "生物地理:91 语数英三科总分:283",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "西乡中学（二）",
+  "type": "",
+  "score": "531",
+  "condition": "生物地理:92 语数英三科总分:274",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "沙井中学 （二）",
+  "type": "",
+  "score": "514",
+  "condition": "生物地理:93 语数英三科总分:263",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "松岗中学（二）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:100",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市福海中学（二）",
+  "type": "",
+  "score": "527",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙津中学（二）",
+  "type": "",
+  "score": "544",
+  "condition": "生物地理:84",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市燕川中学（二）",
+  "type": "",
+  "score": "539",
+  "condition": "生物地理:85 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙城高级中学（二）",
+  "type": "",
+  "score": "561",
+  "condition": "生物地理:97 语数英三科总分:285",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "平冈中学（二）",
+  "type": "",
+  "score": "536",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "布吉高级中学（二）",
+  "type": "",
+  "score": "513",
+  "condition": "生物地理:80 语数英三科总分:280",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "布吉中学（二）",
+  "type": "",
+  "score": "497",
+  "condition": "",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "横岗高级中学（二）",
+  "type": "",
+  "score": "516",
+  "condition": "生物地理:87",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "平湖外国语学校（二）",
+  "type": "",
+  "score": "511",
+  "condition": "生物地理:89",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "华中师范大学龙岗附属中学（二）",
+  "type": "",
+  "score": "551",
+  "condition": "生物地理:99",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙岗区实验高级中学（二）",
+  "type": "",
+  "score": "545",
+  "condition": "生物地理:94",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙华中学（二）",
+  "type": "",
+  "score": "515",
+  "condition": "生物地理:85",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "观澜中学（二）",
+  "type": "",
+  "score": "525",
+  "condition": "生物地理:92",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "龙华高级中学（二）",
+  "type": "",
+  "score": "558",
+  "condition": "生物地理:94 语数英三科总分:287",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市艺术高中（二）",
+  "type": "",
+  "score": "505",
+  "condition": "生物地理:88",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市格致中学（二）",
+  "type": "",
+  "score": "549",
+  "condition": "生物地理:96 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市红山中学（二）",
+  "type": "",
+  "score": "547",
+  "condition": "生物地理:92 语数英三科总分:281",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市龙华外国语高级中学（二）",
+  "type": "",
+  "score": "521",
+  "condition": "生物地理:91",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市致理中学（二）",
+  "type": "",
+  "score": "523",
+  "condition": "生物地理:90 语数英三科总分:271",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "坪山高级中学（二）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:87 语数英三科总分:272",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市聚龙科学中学（二）",
+  "type": "",
+  "score": "520",
+  "condition": "生物地理:92 语数英三科总分:264",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "光明区高级中学（二）",
+  "type": "",
+  "score": "533",
+  "condition": "生物地理:95",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "光明中学（二）",
+  "type": "",
+  "score": "518",
+  "condition": "生物地理:90",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "中国科学院深圳理工大学附属实验高级中学（二）",
+  "type": "",
+  "score": "546",
+  "condition": "生物地理:93 语数英三科总分:277",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "人大附中深圳学校（二）",
+  "type": "",
+  "score": "557",
+  "condition": "生物地理:97 语数英三科总分:291",
+  "schoolType": "公办"
+ },
+ {
+  "year": 2023,
+  "school": "深圳市红岭教育集团大鹏华侨中学（二）",
+  "type": "",
+  "score": "532",
+  "condition": "生物地理:93",
+  "schoolType": "公办"
+ }
+]
