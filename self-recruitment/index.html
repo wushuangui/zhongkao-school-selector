@@ -9,9 +9,15 @@
 </head>
 <body>
 <div class="app fixed">
+  <header class="brand">
+    <div class="brand-text">
+      <h1>深圳普高自主招生选校</h1>
+      <p>自招 · 分数线 · 收费 · 填报路径</p>
+    </div>
+    <button type="button" class="rule-btn" id="openRules">规则说明</button>
+  </header>
   <div class="shell">
   <div class="rail">
-  <button type="button" class="rule-btn" id="openRules">规则说明</button>
   <nav class="nav nav-four" id="nav">
     <button data-view="zzzs" class="active">自主招生</button>
     <button data-view="scores">录取分数线</button>
@@ -64,13 +70,13 @@
   <div class="panel">
     <div class="summary" id="summary"></div>
     <div class="main">
-      <div class="side" id="side"></div>
       <div class="list">
         <div class="search">
           <span>🔍</span>
           <input id="keyword" placeholder="输入学校名称搜索">
           <button type="button" class="chip" id="projectViewBtn">按项目看</button>
         </div>
+        <div class="side" id="side"></div>
         <div id="list" class="scroll-area"></div>
       </div>
     </div>
@@ -121,12 +127,12 @@
     <div class="panel" id="scorePanel">
       <div class="summary" id="scoreSummary"></div>
       <div class="main">
-        <div class="side" id="scoreSide"></div>
         <div class="list">
           <div class="search">
             <span>🔍</span>
             <input id="scoreKeyword" placeholder="输入学校名称搜索">
           </div>
+          <div class="side" id="scoreSide"></div>
           <div id="scoreList" class="scroll-area"></div>
         </div>
       </div>
