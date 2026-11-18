@@ -25,6 +25,7 @@ jobs:
           cp self-recruitment/index.html _site/
           cp self-recruitment/css/style.css _site/css/
           cp self-recruitment/js/app.js _site/js/
+          cp self-recruitment/js/guide.js _site/js/
           cp self-recruitment/js/rules.js _site/js/
           cp self-recruitment/data/zzzs-data.js _site/data/
           cp self-recruitment/data/scores-data.js _site/data/

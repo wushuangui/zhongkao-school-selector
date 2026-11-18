@@ -20,6 +20,7 @@ New-Item -ItemType Directory -Path (Join-Path $dist "data"), (Join-Path $dist "c
 Copy-Item (Join-Path $root "index.html") $dist
 Copy-Item (Join-Path $root "css\style.css") (Join-Path $dist "css")
 Copy-Item (Join-Path $root "js\app.js") (Join-Path $dist "js")
+Copy-Item (Join-Path $root "js\guide.js") (Join-Path $dist "js")
 Copy-Item (Join-Path $root "js\rules.js") (Join-Path $dist "js")
 Copy-Item (Join-Path $root "data\zzzs-data.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\scores-data.js") (Join-Path $dist "data")

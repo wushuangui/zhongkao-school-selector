@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = [
     ('<link rel="stylesheet" href="css/style.css">', ROOT / "css" / "style.css", "style"),
     ('<script src="js/app.js"></script>', ROOT / "js" / "app.js", "script"),
+    ('<script src="js/guide.js"></script>', ROOT / "js" / "guide.js", "script"),
     ('<script src="js/rules.js"></script>', ROOT / "js" / "rules.js", "script"),
     ('<script src="data/zzzs-data.js"></script>', ROOT / "data" / "zzzs-data.js", "script"),
     ('<script src="data/scores-data.js"></script>', ROOT / "data" / "scores-data.js", "script"),
