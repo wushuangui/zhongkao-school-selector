@@ -85,6 +85,51 @@
     );
 
     box.innerHTML = p1 + p2 + p3 + p4;
+    renderFaq();
+  }
+
+  const FAQ_FIRST = ['控制分（中考成绩控制线）', '名额分配控制线'];
+
+  function faqEntries() {
+    const rules = window.ZZZS_RULES || [];
+    const flat = [];
+    rules.forEach((sec) => {
+      (sec.items || []).forEach(([q, a]) => {
+        flat.push({ section: sec.title, q, a });
+      });
+    });
+    const rank = (q) => {
+      const i = FAQ_FIRST.indexOf(q);
+      return i === -1 ? FAQ_FIRST.length : i;
+    };
+    flat.sort((x, y) => rank(x.q) - rank(y.q));
+    return flat;
+  }
+
+  function renderFaq() {
+    const box = document.getElementById('guideFaq');
+    if (!box) return;
+    const entries = faqEntries();
+    if (!entries.length) {
+      box.innerHTML = '';
+      return;
+    }
+    const toc = entries.map((item, i) =>
+      '<a href="#faq-' + (i + 1) + '">' + esc(item.q) + '</a>'
+    ).join('');
+    const cards = entries.map((item, i) => {
+      const n = i + 1;
+      return '<article class="card guide-faq" id="faq-' + n + '"><div class="detail">' +
+        '<h3 class="name"><a href="#faq-' + n + '">' + esc(item.q) + '</a></h3>' +
+        '<p class="faq-sec">' + esc(item.section) + '</p>' +
+        '<p>' + esc(item.a) + '</p>' +
+        '<div class="img-links"><button type="button" data-open-rules="1">在规则说明中查看</button></div>' +
+        '</div></article>';
+    }).join('');
+    box.innerHTML = '<h2 class="guide-faq-title" id="faq">常见问答</h2>' +
+      '<p class="note">下列问答与顶部「规则说明」使用同一份条文。自招控制分不是第一批录取分数线；名额分配控制线也不是当年第一批线。</p>' +
+      '<nav class="guide-faq-toc" aria-label="常见问答目录">' + toc + '</nav>' +
+      cards;
   }
 
   window.renderGuide = renderGuide;

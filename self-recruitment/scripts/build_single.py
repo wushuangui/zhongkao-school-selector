@@ -17,6 +17,7 @@ ASSETS = [
     ('<link rel="stylesheet" href="css/style.css">', ROOT / "css" / "style.css", "style"),
     ('<script src="js/app.js"></script>', ROOT / "js" / "app.js", "script"),
     ('<script src="js/timeline.js"></script>', ROOT / "js" / "timeline.js", "script"),
+    ('<script src="js/rules-data.js"></script>', ROOT / "js" / "rules-data.js", "script"),
     ('<script src="js/guide.js"></script>', ROOT / "js" / "guide.js", "script"),
     ('<script src="js/rules.js"></script>', ROOT / "js" / "rules.js", "script"),
     ('<script src="data/timeline-data.js"></script>', ROOT / "data" / "timeline-data.js", "script"),

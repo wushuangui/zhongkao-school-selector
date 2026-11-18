@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check FAQ shares rules
+        run: python self-recruitment/scripts/check_faq_rules.py
       - name: Prepare site
         run: |
           mkdir -p _site/data _site/css _site/js
@@ -27,6 +29,7 @@ jobs:
           cp self-recruitment/js/app.js _site/js/
           cp self-recruitment/js/guide.js _site/js/
           cp self-recruitment/js/timeline.js _site/js/
+          cp self-recruitment/js/rules-data.js _site/js/
           cp self-recruitment/js/rules.js _site/js/
           cp self-recruitment/data/zzzs-data.js _site/data/
           cp self-recruitment/data/scores-data.js _site/data/

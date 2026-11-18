@@ -230,10 +230,22 @@ footer a { color: var(--blue); }
   max-width: 100%; min-width: 0; white-space: normal; overflow-wrap: anywhere;
   line-height: 1.4; text-align: left;
 }
-.guide-path .img-links button {
+.guide-path .img-links button,
+.guide-faq .img-links button {
   border: 0; font-family: inherit; font-size: 13px; cursor: pointer;
   color: var(--blue); background: var(--blue-light); border-radius: 6px; padding: 6px 10px;
 }
+.guide-faq-title { font-size: 16px; margin: 16px 0 8px; }
+.guide-faq .detail { display: block; border-top: 0; }
+.guide-faq .name { margin-bottom: 4px; }
+.guide-faq .name a { color: var(--text); text-decoration: none; }
+.guide-faq .faq-sec { margin: 0 0 6px; font-size: 12px; color: var(--sub); }
+.guide-faq-toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.guide-faq-toc a {
+  font-size: 13px; color: var(--blue); background: var(--blue-light);
+  border-radius: 6px; padding: 4px 8px; text-decoration: none;
+}
+.guide-faq:target { outline: 2px solid var(--blue); }
 @media (hover: hover) and (pointer: fine) {
   .guide-path.card:hover { border-color: var(--line); box-shadow: none; }
 }
