@@ -48,6 +48,10 @@ input, select { font-family: inherit; }
 .app.fixed #view-fee:not([hidden]),
 .app.fixed #view-guide:not([hidden]) { flex: 1; min-height: 0; display: flex; flex-direction: column; }
 .app.fixed > * { min-width: 0; }
+.shell { display: flex; flex-direction: column; flex: 1; min-height: 0; min-width: 0; padding-top: calc(8px + var(--safe-top)); }
+.shell > * { min-width: 0; }
+.rail { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 8px; min-width: 0; }
+.rail > .nav { width: 100%; margin-bottom: 0; }
 .app.fixed #view-zzzs:not([hidden]) > .panel:first-child,
 .app.fixed #view-scores:not([hidden]) > .panel:first-child,
 .app.fixed #view-fee:not([hidden]) > .panel:first-child,
@@ -72,14 +76,7 @@ input, select { font-family: inherit; }
 .scroll-area::-webkit-scrollbar-track { background: transparent; }
 .scroll-area { scrollbar-width: thin; scrollbar-color: #c9d3e6 transparent; }
 #list footer, #scoreList footer { padding: 4px 2px 12px; }
-header {
-  color: #fff; font-size: 17px; font-weight: 600;
-  display: grid; grid-template-columns: 84px 1fr 84px; align-items: center;
-  padding: calc(8px + var(--safe-top)) 0 8px;
-}
-#viewTitle { grid-column: 2; text-align: center; min-width: 0; }
 .rule-btn {
-  grid-column: 3; justify-self: end;
   border: 1px solid rgba(255,255,255,.7); background: rgba(255,255,255,.15); color: #fff;
   border-radius: 999px; min-height: 32px; padding: 6px 12px; font-size: 13px; cursor: pointer;
 }
@@ -382,4 +379,129 @@ footer a { color: var(--blue); }
   .app.fixed #view-scores:not([hidden]) > .panel:first-child,
   .app.fixed #view-fee:not([hidden]) > .panel:first-child,
   .app.fixed #view-guide:not([hidden]) > .panel:first-child { max-height: calc(100% - 210px); }
+}
+
+/* 宽屏：顶栏筛选改到左侧，中间留给学校信息 */
+@media (min-width: 960px) {
+  .app { max-width: 1240px; }
+  .compare-dock { max-width: 1240px; }
+  .app.fixed .shell {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+    column-gap: 12px;
+    row-gap: 8px;
+  }
+  .app.fixed .shell > .rail {
+    grid-column: 1;
+    grid-row: 1;
+    align-items: stretch;
+    gap: 4px;
+    margin: 0;
+    padding: 6px;
+    background: #fff;
+    border-radius: 14px;
+  }
+  .app.fixed .shell > .rail > .nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  .app.fixed .shell > .rail .rule-btn {
+    align-self: stretch;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--blue);
+    min-height: 40px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .app.fixed .shell > .rail > .nav button {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    color: #4a5468;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 12px;
+    min-height: 42px;
+    overflow: visible;
+  }
+  .app.fixed .shell > .rail > .nav button.active {
+    background: var(--blue-light);
+    color: var(--blue);
+  }
+  .app.fixed .shell > #view-zzzs:not([hidden]),
+  .app.fixed .shell > #view-scores:not([hidden]),
+  .app.fixed .shell > #view-fee:not([hidden]),
+  .app.fixed .shell > #view-guide:not([hidden]) {
+    display: contents;
+  }
+  .app.fixed .shell > #view-zzzs:not([hidden]) > .panel:first-child,
+  .app.fixed .shell > #view-scores:not([hidden]) > .panel:first-child,
+  .app.fixed .shell > #view-fee:not([hidden]) > .panel:first-child,
+  .app.fixed .shell > #view-guide:not([hidden]) > .panel:first-child {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+    width: 100%;
+    margin-bottom: 0;
+    max-height: 100%;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .app.fixed .shell > #view-zzzs:not([hidden]) > .panel:last-child,
+  .app.fixed .shell > #view-scores:not([hidden]) > .panel:last-child,
+  .app.fixed .shell > #view-fee:not([hidden]) > .panel:last-child,
+  .app.fixed .shell > #view-guide:not([hidden]) > .panel:last-child {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-bottom: 0;
+    min-height: 0;
+    overflow: hidden;
+    padding: 14px 16px;
+  }
+  .app.fixed .shell .seg {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .app.fixed .shell .seg button,
+  .app.fixed .shell #scoreBatch button {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.35;
+    padding: 8px 12px;
+    background: #f4f7fd;
+    color: #4a5468;
+    white-space: normal;
+  }
+  .app.fixed .shell .seg button.active,
+  .app.fixed .shell #scoreBatch button.active {
+    background: linear-gradient(90deg, #3d7bff, #2f63f5);
+    color: #fff;
+    font-weight: 600;
+  }
+  .app.fixed .shell .filters { grid-template-columns: 1fr; }
+  .app.fixed .shell .tabs { overflow-x: auto; }
+  .app.fixed .shell .tabs button { flex: none; padding: 8px 12px; }
+  .app.fixed .shell .name { font-size: 18px; }
+  .app.fixed .shell .stats { justify-content: flex-start; }
+  .app.fixed .shell .stats div { flex: 0 1 168px; }
+  .app.fixed .shell .stats b { font-size: 18px; }
 }

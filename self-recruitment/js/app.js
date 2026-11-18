@@ -1387,8 +1387,6 @@
     $('view-scores').hidden = view !== 'scores';
     $('view-guide').hidden = view !== 'guide';
     document.querySelector('.app').classList.toggle('fixed', view === 'zzzs' || view === 'scores' || view === 'fee' || view === 'guide');
-    const titles = { fee: '收费标准', scores: '录取分数线', guide: '填报指南', zzzs: '自主招生' };
-    $('viewTitle').textContent = titles[view] || '自主招生';
     if (view === 'fee') renderFee();
     else if (view === 'scores') renderScores();
     else if (view === 'guide') {

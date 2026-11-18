@@ -9,13 +9,16 @@
 </head>
 <body>
 <div class="app fixed">
-  <header><span id="viewTitle">自主招生</span><button class="rule-btn" id="openRules">规则说明</button></header>
+  <div class="shell">
+  <div class="rail">
+  <button type="button" class="rule-btn" id="openRules">规则说明</button>
   <nav class="nav nav-four" id="nav">
     <button data-view="zzzs" class="active">自主招生</button>
     <button data-view="scores">录取分数线</button>
     <button data-view="fee">收费标准</button>
     <button data-view="guide">填报指南</button>
   </nav>
+  </div>
 
   <div class="view" id="view-zzzs">
   <div class="panel">
@@ -186,6 +189,7 @@
         <div id="feeList" class="scroll-area"></div>
       </div>
     </div>
+  </div>
   </div>
 
   <div id="changelog" class="changelog"></div>
