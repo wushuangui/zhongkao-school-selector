@@ -2,14 +2,14 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
   const pathTpl = (title, bodyHtml, myth, rulesHint, linksHtml) =>
-    '<section class="guide-path">' +
-    '<h3>' + esc(title) + '</h3>' +
-  bodyHtml +
-  '<p class="guide-myth"><strong>常见误区</strong>' + esc(myth) + '</p>' +
-  '<p class="guide-actions">' +
-  '<button type="button" class="guide-rules-btn" data-open-rules="1">打开规则说明（' + esc(rulesHint) + '）→</button>' +
-  (linksHtml ? '<span class="guide-links">' + linksHtml + '</span>' : '') +
-  '</p></section>';
+    '<div class="card guide-path"><div class="detail">' +
+    '<h3 class="name">' + esc(title) + '</h3>' +
+    bodyHtml +
+    '<div class="school-info"><span class="basis raw">常见误区</span> ' + esc(myth) + '</div>' +
+    '<div class="img-links">' +
+    '<button type="button" data-open-rules="1">打开规则说明（' + esc(rulesHint) + '）→</button>' +
+    (linksHtml || '') +
+    '</div></div></div>';
 
   const extLink = (href, label) =>
     '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(label) + '</a>';
@@ -26,7 +26,7 @@
     if (src && src.url) {
       selfRegLinks = extLink(src.url, '教育局自招通知');
       if (src.attachments && src.attachments[0]) {
-        selfRegLinks += ' · ' + extLink(src.attachments[0].url, '公办自招计划附件');
+        selfRegLinks += extLink(src.attachments[0].url, '公办自招计划附件');
       }
     }
 
@@ -46,16 +46,12 @@
       if (sources.batch3) makeupLinks.push(extLink(sources.batch3.url, '第三批查询指引'));
     }
 
-    const intro =
-      '<p class="guide-intro">帮助理清深圳中考<strong>统招、自招、名额分配、补录</strong>先后关系。本站「录取分数线」Tab 可查各校分数，本页侧重<strong>路径</strong>，名词与顶部「规则说明」一致。</p>' +
-      '<p class="guide-disclaimer">以深圳市教育局、深圳招考网最新文件为准；下列内容不构成录取承诺。</p>';
-
     const p1 = pathTpl(
       '统招批次结构',
       '<p>录取按当年招考文件分阶段进行，常见顺序为：<strong>自主招生</strong>单独投档 → <strong>名额分配</strong> → <strong>第一批</strong>（普通高中统招及少量中职试点专业）→ <strong>第二批</strong>（本市中职、技工，除第一批试点外）→ <strong>二次划线</strong>（补录相关）→ <strong>第三批</strong>（部省属及跨市中职，由省考试院组织）。自招录取后不再参与后续批次，详见规则「录取后」条款。</p>',
       '把「第一批录取分数线」当成所有志愿、所有批次的唯一参考，忽视名额分配资格线与补录批次。',
       '录取分数线（非自招）',
-      batchLinks.join(' · ')
+      batchLinks.join('')
     );
 
     const p2 = pathTpl(
@@ -80,10 +76,10 @@
       '<p><strong>第二批</strong>为本市中等职业学校及技工院校录取线（除第一批试点专业外）。<strong>二次划线</strong>阶段公布的<strong>资格线</strong>是补录填报门槛，<strong>不是</strong>最终录取线；实际投档录取线 ≥ 资格线，以教育局公告图片为准。<strong>第三批</strong>由广东省教育考试院组织，请到深圳招考网或省考试院查询当期学校与分数线。</p>',
       '把二次划线的「资格线」当作已经产生的录取线，或低于资格线也能投档录取。',
       '第二次划线资格线',
-      makeupLinks.join(' · ')
+      makeupLinks.join('')
     );
 
-    box.innerHTML = intro + p1 + p2 + p3 + p4;
+    box.innerHTML = p1 + p2 + p3 + p4;
   }
 
   window.renderGuide = renderGuide;
