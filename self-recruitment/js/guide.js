@@ -1,12 +1,13 @@
 (function () {
   const esc = (s) => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
-  const pathTpl = (title, bodyHtml, myth, rulesHint, linksHtml) =>
-    '<div class="card guide-path"><div class="detail">' +
+  const pathTpl = (id, title, bodyHtml, myth, rulesHint, linksHtml) =>
+    '<div class="card guide-path" id="' + esc(id) + '"><div class="detail">' +
     '<h3 class="name">' + esc(title) + '</h3>' +
     bodyHtml +
     '<div class="school-info"><span class="basis raw">常见误区</span> ' + esc(myth) + '</div>' +
     '<div class="img-links">' +
+    '<a href="#timeline" data-timeline-jump="1">看年度时间轴</a>' +
     '<button type="button" data-open-rules="1">打开规则说明（' + esc(rulesHint) + '）→</button>' +
     (linksHtml || '') +
     '</div></div></div>';
@@ -15,7 +16,7 @@
     '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(label) + '</a>';
 
   function renderGuide() {
-    const box = document.getElementById('guideBody');
+    const box = document.getElementById('guidePaths');
     if (!box) return;
     const ZZZS = window.ZZZS_DATA;
     const SCORES = window.SCORES_DATA;
@@ -47,6 +48,7 @@
     }
 
     const p1 = pathTpl(
+      'path-batch',
       '统招批次结构',
       '<p>录取按当年招考文件分阶段进行，常见顺序为：<strong>自主招生</strong>单独投档 → <strong>名额分配</strong> → <strong>第一批</strong>（普通高中统招及少量中职试点专业）→ <strong>第二批</strong>（本市中职、技工，除第一批试点外）→ <strong>二次划线</strong>（补录相关）→ <strong>第三批</strong>（部省属及跨市中职，由省考试院组织）。自招录取后不再参与后续批次，详见规则「录取后」条款。</p>',
       '把「第一批录取分数线」当成所有志愿、所有批次的唯一参考，忽视名额分配资格线与补录批次。',
@@ -55,6 +57,7 @@
     );
 
     const p2 = pathTpl(
+      'path-zzzs',
       '自招报名渠道（一类平台 / 二类现场）',
       '<p><strong>一类自主招生</strong>（理工科技、人文社科）：公办与民办均在「深圳市普通高中学校自主招生管理平台」<strong>网上报名</strong>。<strong>二类自主招生</strong>（体育、艺术）：<strong>公办学校须到招生学校现场报名</strong>，按各校工作方案执行；报名时间、审核节点以当年通知为准。</p>',
       '同时报名多所学校的自招项目，或一类、二类兼报——政策要求只能报 1 所学校的 1 个项目。',
@@ -64,6 +67,7 @@
 
     const meeLink = sources && sources.mee ? extLink(sources.mee.url, '名额分配指导手册 PDF') : '';
     const p3 = pathTpl(
+      'path-mee',
       '名额分配资格线含义',
       '<p><strong>名额分配控制线</strong>是填报名额分配志愿、参与该批次投档的<strong>最低资格线</strong>，按前三年同类录取线均值降 20 分划定。它是<strong>资格线</strong>，与当年<strong>第一批录取分数线</strong>不是同一条线，不能互相替代。</p>',
       '用名额分配控制线判断「一批能不能上某校」，或用第一批线去填名额分配志愿。',
@@ -72,6 +76,7 @@
     );
 
     const p4 = pathTpl(
+      'path-makeup',
       '补录 / 二批 / 三批查询指引',
       '<p><strong>第二批</strong>为本市中等职业学校及技工院校录取线（除第一批试点专业外）。<strong>二次划线</strong>阶段公布的<strong>资格线</strong>是补录填报门槛，<strong>不是</strong>最终录取线；实际投档录取线 ≥ 资格线，以教育局公告图片为准。<strong>第三批</strong>由广东省教育考试院组织，请到深圳招考网或省考试院查询当期学校与分数线。</p>',
       '把二次划线的「资格线」当作已经产生的录取线，或低于资格线也能投档录取。',
@@ -85,6 +90,11 @@
   window.renderGuide = renderGuide;
 
   document.getElementById('view-guide')?.addEventListener('click', (e) => {
+    if (e.target.closest('[data-timeline-jump]')) {
+      e.preventDefault();
+      document.getElementById('timeline')?.scrollIntoView({ block: 'nearest' });
+      return;
+    }
     if (e.target.closest('[data-open-rules]')) {
       e.preventDefault();
       document.getElementById('openRules')?.click();

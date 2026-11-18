@@ -21,9 +21,12 @@ Copy-Item (Join-Path $root "index.html") $dist
 Copy-Item (Join-Path $root "css\style.css") (Join-Path $dist "css")
 Copy-Item (Join-Path $root "js\app.js") (Join-Path $dist "js")
 Copy-Item (Join-Path $root "js\guide.js") (Join-Path $dist "js")
+Copy-Item (Join-Path $root "js\timeline.js") (Join-Path $dist "js")
 Copy-Item (Join-Path $root "js\rules.js") (Join-Path $dist "js")
 Copy-Item (Join-Path $root "data\zzzs-data.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\scores-data.js") (Join-Path $dist "data")
+Copy-Item (Join-Path $root "data\timeline-data.js") (Join-Path $dist "data")
+Copy-Item (Join-Path $root "data\timeline-2026.json") (Join-Path $dist "data")
 # 页面资源和数据不缓存，重新部署后打开即是最新内容
 Set-Content -Path (Join-Path $dist "_headers") -Encoding utf8 -Value @"
 /data/*

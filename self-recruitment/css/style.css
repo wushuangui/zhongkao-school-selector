@@ -234,6 +234,18 @@ footer a { color: var(--blue); }
 @media (hover: hover) and (pointer: fine) {
   .guide-path.card:hover { border-color: var(--line); box-shadow: none; }
 }
+.timeline { list-style: none; margin: 8px 0 16px; padding: 0; }
+.tl-item { border-left: 3px solid var(--line); padding: 0 0 14px 12px; margin: 0 0 4px 6px; }
+.tl-item .tl-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.tl-item .name { margin: 0; }
+.tl-item .tl-when { margin: 4px 0; font-size: 13px; color: var(--sub); }
+.tl-item .detail { display: block; border-top: 0; padding-top: 0; }
+.tl-item .img-links { max-height: none; overflow: visible; }
+.tl-past { border-left-color: #c5cddb; }
+.tl-past .name { color: var(--sub); }
+.tl-now { border-left-color: #e39b2b; }
+.tl-future { border-left-color: var(--blue); }
+.tl-open { border-left-color: var(--line); }
 
 .std-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; table-layout: fixed; }
 .std-table th, .std-table td { border: 1px solid var(--line); padding: 8px 2px; text-align: center; word-break: break-all; }

@@ -120,11 +120,14 @@
 
   <div class="view" id="view-guide" hidden>
     <div class="panel">
-      <p class="guide-intro">帮助理清深圳中考<strong>统招、自招、名额分配、补录</strong>先后关系。本站「录取分数线」Tab 可查各校分数，本页侧重<strong>路径</strong>，名词与顶部「规则说明」一致。</p>
+      <p class="guide-intro">帮助理清深圳中考<strong>统招、自招、名额分配、补录</strong>先后关系。本站「录取分数线」Tab 可查各校分数，本页侧重<strong>路径</strong>，名词与顶部「规则说明」一致。<a href="#timeline" data-timeline-jump="1">看年度时间轴</a></p>
       <p class="note">以深圳市教育局、深圳招考网最新文件为准；下列内容不构成录取承诺。</p>
     </div>
     <div class="panel">
-      <div id="guideBody" class="scroll-area"></div>
+      <div id="guideBody" class="scroll-area">
+        <div id="timeline"></div>
+        <div id="guidePaths"></div>
+      </div>
     </div>
   </div>
 
@@ -186,7 +189,9 @@
 
 <script src="data/zzzs-data.js"></script>
 <script src="data/scores-data.js"></script>
+<script src="data/timeline-data.js"></script>
 <script src="js/app.js"></script>
+<script src="js/timeline.js"></script>
 <script src="js/guide.js"></script>
 <script src="js/rules.js"></script>
 </body>

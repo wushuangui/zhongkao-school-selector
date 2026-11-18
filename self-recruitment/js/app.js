@@ -1301,6 +1301,7 @@
     if (view === 'fee') renderFee();
     else if (view === 'scores') renderScores();
     else if (view === 'guide') {
+      if (typeof window.renderTimeline === 'function') window.renderTimeline();
       if (typeof window.renderGuide === 'function') window.renderGuide();
       writeUrl();
     } else render();
