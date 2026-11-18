@@ -55,14 +55,16 @@
 
 ### V1-P0-03 数据时效与来源全页显性化
 
+**Status**: done
+
 **描述**  
 在页脚及每个 Tab 筛选区展示 `year`、`fetchedAt`、权威 `source.url`。满足 D-1「无推送」下的信任替代方案。
 
 **验收标准**
 
-- [ ] `ZZZS_DATA` / `SCORES_DATA` 的 meta 字段在 UI 可见  
-- [ ] 数据缺失 `fetchedAt` 时构建脚本失败或告警  
-- [ ] 移动端折叠区仍可一键看到来源链接  
+- [x] `ZZZS_DATA` / `SCORES_DATA` 的 meta 字段在 UI 可见  
+- [x] 数据缺失 `fetchedAt` 时构建脚本失败或告警  
+- [x] 移动端折叠区仍可一键看到来源链接  
 
 **Labels**：`p0`, `v1`, `data`, `ux`  
 **依赖**：V1-P0-08（schema 字段）  

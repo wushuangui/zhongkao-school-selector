@@ -30,7 +30,10 @@ input, select { font-family: inherit; }
   height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
   padding-bottom: calc(8px + var(--safe-bottom));
 }
-.app.fixed > footer { display: none; }
+.app.fixed > footer {
+  display: block; flex: none; max-height: 7.2em; overflow: auto;
+  padding: 6px 4px 4px; border-top: 1px solid var(--line); background: #fff;
+}
 .app.fixed #view-zzzs:not([hidden]),
 .app.fixed #view-scores:not([hidden]),
 .app.fixed #view-fee:not([hidden]),

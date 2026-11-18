@@ -1142,6 +1142,7 @@
   }
 
   function renderScores() {
+    renderScoreMeta();
     syncSharedControls();
     document.querySelectorAll('#scoreBatch button').forEach(b => b.classList.toggle('active', b.dataset.v === scoreState.batch));
     renderScoreNote();
@@ -1527,14 +1528,52 @@
     }
   });
 
-  const src = DATA.source;
-  $('footer').innerHTML = '数据来源：<a href="' + escapeHtml(src.url) + '" target="_blank" rel="noopener">' + escapeHtml(src.title) + '</a>' +
-    '（' + escapeHtml(src.publishedAt || '') + '）附件：' + src.attachments.map(a =>
-      '<a href="' + escapeHtml(a.url) + '" target="_blank" rel="noopener">' + escapeHtml(a.name) + '</a>').join('、') + '。<br>' +
-    (DATA.profileSource ? '区域与收费：<a href="' + escapeHtml(DATA.profileSource.url) + '" target="_blank" rel="noopener">深圳招考网·' + escapeHtml(DATA.profileSource.title) + '</a>（各校公示）。<br>' : '') +
-    (SCORES ? '录取分数线抓取时间：' + escapeHtml(SCORES.fetchedAt) + '。<br>' : '') +
-    '数据抓取时间：' + escapeHtml(DATA.fetchedAt) + '。自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费金额由公示文本自动提取，实际以学校公示原文为准。';
+  function sourceAnchor(url, title) {
+    if (!url) return '来源链接缺失';
+    return '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">' + escapeHtml(title || '官方来源') + '</a>';
+  }
 
+  function freshnessBits(obj) {
+    if (!obj) return '数据未加载';
+    const year = obj.year != null && String(obj.year) !== '' ? escapeHtml(String(obj.year)) + '年' : '年份缺失';
+    const at = obj.fetchedAt ? '抓取 ' + escapeHtml(String(obj.fetchedAt)) : '抓取时间缺失';
+    return year + ' · ' + at;
+  }
+
+  function scoreSourceLinks() {
+    if (!SCORES || !SCORES.sources) return '来源链接缺失';
+    return Object.keys(SCORES.sources).map(key => {
+      const item = SCORES.sources[key];
+      return sourceAnchor(item && item.url, item && item.title);
+    }).join('、');
+  }
+
+  function renderProvenance() {
+    const zSrc = DATA && DATA.source;
+    const feeUrl = DATA && DATA.publicFeeStandard && DATA.publicFeeStandard.source;
+    $('zzzsMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title);
+    $('feeMeta').innerHTML = '收费依据 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(feeUrl, '市发改委收费标准');
+    $('guideMeta').innerHTML = '自主招生 ' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, '教育局通知') +
+      '<br>录取分数线 ' + freshnessBits(SCORES) + ' · ' + scoreSourceLinks();
+    const attach = zSrc && zSrc.attachments && zSrc.attachments.length
+      ? '附件：' + zSrc.attachments.map(a => sourceAnchor(a.url, a.name)).join('、') + '。<br>'
+      : '';
+    $('footer').innerHTML = '自主招生：' + freshnessBits(DATA) + ' · ' + sourceAnchor(zSrc && zSrc.url, zSrc && zSrc.title) +
+      (zSrc && zSrc.publishedAt ? '（' + escapeHtml(zSrc.publishedAt) + '）' : '') + '<br>' + attach +
+      (DATA.profileSource ? '区域与办学介绍：' + sourceAnchor(DATA.profileSource.url, DATA.profileSource.title) + '。<br>' : '') +
+      '录取分数线：' + freshnessBits(SCORES) + ' · ' + scoreSourceLinks() + '<br>' +
+      (feeUrl ? '公办收费标准：' + sourceAnchor(feeUrl, '市发改委') + '。<br>' : '') +
+      '自招控制线、名额分配控制线、第一批录取分数线含义不同，请勿混用；收费以学校公示原文为准。';
+    renderScoreMeta();
+  }
+
+  function renderScoreMeta() {
+    const src = SCORES && SCORES.sources && SCORES.sources[scoreState.batch];
+    $('scoreMeta').innerHTML = '录取分数线 ' + freshnessBits(SCORES) + ' · ' +
+      (src ? sourceAnchor(src.url, src.title) : '来源链接缺失');
+  }
+
+  renderProvenance();
   readUrl();
   renderFeeStandard();
   render();

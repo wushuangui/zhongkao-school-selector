@@ -6,6 +6,7 @@
 """
 
 import argparse
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -24,6 +25,14 @@ ASSETS = [
 ]
 
 
+def require_fetched_at(path):
+    """构建失败：数据 JS 须含非空 fetchedAt（V1-P0-03）。"""
+    text = path.read_text(encoding="utf-8")
+    match = re.search(r'"fetchedAt"\s*:\s*"([^"]*)"', text)
+    if not match or not match.group(1).strip():
+        raise SystemExit(f"构建失败：{path.name} 缺少有效 fetchedAt")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--refresh", action="store_true", help="打包前先运行 fetch_data.py 与 fetch_scores.py")
@@ -36,6 +45,9 @@ def main():
     if args.refresh:
         subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_data.py")], check=True)
         subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_scores.py")], check=True)
+
+    for name in ("zzzs-data.js", "scores-data.js"):
+        require_fetched_at(ROOT / "data" / name)
 
     page = (ROOT / "index.html").read_text(encoding="utf-8")
     for tag, path, kind in ASSETS:
