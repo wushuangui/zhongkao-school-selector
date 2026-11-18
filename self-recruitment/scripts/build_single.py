@@ -23,6 +23,7 @@ ASSETS = [
     ('<script src="js/guide.js"></script>', ROOT / "js" / "guide.js", "script"),
     ('<script src="js/rules.js"></script>', ROOT / "js" / "rules.js", "script"),
     ('<script src="data/timeline-data.js"></script>', ROOT / "data" / "timeline-data.js", "script"),
+    ('<script src="data/timeline-2027-data.js"></script>', ROOT / "data" / "timeline-2027-data.js", "script"),
     ('<script src="data/zzzs-data.js"></script>', ROOT / "data" / "zzzs-data.js", "script"),
     ('<script src="data/scores-meta.js"></script>', ROOT / "data" / "scores-meta.js", "script"),
     ('<script src="data/mapping-data.js"></script>', ROOT / "data" / "mapping-data.js", "script"),

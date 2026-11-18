@@ -242,6 +242,11 @@ footer a { color: var(--blue); }
 .tl-now { border-left-color: #e39b2b; }
 .tl-future { border-left-color: var(--blue); }
 .tl-open { border-left-color: var(--line); }
+.tl-year-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
+.tl-year-btn { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 6px 12px; font-size: 13px; color: var(--sub); cursor: pointer; }
+.tl-year-btn.active { border-color: var(--blue); color: var(--blue); background: #e8f0ff; }
+.tl-source { margin: 4px 0 0; font-size: 12px; }
+.tl-source a { color: var(--blue); }
 
 .std-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 8px; table-layout: fixed; }
 .std-table th, .std-table td { border: 1px solid var(--line); padding: 8px 2px; text-align: center; word-break: break-all; }

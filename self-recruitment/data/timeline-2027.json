@@ -1,0 +1,433 @@
+{
+  "year": 2027,
+  "title": "2027 届关键节点",
+  "disclaimer": "2027 年日程以深圳市教育局、深圳招考网最新通知为准。下列未核实节点仅列参考 2026 年公开节奏，标「需核实」，不构成日程承诺。",
+  "fetchedAt": "2026-11-18",
+  "verifyStatus": "pending",
+  "sourceType": "official",
+  "source": {
+    "title": "深圳招考网 · 中考考务",
+    "url": "https://szeb.sz.gov.cn/szzkw/"
+  },
+  "nodes": [
+    {
+      "id": "zk-notice",
+      "title": "招考工作通知印发",
+      "start": "",
+      "end": "",
+      "reference2026": "3月13日签发、3月16日公布",
+      "guide": "path-batch",
+      "note": "留意深教函是否发布，对照文件弄清志愿结构、分值与名额分配规则。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "深教〔2026〕34 号",
+        "url": "https://szeb.sz.gov.cn/home/jyfw/ksfw/zkgg/content/post_12687197.html"
+      }
+    },
+    {
+      "id": "zk-signup",
+      "title": "中考报名与缴费",
+      "start": "",
+      "end": "",
+      "reference2026": "报名 3月20日—27日；缴费 3月22日—30日",
+      "guide": "path-batch",
+      "note": "按初中学校安排完成网上报名并按时缴费，核对考生类别（AC/D/ACD）与照片信息。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年中考报名通知",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12691041.html"
+      }
+    },
+    {
+      "id": "voc-notice",
+      "title": "中职 / 技工院校自主招生通告",
+      "start": "",
+      "end": "",
+      "reference2026": "市教育局通告 4月24日",
+      "note": "确认孩子是否走中职自招路径；录取后须参加中考但不再填报中考志愿，且不得退档转录。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年中职自招通告",
+        "url": "https://szeb.sz.gov.cn/home/jyfw/ksfw/zkgg/content/post_12753894.html"
+      }
+    },
+    {
+      "id": "voc-cycle",
+      "title": "中职 / 技工院校自主招生报名与考核",
+      "start": "",
+      "end": "",
+      "reference2026": "各校报名约 4月25日—5月5日；考核约 5月7日—13日；拟录取名单备案约 5月15日—18日（以学校章程为准）",
+      "note": "每位考生限报一所；以学校官网 / 章程为准完成报名与考核，留意与普高志愿填报先后关系。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "深圳市第一职业技术学校招生章程（示例）",
+        "url": "https://www.sz1z.net.cn/main/zzzs/11690.html"
+      }
+    },
+    {
+      "id": "sports-exam",
+      "title": "体育现场统一考试",
+      "start": "",
+      "end": "",
+      "reference2026": "4月13日—30日（网球 4月29日、游泳 4月30日）",
+      "guide": "path-batch",
+      "note": "核对报考项目与考试时间，按要求到考点；过程性评价与现场考试合计计入体育分。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "体育考试开考公告",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12733322.html"
+      }
+    },
+    {
+      "id": "fitness-test",
+      "title": "体质健康测试（过程性）",
+      "start": "",
+      "end": "",
+      "reference2026": "每学年第一学期 9—12 月；初三须及格方可得满 9 分",
+      "guide": "path-batch",
+      "note": "关注学校体测安排，初三学年务必达标，避免体育过程性评价失分。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "体育考试实施意见",
+        "url": "https://szeb.sz.gov.cn/home/xxgk/zthd/tyks/zcwj/content/post_11573961.html"
+      }
+    },
+    {
+      "id": "mee-list",
+      "title": "名额分配资格名单公示",
+      "start": "",
+      "end": "",
+      "reference2026": "5月12日前公示",
+      "guide": "path-batch",
+      "note": "确认是否在名额分配资格名单内；无资格则不应填报名额分配批志愿。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "招考办「18 问 18 答」",
+        "url": "https://szeb.sz.gov.cn/szszsksbgs/zkcx/zkzz/szs2026nzkzcjwsxc/tzgg/content/post_12803035.html"
+      }
+    },
+    {
+      "id": "handbook",
+      "title": "《考生报考指导手册》发布",
+      "start": "",
+      "end": "",
+      "reference2026": "5月21日",
+      "guide": "path-batch",
+      "note": "尽快向初中领取或到深圳招考网下载手册，查清附件 2 控制线与附件 3 本校分配计划后再填志愿。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "招考办手册页",
+        "url": "https://szeb.sz.gov.cn/szszsksbgs/zkcx/zkzz/szs2026nzkzcjwsxc/ksbkzdsc/content/post_12803039.html"
+      }
+    },
+    {
+      "id": "pre-exam-volunteer",
+      "title": "考前网上填报志愿",
+      "start": "",
+      "end": "",
+      "reference2026": "5月23日 10:00—6月1日 18:00",
+      "guide": "path-batch",
+      "note": "在中考前一次性填报各批次志愿并确认提交；自招批、名额分配批、第一批等结构以当年文件为准。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "招考办「18 问 18 答」",
+        "url": "https://szeb.sz.gov.cn/szszsksbgs/zkcx/zkzz/szs2026nzkzcjwsxc/tzgg/content/post_12803035.html"
+      }
+    },
+    {
+      "id": "english-oral",
+      "title": "英语听说考试",
+      "start": "",
+      "end": "",
+      "reference2026": "5月16日—17日",
+      "guide": "path-batch",
+      "note": "按准考证时间到指定机房应考，考前熟悉听说考试流程与设备要求。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "深教〔2026〕34 号",
+        "url": "https://szeb.sz.gov.cn/home/jyfw/ksfw/zkgg/content/post_12687197.html"
+      }
+    },
+    {
+      "id": "lab-exam",
+      "title": "理化实验操作考试",
+      "start": "",
+      "end": "",
+      "reference2026": "5月23日—24日",
+      "guide": "path-batch",
+      "note": "携带准考证按时到场；实验操作计入物理化学合卷中的实验分值。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "理化实验考试完成公告",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12803106.html"
+      }
+    },
+    {
+      "id": "zzzs-guide-pub",
+      "title": "普通高中自招简章公布",
+      "start": "",
+      "end": "",
+      "reference2026": "6月10日前各校公布",
+      "guide": "path-zzzs",
+      "note": "目标学校官网查看简章与控制分、项目要求；一类与民办在自主招生管理平台报名。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年自招批准通知",
+        "url": "https://szeb.sz.gov.cn/gkmlpt/content/12/12833/post_12833273.html"
+      }
+    },
+    {
+      "id": "zzzs-signup",
+      "title": "普通高中自招报名",
+      "start": "",
+      "end": "",
+      "reference2026": "6月12日—16日",
+      "guide": "path-zzzs",
+      "note": "只能报 1 所学校的 1 个项目；一类网上报，公办二类到学校现场报名，勿兼报。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年自招批准通知",
+        "url": "https://szeb.sz.gov.cn/gkmlpt/content/12/12833/post_12833273.html"
+      }
+    },
+    {
+      "id": "zzzs-shortlist",
+      "title": "公布自招入围考核名单",
+      "start": "",
+      "end": "",
+      "reference2026": "一类 6月23日公布",
+      "guide": "path-zzzs",
+      "note": "确认是否入围；未入围则不再参加该校项目考核。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年自招批准通知",
+        "url": "https://szeb.sz.gov.cn/gkmlpt/content/12/12833/post_12833273.html"
+      }
+    },
+    {
+      "id": "zk-written",
+      "title": "中考文化课考试",
+      "start": "",
+      "end": "",
+      "reference2026": "6月26日—28日",
+      "guide": "path-batch",
+      "note": "按准考证科目与时间赴考；考前备好证件与文具，遵守考场纪律。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "深教〔2026〕34 号",
+        "url": "https://szeb.sz.gov.cn/home/jyfw/ksfw/zkgg/content/post_12687197.html"
+      }
+    },
+    {
+      "id": "zzzs-exam",
+      "title": "普通高中自招考核",
+      "start": "",
+      "end": "",
+      "reference2026": "7月4日—5日",
+      "guide": "path-zzzs",
+      "note": "按学校通知携带材料参加项目考核；考核结果影响合成总分排序。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年自招批准通知",
+        "url": "https://szeb.sz.gov.cn/gkmlpt/content/12/12833/post_12833273.html"
+      }
+    },
+    {
+      "id": "zzzs-result",
+      "title": "自招考核结果公示",
+      "start": "",
+      "end": "",
+      "reference2026": "7月6日—10日",
+      "guide": "path-zzzs",
+      "note": "到学校网站或平台查询考核结果，核对是否达到控制分要求。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "2026 年自招批准通知",
+        "url": "https://szeb.sz.gov.cn/gkmlpt/content/12/12833/post_12833273.html"
+      }
+    },
+    {
+      "id": "score-release",
+      "title": "中考成绩公布",
+      "start": "",
+      "end": "",
+      "reference2026": "7月16日",
+      "guide": "path-batch",
+      "note": "登录中招网查分并保存截图；同时留意等级线与各批次后续安排。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "成绩公布通知",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12893343.html"
+      }
+    },
+    {
+      "id": "score-review",
+      "title": "成绩复核申请截止",
+      "start": "",
+      "end": "",
+      "reference2026": "7月17日 16:00 前",
+      "guide": "path-batch",
+      "note": "对成绩有异议的在截止前通过初中学校提交复核申请，逾期不受理。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "成绩公布通知",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12893343.html"
+      }
+    },
+    {
+      "id": "zzzs-admit-pub",
+      "title": "自招拟录取名单公示",
+      "start": "",
+      "end": "",
+      "reference2026": "7月20日—24日",
+      "guide": "path-zzzs",
+      "note": "关注报考学校公示的拟录取名单；公示期内可按学校程序提出异议。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "batch-zzzs",
+      "title": "自主招生批次投档",
+      "start": "",
+      "end": "",
+      "reference2026": "7月25日上午",
+      "guide": "path-zzzs",
+      "note": "投档在出分后进行；确认自招批志愿状态，勿与统招批次混淆。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "batch-mee",
+      "title": "名额分配批次投档",
+      "start": "",
+      "end": "",
+      "reference2026": "7月25日下午",
+      "guide": "path-batch",
+      "note": "与自招批分时段投档；查询是否在该批获得录取资格。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "batch-first",
+      "title": "第一批投档与分数线公布",
+      "start": "",
+      "end": "",
+      "reference2026": "7月26日上午投档，12:00 公布分数线",
+      "guide": "path-batch",
+      "note": "关注第一批各校投档线；本站「录取分数线」Tab 可对照已收录线别。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "第一批分数线公布",
+        "url": "https://szeb.sz.gov.cn/szzkw/qt/tzgg/content/post_12909874.html"
+      }
+    },
+    {
+      "id": "batch-second",
+      "title": "第二批投档",
+      "start": "",
+      "end": "",
+      "reference2026": "7月26日下午",
+      "guide": "path-batch",
+      "note": "第一批未投档的考生进入第二批；留意市招考办公布的进展通知。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "makeup-list",
+      "title": "二次划线名单公布",
+      "start": "",
+      "end": "",
+      "reference2026": "7月29日",
+      "guide": "path-makeup",
+      "note": "查看是否具有二次划线填报资格；资格线为补录门槛，不是最终录取线。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "batch-third-fill",
+      "title": "第三批与二次划线志愿填报",
+      "start": "",
+      "end": "",
+      "reference2026": "7月30日—31日",
+      "guide": "path-makeup",
+      "note": "在规定时间内上网填报第三批及二次划线志愿并确认。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "batch-third",
+      "title": "第三批投档",
+      "start": "",
+      "end": "",
+      "reference2026": "8月1日",
+      "guide": "path-batch",
+      "note": "关注第三批投档结果，未录取考生留意后续补录与咨询渠道。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    },
+    {
+      "id": "makeup-batch",
+      "title": "二次划线投档",
+      "start": "",
+      "end": "",
+      "reference2026": "8月2日",
+      "guide": "path-makeup",
+      "note": "二次划线批投档完成后查询录取状态；仍无结果及时联系学校或招考部门。",
+      "verifyStatus": "pending",
+      "sourceType": "official",
+      "source": {
+        "title": "各批次录取时间（招考办）",
+        "url": "https://szeb.sz.gov.cn/szzkw/zkgg/zkxx/content/post_12895674.html"
+      }
+    }
+  ],
+  "targetYear": 2027
+}

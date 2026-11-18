@@ -31,8 +31,10 @@ Copy-Item (Join-Path $root "data\scores-meta.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\scores-batch-*.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\mapping-data.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\timeline-data.js") (Join-Path $dist "data")
+Copy-Item (Join-Path $root "data\timeline-2027-data.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\changelog-data.js") (Join-Path $dist "data")
 Copy-Item (Join-Path $root "data\timeline-2026.json") (Join-Path $dist "data")
+Copy-Item (Join-Path $root "data\timeline-2027.json") (Join-Path $dist "data")
 # 页面资源和数据不缓存，重新部署后打开即是最新内容
 Set-Content -Path (Join-Path $dist "_headers") -Encoding utf8 -Value @"
 /data/*

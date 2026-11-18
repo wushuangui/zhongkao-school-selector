@@ -112,16 +112,21 @@ def main() -> int:
             "// 由 scripts/sync_verify_fields.py 根据 zzzs-*.json 生成，请勿手改\n",
         )
 
-    tl = DATA / "timeline-2026.json"
-    if tl.exists():
+    for year, var, js_name in (
+        (2026, "TIMELINE_DATA", "timeline-data.js"),
+        (2027, "TIMELINE_DATA_2027", "timeline-2027-data.js"),
+    ):
+        tl = DATA / f"timeline-{year}.json"
+        if not tl.exists():
+            continue
         doc = json.loads(tl.read_text(encoding="utf-8"))
         enrich_timeline(doc)
         tl.write_text(json.dumps(doc, ensure_ascii=False, indent=2), encoding="utf-8")
         write_js(
             tl,
-            "TIMELINE_DATA",
-            DATA / "timeline-data.js",
-            "/* 与 data/timeline-2026.json 内容一致，供页面同步加载，避免运行时请求。 */\n",
+            var,
+            DATA / js_name,
+            f"/* 与 data/timeline-{year}.json 内容一致，供页面同步加载，避免运行时请求。 */\n",
         )
 
     print("sync_verify_fields: JSON / JS 已更新")
