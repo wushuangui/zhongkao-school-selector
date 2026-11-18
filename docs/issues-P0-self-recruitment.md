@@ -91,14 +91,17 @@
 
 ### V1-P0-05 静态「更新公告」区块（替代订阅推送）
 
+**Status**: done
+**Handoff**: `docs/handoffs/V1-P0-05.md`
+
 **描述**  
 落实 **D-1**：每次数据发版在站内展示 **CHANGELOG 摘要**（校名修正、分数线变更、节点日期变更），不建设订阅后端。
 
 **验收标准**
 
-- [ ] `docs/CHANGELOG-self-recruitment.md` 或 `data/changelog.json` 可被页面只读渲染  
-- [ ] 最近一次发版日期与 git tag / 部署时间一致  
-- [ ] 提供「如何获取更新」说明：关注公众号/社群/拉取 Pages，而非 App 内订阅  
+- [x] `docs/CHANGELOG-self-recruitment.md` 或 `data/changelog.json` 可被页面只读渲染  
+- [x] 最近一次发版日期与 git tag / 部署时间一致  
+- [x] 提供「如何获取更新」说明：关注公众号/社群/拉取 Pages，而非 App 内订阅  
 
 **Labels**：`p0`, `v1`, `ops`, `static`  
 **依赖**：V1-P0-03  

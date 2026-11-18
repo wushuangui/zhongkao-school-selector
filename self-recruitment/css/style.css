@@ -30,10 +30,19 @@ input, select { font-family: inherit; }
   height: 100vh; height: 100dvh; display: flex; flex-direction: column; overflow: hidden;
   padding-bottom: calc(8px + var(--safe-bottom));
 }
+.app.fixed > .changelog,
 .app.fixed > footer {
-  display: block; flex: none; max-height: 7.2em; overflow: auto;
-  padding: 6px 4px 4px; border-top: 1px solid var(--line); background: #fff;
+  display: block; flex: none; background: #fff;
 }
+.app.fixed > .changelog { border-top: 1px solid var(--line); padding: 4px 4px 0; }
+.app.fixed > footer {
+  max-height: 7.2em; overflow: auto;
+  padding: 6px 4px 4px; border-top: 1px solid var(--line);
+}
+.changelog { font-size: 13px; color: var(--sub); line-height: 1.6; }
+.changelog summary { cursor: pointer; color: var(--text); font-weight: 600; }
+.changelog ul { margin: 4px 0 4px 1.1em; }
+.changelog p { margin: 0 0 6px; }
 .app.fixed #view-zzzs:not([hidden]),
 .app.fixed #view-scores:not([hidden]),
 .app.fixed #view-fee:not([hidden]),
