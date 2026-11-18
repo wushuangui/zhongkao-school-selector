@@ -1,4 +1,4 @@
-"""把 index.html 与数据 JS 合并成一个独立 HTML，便于通过微信等直接发送。
+"""把 index.html、样式、页面脚本与数据 JS 合并成一个独立 HTML，便于通过微信等直接发送。
 
 用法：
     python scripts/build_single.py            # 输出 dist/深圳自主招生选校.html
@@ -11,9 +11,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TAGS = [
-    ('<script src="data/zzzs-data.js"></script>', ROOT / "data" / "zzzs-data.js"),
-    ('<script src="data/scores-data.js"></script>', ROOT / "data" / "scores-data.js"),
+# (页面中的标签, 源文件, style 或 script)
+ASSETS = [
+    ('<link rel="stylesheet" href="css/style.css">', ROOT / "css" / "style.css", "style"),
+    ('<script src="js/app.js"></script>', ROOT / "js" / "app.js", "script"),
+    ('<script src="js/rules.js"></script>', ROOT / "js" / "rules.js", "script"),
+    ('<script src="data/zzzs-data.js"></script>', ROOT / "data" / "zzzs-data.js", "script"),
+    ('<script src="data/scores-data.js"></script>', ROOT / "data" / "scores-data.js", "script"),
 ]
 
 
@@ -31,13 +35,16 @@ def main():
         subprocess.run([sys.executable, str(ROOT / "scripts" / "fetch_scores.py")], check=True)
 
     page = (ROOT / "index.html").read_text(encoding="utf-8")
-    for tag, path in TAGS:
+    for tag, path, kind in ASSETS:
         if not path.exists():
-            raise SystemExit(f"缺少 {path}，请先运行对应抓取脚本")
+            raise SystemExit(f"缺少 {path}")
         if tag not in page:
             raise SystemExit(f"index.html 中未找到 {tag}")
         data = path.read_text(encoding="utf-8").replace("</", "<\\/")
-        page = page.replace(tag, f"<script>\n{data}</script>")
+        if kind == "style":
+            page = page.replace(tag, f"<style>\n{data}</style>")
+        else:
+            page = page.replace(tag, f"<script>\n{data}</script>")
 
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
