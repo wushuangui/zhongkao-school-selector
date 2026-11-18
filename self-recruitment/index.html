@@ -22,6 +22,12 @@
       <button data-v="一类" class="active">一类自主招生</button>
       <button data-v="二类">二类自主招生</button>
     </div>
+    <button type="button" class="fold-bar" id="zzzsFoldToggle" aria-expanded="false" aria-controls="zzzsFold">
+      <span class="label" id="zzzsFoldLabel">筛选与说明</span>
+      <span class="hint" id="zzzsFoldHint">展开</span>
+      <span class="arrow">›</span>
+    </button>
+    <div id="zzzsFold" hidden>
     <div class="tabs" id="trackTabs"></div>
     <div class="chips" id="subjectChips"></div>
     <div class="filters">
@@ -37,6 +43,7 @@
       <label class="reach-check"><input id="onlyReach" type="checkbox">只看达到我的分数</label>
     </div>
     <div class="filter-tags" id="zzzsTags" hidden></div>
+    </div>
   </div>
 
   <div class="panel">
@@ -112,28 +119,33 @@
 
   <div class="view" id="view-fee" hidden>
     <div class="panel">
-      <h2>公办普通高中收费标准（政府定价）</h2>
-      <div id="feeStandard"></div>
-    </div>
-    <div class="panel">
       <div class="seg" id="feeOwnership">
         <button data-v="" class="active">全部</button>
         <button data-v="公办">公办</button>
         <button data-v="民办">民办</button>
       </div>
-      <div class="filters">
-        <select id="feeType"></select>
-        <select id="feeDistrict"><option value="">全部区域</option></select>
-        <select id="feeSort">
-          <option value="tuition-asc">学费从低到高</option>
-          <option value="tuition-desc">学费从高到低</option>
-          <option value="name">按名称</option>
-          <option value="total3-asc">三年学费含住宿从低到高</option>
-          <option value="total3-desc">三年学费含住宿从高到低</option>
-        </select>
-        <input id="feeMy" type="number" inputmode="numeric" placeholder="我的中考分">
+      <button type="button" class="fold-bar" id="feeFoldToggle" aria-expanded="false" aria-controls="feeFold">
+        <span class="label" id="feeFoldLabel">筛选与说明</span>
+        <span class="hint" id="feeFoldHint">展开</span>
+        <span class="arrow">›</span>
+      </button>
+      <div id="feeFold" hidden>
+        <h2>公办普通高中收费标准（政府定价）</h2>
+        <div id="feeStandard"></div>
+        <div class="filters">
+          <select id="feeType"></select>
+          <select id="feeDistrict"><option value="">全部区域</option></select>
+          <select id="feeSort">
+            <option value="tuition-asc">学费从低到高</option>
+            <option value="tuition-desc">学费从高到低</option>
+            <option value="name">按名称</option>
+            <option value="total3-asc">三年学费含住宿从低到高</option>
+            <option value="total3-desc">三年学费含住宿从高到低</option>
+          </select>
+          <input id="feeMy" type="number" inputmode="numeric" placeholder="我的中考分">
+        </div>
+        <div class="filter-tags" id="feeTags" hidden></div>
       </div>
-      <div class="filter-tags" id="feeTags" hidden></div>
     </div>
     <div class="panel">
       <div class="summary" id="feeSummary"></div>

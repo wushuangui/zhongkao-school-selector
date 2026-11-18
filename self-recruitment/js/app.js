@@ -35,8 +35,9 @@
   const state = {
     category: '一类', track: '全部', subject: '全部', segment: null,
     ownership: '', district: '', keyword: '', sort: 'score', boarding: '', projectView: false,
+    filtersOpen: false,
   };
-  const fee = { ownership: '', type: '普高', district: '', keyword: '', sort: 'tuition-asc' };
+  const fee = { ownership: '', type: '普高', district: '', keyword: '', sort: 'tuition-asc', filtersOpen: false };
   const scoreState = {
     batch: 'mee', type: '', category: '', district: '', keyword: '',
     segment: null, noteOpen: false, filtersOpen: false, sort: 'score', boarding: '',
@@ -941,6 +942,7 @@
     const proj = $('projectViewBtn');
     proj.style.display = isOne ? '' : 'none';
     proj.classList.toggle('active', isOne && state.projectView);
+    syncZzzsFold();
   }
 
   function renderList() {
@@ -959,6 +961,7 @@
     renderZzzsTags();
     renderCompareDock();
     writeUrl();
+    syncZzzsFold();
   }
 
   function render() { renderControls(); renderList(); }
@@ -990,6 +993,64 @@
     renderFeeTags();
     renderCompareDock();
     writeUrl();
+    syncFeeFold();
+  }
+
+  const FEE_SORT_LABEL = {
+    'tuition-asc': '学费从低到高',
+    'tuition-desc': '学费从高到低',
+    name: '按名称',
+    'total3-asc': '三年含住宿从低到高',
+    'total3-desc': '三年含住宿从高到低',
+  };
+
+  function feeFoldSummary() {
+    const parts = [];
+    if (fee.ownership) parts.push(fee.ownership);
+    if (fee.type === '') parts.push('全部类型');
+    else if (fee.type && fee.type !== '普高') parts.push(fee.type);
+    if (fee.district) parts.push(fee.district);
+    if (fee.sort && fee.sort !== 'tuition-asc') parts.push(FEE_SORT_LABEL[fee.sort] || fee.sort);
+    if (shared.myScore != null) parts.push('我的分 ' + shared.myScore);
+    const onlyDefault = !parts.length;
+    return onlyDefault ? '筛选与说明' : parts.join(' · ');
+  }
+
+  function syncFeeFold() {
+    const open = fee.filtersOpen;
+    $('feeFold').hidden = !open;
+    const btn = $('feeFoldToggle');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    $('feeFoldHint').textContent = open ? '收起' : '展开';
+    $('feeFoldLabel').textContent = open ? '筛选与说明' : feeFoldSummary();
+  }
+
+  function zzzsFoldSummary() {
+    const parts = [state.category];
+    if (state.category === '一类') {
+      if (state.track !== '全部') parts.push(state.track);
+      if (state.subject !== '全部') parts.push(state.subject);
+      if (state.projectView) parts.push('按项目看');
+    }
+    if (state.ownership) parts.push(state.ownership);
+    if (state.district) parts.push(state.district);
+    if (state.boarding) parts.push(state.boarding);
+    if (shared.myScore != null) parts.push('我的分 ' + shared.myScore);
+    if (shared.onlyReach) parts.push('只看达到');
+    if (state.segment) parts.push(state.segment);
+    const onlyDefault = parts.length === 1 && (parts[0] === '一类' || parts[0] === '二类');
+    return onlyDefault ? '筛选与说明' : parts.join(' · ');
+  }
+
+  function syncZzzsFold() {
+    const open = state.filtersOpen;
+    $('zzzsFold').hidden = !open;
+    const btn = $('zzzsFoldToggle');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    $('zzzsFoldHint').textContent = open ? '收起' : '展开';
+    $('zzzsFoldLabel').textContent = open ? '筛选与说明' : zzzsFoldSummary();
   }
 
   function scoreFoldSummary() {
@@ -1308,6 +1369,10 @@
   $('feeDistrict').insertAdjacentHTML('beforeend',
     [...feeDistricts].sort().map(d => '<option>' + escapeHtml(d) + '</option>').join(''));
 
+  $('zzzsFoldToggle').addEventListener('click', () => {
+    state.filtersOpen = !state.filtersOpen;
+    syncZzzsFold();
+  });
   $('categorySeg').addEventListener('click', e => {
     const v = e.target.closest('button')?.dataset.v;
     if (!v || v === state.category) return;
@@ -1359,6 +1424,10 @@
   $('nav').addEventListener('click', e => {
     const v = e.target.closest('button')?.dataset.view;
     if (v) switchView(v);
+  });
+  $('feeFoldToggle').addEventListener('click', () => {
+    fee.filtersOpen = !fee.filtersOpen;
+    syncFeeFold();
   });
   $('feeOwnership').addEventListener('click', e => {
     const b = e.target.closest('button');
